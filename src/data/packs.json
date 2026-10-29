@@ -1,0 +1,38 @@
+[
+  {
+    "id": "quinta",
+    "emoji": "💀",
+    "name": "5ª série sem freio",
+    "description": "O bom senso pediu transferência."
+  },
+  {
+    "id": "brasil",
+    "emoji": "🇧🇷",
+    "name": "Brasil insano",
+    "description": "O país não é para amadores. Nem para profissionais."
+  },
+  {
+    "id": "escola",
+    "emoji": "🎒",
+    "name": "Resenha escolar",
+    "description": "Personagens fictícios. Ocorrências inacreditáveis."
+  },
+  {
+    "id": "economia",
+    "emoji": "📉",
+    "name": "Economia do caos",
+    "description": "Sátira fictícia de um multiverso sem lastro."
+  },
+  {
+    "id": "memes",
+    "emoji": "📢",
+    "name": "Memes lendários",
+    "description": "O patrimônio imaterial da nossa falta de limite."
+  },
+  {
+    "id": "acido",
+    "emoji": "⚠️",
+    "name": "Humor Ácido e Tabus",
+    "description": "18+ · Humor negro, morte, medicina constrangedora, sátira religiosa e ridicularização de ditadores. Opcional; começa desativado."
+  }
+]

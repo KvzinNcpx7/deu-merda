@@ -1,0 +1,13 @@
+{
+  "name": "DEU MERDA!",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
+  "forwardPorts": [5173, 4173],
+  "portsAttributes": {
+    "5173": {
+      "label": "DEU MERDA! · desenvolvimento",
+      "onAutoForward": "notify"
+    },
+    "4173": { "label": "DEU MERDA! · build", "onAutoForward": "notify" }
+  },
+  "postCreateCommand": "npm ci"
+}
