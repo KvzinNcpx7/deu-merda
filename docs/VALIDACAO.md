@@ -25,3 +25,9 @@ Registre os resultados reais, falhas e correções no PR. Não marque estes iten
 - Guarde uma requisição `submit` com `expectedRound`, avance e tente repeti-la: deve retornar erro de rodada, sem alterar mão ou placar.
 - Dispare requisições realmente simultâneas usando conexões independentes (PostgREST), verificando envio/voto único, avanço único e um ponto por rodada. PGlite não substitui esse teste de concorrência real.
 - Teste a URL de prévia com `/deu-merda/?sala=CODIGO`, recarregue e abra o convite em cada dispositivo. Só depois desses resultados aprovar a V2 e iniciar o workflow manual Pages.
+
+## Regressão de anonimato e leitura — revisão das demonstrações
+
+Antes da decisão, confirme que `submissions[].player` fica vazio e `submitted` é apenas uma lista canônica de participantes que enviaram. Sua ordem não pode depender da ordem das combinações anônimas. Verifique isso também ao enviar quase simultaneamente e ao reconectar; os textos das outras mãos continuam ausentes. Depois da decisão, autoria aparece e a soma de pontos só aumenta uma vez.
+
+No juiz, avance e volte duas respostas; confira o mesmo cursor nos três perfis. Leia a frase completa, incluindo duas lacunas em ordem e contrações como “do”, “na” e “às”. O formato visual permanece o mesmo. Faça uma sessão curta de leitura e anote confusão, repetição e risadas espontâneas sem mostrar aos jogadores nossos rótulos editoriais; não há validação humana de humor registrada nesta entrega.

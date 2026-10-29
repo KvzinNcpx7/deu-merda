@@ -73,6 +73,12 @@ beforeEach(async () => {
   await db.exec(
     "reset role; delete from private.rooms; delete from public.room_signals; delete from private.rate_limits;",
   );
+  // Historical migration tests must not leak an old global catalogue into later cases.
+  for (const file of [
+    "202610290008_curadoria_v3.sql",
+    "202610290010_catalog_demonstracoes.sql",
+  ])
+    await db.exec(readFileSync(`supabase/migrations/${file}`, "utf8"));
 });
 afterAll(async () => {
   await db?.close();
@@ -95,6 +101,12 @@ describe("PostgreSQL real embarcado: migrações, RPC e permissões", () => {
     // before the rest of this shared integration suite reads the catalogue.
     await db.exec(
       readFileSync("supabase/migrations/202610290008_curadoria_v3.sql", "utf8"),
+    );
+    await db.exec(
+      readFileSync(
+        "supabase/migrations/202610290010_catalog_demonstracoes.sql",
+        "utf8",
+      ),
     );
   });
   it("sincroniza exatamente o catálogo e os metadados do cliente", async () => {
@@ -614,7 +626,7 @@ describe("PostgreSQL real embarcado: migrações, RPC e permissões", () => {
         "create role anon; create role authenticated; create schema auth; create function auth.uid() returns uuid language sql stable as $$ select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid $$; grant usage on schema auth to authenticated; create publication supabase_realtime;",
       );
       for (const migration of readdirSync("supabase/migrations")
-        .filter((f) => f.endsWith(".sql") && !f.includes("0008_"))
+        .filter((f) => f.endsWith(".sql") && f < "202610290008")
         .sort())
         await legacy.exec(
           readFileSync(`supabase/migrations/${migration}`, "utf8"),
@@ -676,6 +688,28 @@ describe("PostgreSQL real embarcado: migrações, RPC e permissões", () => {
       expect(after).toEqual(before);
       expect(
         (await legacy.query("select * from private.cards order by id")).rows,
+      ).toEqual(
+        JSON.parse(readFileSync("docs/editorial/REVISAO-V3.json", "utf8"))
+          .cartas.map((row: { depois: unknown }) => row.depois)
+          .sort((a: { id: string }, b: { id: string }) =>
+            a.id.localeCompare(b.id),
+          ),
+      );
+      for (const file of [
+        "202610290009_anonymous_status.sql",
+        "202610290010_catalog_demonstracoes.sql",
+      ])
+        await legacy.exec(readFileSync(`supabase/migrations/${file}`, "utf8"));
+      expect(
+        (
+          await legacy.query<{ state: unknown }>(
+            "select state from private.rooms where code=$1",
+            [v.code],
+          )
+        ).rows[0].state,
+      ).toEqual(before);
+      expect(
+        (await legacy.query("select * from private.cards order by id")).rows,
       ).toEqual([...catalog].sort((a, b) => a.id.localeCompare(b.id)));
       const reconnected = await legacyCall(1, v.code, { type: "join" });
       expect(reconnected.players[1].hand).toEqual(b.players[1].hand);
@@ -695,4 +729,48 @@ describe("PostgreSQL real embarcado: migrações, RPC e permissões", () => {
       await legacy.close();
     }
   }, 30000);
+  it("não associa autores aos envios pela ordem de submitted; juiz revela, compara e pontua uma vez", async () => {
+    let r = await answer(await start());
+    await db.exec("reset role");
+    await db.query(
+      "update private.rooms set state=jsonb_set(state,'{submissions}',(select jsonb_agg(s order by s->>'player' desc) from jsonb_array_elements(state->'submissions') s)) where code=$1",
+      [r.code],
+    );
+    for (const i of [0, 1, 2]) {
+      const v = await call(i, r.code, { type: "sync" });
+      expect(v.submitted).toEqual([ids[1], ids[2]]);
+      expect(v.submissions.every((s) => s.player === "")).toBe(true);
+      expect(
+        v.players
+          .filter((p) => p.id !== ids[i])
+          .every((p) => p.hand.length === 0),
+      ).toBe(true);
+    }
+    await call(0, r.code, { type: "browse", index: 1 });
+    for (const i of [1, 2])
+      expect((await call(i, r.code, { type: "sync" })).revealIndex).toBe(1);
+    await call(0, r.code, { type: "browse", index: 0 });
+    await expect(
+      call(1, r.code, { type: "choose", id: r.submissions[0].id }),
+    ).rejects.toThrow("juiz");
+    r = await call(0, r.code, { type: "sync" });
+    r = await call(0, r.code, { type: "choose", id: r.submissions[0].id });
+    expect(r.submissions.every((s) => !!s.player)).toBe(true);
+    expect(r.players.reduce((sum, p) => sum + p.score, 0)).toBe(1);
+    await expect(
+      call(0, r.code, { type: "choose", id: r.submissions[0].id }),
+    ).rejects.toThrow();
+    const next = await call(0, r.code, { type: "next" });
+    expect(next.judge).not.toBe(r.judge);
+    expect(next.players.reduce((sum, p) => sum + p.score, 0)).toBe(1);
+    expect(next.revealIndex).toBe(0);
+    for (const i of [0, 1, 2])
+      expect(
+        (await call(i, r.code, { type: "sync" })).players[i].hand,
+      ).toHaveLength(10);
+    await as(1);
+    await expect(
+      db.query("select private.snapshot('{}'::jsonb,$1)", [ids[1]]),
+    ).rejects.toThrow("permission denied");
+  });
 });

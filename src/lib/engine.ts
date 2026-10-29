@@ -373,7 +373,8 @@ export function view(r: Room, actor: string): View {
             player: ["result", "finished"].includes(r.phase) ? s.player : "",
           })),
     votes: {},
-    submitted: r.submissions.map((s) => s.player),
+    // Membership status must not reveal the order of anonymous submissions.
+    submitted: r.submissions.map((s) => s.player).sort(),
     voteCount: Object.keys(r.votes).length,
     myVote: r.votes[actor] ?? null,
   };

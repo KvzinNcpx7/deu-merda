@@ -140,8 +140,12 @@ A integração hospedada permanece **não validada**: não há projeto Supabase 
 
 Para Chromium já instalado no Linux, pode usar `PLAYWRIGHT_CHROMIUM_EXECUTABLE=/usr/bin/chromium npm run test:e2e`. Sem essa variável, o Playwright usa seu navegador gerenciado normalmente.
 
-## Curadoria V3 em revisão
+## Histórico: curadoria V3
 
 A branch `feat/curadoria-humor-v3` revisa as mesmas 580 cartas: 140 mantidas, 280 ajustadas e 160 substituídas, sem IDs novos ou mudança de interface/mecânicas. A média das respostas caiu de 7,6 para 5 palavras. São 120 combinações entre pacotes com parecer editorial individual e 20 exemplos selecionados, sem alegação de teste de humor com pessoas. Consulte [CURADORIA.md](docs/CURADORIA.md) e [STATUS.md](docs/STATUS.md).
 
 A migração incremental 008 preserva os textos de partidas ativas. Depende de aprovação antes de aplicar no Supabase e publicar o frontend; nenhuma dessas ações faz parte automática desta entrega.
+
+## Revisão a partir de duas demonstrações relatadas
+
+A branch `feat/revisao-demonstracoes-fdp` revisa 115 cartas, preservando o catálogo de 580 IDs, e registra uma nova leitura de 120 combinações. Também corrige uma associação indireta de autores pela ordem do status de envios e melhora contrações na frase montada. A interface e as regras existentes foram preservadas. Relatório em [DEMONSTRACOES.md](docs/DEMONSTRACOES.md); migrações 009/010 apenas após aprovação, sem publicação automática.

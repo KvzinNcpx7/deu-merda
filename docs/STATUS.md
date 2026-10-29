@@ -1,37 +1,34 @@
-# Estado verificado — curadoria V3 — 29/10/2026
+# Estado verificado — revisão por demonstrações — 29/10/2026
 
-A main contém a V2 integrada pelo PR #2, no commit `d7375bcb5d5f1b2f810685162e701715ac6a9a2e`. A V3 parte dessa main na branch `feat/curadoria-humor-v3`. Nenhuma alteração desta tarefa foi feita diretamente na main; nenhum merge ou publicação foi realizado.
+Base: main `f977376`, com V3 integrada pelo PR #3. Desenvolvimento em `feat/revisao-demonstracoes-fdp`. Não houve alteração direta na main, merge, publicação ou aplicação de SQL remoto nesta tarefa.
 
-## Catálogo V3
+## Entrega
 
-- 580 cartas: 400 respostas, 150 perguntas simples e 30 duplas, nos seis pacotes existentes.
-- 140 mantidas, 280 ajustadas, 160 substituídas; zero adicionadas/removidas; todos os IDs preservados.
-- 333 respostas e 107 perguntas tiveram texto/metadados revistos. Média das respostas de 7,615 para 5,027 palavras; 54 de até três palavras e 382 de até sete.
-- 120 combinações entre pacotes geradas e lidas: 14 fortes, 51 medianas e 55 fracas como juízo editorial, sem teste de risadas com pessoas.
-- [Curadoria](CURADORIA.md), [registro das 580 decisões](editorial/REVISAO-V3.md), [120 avaliações](editorial/AVALIACAO-COMBINACOES-V3.md) e [20 combinações selecionadas](editorial/20-COMBINACOES-V3.md).
+- As 580 cartas foram reavaliadas: 465 mantidas e 115 revistas (56 respostas e 59 perguntas). Permanecem 400 respostas, 150 simples, 30 duplas e seis pacotes, com todos os IDs estáveis.
+- Respostas de até três palavras: 54 → 81. Média: 5,0275 → 4,8575 palavras. Situações cotidianas substituem parte das abstrações da V3; alguns nonsense permanecem para contraste.
+- Nova amostra de 120 combinações entre pacotes e leitura individual: 26 promissoras, 51 medianas, 43 fracas. Rótulos editoriais, sem teste com público e sem comparação experimental com a amostra anterior.
+- Vazamento indireto corrigido: o status de quem enviou não segue mais a ordem das respostas anônimas. Cursor compartilhado, mãos privadas, autoria após decisão, ponto único, reposição e rotação conferidos em testes.
+- Contrações na borda das lacunas melhoram a leitura, sem alterar textos armazenados ou o layout.
 
-## Preservação
+## Migrações
 
-Interface, estilos, tipos do jogo, motor local, Auth, Realtime, RLS, RPCs, reconexão, modos e pontuação não foram modificados nesta V3. Tabus conserva o opt-in e aviso existentes. Nenhuma dependência foi alterada. As sete migrações anteriores estão intactas. A nova `202610290008_curadoria_v3.sql` atualiza somente o catálogo global, preservando o JSON de salas e os textos ativos.
+009 `anonymous_status`: visão filtrada, sem reescrever salas ou alterar regras.
+010 `catalog_demonstracoes`: somente os registros do catálogo revistos.
+
+001–008 preservadas byte a byte. Mãos, pergunta/fila, placar, respostas e cartas próprias de salas ativas mantêm os dados. Aplicar apenas as migrações pendentes, em ordem, depois de aprovação. O Supabase exclusivo já foi configurado pelo proprietário na conversa anterior; não houve acesso a dados de salas hospedadas nesta revisão.
 
 ## Validação
 
-| Comando                | Resultado                                                                           |
-| ---------------------- | ----------------------------------------------------------------------------------- |
-| npm ci                 | Concluído                                                                           |
-| npm test               | 48 aprovados, incluindo contrato editorial e atualização de sala V2 ativa em PGlite |
-| npm run build          | Aprovado                                                                            |
-| npm run test:e2e       | 10 aprovados em Chromium, desktop e viewport mobile                                 |
-| npm run format:check   | Aprovado                                                                            |
-| npm run cards:validate | Aprovado: 580 e contagens 400/150/30                                                |
-| npm run cards:sample   | 120 combinações únicas geradas                                                      |
+| Comando                | Resultado                                                                |
+| ---------------------- | ------------------------------------------------------------------------ |
+| npm ci                 | Concluído                                                                |
+| npm test               | 54 aprovados, com contrato editorial e regressão do vazamento de autoria |
+| npm run build          | Aprovado                                                                 |
+| npm run cards:validate | Aprovado: 580, contagens 400/150/30                                      |
+| npm run cards:sample   | 120 casos gerados                                                        |
+| npm run format:check   | Aprovado                                                                 |
+| npm run test:e2e       | 10 aprovados em desktop e viewport mobile                                |
 
-Os testes não medem humor humano. PGlite não substitui Supabase Auth/PostgREST/Realtime hospedados; mobile E2E é viewport emulada, não dispositivo físico.
+E2E usa Chromium do sistema por `PLAYWRIGHT_CHROMIUM_EXECUTABLE=/usr/bin/chromium`, em desktop e viewport mobile. PGlite simula as identidades no banco e não substitui Auth/PostgREST/Realtime hospedados. Não foi repetida partida com três dispositivos reais. Os testes não medem graça.
 
-## Hospedagem e próximos passos
-
-Na conversa anterior, o proprietário informou aplicar 001–007, habilitar Auth anônimo e configurar as variáveis públicas no GitHub. Mostrou o lobby de uma sala online criada após corrigir a URL base do Supabase. Isso confirma o fluxo de entrada/criação naquele teste manual; não demonstra partida completa com três identidades nem foi repetido por este agente na V3.
-
-A migração 008 não foi aplicada no projeto remoto. Depois de revisar o PR V3: aplicar 008 no Supabase exclusivo do DEU MERDA!, conferir o catálogo, integrar o frontend aprovado e publicar manualmente; só então testar uma partida com três dispositivos/perfis conforme [VALIDACAO.md](VALIDACAO.md). Nenhum backend BOSTA3 foi usado. Não foram acessados ou alterados dados de salas hospedadas nesta revisão.
-
-Permanecem pendentes sessões de humor com jogadores, análise de vídeo acessível, testes hospedados entre dispositivos/carga concorrente e modos Caos/Relâmpago/Torneio. Não houve expansão para 700: a prioridade desta entrega é a edição do conjunto existente.
+Relatório: [DEMONSTRACOES.md](DEMONSTRACOES.md). Decisões das 580 cartas e leitura das 120 combinações estão vinculadas ali. Pendências: revisão do proprietário, aplicação das migrações aprovadas e teste social/hospedado completo. Nenhum deploy é automático.

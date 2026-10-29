@@ -12,6 +12,7 @@ const revision = read("docs/editorial/REVISAO-V3.json") as {
     criterios: Record<string, string>;
   }[];
 };
+const historicalCatalog = revision.cartas.map((row) => row.depois);
 describe("contrato editorial V3", () => {
   it("registra cada ID uma vez, conserva pacote/tipo e distingue manter de alterar", () => {
     expect(revision.cartas).toHaveLength(580);
@@ -20,7 +21,7 @@ describe("contrato editorial V3", () => {
       new Set(catalog.map((c) => c.id)),
     );
     for (const row of revision.cartas) {
-      expect(row.depois).toEqual(catalog.find((c) => c.id === row.id));
+      expect(row.depois.id).toBe(row.id);
       expect(row.antes.id).toBe(row.id);
       expect(row.depois.pick).toBe(row.antes.pick);
       expect(row.depois.pack).toBe(row.antes.pack);
@@ -84,9 +85,9 @@ describe("contrato editorial V3", () => {
       expect(same).toEqual(s);
       expect(["FORTE", "MEDIA", "FRACA"]).toContain(parecer);
       expect(nota.length).toBeGreaterThan(30);
-      const question = catalog.find((c) => c.id === s.pergunta)!;
+      const question = historicalCatalog.find((c) => c.id === s.pergunta)!;
       const answers = s.respostas.map((id: string) =>
-        catalog.find((c) => c.id === id)!,
+        historicalCatalog.find((c) => c.id === id)!,
       );
       expect(answers).toHaveLength(question.pick);
       expect(answers.every((c: Card) => c.pick === 0)).toBe(true);

@@ -41,7 +41,7 @@ for (const acid of [false, true]) {
       /________/g,
       () => `[${selected[n++].text.replace(/[.!?]$/, "")}]`,
     );
-    const id = `V3-${String(samples.length + 1).padStart(3, "0")}`;
+    const id = `DEMO-${String(samples.length + 1).padStart(3, "0")}`;
     samples.push({
       id,
       tabus: acid,
@@ -57,10 +57,10 @@ for (const acid of [false, true]) {
 }
 writeFileSync(
   "docs/COMBINACOES.md",
-  `# Amostra de combinações\n\n120 combinações reproduzíveis (seed 0xdecaf): 60 sem Tabus e 60 com todos os pacotes. Pergunta e respostas vêm sempre de pacotes diferentes; em duplas, as duas respostas também são de pacotes distintos. A amostra alterna perguntas simples/duplas e fragmentos curtos/cenas. Colchetes conservam o texto original: não fazem parte do jogo nem corrigem concordância automaticamente. Regere com \`npm run cards:sample\`.\n\nA avaliação editorial dos 120 casos está em [editorial/AVALIACAO-COMBINACOES-V3.md](editorial/AVALIACAO-COMBINACOES-V3.md). Sorteio não mede graça nem substitui testes com pessoas.\n\n${sections.join("\n\n")}\n`,
+  `# Amostra de combinações\n\n120 combinações reproduzíveis (seed 0xdecaf): 60 sem Tabus e 60 com todos os pacotes. Pergunta e respostas vêm sempre de pacotes diferentes; em duplas, as duas respostas também são de pacotes distintos. A amostra alterna perguntas simples/duplas e fragmentos curtos/cenas. Colchetes conservam o texto original: não fazem parte do jogo nem corrigem concordância automaticamente. Regere com \`npm run cards:sample\`.\n\nA avaliação editorial dos 120 casos está em [editorial/AVALIACAO-DEMONSTRACOES.md](editorial/AVALIACAO-DEMONSTRACOES.md). Sorteio não mede graça nem substitui testes com pessoas.\n\n${sections.join("\n\n")}\n`,
 );
 writeFileSync(
-  "docs/editorial/AMOSTRA-V3.json",
+  "docs/editorial/AMOSTRA-DEMONSTRACOES.json",
   await format(JSON.stringify(samples), { parser: "json" }),
 );
 console.log(
