@@ -9,12 +9,20 @@ describe("curadoria e combinações do baralho", () => {
     for (const pack of packs) {
       const cards = catalog.filter((c) => c.pack === pack.id);
       expect(cards).toHaveLength(
-        ["memes", "acido"].includes(pack.id) ? 96 : 97,
+        ["memes", "acido"].includes(pack.id)
+          ? 96
+          : pack.id === "escola"
+            ? 124
+            : 97,
       );
       expect(cards.filter((c) => c.pick === 1)).toHaveLength(25);
       expect(cards.filter((c) => c.pick === 2)).toHaveLength(5);
       expect(cards.filter((c) => c.pick === 0)).toHaveLength(
-        ["memes", "acido"].includes(pack.id) ? 66 : 67,
+        ["memes", "acido"].includes(pack.id)
+          ? 66
+          : pack.id === "escola"
+            ? 94
+            : 67,
       );
     }
     for (const c of catalog) {

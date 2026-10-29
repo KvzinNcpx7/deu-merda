@@ -722,8 +722,11 @@ export default function App() {
                 Infinitas cagadas.
               </h1>
               <p className="lede">
-                150 perguntas comuns, 30 duplas e 400 respostas originais.
-                Misture os pacotes para criar combinações cada vez piores.
+                {catalog.filter((c) => c.pick === 1).length} perguntas comuns,{" "}
+                {catalog.filter((c) => c.pick === 2).length} duplas e{" "}
+                {catalog.filter((c) => c.pick === 0).length} respostas
+                originais. Misture os pacotes para criar combinações cada vez
+                piores.
               </p>
               <PackGrid expanded />
               <div className="panel satire">
@@ -1721,7 +1724,7 @@ function PackGrid({ expanded = false }: { expanded?: boolean }) {
           <h3>{p.name}</h3>
           <p>{p.description}</p>
           <div className="pack-foot">
-            <span>60 CARTAS</span>
+            <span>{catalog.filter((c) => c.pack === p.id).length} CARTAS</span>
             <Layers size={16} />
           </div>
           {expanded && (
@@ -1736,7 +1739,14 @@ function PackGrid({ expanded = false }: { expanded?: boolean }) {
               <p className="example-answer">
                 {catalog.find((c) => c.pack === p.id && !c.pick)?.text}
               </p>
-              <small>16 perguntas simples · 4 duplas · 40 respostas</small>
+              <small>
+                {catalog.filter((c) => c.pack === p.id && c.pick === 1).length}{" "}
+                perguntas simples ·{" "}
+                {catalog.filter((c) => c.pack === p.id && c.pick === 2).length}{" "}
+                duplas ·{" "}
+                {catalog.filter((c) => c.pack === p.id && c.pick === 0).length}{" "}
+                respostas
+              </small>
             </div>
           )}
         </article>

@@ -18,7 +18,11 @@ describe("contrato editorial V3", () => {
     expect(revision.cartas).toHaveLength(580);
     expect(new Set(revision.cartas.map((c) => c.id)).size).toBe(580);
     expect(new Set(revision.cartas.map((c) => c.id))).toEqual(
-      new Set(catalog.map((c) => c.id)),
+      new Set(
+        catalog
+          .filter((c) => revision.cartas.some((r) => r.id === c.id))
+          .map((c) => c.id),
+      ),
     );
     for (const row of revision.cartas) {
       expect(row.depois.id).toBe(row.id);

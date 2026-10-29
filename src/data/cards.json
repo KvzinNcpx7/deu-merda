@@ -5218,5 +5218,248 @@
     "theme": "religiao",
     "tone": "acido",
     "grammar": "nominal-slots"
+  },
+  {
+    "id": "escola-a68",
+    "text": "Heide",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a69",
+    "text": "Érika",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a70",
+    "text": "Cristiane",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a71",
+    "text": "Natália",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a72",
+    "text": "Priscila",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a73",
+    "text": "Márcia",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a74",
+    "text": "Xirley",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a75",
+    "text": "Iara",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a76",
+    "text": "Michelle",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a77",
+    "text": "Bolsonaro",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a78",
+    "text": "Lula",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a79",
+    "text": "Vorcaro",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a80",
+    "text": "A Heide gritando “QUE PORRA É ESSA?!”",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a81",
+    "text": "A Cristiane dando bronca no projetor.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a82",
+    "text": "A Érika da Galera convocando reunião de emergência.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a83",
+    "text": "A Natália interrompendo a apresentação.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a84",
+    "text": "A Priscila confiscando o último pão de queijo.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a85",
+    "text": "A Márcia tentando controlar o caos.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a86",
+    "text": "A Xirley presidindo a CPI do recreio.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a87",
+    "text": "A Iara berrando “IARARARA!” no microfone.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a88",
+    "text": "A Michelle, filha da Xirley, no caos do recreio.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a89",
+    "text": "Bolsonaro disputando a presidência do grêmio.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a90",
+    "text": "Lula prometendo merenda em dobro.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a91",
+    "text": "Vorcaro financiando a cantina com dinheiro de Banco Imobiliário.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a92",
+    "text": "A Heide no telão sem explicação.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a93",
+    "text": "Cristiane descobrindo a cagada do século.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a94",
+    "text": "Érika convocando a assembleia do banheiro entupido.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "irreverente",
+    "grammar": "nominal"
   }
 ]
