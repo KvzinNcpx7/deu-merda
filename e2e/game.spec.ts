@@ -30,7 +30,7 @@ test("navegação, layouts e configuração online explícita", async ({
   ).toBeDisabled();
   await page.getByRole("button", { name: "Fechar", exact: true }).click();
   await page.getByRole("button", { name: /Explorar cartas/ }).click();
-  await expect(page.getByRole("heading", { name: /580 cartas/ })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /607 cartas/ })).toBeVisible();
   await page.getByRole("button", { name: /Como jogar/ }).click();
   await expect(
     page.getByRole("heading", { name: /Amizades fortes/ }),

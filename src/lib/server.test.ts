@@ -77,6 +77,7 @@ beforeEach(async () => {
   for (const file of [
     "202610290008_curadoria_v3.sql",
     "202610290010_catalog_demonstracoes.sql",
+    "202610290011_resenha_escolar.sql",
   ])
     await db.exec(readFileSync(`supabase/migrations/${file}`, "utf8"));
 });
@@ -108,6 +109,50 @@ describe("PostgreSQL real embarcado: migrações, RPC e permissões", () => {
         "utf8",
       ),
     );
+  });
+  it("distribui as adições escolares pelo servidor e reaplica a migração sem mudar a sala", async () => {
+    const r = await lobby();
+    await call(0, r.code, {
+      type: "config",
+      packs: ["escola"],
+      target: 5,
+      mode: "classic",
+    });
+    await call(0, r.code, { type: "start" });
+    await db.exec("reset role");
+    const read = async () =>
+      (
+        await db.query<{
+          state: { players: { hand: typeof catalog }[] };
+        }>("select state from private.rooms where code=$1", [r.code])
+      ).rows[0].state;
+    const before = await read();
+    const answers = before.players.flatMap((p) => p.hand);
+    expect(answers).toHaveLength(30);
+    expect(answers.every((c) => c.pack === "escola" && c.pick === 0)).toBe(
+      true,
+    );
+    const available = (
+      await db.query<{ id: string }>(
+        "select id from private.cards where pack='escola' and pick=0",
+      )
+    ).rows;
+    expect(available).toHaveLength(94);
+    for (let n = 68; n <= 94; n++)
+      expect(available.some((c) => c.id === `escola-a${n}`)).toBe(true);
+    await db.exec(
+      readFileSync(
+        "supabase/migrations/202610290011_resenha_escolar.sql",
+        "utf8",
+      ),
+    );
+    expect(await read()).toEqual(before);
+    expect(
+      (await db.query("select * from private.cards order by id")).rows,
+    ).toEqual([...catalog].sort((a, b) => a.id.localeCompare(b.id)));
+    const synced = await call(1, r.code, { type: "sync" });
+    expect(synced.players[1].hand).toEqual(before.players[1].hand);
+    expect(synced.players[0].hand).toEqual([]);
   });
   it("sincroniza exatamente o catálogo e os metadados do cliente", async () => {
     await db.exec("reset role");
@@ -698,6 +743,7 @@ describe("PostgreSQL real embarcado: migrações, RPC e permissões", () => {
       for (const file of [
         "202610290009_anonymous_status.sql",
         "202610290010_catalog_demonstracoes.sql",
+        "202610290011_resenha_escolar.sql",
       ])
         await legacy.exec(readFileSync(`supabase/migrations/${file}`, "utf8"));
       expect(
