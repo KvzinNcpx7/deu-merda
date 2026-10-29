@@ -221,3 +221,17 @@ describe("regressões V2", () => {
       ).toThrow();
   });
 });
+
+it("separa a ordem do status da ordem das combinações anônimas", () => {
+  const r = answer(start());
+  r.submissions.sort((a, b) => b.player.localeCompare(a.player));
+  const before = view(r, "a");
+  expect(before.submitted).toEqual(["b", "c"]);
+  expect(before.submissions.every((s) => s.player === "")).toBe(true);
+  r.submissions.reverse();
+  expect(view(r, "a").submitted).toEqual(before.submitted);
+  const result = go(r, r.judge, { type: "choose", id: r.submissions[0].id });
+  expect(view(result, "a").submissions.every((s) => s.player !== "")).toBe(
+    true,
+  );
+});

@@ -109,3 +109,9 @@ A recuperação automática depende dos dados do Auth no mesmo navegador. Limpar
 A branch `feat/curadoria-humor-v3` acrescenta `202610290008_curadoria_v3.sql`. O projeto já instalado até 007 precisa apenas dessa nova migração para receber a curadoria. Ela altera somente o catálogo global por ID; não troca textos de mãos, perguntas ou filas já guardadas no JSON das salas.
 
 Depois da aprovação da V3, aplique 008 antes do build do frontend V3 e confirme as contagens 400/150/30. Não reaplique 001–007. Teste uma nova sala para receber os textos revistos; salas antigas mantêm os textos ativos. Esta tarefa não executou a migração no Supabase remoto nem publicou o site.
+
+## Revisão pelas demonstrações — migrações 009 e 010
+
+Após aprovação dessa revisão, aplicar somente os arquivos pendentes, em ordem. Se o banco ainda está em 007, aplicar 008 antes de 009/010. Se já recebeu a V3, aplicar `202610290009_anonymous_status.sql` e `202610290010_catalog_demonstracoes.sql`.
+
+A 009 corrige a associação indireta de autores que a ordem de `submitted` permitia; a lista de status passa a ser canônica por participante, independentemente das combinações. A 010 atualiza só o catálogo global. Nenhuma reescreve JSON de salas. Depois, publicar o frontend aprovado e repetir o roteiro com três identidades. Nenhum desses arquivos foi executado remotamente nesta tarefa.

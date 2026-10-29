@@ -46,7 +46,7 @@
   },
   {
     "id": "quinta-q6",
-    "text": "A única regra do banheiro é evitar ________.",
+    "text": "Na porta do banheiro, alguém escreveu: ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "escatologia",
@@ -64,7 +64,7 @@
   },
   {
     "id": "quinta-q8",
-    "text": "Tentei seduzir. Consegui ________.",
+    "text": "No primeiro encontro, só consegui falar sobre ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "vergonha",
@@ -73,7 +73,7 @@
   },
   {
     "id": "quinta-q9",
-    "text": "O kit de primeiros socorros só tinha ________.",
+    "text": "A ambulância chegou e o único equipamento era ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "absurdo",
@@ -136,7 +136,7 @@
   },
   {
     "id": "quinta-q16",
-    "text": "No show de talentos, apresentei ________.",
+    "text": "Minha família nunca mais falou comigo depois de ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "vergonha",
@@ -280,7 +280,7 @@
   },
   {
     "id": "quinta-a12",
-    "text": "Tijolo cru.",
+    "text": "Tijolo na bolsa.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -316,7 +316,7 @@
   },
   {
     "id": "quinta-a16",
-    "text": "Quarta-feira, porra.",
+    "text": "Banheiro de ônibus.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -352,7 +352,7 @@
   },
   {
     "id": "quinta-a20",
-    "text": "Meio quilo de talvez.",
+    "text": "Mortadela por quilo.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -388,7 +388,7 @@
   },
   {
     "id": "quinta-a24",
-    "text": "Purê de expectativas.",
+    "text": "Purê na gravata.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -487,7 +487,7 @@
   },
   {
     "id": "quinta-a35",
-    "text": "Uma escada rolante desligada.",
+    "text": "Escorregar na escada.",
     "pack": "quinta",
     "pick": 0,
     "theme": "absurdo",
@@ -514,7 +514,7 @@
   },
   {
     "id": "quinta-a38",
-    "text": "Piscar os dois olhos ao mesmo tempo.",
+    "text": "Piscar pro fiscal.",
     "pack": "quinta",
     "pick": 0,
     "theme": "vergonha",
@@ -532,7 +532,7 @@
   },
   {
     "id": "quinta-a40",
-    "text": "Vácuo de pote.",
+    "text": "Um pote vazio.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -559,7 +559,7 @@
   },
   {
     "id": "brasil-q3",
-    "text": "O síndico declarou estado de emergência por causa de ________.",
+    "text": "A prefeitura interditou o prédio por causa de ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "absurdo",
@@ -568,7 +568,7 @@
   },
   {
     "id": "brasil-q4",
-    "text": "A carta dos navegadores descrevia ________.",
+    "text": "No mapa do tesouro, o X marcava ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "historia",
@@ -613,7 +613,7 @@
   },
   {
     "id": "brasil-q9",
-    "text": "O ônibus freou e caiu no meu colo ________.",
+    "text": "No ônibus lotado, alguém gritou: ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "burocracia",
@@ -631,7 +631,7 @@
   },
   {
     "id": "brasil-q11",
-    "text": "A assembleia do bairro aprovou ________.",
+    "text": "A cidade fez uma estátua em homenagem a ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "absurdo",
@@ -667,7 +667,7 @@
   },
   {
     "id": "brasil-q15",
-    "text": "No último vagão do trem, só havia ________.",
+    "text": "No último vagão, a polícia encontrou ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "absurdo",
@@ -694,7 +694,7 @@
   },
   {
     "id": "brasil-q18",
-    "text": "Quebrei um espelho. Recebi sete anos de ________ e um mês de ________.",
+    "text": "Quebrei o espelho por causa de ________. A benzedeira recomendou ________.",
     "pack": "brasil",
     "pick": 2,
     "theme": "supersticao",
@@ -712,7 +712,7 @@
   },
   {
     "id": "brasil-q20",
-    "text": "A expedição procurava ________. Voltou trazendo ________.",
+    "text": "Fomos procurar ________. A única coisa que encontramos foi ________.",
     "pack": "brasil",
     "pick": 2,
     "theme": "historia",
@@ -721,7 +721,7 @@
   },
   {
     "id": "brasil-a1",
-    "text": "A certidão do cartório.",
+    "text": "Xerox da cara.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -757,7 +757,7 @@
   },
   {
     "id": "brasil-a5",
-    "text": "Uma senha vencida.",
+    "text": "Senha de ontem.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -793,7 +793,7 @@
   },
   {
     "id": "brasil-a9",
-    "text": "O atestado de ausência.",
+    "text": "Faltar na homenagem.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -865,7 +865,7 @@
   },
   {
     "id": "brasil-a17",
-    "text": "Uma declaração de impressora sem tinta.",
+    "text": "Cartucho vazio.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -901,7 +901,7 @@
   },
   {
     "id": "brasil-a21",
-    "text": "A autorização para solicitar autorização.",
+    "text": "Carteirada de porteiro.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -973,7 +973,7 @@
   },
   {
     "id": "brasil-a29",
-    "text": "Um alvará rabiscado.",
+    "text": "Alvará do puxadinho.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -1009,7 +1009,7 @@
   },
   {
     "id": "brasil-a33",
-    "text": "A taxa de conveniência do inconveniente.",
+    "text": "Entrada paga.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -1108,7 +1108,7 @@
   },
   {
     "id": "escola-q4",
-    "text": "O professor aceitou tudo, menos ________.",
+    "text": "Minha justificativa pra faltar foi ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "estudante",
@@ -1117,7 +1117,7 @@
   },
   {
     "id": "escola-q5",
-    "text": "O discurso de formatura começou com ________.",
+    "text": "Meu discurso de formatura virou uma discussão sobre ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "vergonha",
@@ -1207,7 +1207,7 @@
   },
   {
     "id": "escola-q15",
-    "text": "O conselho escolar não esperava ________.",
+    "text": "O conselho escolar abriu uma investigação sobre ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "absurdo",
@@ -1216,7 +1216,7 @@
   },
   {
     "id": "escola-q16",
-    "text": "O teste vocacional me indicou ________.",
+    "text": "O teste vocacional disse que minha vocação é ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "estudante",
@@ -1234,7 +1234,7 @@
   },
   {
     "id": "escola-q18",
-    "text": "Prometeram ________ na formatura e entregaram ________.",
+    "text": "O brinde da formatura era ________. O pedido de desculpas foi ________.",
     "pack": "escola",
     "pick": 2,
     "theme": "vergonha",
@@ -1243,7 +1243,7 @@
   },
   {
     "id": "escola-q19",
-    "text": "Na escola do futuro, ________ substituiu ________.",
+    "text": "Na escola do futuro, a prova cobra ________ e o recreio oferece ________.",
     "pack": "escola",
     "pick": 2,
     "theme": "absurdo",
@@ -1252,7 +1252,7 @@
   },
   {
     "id": "escola-q20",
-    "text": "Meu TCC liga ________ a ________. A banca chamou a segurança.",
+    "text": "O título do meu TCC era: ________. A banca respondeu: ________.",
     "pack": "escola",
     "pick": 2,
     "theme": "estudante",
@@ -1630,7 +1630,7 @@
   },
   {
     "id": "economia-q2",
-    "text": "A auditoria descobriu uma verba secreta para ________.",
+    "text": "A auditoria descobriu que a verba foi gasta em ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "burocracia",
@@ -1648,7 +1648,7 @@
   },
   {
     "id": "economia-q4",
-    "text": "O debate eleitoral foi decidido por ________.",
+    "text": "Na véspera da eleição fictícia, vazou uma foto de ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "politica",
@@ -1657,7 +1657,7 @@
   },
   {
     "id": "economia-q5",
-    "text": "A licitação só exigia ________.",
+    "text": "A licitação exigia uma amostra grátis de ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "burocracia",
@@ -1666,7 +1666,7 @@
   },
   {
     "id": "economia-q6",
-    "text": "Meu primeiro salário foi gasto em ________.",
+    "text": "Quando recebi meu primeiro salário, só pensei em ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "absurdo",
@@ -1684,7 +1684,7 @@
   },
   {
     "id": "economia-q8",
-    "text": "O dinheiro do reino acabou na compra de ________.",
+    "text": "No cofre do reino, sobrou apenas ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "burocracia",
@@ -1774,7 +1774,7 @@
   },
   {
     "id": "economia-q18",
-    "text": "A prestação de contas classificou ________ como ________.",
+    "text": "Na prestação de contas, declararam ________. Esqueceram de explicar ________.",
     "pack": "economia",
     "pick": 2,
     "theme": "burocracia",
@@ -1792,7 +1792,7 @@
   },
   {
     "id": "economia-q20",
-    "text": "O slogan era “menos ________, mais ________”.",
+    "text": "No comício, prometeram acabar com ________ e distribuir ________.",
     "pack": "economia",
     "pick": 2,
     "theme": "politica",
@@ -1954,7 +1954,7 @@
   },
   {
     "id": "economia-a18",
-    "text": "Moeda de carrinho.",
+    "text": "Moeda de troco.",
     "pack": "economia",
     "pick": 0,
     "theme": "nonsense",
@@ -1981,7 +1981,7 @@
   },
   {
     "id": "economia-a21",
-    "text": "Petróleo de pastel.",
+    "text": "Óleo de pastel.",
     "pack": "economia",
     "pick": 0,
     "theme": "absurdo",
@@ -2017,7 +2017,7 @@
   },
   {
     "id": "economia-a25",
-    "text": "Cinco anos pra terminar uma frase.",
+    "text": "Cinco horas de discurso.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -2035,7 +2035,7 @@
   },
   {
     "id": "economia-a27",
-    "text": "A privatização do eco.",
+    "text": "Banheiro de aluguel.",
     "pack": "economia",
     "pick": 0,
     "theme": "absurdo",
@@ -2143,7 +2143,7 @@
   },
   {
     "id": "economia-a39",
-    "text": "Desculpa em prestação.",
+    "text": "Desculpa ensaiada.",
     "pack": "economia",
     "pick": 0,
     "theme": "nonsense",
@@ -2161,7 +2161,7 @@
   },
   {
     "id": "memes-q1",
-    "text": "A internet parou pra discutir ________.",
+    "text": "Minha família começou a discutir depois do vídeo de ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "memes",
@@ -2215,7 +2215,7 @@
   },
   {
     "id": "memes-q7",
-    "text": "O vídeo viral começa exatamente quando aparece ________.",
+    "text": "A transmissão ao vivo revelou ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "vergonha",
@@ -2269,7 +2269,7 @@
   },
   {
     "id": "memes-q13",
-    "text": "O bordão nasceu de ________.",
+    "text": "O bordão que me fez perder o emprego foi ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "memes",
@@ -2305,7 +2305,7 @@
   },
   {
     "id": "memes-q17",
-    "text": "O tutorial prometia ________. No final, invocou ________.",
+    "text": "O tutorial ensinava ________. Eu consegui apenas ________.",
     "pack": "memes",
     "pick": 2,
     "theme": "memes",
@@ -2314,7 +2314,7 @@
   },
   {
     "id": "memes-q18",
-    "text": "O universo é feito de ________ e excesso de ________.",
+    "text": "O áudio do grupo dizia ________. O corretor escreveu ________.",
     "pack": "memes",
     "pick": 2,
     "theme": "nonsense",
@@ -2323,7 +2323,7 @@
   },
   {
     "id": "memes-q19",
-    "text": "Postei ________ achando que era ________.",
+    "text": "Postei um vídeo de ________. Minha mãe achou que era ________.",
     "pack": "memes",
     "pick": 2,
     "theme": "vergonha",
@@ -2350,7 +2350,7 @@
   },
   {
     "id": "memes-a2",
-    "text": "O DLC do ovo cozido.",
+    "text": "Ovo de marmita.",
     "pack": "memes",
     "pick": 0,
     "theme": "nonsense",
@@ -2404,7 +2404,7 @@
   },
   {
     "id": "memes-a8",
-    "text": "O dinossauro no dia de folga.",
+    "text": "Dinossauro de borracha.",
     "pack": "memes",
     "pick": 0,
     "theme": "memes",
@@ -2512,7 +2512,7 @@
   },
   {
     "id": "memes-a20",
-    "text": "A consciência no viva-voz.",
+    "text": "Áudio no viva-voz.",
     "pack": "memes",
     "pick": 0,
     "theme": "vergonha",
@@ -2530,7 +2530,7 @@
   },
   {
     "id": "memes-a22",
-    "text": "Feriado de bolso.",
+    "text": "Feriado na segunda.",
     "pack": "memes",
     "pick": 0,
     "theme": "nonsense",
@@ -2602,7 +2602,7 @@
   },
   {
     "id": "memes-a30",
-    "text": "Ocupado em versão acústica.",
+    "text": "O toque do ex.",
     "pack": "memes",
     "pick": 0,
     "theme": "nonsense",
@@ -2638,7 +2638,7 @@
   },
   {
     "id": "memes-a34",
-    "text": "Parênteses recheados.",
+    "text": "Parêntese no boletim.",
     "pack": "memes",
     "pick": 0,
     "theme": "nonsense",
@@ -2674,7 +2674,7 @@
   },
   {
     "id": "memes-a38",
-    "text": "Empada de argumento.",
+    "text": "Empada de ontem.",
     "pack": "memes",
     "pick": 0,
     "theme": "nonsense",
@@ -2719,7 +2719,7 @@
   },
   {
     "id": "acido-q3",
-    "text": "O médico desenhou ________ no laudo.",
+    "text": "O médico pediu uma segunda opinião sobre ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "medicina",
@@ -2737,7 +2737,7 @@
   },
   {
     "id": "acido-q5",
-    "text": "O exorcista desistiu depois de ver ________.",
+    "text": "O exorcista abriu a mala e encontrou ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "religiao",
@@ -2782,7 +2782,7 @@
   },
   {
     "id": "acido-q10",
-    "text": "A Morte justificou as férias assim: ________.",
+    "text": "A Morte pediu demissão por causa de ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "morte",
@@ -2818,7 +2818,7 @@
   },
   {
     "id": "acido-q14",
-    "text": "A mensagem do além só dizia ________.",
+    "text": "A mensagem do além era um pedido de ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "morte",
@@ -2827,7 +2827,7 @@
   },
   {
     "id": "acido-q15",
-    "text": "O exame detectou níveis alarmantes de ________.",
+    "text": "Meu exame veio com um alerta: ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "medicina",
@@ -2863,7 +2863,7 @@
   },
   {
     "id": "acido-q19",
-    "text": "A bula lista ________ como efeito colateral de ________.",
+    "text": "O médico proibiu ________. Minha família trouxe ________.",
     "pack": "acido",
     "pick": 2,
     "theme": "medicina",
@@ -2872,7 +2872,7 @@
   },
   {
     "id": "acido-q20",
-    "text": "O tirano queria ser lembrado por ________. Virou sinônimo de ________.",
+    "text": "O ditador exigiu ________. A multidão respondeu com ________.",
     "pack": "acido",
     "pick": 2,
     "theme": "historia",
@@ -2890,7 +2890,7 @@
   },
   {
     "id": "acido-a2",
-    "text": "Um fantasma na espera telefônica.",
+    "text": "Fantasma no banheiro.",
     "pack": "acido",
     "pick": 0,
     "theme": "morte",
@@ -2926,7 +2926,7 @@
   },
   {
     "id": "acido-a6",
-    "text": "A soneca eterna.",
+    "text": "Caixão com travesseiro.",
     "pack": "acido",
     "pick": 0,
     "theme": "morte",
@@ -2962,7 +2962,7 @@
   },
   {
     "id": "acido-a10",
-    "text": "Um necromante de samambaia.",
+    "text": "Médium sem assunto.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -2971,7 +2971,7 @@
   },
   {
     "id": "acido-a11",
-    "text": "A carência da emergência.",
+    "text": "Cirurgia adiada.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -3016,7 +3016,7 @@
   },
   {
     "id": "acido-a16",
-    "text": "O faraó dizendo “eu já tava morto”.",
+    "text": "Faraó de ressaca.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -3088,7 +3088,7 @@
   },
   {
     "id": "acido-a24",
-    "text": "O troco do faraó.",
+    "text": "A cueca do faraó.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -3187,7 +3187,7 @@
   },
   {
     "id": "acido-a35",
-    "text": "Uma hemorroida no pior ângulo.",
+    "text": "Hemorroida monumental.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -3277,7 +3277,7 @@
   },
   {
     "id": "quinta-a45",
-    "text": "Bege de sunga.",
+    "text": "Sunga bege.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -3358,7 +3358,7 @@
   },
   {
     "id": "quinta-a54",
-    "text": "Silêncio com gás.",
+    "text": "Um arroto no microfone.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -3403,7 +3403,7 @@
   },
   {
     "id": "quinta-a59",
-    "text": "Meio almoço.",
+    "text": "Meio frango.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -3412,7 +3412,7 @@
   },
   {
     "id": "quinta-a60",
-    "text": "Uma cadeira de praia no tribunal.",
+    "text": "Cadeira molhada.",
     "pack": "quinta",
     "pick": 0,
     "theme": "absurdo",
@@ -3448,7 +3448,7 @@
   },
   {
     "id": "quinta-a64",
-    "text": "Gel de sovaco.",
+    "text": "Desodorante de emergência.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -3511,7 +3511,7 @@
   },
   {
     "id": "quinta-q24",
-    "text": "O jantar romântico acabou em ________.",
+    "text": "O jantar romântico foi interrompido por ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "absurdo",
@@ -3520,7 +3520,7 @@
   },
   {
     "id": "quinta-q25",
-    "text": "A excursão foi cancelada por ________.",
+    "text": "A excursão acabou quando a guia encontrou ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "absurdo",
@@ -3538,7 +3538,7 @@
   },
   {
     "id": "quinta-q27",
-    "text": "O concurso foi suspenso por excesso de ________.",
+    "text": "O concurso de talentos teve uma prova surpresa: ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "absurdo",
@@ -3592,7 +3592,7 @@
   },
   {
     "id": "brasil-a43",
-    "text": "Uma caravela de rodinha.",
+    "text": "Caravela de isopor.",
     "pack": "brasil",
     "pick": 0,
     "theme": "historia",
@@ -3610,7 +3610,7 @@
   },
   {
     "id": "brasil-a45",
-    "text": "A segunda via do nada.",
+    "text": "RG de reserva.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -3700,7 +3700,7 @@
   },
   {
     "id": "brasil-a55",
-    "text": "A independência no grupo silenciado.",
+    "text": "O grito de independência no ônibus.",
     "pack": "brasil",
     "pick": 0,
     "theme": "historia",
@@ -3718,7 +3718,7 @@
   },
   {
     "id": "brasil-a57",
-    "text": "O formulário pra gastar menos papel.",
+    "text": "Formulário molhado.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -3835,7 +3835,7 @@
   },
   {
     "id": "brasil-q23",
-    "text": "A fila só andou depois de ________.",
+    "text": "A fila parou quando alguém mostrou ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "burocracia",
@@ -3862,7 +3862,7 @@
   },
   {
     "id": "brasil-q26",
-    "text": "O condomínio tem três regras sobre ________.",
+    "text": "O condomínio ganhou fama por proibir ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "burocracia",
@@ -3871,7 +3871,7 @@
   },
   {
     "id": "brasil-q27",
-    "text": "O cartório recusou o pedido por falta de ________.",
+    "text": "No cartório, trocaram meu nome por ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "burocracia",
@@ -3889,7 +3889,7 @@
   },
   {
     "id": "brasil-q29",
-    "text": "A discussão na padaria começou por ________.",
+    "text": "O padeiro foi pra televisão explicar ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "burocracia",
@@ -4150,7 +4150,7 @@
   },
   {
     "id": "escola-q21",
-    "text": "Minha última advertência foi por ________.",
+    "text": "A advertência descreveu meu comportamento assim: ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "estudante",
@@ -4204,7 +4204,7 @@
   },
   {
     "id": "escola-q27",
-    "text": "Meu método infalível de estudo envolve ________.",
+    "text": "Meu método de estudo proibido envolve ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "estudante",
@@ -4213,7 +4213,7 @@
   },
   {
     "id": "escola-q28",
-    "text": "O trabalho ganhou um prêmio por ________.",
+    "text": "O trabalho premiado da turma era sobre ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "estudante",
@@ -4285,7 +4285,7 @@
   },
   {
     "id": "economia-a46",
-    "text": "Saudade no carnê.",
+    "text": "Parcelas atrasadas.",
     "pack": "economia",
     "pick": 0,
     "theme": "nonsense",
@@ -4339,7 +4339,7 @@
   },
   {
     "id": "economia-a52",
-    "text": "Uma ideia de três centavos.",
+    "text": "Aumento de centavos.",
     "pack": "economia",
     "pick": 0,
     "theme": "nonsense",
@@ -4393,7 +4393,7 @@
   },
   {
     "id": "economia-a58",
-    "text": "Os acionistas do castelo de areia.",
+    "text": "Castelo de areia.",
     "pack": "economia",
     "pick": 0,
     "theme": "absurdo",
@@ -4465,7 +4465,7 @@
   },
   {
     "id": "economia-a66",
-    "text": "O PIB da festa vazia.",
+    "text": "Vaquinha da despedida.",
     "pack": "economia",
     "pick": 0,
     "theme": "nonsense",
@@ -4510,7 +4510,7 @@
   },
   {
     "id": "economia-q24",
-    "text": "A reunião podia ter sido substituída por ________.",
+    "text": "Minha demissão foi anunciada junto com ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "politica",
@@ -4528,7 +4528,7 @@
   },
   {
     "id": "economia-q26",
-    "text": "O balanço chamou ________ de patrimônio.",
+    "text": "No inventário da firma, sobrou ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "politica",
@@ -4546,7 +4546,7 @@
   },
   {
     "id": "economia-q28",
-    "text": "O treinamento ensinou a aguentar ________.",
+    "text": "O treinamento obrigatório terminou em ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "politica",
@@ -4699,7 +4699,7 @@
   },
   {
     "id": "memes-a55",
-    "text": "Amor com marca-d'água.",
+    "text": "Declaração com marca-d'água.",
     "pack": "memes",
     "pick": 0,
     "theme": "vergonha",
@@ -4708,10 +4708,10 @@
   },
   {
     "id": "memes-a56",
-    "text": "Saudade em conexão discada.",
+    "text": "Selfie borrada.",
     "pack": "memes",
     "pick": 0,
-    "theme": "nonsense",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
@@ -4762,7 +4762,7 @@
   },
   {
     "id": "memes-a62",
-    "text": "O vazio digitando.",
+    "text": "O ex digitando.",
     "pack": "memes",
     "pick": 0,
     "theme": "nonsense",
@@ -4834,7 +4834,7 @@
   },
   {
     "id": "memes-q24",
-    "text": "A IA confundiu meu currículo com ________.",
+    "text": "O aplicativo resumiu minha personalidade em ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "memes",
@@ -4843,7 +4843,7 @@
   },
   {
     "id": "memes-q25",
-    "text": "O anúncio prometia resolver tudo com ________.",
+    "text": "A promoção prometia uma experiência única: ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "memes",
@@ -4861,7 +4861,7 @@
   },
   {
     "id": "memes-q27",
-    "text": "O vídeo foi removido por mostrar ________.",
+    "text": "Recebi uma notificação de multa por ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "memes",
@@ -4870,7 +4870,7 @@
   },
   {
     "id": "memes-q28",
-    "text": "O último desejo antes de sair do grupo foi ________.",
+    "text": "Minha última mensagem no grupo da família foi sobre ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "memes",
@@ -4879,7 +4879,7 @@
   },
   {
     "id": "memes-q29",
-    "text": "A internet criou uma teoria sobre ________.",
+    "text": "O grupo da família exigiu explicações sobre ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "memes",
@@ -4915,7 +4915,7 @@
   },
   {
     "id": "acido-a43",
-    "text": "Reiniciar o possuído.",
+    "text": "Exorcismo malfeito.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -4924,7 +4924,7 @@
   },
   {
     "id": "acido-a44",
-    "text": "Um tirano vencido por W.O.",
+    "text": "Um ditador chorando no banho.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -4942,7 +4942,7 @@
   },
   {
     "id": "acido-a46",
-    "text": "A herança dividida antes de conferir o pulso.",
+    "text": "Dívida de defunto.",
     "pack": "acido",
     "pick": 0,
     "theme": "morte",
@@ -4996,7 +4996,7 @@
   },
   {
     "id": "acido-a52",
-    "text": "Um prontuário escrito “crocante”.",
+    "text": "O laudo: “ih, rapaz”.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -5077,7 +5077,7 @@
   },
   {
     "id": "acido-a61",
-    "text": "O inferno funcionando em horário de repartição.",
+    "text": "Inferno sem descarga.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -5113,7 +5113,7 @@
   },
   {
     "id": "acido-a65",
-    "text": "A medalha de tirania virando abridor.",
+    "text": "A medalha de participação do ditador.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -5122,7 +5122,7 @@
   },
   {
     "id": "acido-a66",
-    "text": "O raio-X da vergonha.",
+    "text": "Raio-X no telão.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -5149,7 +5149,7 @@
   },
   {
     "id": "acido-q23",
-    "text": "O exorcismo foi adiado por falta de ________.",
+    "text": "O exorcismo foi cancelado por causa de ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "religiao",
@@ -5176,7 +5176,7 @@
   },
   {
     "id": "acido-q26",
-    "text": "Na fila do além, tem prioridade quem traz ________.",
+    "text": "Na fila do além, me mandaram buscar ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "religiao",
@@ -5185,7 +5185,7 @@
   },
   {
     "id": "acido-q27",
-    "text": "O exame de rotina virou notícia por ________.",
+    "text": "O hospital foi interditado depois de ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "medicina",

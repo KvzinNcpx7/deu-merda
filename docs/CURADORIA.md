@@ -1,4 +1,14 @@
-# Curadoria V3 — o encaixe faz a piada
+# Revisão atual — duas demonstrações relatadas
+
+Esta revisão parte da main V3 e mantém as 580 cartas. Foram revistas 115 (56 respostas e 59 perguntas), preservadas 465 e todos os IDs. A nova amostra tem 120 casos com parecer por combinação. As respostas de até três palavras passaram de 54 para 81. As observações das duas demonstrações foram fornecidas pelo proprietário; o assistente não assistiu aos vídeos.
+
+O relatório atual está em [DEMONSTRACOES.md](DEMONSTRACOES.md), com links para todas as decisões e avaliações. Foram criadas as migrações 009 (corrige a associação de autores pela ordem de status) e 010 (catálogo). Nenhuma foi aplicada remotamente nesta tarefa. A interface e as regras permanecem as existentes; a montagem da frase ganhou contrações na borda das lacunas.
+
+O texto abaixo registra a revisão V3 anterior e suas métricas históricas.
+
+---
+
+## Histórico: curadoria V3 — o encaixe faz a piada
 
 A V3 revisa as 580 cartas da V2: **140 mantidas, 280 ajustadas e 160 substituídas**, com os 580 IDs, seis pacotes e proporção 400 respostas / 150 simples / 30 duplas preservados. Nenhuma carta foi adicionada. A decisão foi melhorar o conjunto antes de perseguir 700.
 
