@@ -147,3 +147,12 @@ vite.config.ts.timestamp-*
 
 # Turbo Repo
 .turbo
+
+# DEU MERDA! — arquivos locais e artefatos de verificação
+dist/
+coverage/
+*.local
+.DS_Store
+supabase/.temp/
+playwright-report/
+test-results/
