@@ -139,3 +139,9 @@ Revelação conduzida pelo juiz com cursor persistido no servidor para todos, fr
 A integração hospedada permanece **não validada**: não há projeto Supabase configurado nesta execução. As instruções e pendências estão em [docs/AUDITORIA.md](docs/AUDITORIA.md). Caos, Relâmpago e Torneio ficam para depois da validação real.
 
 Para Chromium já instalado no Linux, pode usar `PLAYWRIGHT_CHROMIUM_EXECUTABLE=/usr/bin/chromium npm run test:e2e`. Sem essa variável, o Playwright usa seu navegador gerenciado normalmente.
+
+## Curadoria V3 em revisão
+
+A branch `feat/curadoria-humor-v3` revisa as mesmas 580 cartas: 140 mantidas, 280 ajustadas e 160 substituídas, sem IDs novos ou mudança de interface/mecânicas. A média das respostas caiu de 7,6 para 5 palavras. São 120 combinações entre pacotes com parecer editorial individual e 20 exemplos selecionados, sem alegação de teste de humor com pessoas. Consulte [CURADORIA.md](docs/CURADORIA.md) e [STATUS.md](docs/STATUS.md).
+
+A migração incremental 008 preserva os textos de partidas ativas. Depende de aprovação antes de aplicar no Supabase e publicar o frontend; nenhuma dessas ações faz parte automática desta entrega.

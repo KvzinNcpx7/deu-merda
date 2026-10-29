@@ -1,7 +1,7 @@
 [
   {
     "id": "quinta-q1",
-    "text": "O laudo do condomínio resumiu o incidente assim: ________.",
+    "text": "O laudo resumiu a festa assim: ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "absurdo",
@@ -10,7 +10,7 @@
   },
   {
     "id": "quinta-q2",
-    "text": "Meu currículo tem um intervalo de dois anos dedicado a ________.",
+    "text": "Meu currículo tem dois anos dedicados a ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "vergonha",
@@ -19,7 +19,7 @@
   },
   {
     "id": "quinta-q3",
-    "text": "A descarga foi promovida depois de lidar com ________.",
+    "text": "Fui expulso do churrasco por causa de ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "escatologia",
@@ -37,7 +37,7 @@
   },
   {
     "id": "quinta-q5",
-    "text": "A câmera estava ligada durante ________.",
+    "text": "A câmera gravou ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "vergonha",
@@ -46,7 +46,7 @@
   },
   {
     "id": "quinta-q6",
-    "text": "O novo protocolo do banheiro exige ________.",
+    "text": "A única regra do banheiro é evitar ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "escatologia",
@@ -55,7 +55,7 @@
   },
   {
     "id": "quinta-q7",
-    "text": "O campeão mundial perdeu o título por causa de ________.",
+    "text": "Perdi o título por causa de ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "nonsense",
@@ -64,7 +64,7 @@
   },
   {
     "id": "quinta-q8",
-    "text": "Minha tentativa de parecer misterioso terminou em ________.",
+    "text": "Tentei seduzir. Consegui ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "vergonha",
@@ -73,7 +73,7 @@
   },
   {
     "id": "quinta-q9",
-    "text": "O manual de sobrevivência recomenda levar ________.",
+    "text": "O kit de primeiros socorros só tinha ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "absurdo",
@@ -82,7 +82,7 @@
   },
   {
     "id": "quinta-q10",
-    "text": "O encanador cobrou adicional ao reconhecer ________.",
+    "text": "O encanador cobrou extra por ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "escatologia",
@@ -100,7 +100,7 @@
   },
   {
     "id": "quinta-q12",
-    "text": "O áudio de oito minutos podia ter sido resumido em ________.",
+    "text": "O áudio de oito minutos era sobre ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "vergonha",
@@ -109,7 +109,7 @@
   },
   {
     "id": "quinta-q13",
-    "text": "A inteligência artificial pediu intervenção humana ao ver ________.",
+    "text": "Minha família encontrou ________ debaixo da cama.",
     "pack": "quinta",
     "pick": 1,
     "theme": "absurdo",
@@ -118,7 +118,7 @@
   },
   {
     "id": "quinta-q14",
-    "text": "A placa de banheiro interditado agora traz uma foto de ________.",
+    "text": "A placa de banheiro interditado mostra ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "escatologia",
@@ -136,7 +136,7 @@
   },
   {
     "id": "quinta-q16",
-    "text": "Minha apresentação de talentos consistiu em ________.",
+    "text": "No show de talentos, apresentei ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "vergonha",
@@ -199,7 +199,7 @@
   },
   {
     "id": "quinta-a3",
-    "text": "Um joelho com sotaque francês.",
+    "text": "Um joelho cabeludo.",
     "pack": "quinta",
     "pick": 0,
     "theme": "absurdo",
@@ -217,7 +217,7 @@
   },
   {
     "id": "quinta-a5",
-    "text": "O papel higiênico de lixa do escritório.",
+    "text": "Papel higiênico de lixa.",
     "pack": "quinta",
     "pick": 0,
     "theme": "escatologia",
@@ -226,7 +226,7 @@
   },
   {
     "id": "quinta-a6",
-    "text": "O reflexo de acenar para quem está atrás de você.",
+    "text": "Acenar para a pessoa errada.",
     "pack": "quinta",
     "pick": 0,
     "theme": "vergonha",
@@ -235,7 +235,7 @@
   },
   {
     "id": "quinta-a7",
-    "text": "Uma reunião de emergência entre os móveis.",
+    "text": "Um pato de cueca.",
     "pack": "quinta",
     "pick": 0,
     "theme": "absurdo",
@@ -247,13 +247,13 @@
     "text": "Dezessete centímetros de decepção.",
     "pack": "quinta",
     "pick": 0,
-    "theme": "nonsense",
+    "theme": "vergonha",
     "tone": "nonsense",
     "grammar": "nominal"
   },
   {
     "id": "quinta-a9",
-    "text": "Um pum silencioso com consequências diplomáticas.",
+    "text": "Peidar e culpar o cachorro.",
     "pack": "quinta",
     "pick": 0,
     "theme": "escatologia",
@@ -262,7 +262,7 @@
   },
   {
     "id": "quinta-a10",
-    "text": "A mensagem “saudades” enviada ao entregador.",
+    "text": "Mandar “saudades” pro entregador.",
     "pack": "quinta",
     "pick": 0,
     "theme": "vergonha",
@@ -271,16 +271,16 @@
   },
   {
     "id": "quinta-a11",
-    "text": "A dignidade descendo pelo ralo em câmera lenta.",
+    "text": "A dignidade pelo ralo.",
     "pack": "quinta",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "quinta-a12",
-    "text": "O lado emocional de um tijolo.",
+    "text": "Tijolo cru.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -289,7 +289,7 @@
   },
   {
     "id": "quinta-a13",
-    "text": "Uma descarga que só funciona com elogios.",
+    "text": "Dar descarga e rezar.",
     "pack": "quinta",
     "pick": 0,
     "theme": "escatologia",
@@ -307,16 +307,16 @@
   },
   {
     "id": "quinta-a15",
-    "text": "Duas capivaras disputando a guarda de um cone.",
+    "text": "Chamar a sogra de amor.",
     "pack": "quinta",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "quinta-a16",
-    "text": "O conceito de quarta-feira.",
+    "text": "Quarta-feira, porra.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -325,10 +325,10 @@
   },
   {
     "id": "quinta-a17",
-    "text": "Um desentupidor recebido como herança.",
+    "text": "Um desentupidor de estimação.",
     "pack": "quinta",
     "pick": 0,
-    "theme": "escatologia",
+    "theme": "absurdo",
     "tone": "irreverente",
     "grammar": "nominal"
   },
@@ -361,7 +361,7 @@
   },
   {
     "id": "quinta-a21",
-    "text": "A acústica impecável do banheiro vazio.",
+    "text": "O eco do banheiro.",
     "pack": "quinta",
     "pick": 0,
     "theme": "escatologia",
@@ -370,7 +370,7 @@
   },
   {
     "id": "quinta-a22",
-    "text": "O “você também” dito ao fiscal da prova.",
+    "text": "Responder “você também” ao fiscal.",
     "pack": "quinta",
     "pick": 0,
     "theme": "vergonha",
@@ -379,7 +379,7 @@
   },
   {
     "id": "quinta-a23",
-    "text": "Um pombo protegido pelo sigilo da investigação.",
+    "text": "Um pombo sob investigação.",
     "pack": "quinta",
     "pick": 0,
     "theme": "absurdo",
@@ -415,7 +415,7 @@
   },
   {
     "id": "quinta-a27",
-    "text": "Um detector de mentiras apitando para uma samambaia.",
+    "text": "Um detector de mentira comprado no camelô.",
     "pack": "quinta",
     "pick": 0,
     "theme": "absurdo",
@@ -424,7 +424,7 @@
   },
   {
     "id": "quinta-a28",
-    "text": "A parte crocante da água.",
+    "text": "Água mastigável.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -433,16 +433,16 @@
   },
   {
     "id": "quinta-a29",
-    "text": "Um espirro que reinicia o roteador.",
+    "text": "Espirrar em cima do roteador.",
     "pack": "quinta",
     "pick": 0,
-    "theme": "escatologia",
+    "theme": "absurdo",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "quinta-a30",
-    "text": "A risada experimental de quem não ouviu a piada.",
+    "text": "Rir sem entender a piada.",
     "pack": "quinta",
     "pick": 0,
     "theme": "vergonha",
@@ -451,7 +451,7 @@
   },
   {
     "id": "quinta-a31",
-    "text": "Um campeonato de ficar parado com exame antidoping.",
+    "text": "Doping no campeonato de dominó.",
     "pack": "quinta",
     "pick": 0,
     "theme": "absurdo",
@@ -460,7 +460,7 @@
   },
   {
     "id": "quinta-a32",
-    "text": "Meia hora de agachamento para soltar um pum de dois segundos.",
+    "text": "Agachar pra soltar um pum.",
     "pack": "quinta",
     "pick": 0,
     "theme": "escatologia",
@@ -469,7 +469,7 @@
   },
   {
     "id": "quinta-a33",
-    "text": "O barulho de uma barriga durante o minuto de silêncio.",
+    "text": "A barriga roncando no silêncio.",
     "pack": "quinta",
     "pick": 0,
     "theme": "escatologia",
@@ -478,7 +478,7 @@
   },
   {
     "id": "quinta-a34",
-    "text": "A dancinha que o elevador inteiro presenciou.",
+    "text": "Dançar sozinho no elevador.",
     "pack": "quinta",
     "pick": 0,
     "theme": "vergonha",
@@ -487,7 +487,7 @@
   },
   {
     "id": "quinta-a35",
-    "text": "Uma escada rolante em greve de degraus.",
+    "text": "Uma escada rolante desligada.",
     "pack": "quinta",
     "pick": 0,
     "theme": "absurdo",
@@ -505,7 +505,7 @@
   },
   {
     "id": "quinta-a37",
-    "text": "O pânico de descobrir que a cabine não tem trinco.",
+    "text": "Cagar segurando a porta.",
     "pack": "quinta",
     "pick": 0,
     "theme": "escatologia",
@@ -514,7 +514,7 @@
   },
   {
     "id": "quinta-a38",
-    "text": "Uma piscadinha que virou consulta oftalmológica.",
+    "text": "Piscar os dois olhos ao mesmo tempo.",
     "pack": "quinta",
     "pick": 0,
     "theme": "vergonha",
@@ -523,16 +523,16 @@
   },
   {
     "id": "quinta-a39",
-    "text": "Um ventilador tentando apagar as próprias velas.",
+    "text": "Vento usado.",
     "pack": "quinta",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "nonsense",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "quinta-a40",
-    "text": "O plural de vácuo.",
+    "text": "Vácuo de pote.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -568,7 +568,7 @@
   },
   {
     "id": "brasil-q4",
-    "text": "A carta perdida dos navegadores descrevia ________.",
+    "text": "A carta dos navegadores descrevia ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "historia",
@@ -613,7 +613,7 @@
   },
   {
     "id": "brasil-q9",
-    "text": "A fila ganhou vida própria e solicitou ________.",
+    "text": "O ônibus freou e caiu no meu colo ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "burocracia",
@@ -631,7 +631,7 @@
   },
   {
     "id": "brasil-q11",
-    "text": "A assembleia do bairro aprovou ________ por unanimidade.",
+    "text": "A assembleia do bairro aprovou ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "absurdo",
@@ -649,7 +649,7 @@
   },
   {
     "id": "brasil-q13",
-    "text": "O comprovante de residência foi recusado por conter ________.",
+    "text": "No programa de domingo, o prêmio era ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "burocracia",
@@ -667,7 +667,7 @@
   },
   {
     "id": "brasil-q15",
-    "text": "A primeira imagem transmitida do espaço mostrava ________.",
+    "text": "No último vagão do trem, só havia ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "absurdo",
@@ -721,7 +721,7 @@
   },
   {
     "id": "brasil-a1",
-    "text": "A certidão de nascimento do próprio cartório.",
+    "text": "A certidão do cartório.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -730,7 +730,7 @@
   },
   {
     "id": "brasil-a2",
-    "text": "Uma ferradura instalada de cabeça para baixo pelo suporte técnico.",
+    "text": "A ferradura de cabeça pra baixo.",
     "pack": "brasil",
     "pick": 0,
     "theme": "supersticao",
@@ -739,7 +739,7 @@
   },
   {
     "id": "brasil-a3",
-    "text": "Um carro de som anunciando o fim do som.",
+    "text": "O carro de som pedindo silêncio.",
     "pack": "brasil",
     "pick": 0,
     "theme": "absurdo",
@@ -748,16 +748,16 @@
   },
   {
     "id": "brasil-a4",
-    "text": "O primeiro ser humano a dizer “na volta a gente compra”.",
+    "text": "O “na volta a gente compra”.",
     "pack": "brasil",
     "pick": 0,
-    "theme": "historia",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "brasil-a5",
-    "text": "Uma senha preferencial para quem perdeu a esperança.",
+    "text": "Uma senha vencida.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -775,7 +775,7 @@
   },
   {
     "id": "brasil-a7",
-    "text": "Um cachorro caramelo inaugurando uma ponte.",
+    "text": "O cachorro caramelo na faixa presidencial.",
     "pack": "brasil",
     "pick": 0,
     "theme": "absurdo",
@@ -784,7 +784,7 @@
   },
   {
     "id": "brasil-a8",
-    "text": "Uma catapulta de entrega de encomendas frágeis.",
+    "text": "Uma catapulta dos Correios.",
     "pack": "brasil",
     "pick": 0,
     "theme": "historia",
@@ -793,7 +793,7 @@
   },
   {
     "id": "brasil-a9",
-    "text": "O atestado de comparecimento à própria ausência.",
+    "text": "O atestado de ausência.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -811,16 +811,16 @@
   },
   {
     "id": "brasil-a11",
-    "text": "Um churrasco cancelado pela presença de uma vaca convidada.",
+    "text": "Uma vaca no churrasco.",
     "pack": "brasil",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "brasil-a12",
-    "text": "Uma pirâmide construída com manual de guarda-roupa.",
+    "text": "Uma pirâmide torta.",
     "pack": "brasil",
     "pick": 0,
     "theme": "historia",
@@ -829,7 +829,7 @@
   },
   {
     "id": "brasil-a13",
-    "text": "O guichê de reclamações sobre o guichê de reclamações.",
+    "text": "A fila pra reclamar da fila.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -847,7 +847,7 @@
   },
   {
     "id": "brasil-a15",
-    "text": "Um guarda-chuva com vazamento de dados.",
+    "text": "Um guarda-chuva furado.",
     "pack": "brasil",
     "pick": 0,
     "theme": "absurdo",
@@ -856,7 +856,7 @@
   },
   {
     "id": "brasil-a16",
-    "text": "A invenção da roda e sua primeira multa de estacionamento.",
+    "text": "A primeira multa da história.",
     "pack": "brasil",
     "pick": 0,
     "theme": "historia",
@@ -865,7 +865,7 @@
   },
   {
     "id": "brasil-a17",
-    "text": "Uma declaração autenticada de que a impressora está sem tinta.",
+    "text": "Uma declaração de impressora sem tinta.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -883,16 +883,16 @@
   },
   {
     "id": "brasil-a19",
-    "text": "Um ônibus que passa só quando você desiste.",
+    "text": "O ônibus passando sem parar.",
     "pack": "brasil",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "brasil-a20",
-    "text": "O fóssil de um boleto anterior à escrita.",
+    "text": "Um boleto pré-histórico.",
     "pack": "brasil",
     "pick": 0,
     "theme": "historia",
@@ -910,7 +910,7 @@
   },
   {
     "id": "brasil-a22",
-    "text": "Uma leitura de mãos feita por reconhecimento facial.",
+    "text": "Ler a mão errada.",
     "pack": "brasil",
     "pick": 0,
     "theme": "supersticao",
@@ -919,10 +919,10 @@
   },
   {
     "id": "brasil-a23",
-    "text": "A geopolítica da cadeira guardando vaga.",
+    "text": "Uma cadeira guardando lugar.",
     "pack": "brasil",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "burocracia",
     "tone": "irreverente",
     "grammar": "nominal"
   },
@@ -937,16 +937,16 @@
   },
   {
     "id": "brasil-a25",
-    "text": "Um fiscal de nuvens sem crachá.",
+    "text": "Um fiscal de bermuda.",
     "pack": "brasil",
     "pick": 0,
-    "theme": "burocracia",
+    "theme": "absurdo",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "brasil-a26",
-    "text": "Um sal grosso gourmet que atrai dívida.",
+    "text": "Sal grosso vencido.",
     "pack": "brasil",
     "pick": 0,
     "theme": "supersticao",
@@ -955,7 +955,7 @@
   },
   {
     "id": "brasil-a27",
-    "text": "A farra de um carrinho de supermercado na ladeira.",
+    "text": "Um carrinho de mercado na ladeira.",
     "pack": "brasil",
     "pick": 0,
     "theme": "absurdo",
@@ -973,7 +973,7 @@
   },
   {
     "id": "brasil-a29",
-    "text": "O alvará provisório do improviso.",
+    "text": "Um alvará rabiscado.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -991,16 +991,16 @@
   },
   {
     "id": "brasil-a31",
-    "text": "Uma capivara sendo chamada para reconhecer firma.",
+    "text": "O RG plastificado dentro da meia.",
     "pack": "brasil",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "burocracia",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "brasil-a32",
-    "text": "O tratado de paz escrito no verso de um cardápio.",
+    "text": "Um tratado de paz no guardanapo.",
     "pack": "brasil",
     "pick": 0,
     "theme": "historia",
@@ -1027,16 +1027,16 @@
   },
   {
     "id": "brasil-a35",
-    "text": "Uma geladeira de praia com segurança particular.",
+    "text": "A farofa da praia.",
     "pack": "brasil",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "brasil-a36",
-    "text": "O descobrimento acidental do chinelo como ferramenta de precisão.",
+    "text": "A chinelada inaugural.",
     "pack": "brasil",
     "pick": 0,
     "theme": "historia",
@@ -1054,7 +1054,7 @@
   },
   {
     "id": "brasil-a38",
-    "text": "A previsão de chuva do joelho da tia.",
+    "text": "O joelho da tia prevendo chuva.",
     "pack": "brasil",
     "pick": 0,
     "theme": "supersticao",
@@ -1063,16 +1063,16 @@
   },
   {
     "id": "brasil-a39",
-    "text": "O vizinho ensaiando bateria só na sua imaginação.",
+    "text": "O vizinho de furadeira.",
     "pack": "brasil",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "brasil-a40",
-    "text": "Um imperador deposto por votação no grupo do prédio.",
+    "text": "Um imperador expulso do grupo.",
     "pack": "brasil",
     "pick": 0,
     "theme": "historia",
@@ -1090,7 +1090,7 @@
   },
   {
     "id": "escola-q2",
-    "text": "O microfone do auditório amplificou ________.",
+    "text": "O diretor abriu minha mochila e encontrou ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "vergonha",
@@ -1099,7 +1099,7 @@
   },
   {
     "id": "escola-q3",
-    "text": "A feira de ciências foi evacuada após a descoberta de ________.",
+    "text": "A feira de ciências foi evacuada por ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "absurdo",
@@ -1108,7 +1108,7 @@
   },
   {
     "id": "escola-q4",
-    "text": "O professor aceitou qualquer justificativa, menos ________.",
+    "text": "O professor aceitou tudo, menos ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "estudante",
@@ -1135,7 +1135,7 @@
   },
   {
     "id": "escola-q7",
-    "text": "Minha tese foi reprovada por defender ________.",
+    "text": "Minha tese defendia ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "estudante",
@@ -1189,7 +1189,7 @@
   },
   {
     "id": "escola-q13",
-    "text": "A bolsa de estudos agora cobre ________.",
+    "text": "A bolsa de estudos cobre até ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "estudante",
@@ -1207,7 +1207,7 @@
   },
   {
     "id": "escola-q15",
-    "text": "O conselho escolar não estava preparado para ________.",
+    "text": "O conselho escolar não esperava ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "absurdo",
@@ -1216,7 +1216,7 @@
   },
   {
     "id": "escola-q16",
-    "text": "A orientação vocacional sugeriu ________.",
+    "text": "O teste vocacional me indicou ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "estudante",
@@ -1252,7 +1252,7 @@
   },
   {
     "id": "escola-q20",
-    "text": "Meu TCC relaciona ________ com ________. A banca chamou a segurança.",
+    "text": "Meu TCC liga ________ a ________. A banca chamou a segurança.",
     "pack": "escola",
     "pick": 2,
     "theme": "estudante",
@@ -1261,7 +1261,7 @@
   },
   {
     "id": "escola-a1",
-    "text": "A bibliografia inteira baseada num sonho.",
+    "text": "A bibliografia de um sonho.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -1270,7 +1270,7 @@
   },
   {
     "id": "escola-a2",
-    "text": "Um “presente” dito durante a chamada de outra turma.",
+    "text": "Responder à chamada da turma errada.",
     "pack": "escola",
     "pick": 0,
     "theme": "vergonha",
@@ -1279,10 +1279,10 @@
   },
   {
     "id": "escola-a3",
-    "text": "Uma calculadora que mostra “também não sei”.",
+    "text": "Uma calculadora pedindo socorro.",
     "pack": "escola",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "estudante",
     "tone": "irreverente",
     "grammar": "nominal"
   },
@@ -1306,7 +1306,7 @@
   },
   {
     "id": "escola-a6",
-    "text": "Um esqueleto de laboratório fazendo recuperação.",
+    "text": "O esqueleto de jaleco tamanho P.",
     "pack": "escola",
     "pick": 0,
     "theme": "absurdo",
@@ -1315,7 +1315,7 @@
   },
   {
     "id": "escola-a7",
-    "text": "A coragem de perguntar se vale nota.",
+    "text": "Perguntar se vale nota.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -1324,7 +1324,7 @@
   },
   {
     "id": "escola-a8",
-    "text": "Um aplauso solitário para o vídeo que ainda não acabou.",
+    "text": "Aplaudir antes da hora.",
     "pack": "escola",
     "pick": 0,
     "theme": "vergonha",
@@ -1351,7 +1351,7 @@
   },
   {
     "id": "escola-a11",
-    "text": "O fundo virtual que revela mais do que esconde.",
+    "text": "A cama desarrumada no fundo da chamada.",
     "pack": "escola",
     "pick": 0,
     "theme": "vergonha",
@@ -1360,10 +1360,10 @@
   },
   {
     "id": "escola-a12",
-    "text": "Uma borracha apagando o próprio passado.",
+    "text": "Borracha mastigada.",
     "pack": "escola",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "estudante",
     "tone": "irreverente",
     "grammar": "nominal"
   },
@@ -1387,10 +1387,10 @@
   },
   {
     "id": "escola-a15",
-    "text": "A ata da reunião secreta dos repetentes.",
+    "text": "A reunião dos repetentes.",
     "pack": "escola",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "estudante",
     "tone": "irreverente",
     "grammar": "nominal"
   },
@@ -1414,16 +1414,16 @@
   },
   {
     "id": "escola-a18",
-    "text": "Uma ameba com mais créditos extracurriculares que eu.",
+    "text": "Uma ameba com diploma.",
     "pack": "escola",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "estudante",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "escola-a19",
-    "text": "O resumo de um resumo que perdeu o assunto.",
+    "text": "Um resumo sem assunto.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -1432,7 +1432,7 @@
   },
   {
     "id": "escola-a20",
-    "text": "A tentativa de sair de fininho numa cadeira barulhenta.",
+    "text": "Sair de fininho com a cadeira rangendo.",
     "pack": "escola",
     "pick": 0,
     "theme": "vergonha",
@@ -1441,7 +1441,7 @@
   },
   {
     "id": "escola-a21",
-    "text": "Um vulcão de bicarbonato interditado pela Defesa Civil.",
+    "text": "Um vulcão de bicarbonato interditado.",
     "pack": "escola",
     "pick": 0,
     "theme": "absurdo",
@@ -1468,7 +1468,7 @@
   },
   {
     "id": "escola-a24",
-    "text": "Uma chamada oral feita por um papagaio terceirizado.",
+    "text": "Um papagaio fazendo a chamada.",
     "pack": "escola",
     "pick": 0,
     "theme": "absurdo",
@@ -1495,16 +1495,16 @@
   },
   {
     "id": "escola-a27",
-    "text": "O fantasma da biblioteca cobrando multa em biscoito.",
+    "text": "A multa da biblioteca.",
     "pack": "escola",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "estudante",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "escola-a28",
-    "text": "O entusiasmo de quem ouviu “não precisa entregar”.",
+    "text": "Ouvir “não precisa entregar”.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -1513,7 +1513,7 @@
   },
   {
     "id": "escola-a29",
-    "text": "A defesa de mestrado do cara que comeu a hipótese.",
+    "text": "Engolir a cola da prova.",
     "pack": "escola",
     "pick": 0,
     "theme": "vergonha",
@@ -1522,16 +1522,16 @@
   },
   {
     "id": "escola-a30",
-    "text": "Uma medalha de participação na fuga do interclasse.",
+    "text": "Uma medalha por fugir do interclasse.",
     "pack": "escola",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "escola-a31",
-    "text": "A resposta certa escrita na prova do colega errado.",
+    "text": "Colar a resposta errada.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -1540,19 +1540,19 @@
   },
   {
     "id": "escola-a32",
-    "text": "Um poema autoral idêntico à embalagem de xampu.",
+    "text": "Um poema de embalagem de xampu.",
     "pack": "escola",
     "pick": 0,
-    "theme": "vergonha",
+    "theme": "estudante",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "escola-a33",
-    "text": "Uma régua que mede arrependimento.",
+    "text": "Uma régua de dois centímetros.",
     "pack": "escola",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "estudante",
     "tone": "irreverente",
     "grammar": "nominal"
   },
@@ -1567,7 +1567,7 @@
   },
   {
     "id": "escola-a35",
-    "text": "O “boa noite” dito às sete da manhã com convicção.",
+    "text": "Dar boa-noite às sete da manhã.",
     "pack": "escola",
     "pick": 0,
     "theme": "vergonha",
@@ -1576,16 +1576,16 @@
   },
   {
     "id": "escola-a36",
-    "text": "Um microscópio apontado para a própria autoestima.",
+    "text": "A autoestima na recuperação.",
     "pack": "escola",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "escola-a37",
-    "text": "O estágio não remunerado de carregar a caixa de som.",
+    "text": "Carregar a caixa de som de graça.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -1594,7 +1594,7 @@
   },
   {
     "id": "escola-a38",
-    "text": "A foto da turma tirada durante um espirro coletivo.",
+    "text": "Um espirro na foto da turma.",
     "pack": "escola",
     "pick": 0,
     "theme": "vergonha",
@@ -1612,7 +1612,7 @@
   },
   {
     "id": "escola-a40",
-    "text": "A semana de provas com duração de um semestre.",
+    "text": "Um semestre de prova.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -1621,7 +1621,7 @@
   },
   {
     "id": "economia-q1",
-    "text": "O prefeito de Lugar Nenhum prometeu combater ________.",
+    "text": "O prefeito de Lugar Nenhum quer combater ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "politica",
@@ -1657,7 +1657,7 @@
   },
   {
     "id": "economia-q5",
-    "text": "A licitação tinha apenas uma exigência: ________.",
+    "text": "A licitação só exigia ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "burocracia",
@@ -1666,7 +1666,7 @@
   },
   {
     "id": "economia-q6",
-    "text": "O novo indicador de riqueza mede ________.",
+    "text": "Meu primeiro salário foi gasto em ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "absurdo",
@@ -1684,7 +1684,7 @@
   },
   {
     "id": "economia-q8",
-    "text": "O orçamento do reino desapareceu após a compra de ________.",
+    "text": "O dinheiro do reino acabou na compra de ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "burocracia",
@@ -1693,7 +1693,7 @@
   },
   {
     "id": "economia-q9",
-    "text": "O investidor pediu para conhecer ________ antes de assinar.",
+    "text": "O investidor desistiu ao ver ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "absurdo",
@@ -1702,7 +1702,7 @@
   },
   {
     "id": "economia-q10",
-    "text": "A propaganda oficial apresenta ________ como conquista histórica.",
+    "text": "O governo fictício chamou ________ de conquista.",
     "pack": "economia",
     "pick": 1,
     "theme": "politica",
@@ -1720,7 +1720,7 @@
   },
   {
     "id": "economia-q12",
-    "text": "A palestra de empreendedorismo recomendou investir em ________.",
+    "text": "O coach recomendou investir em ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "absurdo",
@@ -1729,7 +1729,7 @@
   },
   {
     "id": "economia-q13",
-    "text": "O ministro fictício pediu exoneração após anunciar ________.",
+    "text": "O ministro fictício caiu depois de anunciar ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "politica",
@@ -1738,7 +1738,7 @@
   },
   {
     "id": "economia-q14",
-    "text": "O sistema só libera o pagamento depois de receber ________.",
+    "text": "Pra receber o salário, apresente ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "burocracia",
@@ -1756,7 +1756,7 @@
   },
   {
     "id": "economia-q16",
-    "text": "A nova promessa de campanha é garantir acesso universal a ________.",
+    "text": "O candidato fictício prometeu ________ de graça.",
     "pack": "economia",
     "pick": 1,
     "theme": "politica",
@@ -1801,7 +1801,7 @@
   },
   {
     "id": "economia-a1",
-    "text": "Um palanque com rodinhas para fugir das perguntas.",
+    "text": "Um palanque de fuga.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -1810,10 +1810,10 @@
   },
   {
     "id": "economia-a2",
-    "text": "Uma ponte superfaturada sobre uma poça imaginária.",
+    "text": "Uma ponte sobre uma poça.",
     "pack": "economia",
     "pick": 0,
-    "theme": "burocracia",
+    "theme": "politica",
     "tone": "irreverente",
     "grammar": "nominal"
   },
@@ -1828,7 +1828,7 @@
   },
   {
     "id": "economia-a4",
-    "text": "A oposição ao funcionamento das segundas-feiras.",
+    "text": "O candidato de peruca molhada.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -1837,7 +1837,7 @@
   },
   {
     "id": "economia-a5",
-    "text": "Uma nota fiscal emitida por uma empresa de miragens.",
+    "text": "A nota fiscal de uma miragem.",
     "pack": "economia",
     "pick": 0,
     "theme": "burocracia",
@@ -1846,16 +1846,16 @@
   },
   {
     "id": "economia-a6",
-    "text": "Um curso para monetizar a pausa constrangedora.",
+    "text": "Um curso de cara de pau.",
     "pack": "economia",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "economia-a7",
-    "text": "O voto de protesto de uma urna cansada.",
+    "text": "Um voto no cachorro do candidato.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -1873,16 +1873,16 @@
   },
   {
     "id": "economia-a9",
-    "text": "A livre concorrência entre duas empresas do mesmo cunhado.",
+    "text": "Duas empresas do mesmo cunhado.",
     "pack": "economia",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "burocracia",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "economia-a10",
-    "text": "Uma promessa eleitoral com validade de iogurte.",
+    "text": "Uma promessa vencida.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -1891,7 +1891,7 @@
   },
   {
     "id": "economia-a11",
-    "text": "Um assessor exclusivo para segurar o lugar do assessor.",
+    "text": "O assessor do assessor.",
     "pack": "economia",
     "pick": 0,
     "theme": "burocracia",
@@ -1900,7 +1900,7 @@
   },
   {
     "id": "economia-a12",
-    "text": "O cashback de um agiota de figurinhas.",
+    "text": "O agiota de figurinha.",
     "pack": "economia",
     "pick": 0,
     "theme": "absurdo",
@@ -1909,7 +1909,7 @@
   },
   {
     "id": "economia-a13",
-    "text": "Um santinho eleitoral com foto de “imagem meramente ilustrativa”.",
+    "text": "Um santinho com foto de sósia.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -1918,7 +1918,7 @@
   },
   {
     "id": "economia-a14",
-    "text": "Uma consultoria para explicar o relatório da consultoria.",
+    "text": "Uma consultoria da consultoria.",
     "pack": "economia",
     "pick": 0,
     "theme": "burocracia",
@@ -1927,7 +1927,7 @@
   },
   {
     "id": "economia-a15",
-    "text": "O leilão do último grão de feijão do prato.",
+    "text": "O último feijão do prato.",
     "pack": "economia",
     "pick": 0,
     "theme": "absurdo",
@@ -1936,7 +1936,7 @@
   },
   {
     "id": "economia-a16",
-    "text": "Um partido dividido sobre qual lado da torrada cai.",
+    "text": "Um partido dividido em três pessoas.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -1945,25 +1945,25 @@
   },
   {
     "id": "economia-a17",
-    "text": "O reembolso de uma viagem feita no Google Street View.",
+    "text": "O reembolso da viagem pelo Street View.",
     "pack": "economia",
     "pick": 0,
-    "theme": "burocracia",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "economia-a18",
-    "text": "Uma carteira de investimentos só com moedas de carrinho.",
+    "text": "Moeda de carrinho.",
     "pack": "economia",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "nonsense",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "economia-a19",
-    "text": "Um comício para seis cadeiras e um cachorro indeciso.",
+    "text": "Um comício pra seis cadeiras.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -1972,7 +1972,7 @@
   },
   {
     "id": "economia-a20",
-    "text": "A compra emergencial de quarenta tesouras de inauguração.",
+    "text": "Quarenta tesouras de inauguração.",
     "pack": "economia",
     "pick": 0,
     "theme": "burocracia",
@@ -1981,7 +1981,7 @@
   },
   {
     "id": "economia-a21",
-    "text": "O direito de explorar petróleo numa poça de pastel.",
+    "text": "Petróleo de pastel.",
     "pack": "economia",
     "pick": 0,
     "theme": "absurdo",
@@ -1990,7 +1990,7 @@
   },
   {
     "id": "economia-a22",
-    "text": "Uma pesquisa eleitoral feita com os próprios cartazes.",
+    "text": "Uma pesquisa com os próprios cartazes.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -1999,7 +1999,7 @@
   },
   {
     "id": "economia-a23",
-    "text": "Um cargo comissionado de apertador de “aceito”.",
+    "text": "O cargo de apertar “aceito”.",
     "pack": "economia",
     "pick": 0,
     "theme": "burocracia",
@@ -2008,16 +2008,16 @@
   },
   {
     "id": "economia-a24",
-    "text": "A bolha especulativa do saquinho de ar.",
+    "text": "Ar de rico.",
     "pack": "economia",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "nonsense",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "economia-a25",
-    "text": "O plano quinquenal de terminar uma frase.",
+    "text": "Cinco anos pra terminar uma frase.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -2026,10 +2026,10 @@
   },
   {
     "id": "economia-a26",
-    "text": "Um concurso público para herdeiro do rei.",
+    "text": "Concurso público pra herdeiro.",
     "pack": "economia",
     "pick": 0,
-    "theme": "burocracia",
+    "theme": "politica",
     "tone": "irreverente",
     "grammar": "nominal"
   },
@@ -2044,7 +2044,7 @@
   },
   {
     "id": "economia-a28",
-    "text": "A criação do Ministério de Deixar para Depois.",
+    "text": "O Ministério de Deixar pra Depois.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -2053,16 +2053,16 @@
   },
   {
     "id": "economia-a29",
-    "text": "O adicional de insalubridade do bom senso.",
+    "text": "O adicional de aturar o chefe.",
     "pack": "economia",
     "pick": 0,
-    "theme": "burocracia",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "economia-a30",
-    "text": "Uma pirâmide financeira construída com peças faltando.",
+    "text": "Uma pirâmide faltando peça.",
     "pack": "economia",
     "pick": 0,
     "theme": "absurdo",
@@ -2071,7 +2071,7 @@
   },
   {
     "id": "economia-a31",
-    "text": "A diplomacia de mandar indireta no status.",
+    "text": "Uma indireta diplomática.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -2080,19 +2080,19 @@
   },
   {
     "id": "economia-a32",
-    "text": "A propina declarada como gorjeta emocional.",
+    "text": "Propina declarada como gorjeta.",
     "pack": "economia",
     "pick": 0,
-    "theme": "burocracia",
+    "theme": "politica",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "economia-a33",
-    "text": "O coach de um espantalho desempregado.",
+    "text": "O coach desempregado.",
     "pack": "economia",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
@@ -2107,7 +2107,7 @@
   },
   {
     "id": "economia-a35",
-    "text": "A transparência de uma planilha toda em fonte branca.",
+    "text": "A planilha em fonte branca.",
     "pack": "economia",
     "pick": 0,
     "theme": "burocracia",
@@ -2116,7 +2116,7 @@
   },
   {
     "id": "economia-a36",
-    "text": "Uma promoção de compre três arrependimentos e pague quatro.",
+    "text": "Pagar quatro e levar três.",
     "pack": "economia",
     "pick": 0,
     "theme": "absurdo",
@@ -2125,7 +2125,7 @@
   },
   {
     "id": "economia-a37",
-    "text": "Um ditador de condomínio derrotado pelo botão de abrir portão.",
+    "text": "O ditador do condomínio.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -2143,10 +2143,10 @@
   },
   {
     "id": "economia-a39",
-    "text": "O mercado futuro de desculpas esfarrapadas.",
+    "text": "Desculpa em prestação.",
     "pack": "economia",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "nonsense",
     "tone": "irreverente",
     "grammar": "nominal"
   },
@@ -2161,7 +2161,7 @@
   },
   {
     "id": "memes-q1",
-    "text": "A internet parou por seis minutos para discutir ________.",
+    "text": "A internet parou pra discutir ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "memes",
@@ -2170,7 +2170,7 @@
   },
   {
     "id": "memes-q2",
-    "text": "A mensagem encaminhada muitas vezes anunciava ________.",
+    "text": "O grupo da família anunciou ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "nonsense",
@@ -2188,7 +2188,7 @@
   },
   {
     "id": "memes-q4",
-    "text": "O algoritmo decidiu que minha personalidade é ________.",
+    "text": "Meu perfil psicológico deu ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "absurdo",
@@ -2197,7 +2197,7 @@
   },
   {
     "id": "memes-q5",
-    "text": "O áudio que dividiu o grupo da família mencionava ________.",
+    "text": "O áudio que dividiu a família falava de ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "memes",
@@ -2206,7 +2206,7 @@
   },
   {
     "id": "memes-q6",
-    "text": "A legenda automática traduziu o discurso como ________.",
+    "text": "A legenda automática escreveu ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "nonsense",
@@ -2224,7 +2224,7 @@
   },
   {
     "id": "memes-q8",
-    "text": "O atendimento automático interrompeu a ligação para anunciar ________.",
+    "text": "O robô do atendimento me ofereceu ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "absurdo",
@@ -2233,7 +2233,7 @@
   },
   {
     "id": "memes-q9",
-    "text": "A nova prova de resistência do reality envolve ________.",
+    "text": "A prova do reality envolve ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "memes",
@@ -2242,7 +2242,7 @@
   },
   {
     "id": "memes-q10",
-    "text": "A senha do Wi-Fi do universo é ________.",
+    "text": "Minha busca anônima era sobre ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "nonsense",
@@ -2251,7 +2251,7 @@
   },
   {
     "id": "memes-q11",
-    "text": "Minha retrospectiva anual destacou ________.",
+    "text": "O telão do estádio mostrou ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "vergonha",
@@ -2269,7 +2269,7 @@
   },
   {
     "id": "memes-q13",
-    "text": "O bordão que ninguém pediu nasceu de ________.",
+    "text": "O bordão nasceu de ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "memes",
@@ -2296,7 +2296,7 @@
   },
   {
     "id": "memes-q16",
-    "text": "O último resultado da busca por sentido foi ________.",
+    "text": "A live foi encerrada por ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "absurdo",
@@ -2314,7 +2314,7 @@
   },
   {
     "id": "memes-q18",
-    "text": "O universo é formado por ________ e uma quantidade preocupante de ________.",
+    "text": "O universo é feito de ________ e excesso de ________.",
     "pack": "memes",
     "pick": 2,
     "theme": "nonsense",
@@ -2332,7 +2332,7 @@
   },
   {
     "id": "memes-q20",
-    "text": "A máquina do tempo só aceita ________ como pagamento por ________.",
+    "text": "Paguei por ________. A entrega foi ________.",
     "pack": "memes",
     "pick": 2,
     "theme": "absurdo",
@@ -2359,7 +2359,7 @@
   },
   {
     "id": "memes-a3",
-    "text": "Um pedido de namoro nos comentários de uma receita.",
+    "text": "Um pedido de namoro na receita de bolo.",
     "pack": "memes",
     "pick": 0,
     "theme": "vergonha",
@@ -2368,7 +2368,7 @@
   },
   {
     "id": "memes-a4",
-    "text": "Um captcha que precisa provar que não é humano.",
+    "text": "Um captcha reprovado.",
     "pack": "memes",
     "pick": 0,
     "theme": "absurdo",
@@ -2377,7 +2377,7 @@
   },
   {
     "id": "memes-a5",
-    "text": "O caramelinho que herdou a praça.",
+    "text": "O caramelinho dono da praça.",
     "pack": "memes",
     "pick": 0,
     "theme": "memes",
@@ -2395,7 +2395,7 @@
   },
   {
     "id": "memes-a7",
-    "text": "A transmissão ao vivo do próprio bolso.",
+    "text": "Uma live de dentro do bolso.",
     "pack": "memes",
     "pick": 0,
     "theme": "vergonha",
@@ -2404,16 +2404,16 @@
   },
   {
     "id": "memes-a8",
-    "text": "O dinossauro do navegador tendo que trabalhar com internet.",
+    "text": "O dinossauro no dia de folga.",
     "pack": "memes",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "memes",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "memes-a9",
-    "text": "A versão estendida do “só mais cinco minutinhos”.",
+    "text": "Mais cinco minutinhos.",
     "pack": "memes",
     "pick": 0,
     "theme": "memes",
@@ -2431,7 +2431,7 @@
   },
   {
     "id": "memes-a11",
-    "text": "O textão de despedida num grupo silenciado desde 2017.",
+    "text": "Sair do grupo fazendo textão.",
     "pack": "memes",
     "pick": 0,
     "theme": "vergonha",
@@ -2467,7 +2467,7 @@
   },
   {
     "id": "memes-a15",
-    "text": "A curtida numa foto de 2012 durante a investigação.",
+    "text": "Curtir a foto de 2012.",
     "pack": "memes",
     "pick": 0,
     "theme": "vergonha",
@@ -2476,7 +2476,7 @@
   },
   {
     "id": "memes-a16",
-    "text": "Um extraterrestre pedindo para trocar de planeta na garantia.",
+    "text": "Um ET pedindo passagem de volta.",
     "pack": "memes",
     "pick": 0,
     "theme": "absurdo",
@@ -2485,10 +2485,10 @@
   },
   {
     "id": "memes-a17",
-    "text": "A tensão de ouvir “vem ver uma coisa” da cozinha.",
+    "text": "O “vem ver uma coisa” da cozinha.",
     "pack": "memes",
     "pick": 0,
-    "theme": "memes",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
@@ -2503,7 +2503,7 @@
   },
   {
     "id": "memes-a19",
-    "text": "O tutorial de carisma com zero visualizações.",
+    "text": "Um tutorial de carisma sem público.",
     "pack": "memes",
     "pick": 0,
     "theme": "vergonha",
@@ -2512,10 +2512,10 @@
   },
   {
     "id": "memes-a20",
-    "text": "A assinatura premium da voz da consciência.",
+    "text": "A consciência no viva-voz.",
     "pack": "memes",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
@@ -2530,7 +2530,7 @@
   },
   {
     "id": "memes-a22",
-    "text": "A textura de um feriado.",
+    "text": "Feriado de bolso.",
     "pack": "memes",
     "pick": 0,
     "theme": "nonsense",
@@ -2548,7 +2548,7 @@
   },
   {
     "id": "memes-a24",
-    "text": "Um gato dando avaliação de uma estrela para a humanidade.",
+    "text": "Um gato de saco cheio.",
     "pack": "memes",
     "pick": 0,
     "theme": "absurdo",
@@ -2557,7 +2557,7 @@
   },
   {
     "id": "memes-a25",
-    "text": "O áudio de “receba” tocando na reunião de condomínio.",
+    "text": "Um “RECEBA!” no meio da reunião.",
     "pack": "memes",
     "pick": 0,
     "theme": "memes",
@@ -2584,25 +2584,25 @@
   },
   {
     "id": "memes-a28",
-    "text": "A previsão do tempo para dentro de uma gaveta.",
+    "text": "Chuva dentro da gaveta.",
     "pack": "memes",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "nonsense",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "memes-a29",
-    "text": "O desespero de quem ouviu o próprio nome num áudio longo.",
+    "text": "Meu nome no áudio de oito minutos.",
     "pack": "memes",
     "pick": 0,
-    "theme": "memes",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "memes-a30",
-    "text": "A versão acústica do sinal de ocupado.",
+    "text": "Ocupado em versão acústica.",
     "pack": "memes",
     "pick": 0,
     "theme": "nonsense",
@@ -2611,10 +2611,10 @@
   },
   {
     "id": "memes-a31",
-    "text": "Uma enquete com uma resposta e nenhum voto.",
+    "text": "Uma enquete sem voto.",
     "pack": "memes",
     "pick": 0,
-    "theme": "vergonha",
+    "theme": "memes",
     "tone": "irreverente",
     "grammar": "nominal"
   },
@@ -2629,10 +2629,10 @@
   },
   {
     "id": "memes-a33",
-    "text": "O cachorro de óculos que parece entender imposto.",
+    "text": "O cachorro de óculos.",
     "pack": "memes",
     "pick": 0,
-    "theme": "memes",
+    "theme": "absurdo",
     "tone": "irreverente",
     "grammar": "nominal"
   },
@@ -2647,25 +2647,7 @@
   },
   {
     "id": "memes-a35",
-    "text": "O selo de verificado do perfil fake de uma samambaia.",
-    "pack": "memes",
-    "pick": 0,
-    "theme": "vergonha",
-    "tone": "irreverente",
-    "grammar": "nominal"
-  },
-  {
-    "id": "memes-a36",
-    "text": "Uma nuvem salvando backup em outra nuvem.",
-    "pack": "memes",
-    "pick": 0,
-    "theme": "absurdo",
-    "tone": "irreverente",
-    "grammar": "nominal"
-  },
-  {
-    "id": "memes-a37",
-    "text": "A ameaça de um “depois a gente conversa”.",
+    "text": "Uma samambaia verificada.",
     "pack": "memes",
     "pick": 0,
     "theme": "memes",
@@ -2673,8 +2655,26 @@
     "grammar": "nominal"
   },
   {
+    "id": "memes-a36",
+    "text": "O backup do backup.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a37",
+    "text": "Um “depois a gente conversa”.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
     "id": "memes-a38",
-    "text": "Uma empada em formato de argumento.",
+    "text": "Empada de argumento.",
     "pack": "memes",
     "pick": 0,
     "theme": "nonsense",
@@ -2683,7 +2683,7 @@
   },
   {
     "id": "memes-a39",
-    "text": "A selfie com o flash refletido na própria testa.",
+    "text": "O flash na testa.",
     "pack": "memes",
     "pick": 0,
     "theme": "vergonha",
@@ -2692,7 +2692,7 @@
   },
   {
     "id": "memes-a40",
-    "text": "O serviço de localização de um bumerangue perdido.",
+    "text": "Um bumerangue sem volta.",
     "pack": "memes",
     "pick": 0,
     "theme": "absurdo",
@@ -2701,7 +2701,7 @@
   },
   {
     "id": "acido-q1",
-    "text": "O Vaticano pediu um parecer técnico sobre ________.",
+    "text": "O Vaticano pediu explicações sobre ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "religiao",
@@ -2719,7 +2719,7 @@
   },
   {
     "id": "acido-q3",
-    "text": "O diagnóstico veio acompanhado de uma ilustração de ________.",
+    "text": "O médico desenhou ________ no laudo.",
     "pack": "acido",
     "pick": 1,
     "theme": "medicina",
@@ -2728,7 +2728,7 @@
   },
   {
     "id": "acido-q4",
-    "text": "O documentário revelou que o tirano tinha medo de ________.",
+    "text": "O tirano tremia de medo de ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "historia",
@@ -2737,7 +2737,7 @@
   },
   {
     "id": "acido-q5",
-    "text": "O exorcista pediu reforços depois de ouvir ________.",
+    "text": "O exorcista desistiu depois de ver ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "religiao",
@@ -2755,7 +2755,7 @@
   },
   {
     "id": "acido-q7",
-    "text": "O congresso de medicina suspendeu a palestra sobre ________.",
+    "text": "O congresso médico proibiu a palestra sobre ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "medicina",
@@ -2764,10 +2764,10 @@
   },
   {
     "id": "acido-q8",
-    "text": "O museu do fracasso reservou uma ala inteira para ________.",
+    "text": "Meu velório vai ter ________.",
     "pack": "acido",
     "pick": 1,
-    "theme": "historia",
+    "theme": "morte",
     "tone": "acido",
     "grammar": "nominal-slots"
   },
@@ -2782,7 +2782,7 @@
   },
   {
     "id": "acido-q10",
-    "text": "A Morte pediu férias depois de conhecer ________.",
+    "text": "A Morte justificou as férias assim: ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "morte",
@@ -2800,7 +2800,7 @@
   },
   {
     "id": "acido-q12",
-    "text": "O julgamento do ditador foi interrompido pela chegada de ________.",
+    "text": "O julgamento do ditador parou por causa de ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "historia",
@@ -2809,7 +2809,7 @@
   },
   {
     "id": "acido-q13",
-    "text": "A confissão foi encaminhada para o departamento de ________.",
+    "text": "O padre ouviu minha confissão e recomendou ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "religiao",
@@ -2818,7 +2818,7 @@
   },
   {
     "id": "acido-q14",
-    "text": "O médium encerrou a sessão quando a mensagem do além revelou ________.",
+    "text": "A mensagem do além só dizia ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "morte",
@@ -2836,7 +2836,7 @@
   },
   {
     "id": "acido-q16",
-    "text": "O bunker nazista virou um depósito municipal de ________.",
+    "text": "O bunker nazista virou depósito de ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "historia",
@@ -2881,7 +2881,7 @@
   },
   {
     "id": "acido-a1",
-    "text": "O anjo da guarda pedindo troca de turno.",
+    "text": "O anjo da guarda de saco cheio.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -2890,7 +2890,7 @@
   },
   {
     "id": "acido-a2",
-    "text": "Um fantasma preso na música de espera do além.",
+    "text": "Um fantasma na espera telefônica.",
     "pack": "acido",
     "pick": 0,
     "theme": "morte",
@@ -2899,7 +2899,7 @@
   },
   {
     "id": "acido-a3",
-    "text": "Hemorroidas com prioridade de embarque.",
+    "text": "Hemorroidas na fila preferencial.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -2908,7 +2908,7 @@
   },
   {
     "id": "acido-a4",
-    "text": "A carteirinha de superioridade racial de um nazista, impressa na seção de piadas.",
+    "text": "Um nazista vaiado pela própria tropa.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -2917,7 +2917,7 @@
   },
   {
     "id": "acido-a5",
-    "text": "Um demônio expulso por som de obra às sete da manhã.",
+    "text": "O demônio fugindo do barulho da obra.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -2926,7 +2926,7 @@
   },
   {
     "id": "acido-a6",
-    "text": "O túmulo do inventor da tecla soneca tocando a cada dez minutos.",
+    "text": "A soneca eterna.",
     "pack": "acido",
     "pick": 0,
     "theme": "morte",
@@ -2935,7 +2935,7 @@
   },
   {
     "id": "acido-a7",
-    "text": "Uma radiografia com marca-d'água de banco de imagens.",
+    "text": "Uma radiografia de banco de imagens.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -2944,7 +2944,7 @@
   },
   {
     "id": "acido-a8",
-    "text": "O bigodinho nazista usado para limpar o ralo do museu da vergonha.",
+    "text": "O bigodinho nazista limpando ralo.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -2962,16 +2962,16 @@
   },
   {
     "id": "acido-a10",
-    "text": "Um necromante que só consegue ressuscitar plantas de escritório.",
+    "text": "Um necromante de samambaia.",
     "pack": "acido",
     "pick": 0,
-    "theme": "morte",
+    "theme": "religiao",
     "tone": "acido",
     "grammar": "nominal"
   },
   {
     "id": "acido-a11",
-    "text": "A carência de seis meses para uma emergência de ontem.",
+    "text": "A carência da emergência.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -2989,16 +2989,16 @@
   },
   {
     "id": "acido-a13",
-    "text": "O apocalipse adiado por falta de quórum.",
+    "text": "O apocalipse sem quórum.",
     "pack": "acido",
     "pick": 0,
-    "theme": "religiao",
+    "theme": "morte",
     "tone": "acido",
     "grammar": "nominal"
   },
   {
     "id": "acido-a14",
-    "text": "Uma coroa de flores com a faixa “foi mal qualquer coisa”.",
+    "text": "Uma coroa de flores com “foi mal”.",
     "pack": "acido",
     "pick": 0,
     "theme": "morte",
@@ -3007,7 +3007,7 @@
   },
   {
     "id": "acido-a15",
-    "text": "Um jaleco com patrocínio de desentupidora.",
+    "text": "Um jaleco de desentupidora.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -3016,7 +3016,7 @@
   },
   {
     "id": "acido-a16",
-    "text": "O álibi de um faraó: “eu já estava mumificado”.",
+    "text": "O faraó dizendo “eu já tava morto”.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -3025,7 +3025,7 @@
   },
   {
     "id": "acido-a17",
-    "text": "Um exorcismo por chamada de vídeo com o demônio no mudo.",
+    "text": "Um exorcismo com o demônio no mudo.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -3034,7 +3034,7 @@
   },
   {
     "id": "acido-a18",
-    "text": "O ceifador tentando passar a foice no detector de metais.",
+    "text": "A foice no detector de metais.",
     "pack": "acido",
     "pick": 0,
     "theme": "morte",
@@ -3043,7 +3043,7 @@
   },
   {
     "id": "acido-a19",
-    "text": "Uma pomada cujo efeito colateral é sinceridade.",
+    "text": "A pomada que arde pra caralho.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -3061,7 +3061,7 @@
   },
   {
     "id": "acido-a21",
-    "text": "O setor de achados e perdidos do Juízo Final.",
+    "text": "Os achados e perdidos do Juízo Final.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -3079,7 +3079,7 @@
   },
   {
     "id": "acido-a23",
-    "text": "Uma colonoscopia com comentarista esportivo.",
+    "text": "Uma colonoscopia narrada.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -3088,7 +3088,7 @@
   },
   {
     "id": "acido-a24",
-    "text": "Uma máquina do tempo usada para devolver o troco de um faraó.",
+    "text": "O troco do faraó.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -3106,7 +3106,7 @@
   },
   {
     "id": "acido-a26",
-    "text": "O finado entrando no grupo só para pedir que parem de mandar bom-dia.",
+    "text": "O finado saindo do grupo.",
     "pack": "acido",
     "pick": 0,
     "theme": "morte",
@@ -3115,7 +3115,7 @@
   },
   {
     "id": "acido-a27",
-    "text": "Um exame de fezes com defesa de tese.",
+    "text": "Um exame de fezes oral.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -3124,7 +3124,7 @@
   },
   {
     "id": "acido-a28",
-    "text": "A invasão medieval cancelada porque a escada era de abrir.",
+    "text": "Uma invasão medieval pela porta de serviço.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -3133,7 +3133,7 @@
   },
   {
     "id": "acido-a29",
-    "text": "O diabo devolvendo uma alma por defeito de fabricação.",
+    "text": "Uma alma com defeito.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -3160,7 +3160,7 @@
   },
   {
     "id": "acido-a32",
-    "text": "A rendição de um ditador escrita em guardanapo de festa infantil.",
+    "text": "A rendição do ditador no guardanapo.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -3169,7 +3169,7 @@
   },
   {
     "id": "acido-a33",
-    "text": "Um santo de gesso solicitando fisioterapia.",
+    "text": "Um santo de gesso sem cabeça.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -3178,16 +3178,16 @@
   },
   {
     "id": "acido-a34",
-    "text": "A fila de reencarnação parada por falta de senha.",
+    "text": "A fila da reencarnação.",
     "pack": "acido",
     "pick": 0,
-    "theme": "morte",
+    "theme": "religiao",
     "tone": "acido",
     "grammar": "nominal"
   },
   {
     "id": "acido-a35",
-    "text": "O direito de imagem de uma hemorroida gigante.",
+    "text": "Uma hemorroida no pior ângulo.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -3196,7 +3196,7 @@
   },
   {
     "id": "acido-a36",
-    "text": "Um fóssil registrado como testemunha ocular.",
+    "text": "Um fóssil de testemunha.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -3205,7 +3205,7 @@
   },
   {
     "id": "acido-a37",
-    "text": "O coral celestial ensaiando a música do caminhão de gás.",
+    "text": "O coral cantando a música do gás.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -3214,7 +3214,7 @@
   },
   {
     "id": "acido-a38",
-    "text": "Uma lápide com QR code levando ao cardápio errado.",
+    "text": "O QR code errado na lápide.",
     "pack": "acido",
     "pick": 0,
     "theme": "morte",
@@ -3223,7 +3223,7 @@
   },
   {
     "id": "acido-a39",
-    "text": "O cirurgião fictício dizendo “sobrou uma pecinha”.",
+    "text": "O “sobrou uma pecinha” do cirurgião.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -3232,7 +3232,7 @@
   },
   {
     "id": "acido-a40",
-    "text": "A tropa nazista perdida seguindo um mapa de caça ao tesouro infantil.",
+    "text": "Uma tropa nazista perdida no próprio quintal.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -3241,7 +3241,7 @@
   },
   {
     "id": "quinta-a41",
-    "text": "O silêncio respeitoso depois de uma descarga que não resolveu.",
+    "text": "Cagar no banheiro da visita.",
     "pack": "quinta",
     "pick": 0,
     "theme": "escatologia",
@@ -3250,7 +3250,7 @@
   },
   {
     "id": "quinta-a42",
-    "text": "A etiqueta de preço pendurada no discurso motivacional.",
+    "text": "O preço na sola do sapato.",
     "pack": "quinta",
     "pick": 0,
     "theme": "vergonha",
@@ -3259,7 +3259,7 @@
   },
   {
     "id": "quinta-a43",
-    "text": "Três patos se passando por um encanador.",
+    "text": "Três patos de capacete.",
     "pack": "quinta",
     "pick": 0,
     "theme": "absurdo",
@@ -3268,7 +3268,7 @@
   },
   {
     "id": "quinta-a44",
-    "text": "A cueca aposentada com honras militares.",
+    "text": "A última cueca limpa.",
     "pack": "quinta",
     "pick": 0,
     "theme": "escatologia",
@@ -3277,7 +3277,7 @@
   },
   {
     "id": "quinta-a45",
-    "text": "Cinquenta tons de bege molhado.",
+    "text": "Bege de sunga.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -3286,7 +3286,7 @@
   },
   {
     "id": "quinta-a46",
-    "text": "O aceno destinado à pessoa atrás de mim.",
+    "text": "Gritar “eu te amo” pro carro errado.",
     "pack": "quinta",
     "pick": 0,
     "theme": "vergonha",
@@ -3295,7 +3295,7 @@
   },
   {
     "id": "quinta-a47",
-    "text": "O pum preso na reunião de alinhamento.",
+    "text": "O pum preso na reunião.",
     "pack": "quinta",
     "pick": 0,
     "theme": "escatologia",
@@ -3304,16 +3304,7 @@
   },
   {
     "id": "quinta-a48",
-    "text": "Uma batata contratada para melhorar o clima.",
-    "pack": "quinta",
-    "pick": 0,
-    "theme": "absurdo",
-    "tone": "irreverente",
-    "grammar": "nominal"
-  },
-  {
-    "id": "quinta-a49",
-    "text": "O sabor de uma decisão judicial.",
+    "text": "Batata sem contexto.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -3321,8 +3312,17 @@
     "grammar": "nominal"
   },
   {
+    "id": "quinta-a49",
+    "text": "O bafo de café velho.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
     "id": "quinta-a50",
-    "text": "A saliva voadora durante uma declaração de amor.",
+    "text": "Cuspir sem querer no primeiro encontro.",
     "pack": "quinta",
     "pick": 0,
     "theme": "vergonha",
@@ -3331,7 +3331,7 @@
   },
   {
     "id": "quinta-a51",
-    "text": "O cocô cenográfico que a perícia levou a sério.",
+    "text": "Um cocô de mentira.",
     "pack": "quinta",
     "pick": 0,
     "theme": "escatologia",
@@ -3340,7 +3340,7 @@
   },
   {
     "id": "quinta-a52",
-    "text": "A inauguração de um buraco portátil.",
+    "text": "Um buraco no chão do palco.",
     "pack": "quinta",
     "pick": 0,
     "theme": "absurdo",
@@ -3349,7 +3349,7 @@
   },
   {
     "id": "quinta-a53",
-    "text": "O aplauso solitário no momento errado.",
+    "text": "Pedir bis de um discurso de demissão.",
     "pack": "quinta",
     "pick": 0,
     "theme": "vergonha",
@@ -3358,7 +3358,7 @@
   },
   {
     "id": "quinta-a54",
-    "text": "Dois litros de silêncio com gás.",
+    "text": "Silêncio com gás.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -3367,7 +3367,7 @@
   },
   {
     "id": "quinta-a55",
-    "text": "A diarreia interrompida pelo reconhecimento facial.",
+    "text": "Diarreia no banheiro com senha.",
     "pack": "quinta",
     "pick": 0,
     "theme": "escatologia",
@@ -3376,7 +3376,7 @@
   },
   {
     "id": "quinta-a56",
-    "text": "Um bode na comissão de boas-vindas.",
+    "text": "Um bode na recepção.",
     "pack": "quinta",
     "pick": 0,
     "theme": "absurdo",
@@ -3385,7 +3385,7 @@
   },
   {
     "id": "quinta-a57",
-    "text": "O abraço demorado num manequim.",
+    "text": "Abraçar um manequim.",
     "pack": "quinta",
     "pick": 0,
     "theme": "vergonha",
@@ -3394,7 +3394,7 @@
   },
   {
     "id": "quinta-a58",
-    "text": "A descarga tocando o hino em dó menor.",
+    "text": "A descarga enguiçada.",
     "pack": "quinta",
     "pick": 0,
     "theme": "escatologia",
@@ -3403,7 +3403,7 @@
   },
   {
     "id": "quinta-a59",
-    "text": "O conceito de almoço vendido por unidade.",
+    "text": "Meio almoço.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -3412,7 +3412,7 @@
   },
   {
     "id": "quinta-a60",
-    "text": "Uma cadeira de praia no tribunal internacional.",
+    "text": "Uma cadeira de praia no tribunal.",
     "pack": "quinta",
     "pick": 0,
     "theme": "absurdo",
@@ -3421,7 +3421,7 @@
   },
   {
     "id": "quinta-a61",
-    "text": "O dente de alface promovido a protagonista.",
+    "text": "Alface no dente da frente.",
     "pack": "quinta",
     "pick": 0,
     "theme": "vergonha",
@@ -3430,7 +3430,7 @@
   },
   {
     "id": "quinta-a62",
-    "text": "A certidão de nascimento de um peido lendário.",
+    "text": "Um peido com testemunhas.",
     "pack": "quinta",
     "pick": 0,
     "theme": "escatologia",
@@ -3439,16 +3439,16 @@
   },
   {
     "id": "quinta-a63",
-    "text": "A fiscalização surpresa do sindicato dos duendes.",
+    "text": "Uma cagada com plateia.",
     "pack": "quinta",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "escatologia",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "quinta-a64",
-    "text": "Gel de cabelo para pensamentos arrepiados.",
+    "text": "Gel de sovaco.",
     "pack": "quinta",
     "pick": 0,
     "theme": "nonsense",
@@ -3457,7 +3457,7 @@
   },
   {
     "id": "quinta-a65",
-    "text": "A mensagem de voz gravada com a boca cheia de farofa.",
+    "text": "Um áudio mastigando farofa.",
     "pack": "quinta",
     "pick": 0,
     "theme": "vergonha",
@@ -3466,7 +3466,7 @@
   },
   {
     "id": "quinta-a66",
-    "text": "O banheiro químico de luxo com manobrista.",
+    "text": "Banheiro químico com manobrista.",
     "pack": "quinta",
     "pick": 0,
     "theme": "escatologia",
@@ -3475,7 +3475,7 @@
   },
   {
     "id": "quinta-a67",
-    "text": "Uma capivara exigindo reconhecimento de firma.",
+    "text": "Uma capivara de chinelo.",
     "pack": "quinta",
     "pick": 0,
     "theme": "absurdo",
@@ -3484,7 +3484,7 @@
   },
   {
     "id": "quinta-q21",
-    "text": "O regulamento do churrasco proíbe expressamente ________.",
+    "text": "O churrasco proibiu ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "absurdo",
@@ -3502,7 +3502,7 @@
   },
   {
     "id": "quinta-q23",
-    "text": "O brinde da festa foi substituído às pressas por ________.",
+    "text": "A festa distribuiu ________ de lembrancinha.",
     "pack": "quinta",
     "pick": 1,
     "theme": "absurdo",
@@ -3511,7 +3511,7 @@
   },
   {
     "id": "quinta-q24",
-    "text": "Meu último neurônio pediu demissão depois de processar ________.",
+    "text": "O jantar romântico acabou em ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "absurdo",
@@ -3520,7 +3520,7 @@
   },
   {
     "id": "quinta-q25",
-    "text": "A excursão terminou no momento em que alguém apresentou ________.",
+    "text": "A excursão foi cancelada por ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "absurdo",
@@ -3529,7 +3529,7 @@
   },
   {
     "id": "quinta-q26",
-    "text": "Na mala despachada, a fiscalização encontrou ________.",
+    "text": "A fiscalização encontrou ________ na minha mala.",
     "pack": "quinta",
     "pick": 1,
     "theme": "absurdo",
@@ -3538,7 +3538,7 @@
   },
   {
     "id": "quinta-q27",
-    "text": "O concurso de talentos foi suspenso por excesso de ________.",
+    "text": "O concurso foi suspenso por excesso de ________.",
     "pack": "quinta",
     "pick": 1,
     "theme": "absurdo",
@@ -3565,7 +3565,7 @@
   },
   {
     "id": "quinta-q30",
-    "text": "O churrasco começou com ________ e terminou com um boletim de ocorrência sobre ________.",
+    "text": "O churrasco começou com ________ e virou ocorrência por ________.",
     "pack": "quinta",
     "pick": 2,
     "theme": "absurdo",
@@ -3574,7 +3574,7 @@
   },
   {
     "id": "brasil-a41",
-    "text": "A senha do guichê que só abre em anos bissextos.",
+    "text": "A fila das seis da manhã.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -3583,7 +3583,7 @@
   },
   {
     "id": "brasil-a42",
-    "text": "O pé de coelho cobrando direitos de imagem.",
+    "text": "Pé de coelho de crochê.",
     "pack": "brasil",
     "pick": 0,
     "theme": "supersticao",
@@ -3592,7 +3592,7 @@
   },
   {
     "id": "brasil-a43",
-    "text": "A caravela com rodinhas de bicicleta.",
+    "text": "Uma caravela de rodinha.",
     "pack": "brasil",
     "pick": 0,
     "theme": "historia",
@@ -3601,7 +3601,7 @@
   },
   {
     "id": "brasil-a44",
-    "text": "O carro do ovo fazendo pedido de silêncio.",
+    "text": "O carro do ovo na marcha nupcial.",
     "pack": "brasil",
     "pick": 0,
     "theme": "absurdo",
@@ -3610,7 +3610,7 @@
   },
   {
     "id": "brasil-a45",
-    "text": "A segunda via do documento que nunca existiu.",
+    "text": "A segunda via do nada.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -3619,7 +3619,7 @@
   },
   {
     "id": "brasil-a46",
-    "text": "A sacola de sacolas apresentada como patrimônio.",
+    "text": "A sacola de sacolas.",
     "pack": "brasil",
     "pick": 0,
     "theme": "vergonha",
@@ -3628,7 +3628,7 @@
   },
   {
     "id": "brasil-a47",
-    "text": "A ferradura instalada de cabeça para baixo por um estagiário.",
+    "text": "A simpatia feita com miojo.",
     "pack": "brasil",
     "pick": 0,
     "theme": "supersticao",
@@ -3637,7 +3637,7 @@
   },
   {
     "id": "brasil-a48",
-    "text": "Um imperador deposto por assembleia de condomínio.",
+    "text": "Um imperador de chinelo e meia.",
     "pack": "brasil",
     "pick": 0,
     "theme": "historia",
@@ -3646,7 +3646,7 @@
   },
   {
     "id": "brasil-a49",
-    "text": "O reconhecimento de firma do próprio carimbo.",
+    "text": "O carimbo sem tinta.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -3655,7 +3655,7 @@
   },
   {
     "id": "brasil-a50",
-    "text": "A máquina de caldo de cana operando como banco central.",
+    "text": "Caldo de cana com espuma.",
     "pack": "brasil",
     "pick": 0,
     "theme": "absurdo",
@@ -3664,7 +3664,7 @@
   },
   {
     "id": "brasil-a51",
-    "text": "A escada dobrável vendendo proteção contra azar.",
+    "text": "Passar por baixo da escada por economia.",
     "pack": "brasil",
     "pick": 0,
     "theme": "supersticao",
@@ -3673,7 +3673,7 @@
   },
   {
     "id": "brasil-a52",
-    "text": "O pote de sorvete cheio de feijão e expectativas destruídas.",
+    "text": "Feijão no pote de sorvete.",
     "pack": "brasil",
     "pick": 0,
     "theme": "vergonha",
@@ -3682,7 +3682,7 @@
   },
   {
     "id": "brasil-a53",
-    "text": "A taxa de conveniência para sofrer pessoalmente.",
+    "text": "Uma taxa pra sofrer sentado.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -3691,16 +3691,16 @@
   },
   {
     "id": "brasil-a54",
-    "text": "O motoboy entregando uma tempestade de chinelo.",
+    "text": "O motoboy de chinelo.",
     "pack": "brasil",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "brasil-a55",
-    "text": "A independência proclamada num grupo silenciado.",
+    "text": "A independência no grupo silenciado.",
     "pack": "brasil",
     "pick": 0,
     "theme": "historia",
@@ -3709,7 +3709,7 @@
   },
   {
     "id": "brasil-a56",
-    "text": "Um despacho devolvido por endereço insuficiente.",
+    "text": "Um despacho no endereço errado.",
     "pack": "brasil",
     "pick": 0,
     "theme": "supersticao",
@@ -3718,7 +3718,7 @@
   },
   {
     "id": "brasil-a57",
-    "text": "O formulário impresso para solicitar menos papel.",
+    "text": "O formulário pra gastar menos papel.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -3727,7 +3727,7 @@
   },
   {
     "id": "brasil-a58",
-    "text": "O vendedor de pamonha narrando uma perseguição policial.",
+    "text": "O carro da pamonha na contramão.",
     "pack": "brasil",
     "pick": 0,
     "theme": "absurdo",
@@ -3736,7 +3736,7 @@
   },
   {
     "id": "brasil-a59",
-    "text": "O bom dia obrigatório na fila do açougue.",
+    "text": "Dar bom-dia pro açougue inteiro.",
     "pack": "brasil",
     "pick": 0,
     "theme": "vergonha",
@@ -3745,7 +3745,7 @@
   },
   {
     "id": "brasil-a60",
-    "text": "A previsão astrológica emitida pela borra do café requentado.",
+    "text": "Café requentado com previsão do futuro.",
     "pack": "brasil",
     "pick": 0,
     "theme": "supersticao",
@@ -3754,7 +3754,7 @@
   },
   {
     "id": "brasil-a61",
-    "text": "Um tratado internacional assinado com caneta de bingo.",
+    "text": "Uma coroa comprada no armarinho.",
     "pack": "brasil",
     "pick": 0,
     "theme": "historia",
@@ -3763,7 +3763,7 @@
   },
   {
     "id": "brasil-a62",
-    "text": "A fiscalização exigindo alvará do arco-íris.",
+    "text": "A vistoria do puxadinho.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -3772,16 +3772,16 @@
   },
   {
     "id": "brasil-a63",
-    "text": "Um ônibus clandestino só para plantas de apartamento.",
+    "text": "A samambaia no assento preferencial.",
     "pack": "brasil",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "brasil-a64",
-    "text": "A visita que levou a própria marmita e ficou três dias.",
+    "text": "Uma visita de três dias.",
     "pack": "brasil",
     "pick": 0,
     "theme": "vergonha",
@@ -3790,7 +3790,7 @@
   },
   {
     "id": "brasil-a65",
-    "text": "O trevo de quatro folhas perdendo uma no pedágio.",
+    "text": "O trevo sem sorte.",
     "pack": "brasil",
     "pick": 0,
     "theme": "supersticao",
@@ -3799,7 +3799,7 @@
   },
   {
     "id": "brasil-a66",
-    "text": "A ouvidoria encaminhando a reclamação para o eco.",
+    "text": "Música de espera por quarenta minutos.",
     "pack": "brasil",
     "pick": 0,
     "theme": "burocracia",
@@ -3808,7 +3808,7 @@
   },
   {
     "id": "brasil-a67",
-    "text": "O saco de pão francês usado como megafone oficial.",
+    "text": "Um megafone de saco de pão.",
     "pack": "brasil",
     "pick": 0,
     "theme": "absurdo",
@@ -3817,7 +3817,7 @@
   },
   {
     "id": "brasil-q21",
-    "text": "O novo feriado nacional celebra ________.",
+    "text": "O novo feriado celebra ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "burocracia",
@@ -3826,7 +3826,7 @@
   },
   {
     "id": "brasil-q22",
-    "text": "No museu da cidade, o objeto mais disputado é ________.",
+    "text": "Trouxe da praia uma foto de ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "burocracia",
@@ -3835,7 +3835,7 @@
   },
   {
     "id": "brasil-q23",
-    "text": "A fila só andou depois que apareceu ________.",
+    "text": "A fila só andou depois de ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "burocracia",
@@ -3844,7 +3844,7 @@
   },
   {
     "id": "brasil-q24",
-    "text": "Minha avó jura que espanta mau-olhado usando ________.",
+    "text": "Minha avó espanta mau-olhado com ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "burocracia",
@@ -3853,7 +3853,7 @@
   },
   {
     "id": "brasil-q25",
-    "text": "A cápsula do tempo da praça continha ________.",
+    "text": "O vizinho pediu emprestado ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "burocracia",
@@ -3862,7 +3862,7 @@
   },
   {
     "id": "brasil-q26",
-    "text": "O manual do condomínio dedica três páginas a ________.",
+    "text": "O condomínio tem três regras sobre ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "burocracia",
@@ -3889,7 +3889,7 @@
   },
   {
     "id": "brasil-q29",
-    "text": "O guia turístico omitiu qualquer menção a ________.",
+    "text": "A discussão na padaria começou por ________.",
     "pack": "brasil",
     "pick": 1,
     "theme": "burocracia",
@@ -3898,7 +3898,7 @@
   },
   {
     "id": "brasil-q30",
-    "text": "Para autenticar ________, o cartório exige duas testemunhas e ________.",
+    "text": "Pra autenticar ________, preciso de testemunha e ________.",
     "pack": "brasil",
     "pick": 2,
     "theme": "burocracia",
@@ -3907,7 +3907,16 @@
   },
   {
     "id": "escola-a41",
-    "text": "A maquete de vulcão expelindo mingau frio.",
+    "text": "Um vulcão de mingau frio.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a42",
+    "text": "A alternativa E numa prova de quatro opções.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -3915,17 +3924,8 @@
     "grammar": "nominal"
   },
   {
-    "id": "escola-a42",
-    "text": "A resposta certa escrita na prova errada.",
-    "pack": "escola",
-    "pick": 0,
-    "theme": "vergonha",
-    "tone": "irreverente",
-    "grammar": "nominal"
-  },
-  {
     "id": "escola-a43",
-    "text": "O grupo de trabalho formado por mim e minhas dúvidas.",
+    "text": "Trabalho em dupla comigo mesmo.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -3934,7 +3934,7 @@
   },
   {
     "id": "escola-a44",
-    "text": "O esqueleto do laboratório pedindo transferência.",
+    "text": "O osso que sobrou no laboratório.",
     "pack": "escola",
     "pick": 0,
     "theme": "absurdo",
@@ -3943,7 +3943,7 @@
   },
   {
     "id": "escola-a45",
-    "text": "A calculadora exibindo apenas decepção.",
+    "text": "A pilha vazia da calculadora.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -3952,7 +3952,7 @@
   },
   {
     "id": "escola-a46",
-    "text": "O microfone aberto durante o ensaio da desculpa.",
+    "text": "O microfone ligado na hora da desculpa.",
     "pack": "escola",
     "pick": 0,
     "theme": "vergonha",
@@ -3961,7 +3961,7 @@
   },
   {
     "id": "escola-a47",
-    "text": "Uma redação sobre sustentabilidade impressa em lona.",
+    "text": "A redação de sustentabilidade em lona.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -3970,16 +3970,16 @@
   },
   {
     "id": "escola-a48",
-    "text": "A eleição do apagador para representante de turma.",
+    "text": "Eleger o apagador.",
     "pack": "escola",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "estudante",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "escola-a49",
-    "text": "O nome errado bordado na faixa de homenagem.",
+    "text": "O nome errado na homenagem.",
     "pack": "escola",
     "pick": 0,
     "theme": "vergonha",
@@ -3988,7 +3988,7 @@
   },
   {
     "id": "escola-a50",
-    "text": "A cola tão pequena que exige telescópio.",
+    "text": "A cola ilegível.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -3997,7 +3997,7 @@
   },
   {
     "id": "escola-a51",
-    "text": "A raiz quadrada de um recreio cancelado.",
+    "text": "Recreio ao quadrado.",
     "pack": "escola",
     "pick": 0,
     "theme": "nonsense",
@@ -4006,7 +4006,7 @@
   },
   {
     "id": "escola-a52",
-    "text": "O slide de referências citando o tio da cantina.",
+    "text": "O tio da cantina na bibliografia.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -4015,7 +4015,7 @@
   },
   {
     "id": "escola-a53",
-    "text": "A apresentação encerrada com um gemido da cadeira.",
+    "text": "Uma cadeira gemendo na apresentação.",
     "pack": "escola",
     "pick": 0,
     "theme": "vergonha",
@@ -4024,7 +4024,7 @@
   },
   {
     "id": "escola-a54",
-    "text": "O troféu do interclasse feito de purê.",
+    "text": "Purê no troféu.",
     "pack": "escola",
     "pick": 0,
     "theme": "absurdo",
@@ -4033,7 +4033,7 @@
   },
   {
     "id": "escola-a55",
-    "text": "O experimento de germinação que pediu pensão.",
+    "text": "Feijão brotando no estojo.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -4042,7 +4042,7 @@
   },
   {
     "id": "escola-a56",
-    "text": "O professor fictício elogiando um arquivo corrompido.",
+    "text": "O elogio ao trabalho de outra turma.",
     "pack": "escola",
     "pick": 0,
     "theme": "vergonha",
@@ -4051,7 +4051,7 @@
   },
   {
     "id": "escola-a57",
-    "text": "Uma mochila cheia de livros que não são deste ano.",
+    "text": "Os livros do ano passado.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -4060,7 +4060,7 @@
   },
   {
     "id": "escola-a58",
-    "text": "A cantina aceitando figurinhas como garantia imobiliária.",
+    "text": "Figurinha valendo fiado na cantina.",
     "pack": "escola",
     "pick": 0,
     "theme": "absurdo",
@@ -4069,7 +4069,7 @@
   },
   {
     "id": "escola-a59",
-    "text": "O cronograma de estudos começando em 32 de fevereiro.",
+    "text": "Estudar no dia 32 de fevereiro.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -4078,7 +4078,7 @@
   },
   {
     "id": "escola-a60",
-    "text": "O discurso ensaiado na frente da sala vazia.",
+    "text": "Um discurso pra sala vazia.",
     "pack": "escola",
     "pick": 0,
     "theme": "vergonha",
@@ -4087,16 +4087,16 @@
   },
   {
     "id": "escola-a61",
-    "text": "A vírgula carregando o trabalho inteiro nas costas.",
+    "text": "Uma vírgula no lugar errado.",
     "pack": "escola",
     "pick": 0,
-    "theme": "nonsense",
+    "theme": "estudante",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "escola-a62",
-    "text": "A borracha com mais patrimônio que o grêmio.",
+    "text": "O patrimônio do grêmio: duas canetas.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -4105,7 +4105,7 @@
   },
   {
     "id": "escola-a63",
-    "text": "O projetor exibindo uma discussão entre dois pombos.",
+    "text": "Pombos no projetor.",
     "pack": "escola",
     "pick": 0,
     "theme": "absurdo",
@@ -4114,7 +4114,7 @@
   },
   {
     "id": "escola-a64",
-    "text": "A camiseta de campeão entregue ao último colocado.",
+    "text": "A faixa de campeão do último colocado.",
     "pack": "escola",
     "pick": 0,
     "theme": "vergonha",
@@ -4123,7 +4123,7 @@
   },
   {
     "id": "escola-a65",
-    "text": "O resumo de quarenta páginas que resume uma frase.",
+    "text": "O resumo maior que o livro.",
     "pack": "escola",
     "pick": 0,
     "theme": "estudante",
@@ -4132,16 +4132,16 @@
   },
   {
     "id": "escola-a66",
-    "text": "A chamada respondida pelo ventilador.",
+    "text": "Dormir sentado e responder “presente”.",
     "pack": "escola",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "escola-a67",
-    "text": "O certificado de participação na própria recuperação.",
+    "text": "O certificado da recuperação.",
     "pack": "escola",
     "pick": 0,
     "theme": "vergonha",
@@ -4150,7 +4150,7 @@
   },
   {
     "id": "escola-q21",
-    "text": "A feira de ciências foi evacuada depois da demonstração de ________.",
+    "text": "Minha última advertência foi por ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "estudante",
@@ -4159,7 +4159,7 @@
   },
   {
     "id": "escola-q22",
-    "text": "A pergunta bônus da prova valia ________.",
+    "text": "No lugar da resposta, desenhei ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "estudante",
@@ -4168,7 +4168,7 @@
   },
   {
     "id": "escola-q23",
-    "text": "O grêmio prometeu resolver tudo distribuindo ________.",
+    "text": "O grêmio prometeu distribuir ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "estudante",
@@ -4177,7 +4177,7 @@
   },
   {
     "id": "escola-q24",
-    "text": "A turma inteira recebeu uma advertência por causa de ________.",
+    "text": "A turma organizou uma vaquinha pra comprar ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "estudante",
@@ -4186,7 +4186,7 @@
   },
   {
     "id": "escola-q25",
-    "text": "O intercâmbio cultural trouxe de lembrança ________.",
+    "text": "Voltei do intercâmbio com ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "estudante",
@@ -4195,7 +4195,7 @@
   },
   {
     "id": "escola-q26",
-    "text": "A direção encontrou no armário de troféus ________.",
+    "text": "A direção achou ________ no armário de troféus.",
     "pack": "escola",
     "pick": 1,
     "theme": "estudante",
@@ -4213,7 +4213,7 @@
   },
   {
     "id": "escola-q28",
-    "text": "O trabalho em grupo ganhou um prêmio especial por ________.",
+    "text": "O trabalho ganhou um prêmio por ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "estudante",
@@ -4222,7 +4222,7 @@
   },
   {
     "id": "escola-q29",
-    "text": "Na reunião pedagógica, ninguém soube explicar ________.",
+    "text": "Na reunião dos pais, ninguém explicou ________.",
     "pack": "escola",
     "pick": 1,
     "theme": "estudante",
@@ -4240,7 +4240,7 @@
   },
   {
     "id": "economia-a41",
-    "text": "O ministro fictício inaugurando a própria desculpa.",
+    "text": "Inaugurar a própria desculpa.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -4249,7 +4249,7 @@
   },
   {
     "id": "economia-a42",
-    "text": "A nota de repúdio emitida em papel perfumado.",
+    "text": "Nota de repúdio perfumada.",
     "pack": "economia",
     "pick": 0,
     "theme": "burocracia",
@@ -4258,16 +4258,16 @@
   },
   {
     "id": "economia-a43",
-    "text": "O coaching de liderança para cones de trânsito.",
+    "text": "O crachá na testa.",
     "pack": "economia",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "economia-a44",
-    "text": "Uma CPI para investigar o sumiço da colher do café.",
+    "text": "Uma CPI da colher do café.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -4276,7 +4276,7 @@
   },
   {
     "id": "economia-a45",
-    "text": "O contrato de experiência com validade de oito minutos.",
+    "text": "O contrato de oito minutos.",
     "pack": "economia",
     "pick": 0,
     "theme": "burocracia",
@@ -4285,7 +4285,7 @@
   },
   {
     "id": "economia-a46",
-    "text": "A inflação do preço da saudade.",
+    "text": "Saudade no carnê.",
     "pack": "economia",
     "pick": 0,
     "theme": "nonsense",
@@ -4294,7 +4294,7 @@
   },
   {
     "id": "economia-a47",
-    "text": "O partido imaginário que terceirizou a oposição.",
+    "text": "O partido que terceirizou a oposição.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -4303,7 +4303,7 @@
   },
   {
     "id": "economia-a48",
-    "text": "A reunião de emergência para escolher a fonte da ata.",
+    "text": "A reunião que podia ser um grito.",
     "pack": "economia",
     "pick": 0,
     "theme": "vergonha",
@@ -4312,7 +4312,7 @@
   },
   {
     "id": "economia-a49",
-    "text": "O seguro contra ataques de gansos corporativos.",
+    "text": "Seguro contra ganso.",
     "pack": "economia",
     "pick": 0,
     "theme": "absurdo",
@@ -4321,7 +4321,7 @@
   },
   {
     "id": "economia-a50",
-    "text": "O comprovante de comparecimento à fila errada.",
+    "text": "O comprovante da fila errada.",
     "pack": "economia",
     "pick": 0,
     "theme": "burocracia",
@@ -4330,7 +4330,7 @@
   },
   {
     "id": "economia-a51",
-    "text": "A verba secreta para lubrificar promessas eleitorais.",
+    "text": "Uma verba pra lubrificar promessas.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -4339,7 +4339,7 @@
   },
   {
     "id": "economia-a52",
-    "text": "O rendimento negativo de uma ideia brilhante.",
+    "text": "Uma ideia de três centavos.",
     "pack": "economia",
     "pick": 0,
     "theme": "nonsense",
@@ -4348,7 +4348,7 @@
   },
   {
     "id": "economia-a53",
-    "text": "A dinâmica de integração que terminou em inventário.",
+    "text": "A dinâmica de grupo com choro.",
     "pack": "economia",
     "pick": 0,
     "theme": "vergonha",
@@ -4357,16 +4357,16 @@
   },
   {
     "id": "economia-a54",
-    "text": "Uma consultoria de produtividade para estátuas.",
+    "text": "Dormir no curso de produtividade.",
     "pack": "economia",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "economia-a55",
-    "text": "A licitação vencida por um carrinho de pipoca vazio.",
+    "text": "Um carrinho de pipoca na licitação.",
     "pack": "economia",
     "pick": 0,
     "theme": "burocracia",
@@ -4375,7 +4375,7 @@
   },
   {
     "id": "economia-a56",
-    "text": "O candidato fictício beijando uma impressora 3D.",
+    "text": "O candidato beijando um peixe.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -4384,7 +4384,7 @@
   },
   {
     "id": "economia-a57",
-    "text": "O bônus de fim de ano pago em elogios pendentes.",
+    "text": "O bônus pago em elogios.",
     "pack": "economia",
     "pick": 0,
     "theme": "vergonha",
@@ -4393,7 +4393,7 @@
   },
   {
     "id": "economia-a58",
-    "text": "A reunião de acionistas de um castelo de areia.",
+    "text": "Os acionistas do castelo de areia.",
     "pack": "economia",
     "pick": 0,
     "theme": "absurdo",
@@ -4402,7 +4402,7 @@
   },
   {
     "id": "economia-a59",
-    "text": "A reserva estratégica de nada engarrafado.",
+    "text": "Porra nenhuma.",
     "pack": "economia",
     "pick": 0,
     "theme": "nonsense",
@@ -4411,7 +4411,7 @@
   },
   {
     "id": "economia-a60",
-    "text": "O debate transmitido por dois papagaios imparciais.",
+    "text": "Dois papagaios no debate.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -4420,7 +4420,7 @@
   },
   {
     "id": "economia-a61",
-    "text": "O parecer técnico baseado no barulho do elevador.",
+    "text": "Um parecer escrito no elevador.",
     "pack": "economia",
     "pick": 0,
     "theme": "burocracia",
@@ -4429,16 +4429,16 @@
   },
   {
     "id": "economia-a62",
-    "text": "Um unicórnio demitido por não bater as metas.",
+    "text": "A demissão por falta de entusiasmo.",
     "pack": "economia",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "vergonha",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "economia-a63",
-    "text": "O chefe imaginário agradecendo à equipe que ele esqueceu de contratar.",
+    "text": "O chefe dizendo “somos uma família”.",
     "pack": "economia",
     "pick": 0,
     "theme": "vergonha",
@@ -4447,7 +4447,7 @@
   },
   {
     "id": "economia-a64",
-    "text": "A coligação eleitoral das cadeiras dobráveis.",
+    "text": "Uma coligação de cadeiras vazias.",
     "pack": "economia",
     "pick": 0,
     "theme": "politica",
@@ -4456,7 +4456,7 @@
   },
   {
     "id": "economia-a65",
-    "text": "O departamento de urgências com prazo de nove meses.",
+    "text": "A emergência agendada pra dezembro.",
     "pack": "economia",
     "pick": 0,
     "theme": "burocracia",
@@ -4465,7 +4465,7 @@
   },
   {
     "id": "economia-a66",
-    "text": "O PIB de uma festa que ninguém confirmou.",
+    "text": "O PIB da festa vazia.",
     "pack": "economia",
     "pick": 0,
     "theme": "nonsense",
@@ -4474,7 +4474,7 @@
   },
   {
     "id": "economia-a67",
-    "text": "A startup que aluga sogras holográficas.",
+    "text": "Aluguel de sogra.",
     "pack": "economia",
     "pick": 0,
     "theme": "absurdo",
@@ -4483,7 +4483,7 @@
   },
   {
     "id": "economia-q21",
-    "text": "O plano de governo fictício reserva um capítulo inteiro para ________.",
+    "text": "A empresa me demitiu por ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "politica",
@@ -4492,7 +4492,7 @@
   },
   {
     "id": "economia-q22",
-    "text": "A auditoria encontrou no cofre da empresa ________.",
+    "text": "O cofre da empresa guardava ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "politica",
@@ -4501,7 +4501,7 @@
   },
   {
     "id": "economia-q23",
-    "text": "O investidor desistiu ao descobrir que a garantia era ________.",
+    "text": "O RH pediu uma explicação sobre ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "politica",
@@ -4528,7 +4528,7 @@
   },
   {
     "id": "economia-q26",
-    "text": "O balanço anual classificou como ativo estratégico ________.",
+    "text": "O balanço chamou ________ de patrimônio.",
     "pack": "economia",
     "pick": 1,
     "theme": "politica",
@@ -4537,7 +4537,7 @@
   },
   {
     "id": "economia-q27",
-    "text": "A campanha publicitária gastou todo o orçamento promovendo ________.",
+    "text": "A propaganda gastou milhões promovendo ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "politica",
@@ -4546,7 +4546,7 @@
   },
   {
     "id": "economia-q28",
-    "text": "O treinamento corporativo ensinava a lidar com ________.",
+    "text": "O treinamento ensinou a aguentar ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "politica",
@@ -4555,7 +4555,7 @@
   },
   {
     "id": "economia-q29",
-    "text": "A comissão fictícia aprovou por unanimidade ________.",
+    "text": "A comissão fictícia aprovou ________.",
     "pack": "economia",
     "pick": 1,
     "theme": "politica",
@@ -4564,7 +4564,7 @@
   },
   {
     "id": "economia-q30",
-    "text": "O relatório chamou ________ de investimento e ________ de efeito colateral.",
+    "text": "A firma chamou ________ de investimento e ________ de prejuízo.",
     "pack": "economia",
     "pick": 2,
     "theme": "politica",
@@ -4573,7 +4573,16 @@
   },
   {
     "id": "memes-a41",
-    "text": "O admin pedindo desculpas em nome do grupo errado.",
+    "text": "Pedir desculpa no grupo errado.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a42",
+    "text": "Um tutorial pra fechar tutorial.",
     "pack": "memes",
     "pick": 0,
     "theme": "memes",
@@ -4581,17 +4590,8 @@
     "grammar": "nominal"
   },
   {
-    "id": "memes-a42",
-    "text": "Um tutorial de como fechar tutoriais.",
-    "pack": "memes",
-    "pick": 0,
-    "theme": "absurdo",
-    "tone": "irreverente",
-    "grammar": "nominal"
-  },
-  {
     "id": "memes-a43",
-    "text": "A live assistida só pelo próprio roteador.",
+    "text": "Uma live com zero pessoas.",
     "pack": "memes",
     "pick": 0,
     "theme": "vergonha",
@@ -4600,7 +4600,7 @@
   },
   {
     "id": "memes-a44",
-    "text": "O áudio acelerado até virar sinal de golfinho.",
+    "text": "Um áudio na velocidade do desespero.",
     "pack": "memes",
     "pick": 0,
     "theme": "memes",
@@ -4609,10 +4609,10 @@
   },
   {
     "id": "memes-a45",
-    "text": "A versão premium de uma dúvida gratuita.",
+    "text": "O selo premium de trouxa.",
     "pack": "memes",
     "pick": 0,
-    "theme": "nonsense",
+    "theme": "memes",
     "tone": "irreverente",
     "grammar": "nominal"
   },
@@ -4627,7 +4627,7 @@
   },
   {
     "id": "memes-a47",
-    "text": "O comentário sarcástico curtido pela pessoa criticada.",
+    "text": "A curtida da pessoa criticada.",
     "pack": "memes",
     "pick": 0,
     "theme": "vergonha",
@@ -4636,7 +4636,7 @@
   },
   {
     "id": "memes-a48",
-    "text": "A BOSTA3 anunciando viagem espacial de balde.",
+    "text": "O foguete de balde da BOSTA3.",
     "pack": "memes",
     "pick": 0,
     "theme": "absurdo",
@@ -4645,7 +4645,7 @@
   },
   {
     "id": "memes-a49",
-    "text": "O grupo da família discutindo a ética do miojo.",
+    "text": "Uma briga de família por miojo.",
     "pack": "memes",
     "pick": 0,
     "theme": "memes",
@@ -4663,7 +4663,7 @@
   },
   {
     "id": "memes-a51",
-    "text": "A selfie que saiu no reflexo da colher.",
+    "text": "A selfie no reflexo da colher.",
     "pack": "memes",
     "pick": 0,
     "theme": "vergonha",
@@ -4672,7 +4672,7 @@
   },
   {
     "id": "memes-a52",
-    "text": "O carrinho abandonado mandando mensagem carente.",
+    "text": "A mensagem carente da loja.",
     "pack": "memes",
     "pick": 0,
     "theme": "memes",
@@ -4681,16 +4681,16 @@
   },
   {
     "id": "memes-a53",
-    "text": "A senha forte feita só de nomes de sobremesa.",
+    "text": "Uma senha de nome de pudim.",
     "pack": "memes",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "memes",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "memes-a54",
-    "text": "O bot moderador banindo o próprio criador por respirar.",
+    "text": "O bot banindo o dono.",
     "pack": "memes",
     "pick": 0,
     "theme": "memes",
@@ -4699,7 +4699,7 @@
   },
   {
     "id": "memes-a55",
-    "text": "A declaração de amor com marca d'água do aplicativo.",
+    "text": "Amor com marca-d'água.",
     "pack": "memes",
     "pick": 0,
     "theme": "vergonha",
@@ -4708,7 +4708,7 @@
   },
   {
     "id": "memes-a56",
-    "text": "O download de um sentimento em conexão discada.",
+    "text": "Saudade em conexão discada.",
     "pack": "memes",
     "pick": 0,
     "theme": "nonsense",
@@ -4717,7 +4717,7 @@
   },
   {
     "id": "memes-a57",
-    "text": "A thread de quarenta posts para dizer talvez.",
+    "text": "Quarenta posts pra dizer talvez.",
     "pack": "memes",
     "pick": 0,
     "theme": "memes",
@@ -4726,7 +4726,7 @@
   },
   {
     "id": "memes-a58",
-    "text": "Um pombo aplicando golpe por reconhecimento facial.",
+    "text": "A porra do pombo.",
     "pack": "memes",
     "pick": 0,
     "theme": "absurdo",
@@ -4735,7 +4735,7 @@
   },
   {
     "id": "memes-a59",
-    "text": "A figurinha de bom dia enviada ao suporte técnico.",
+    "text": "Mandar bom-dia pro suporte.",
     "pack": "memes",
     "pick": 0,
     "theme": "vergonha",
@@ -4744,7 +4744,16 @@
   },
   {
     "id": "memes-a60",
-    "text": "O histórico de busca lido pelo narrador do elevador.",
+    "text": "O histórico de busca no telão.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a61",
+    "text": "O modem no modo foda-se.",
     "pack": "memes",
     "pick": 0,
     "theme": "memes",
@@ -4752,17 +4761,8 @@
     "grammar": "nominal"
   },
   {
-    "id": "memes-a61",
-    "text": "O modem exigindo terapia de casal.",
-    "pack": "memes",
-    "pick": 0,
-    "theme": "absurdo",
-    "tone": "irreverente",
-    "grammar": "nominal"
-  },
-  {
     "id": "memes-a62",
-    "text": "A notificação de que o vazio está digitando.",
+    "text": "O vazio digitando.",
     "pack": "memes",
     "pick": 0,
     "theme": "nonsense",
@@ -4771,7 +4771,7 @@
   },
   {
     "id": "memes-a63",
-    "text": "A BOSTA3 vendendo assinatura de descarga em nuvem.",
+    "text": "A descarga por assinatura da BOSTA3.",
     "pack": "memes",
     "pick": 0,
     "theme": "memes",
@@ -4780,7 +4780,7 @@
   },
   {
     "id": "memes-a64",
-    "text": "O unboxing de uma caixa que veio sem caixa.",
+    "text": "O unboxing do pacote errado.",
     "pack": "memes",
     "pick": 0,
     "theme": "vergonha",
@@ -4789,16 +4789,16 @@
   },
   {
     "id": "memes-a65",
-    "text": "O influenciador virtual sendo cancelado por uma torradeira.",
+    "text": "O selo de otário do mês.",
     "pack": "memes",
     "pick": 0,
-    "theme": "absurdo",
+    "theme": "memes",
     "tone": "irreverente",
     "grammar": "nominal"
   },
   {
     "id": "memes-a66",
-    "text": "O algoritmo recomendando o próprio velório digital.",
+    "text": "O algoritmo me chamando de velho.",
     "pack": "memes",
     "pick": 0,
     "theme": "memes",
@@ -4807,7 +4807,7 @@
   },
   {
     "id": "memes-q21",
-    "text": "O algoritmo decidiu que meu maior interesse é ________.",
+    "text": "A foto do encontro mostrava ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "memes",
@@ -4834,7 +4834,7 @@
   },
   {
     "id": "memes-q24",
-    "text": "A inteligência artificial confundiu meu currículo com ________.",
+    "text": "A IA confundiu meu currículo com ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "memes",
@@ -4843,7 +4843,7 @@
   },
   {
     "id": "memes-q25",
-    "text": "O anúncio prometia resolver minha vida com ________.",
+    "text": "O anúncio prometia resolver tudo com ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "memes",
@@ -4861,7 +4861,7 @@
   },
   {
     "id": "memes-q27",
-    "text": "O vídeo caiu por mostrar detalhadamente ________.",
+    "text": "O vídeo foi removido por mostrar ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "memes",
@@ -4870,7 +4870,7 @@
   },
   {
     "id": "memes-q28",
-    "text": "A nova atualização adicionou apenas ________.",
+    "text": "O último desejo antes de sair do grupo foi ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "memes",
@@ -4879,7 +4879,7 @@
   },
   {
     "id": "memes-q29",
-    "text": "A comunidade criou uma teoria inteira para explicar ________.",
+    "text": "A internet criou uma teoria sobre ________.",
     "pack": "memes",
     "pick": 1,
     "theme": "memes",
@@ -4897,7 +4897,7 @@
   },
   {
     "id": "acido-a41",
-    "text": "A hemorroida disputando o banco da janela.",
+    "text": "Sentar de ladinho.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -4906,7 +4906,7 @@
   },
   {
     "id": "acido-a42",
-    "text": "O velório com intervalo para os patrocinadores.",
+    "text": "O velório com intervalo comercial.",
     "pack": "acido",
     "pick": 0,
     "theme": "morte",
@@ -4915,7 +4915,7 @@
   },
   {
     "id": "acido-a43",
-    "text": "O exorcista tentando desligar e ligar a possessão.",
+    "text": "Reiniciar o possuído.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -4924,7 +4924,7 @@
   },
   {
     "id": "acido-a44",
-    "text": "O ditador derrotado num debate com a própria escova de dentes.",
+    "text": "Um tirano vencido por W.O.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -4933,7 +4933,7 @@
   },
   {
     "id": "acido-a45",
-    "text": "Um exame de próstata narrado como final de campeonato.",
+    "text": "O dedo gelado do proctologista.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -4951,16 +4951,16 @@
   },
   {
     "id": "acido-a47",
-    "text": "O fantasma reclamando da acústica do castelo.",
+    "text": "O fantasma do inquilino caloteiro.",
     "pack": "acido",
     "pick": 0,
-    "theme": "religiao",
+    "theme": "morte",
     "tone": "acido",
     "grammar": "nominal"
   },
   {
     "id": "acido-a48",
-    "text": "A maca com avaliação de uma estrela no aplicativo.",
+    "text": "Uma maca sem freio.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -4969,7 +4969,7 @@
   },
   {
     "id": "acido-a49",
-    "text": "O ceifador parado na alfândega com uma foice de plástico.",
+    "text": "A foice de brinquedo.",
     "pack": "acido",
     "pick": 0,
     "theme": "morte",
@@ -4978,7 +4978,7 @@
   },
   {
     "id": "acido-a50",
-    "text": "A sessão espírita interrompida por telemarketing do além.",
+    "text": "Telemarketing na sessão espírita.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -4987,7 +4987,7 @@
   },
   {
     "id": "acido-a51",
-    "text": "O supremacista perdendo o concurso de superioridade para uma lesma.",
+    "text": "Um supremacista derrotado por uma lesma.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -4996,7 +4996,7 @@
   },
   {
     "id": "acido-a52",
-    "text": "O prontuário descrevendo o paciente como levemente crocante.",
+    "text": "Um prontuário escrito “crocante”.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -5005,7 +5005,7 @@
   },
   {
     "id": "acido-a53",
-    "text": "A cremação com programa de pontos.",
+    "text": "Cremação com milhas.",
     "pack": "acido",
     "pick": 0,
     "theme": "morte",
@@ -5014,7 +5014,7 @@
   },
   {
     "id": "acido-a54",
-    "text": "O demônio solicitando adicional de insalubridade.",
+    "text": "O capeta fazendo hora extra.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -5023,7 +5023,7 @@
   },
   {
     "id": "acido-a55",
-    "text": "A pomada de hemorroida com aplicador de selfie.",
+    "text": "A pomada trocada pela pasta de dente.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -5032,7 +5032,7 @@
   },
   {
     "id": "acido-a56",
-    "text": "O defunto fictício levantando para corrigir a playlist.",
+    "text": "O defunto corrigindo a playlist.",
     "pack": "acido",
     "pick": 0,
     "theme": "morte",
@@ -5041,7 +5041,7 @@
   },
   {
     "id": "acido-a57",
-    "text": "Um exorcismo terceirizado para o suporte da impressora.",
+    "text": "O exorcista no modo tutorial.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -5050,7 +5050,7 @@
   },
   {
     "id": "acido-a58",
-    "text": "A estátua do tirano reaproveitada como suporte de varal.",
+    "text": "A estátua do tirano virando varal.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -5059,7 +5059,7 @@
   },
   {
     "id": "acido-a59",
-    "text": "A colonoscopia transmitida acidentalmente no telão do congresso.",
+    "text": "Uma colonoscopia no telão.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -5068,7 +5068,7 @@
   },
   {
     "id": "acido-a60",
-    "text": "O testamento deixando todas as dívidas ao ego do falecido.",
+    "text": "Um testamento só de dívidas.",
     "pack": "acido",
     "pick": 0,
     "theme": "morte",
@@ -5086,7 +5086,7 @@
   },
   {
     "id": "acido-a62",
-    "text": "O anestesista fictício contando carneirinhos em voz alta.",
+    "text": "Contar carneirinhos com o anestesista.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -5095,7 +5095,7 @@
   },
   {
     "id": "acido-a63",
-    "text": "A lápide com espaço reservado para avaliação do atendimento.",
+    "text": "Uma lápide com avaliação de atendimento.",
     "pack": "acido",
     "pick": 0,
     "theme": "morte",
@@ -5104,7 +5104,7 @@
   },
   {
     "id": "acido-a64",
-    "text": "A assombração dispensada por falta de experiência comprovada.",
+    "text": "Uma assombração de chinelo.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -5113,7 +5113,7 @@
   },
   {
     "id": "acido-a65",
-    "text": "Uma medalha de tirania derretida para virar abridor de latas.",
+    "text": "A medalha de tirania virando abridor.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -5122,7 +5122,7 @@
   },
   {
     "id": "acido-a66",
-    "text": "O raio-X revelando um recibo de pastel no lugar da coragem.",
+    "text": "O raio-X da vergonha.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -5131,16 +5131,16 @@
   },
   {
     "id": "acido-q21",
-    "text": "O fantasma só aceitou deixar a casa em troca de ________.",
+    "text": "O fantasma pediu ________ pra deixar a casa.",
     "pack": "acido",
     "pick": 1,
-    "theme": "morte",
+    "theme": "religiao",
     "tone": "acido",
     "grammar": "nominal-slots"
   },
   {
     "id": "acido-q22",
-    "text": "A causa fictícia do falecimento foi registrada como ________.",
+    "text": "A causa da morte fictícia foi ________.",
     "pack": "acido",
     "pick": 1,
     "theme": "morte",
@@ -5149,73 +5149,73 @@
   },
   {
     "id": "acido-q23",
-    "text": "O exorcismo precisou ser adiado por falta de ________.",
+    "text": "O exorcismo foi adiado por falta de ________.",
     "pack": "acido",
     "pick": 1,
-    "theme": "morte",
+    "theme": "religiao",
     "tone": "acido",
     "grammar": "nominal-slots"
   },
   {
     "id": "acido-q24",
-    "text": "A equipe médica fictícia pediu licença para consultar ________.",
+    "text": "O cirurgião abriu e encontrou ________.",
     "pack": "acido",
     "pick": 1,
-    "theme": "morte",
+    "theme": "medicina",
     "tone": "acido",
     "grammar": "nominal-slots"
   },
   {
     "id": "acido-q25",
-    "text": "O museu das piores ditaduras reservou a entrada para ________.",
+    "text": "O museu das ditaduras expôs ________ na entrada.",
     "pack": "acido",
     "pick": 1,
-    "theme": "morte",
+    "theme": "historia",
     "tone": "acido",
     "grammar": "nominal-slots"
   },
   {
     "id": "acido-q26",
-    "text": "Na fila do além, a prioridade é de quem apresenta ________.",
+    "text": "Na fila do além, tem prioridade quem traz ________.",
     "pack": "acido",
     "pick": 1,
-    "theme": "morte",
+    "theme": "religiao",
     "tone": "acido",
     "grammar": "nominal-slots"
   },
   {
     "id": "acido-q27",
-    "text": "O laboratório proibiu comentários sobre ________.",
+    "text": "O exame de rotina virou notícia por ________.",
     "pack": "acido",
     "pick": 1,
-    "theme": "morte",
+    "theme": "medicina",
     "tone": "acido",
     "grammar": "nominal-slots"
   },
   {
     "id": "acido-q28",
-    "text": "A nova ala do inferno é dedicada exclusivamente a ________.",
+    "text": "A nova ala do inferno é só pra ________.",
     "pack": "acido",
     "pick": 1,
-    "theme": "morte",
+    "theme": "religiao",
     "tone": "acido",
     "grammar": "nominal-slots"
   },
   {
     "id": "acido-q29",
-    "text": "O vilão histórico foi reduzido a uma nota de rodapé sobre ________.",
+    "text": "O tirano foi vaiado ao anunciar ________.",
     "pack": "acido",
     "pick": 1,
-    "theme": "morte",
+    "theme": "historia",
     "tone": "acido",
     "grammar": "nominal-slots"
   },
   {
     "id": "acido-q30",
-    "text": "O médium previu ________, mas o espírito só queria reclamar de ________.",
+    "text": "O médium previu ________; o espírito reclamou de ________.",
     "pack": "acido",
     "pick": 2,
-    "theme": "morte",
+    "theme": "religiao",
     "tone": "acido",
     "grammar": "nominal-slots"
   }

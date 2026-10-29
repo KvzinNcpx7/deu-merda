@@ -1,0 +1,842 @@
+[
+  {
+    "id": "V3-001",
+    "tabus": false,
+    "pergunta": "quinta-q30",
+    "respostas": ["escola-a63", "memes-a24"],
+    "texto": "O churrasco começou com [Pombos no projetor] e virou ocorrência por [Um gato de saco cheio]."
+  },
+  {
+    "id": "V3-002",
+    "tabus": false,
+    "pergunta": "brasil-q18",
+    "respostas": ["escola-a5", "memes-a47"],
+    "texto": "Quebrei um espelho. Recebi sete anos de [O slide “inserir conclusão impactante aqui”] e um mês de [A curtida da pessoa criticada]."
+  },
+  {
+    "id": "V3-003",
+    "tabus": false,
+    "pergunta": "escola-q17",
+    "respostas": ["brasil-a33", "quinta-a12"],
+    "texto": "Estudei [A taxa de conveniência do inconveniente]. A prova inteira era sobre [Tijolo cru]."
+  },
+  {
+    "id": "V3-004",
+    "tabus": false,
+    "pergunta": "economia-q20",
+    "respostas": ["brasil-a5", "escola-a10"],
+    "texto": "O slogan era “menos [Uma senha vencida], mais [Quarenta páginas para concluir “depende”]”."
+  },
+  {
+    "id": "V3-005",
+    "tabus": false,
+    "pergunta": "memes-q17",
+    "respostas": ["quinta-a47", "economia-a36"],
+    "texto": "O tutorial prometia [O pum preso na reunião]. No final, invocou [Pagar quatro e levar três]."
+  },
+  {
+    "id": "V3-006",
+    "tabus": false,
+    "pergunta": "quinta-q27",
+    "respostas": ["memes-a56"],
+    "texto": "O concurso foi suspenso por excesso de [Saudade em conexão discada]."
+  },
+  {
+    "id": "V3-007",
+    "tabus": false,
+    "pergunta": "brasil-q13",
+    "respostas": ["quinta-a16"],
+    "texto": "No programa de domingo, o prêmio era [Quarta-feira, porra]."
+  },
+  {
+    "id": "V3-008",
+    "tabus": false,
+    "pergunta": "escola-q10",
+    "respostas": ["brasil-a7"],
+    "texto": "A resposta que zerou a prova inteira foi [O cachorro caramelo na faixa presidencial]."
+  },
+  {
+    "id": "V3-009",
+    "tabus": false,
+    "pergunta": "economia-q2",
+    "respostas": ["brasil-a34"],
+    "texto": "A auditoria descobriu uma verba secreta para [A sexta-feira 13 caindo numa segunda]."
+  },
+  {
+    "id": "V3-010",
+    "tabus": false,
+    "pergunta": "memes-q9",
+    "respostas": ["brasil-a36"],
+    "texto": "A prova do reality envolve [A chinelada inaugural]."
+  },
+  {
+    "id": "V3-011",
+    "tabus": false,
+    "pergunta": "quinta-q28",
+    "respostas": ["escola-a21"],
+    "texto": "Meu cachorro trouxe do quintal [Um vulcão de bicarbonato interditado]."
+  },
+  {
+    "id": "V3-012",
+    "tabus": false,
+    "pergunta": "brasil-q29",
+    "respostas": ["quinta-a34"],
+    "texto": "A discussão na padaria começou por [Dançar sozinho no elevador]."
+  },
+  {
+    "id": "V3-013",
+    "tabus": false,
+    "pergunta": "escola-q28",
+    "respostas": ["economia-a31"],
+    "texto": "O trabalho ganhou um prêmio por [Uma indireta diplomática]."
+  },
+  {
+    "id": "V3-014",
+    "tabus": false,
+    "pergunta": "economia-q8",
+    "respostas": ["brasil-a64"],
+    "texto": "O dinheiro do reino acabou na compra de [Uma visita de três dias]."
+  },
+  {
+    "id": "V3-015",
+    "tabus": false,
+    "pergunta": "memes-q7",
+    "respostas": ["brasil-a12"],
+    "texto": "O vídeo viral começa exatamente quando aparece [Uma pirâmide torta]."
+  },
+  {
+    "id": "V3-016",
+    "tabus": false,
+    "pergunta": "quinta-q19",
+    "respostas": ["economia-a67", "memes-a58"],
+    "texto": "No aplicativo, prometia [Aluguel de sogra]. Pessoalmente, entregou [A porra do pombo]."
+  },
+  {
+    "id": "V3-017",
+    "tabus": false,
+    "pergunta": "brasil-q20",
+    "respostas": ["escola-a30", "memes-a60"],
+    "texto": "A expedição procurava [Uma medalha por fugir do interclasse]. Voltou trazendo [O histórico de busca no telão]."
+  },
+  {
+    "id": "V3-018",
+    "tabus": false,
+    "pergunta": "escola-q19",
+    "respostas": ["memes-a30", "economia-a39"],
+    "texto": "Na escola do futuro, [Ocupado em versão acústica] substituiu [Desculpa em prestação]."
+  },
+  {
+    "id": "V3-019",
+    "tabus": false,
+    "pergunta": "economia-q20",
+    "respostas": ["quinta-a64", "escola-a25"],
+    "texto": "O slogan era “menos [Gel de sovaco], mais [O diploma impresso em modo rascunho]”."
+  },
+  {
+    "id": "V3-020",
+    "tabus": false,
+    "pergunta": "memes-q30",
+    "respostas": ["quinta-a31", "brasil-a18"],
+    "texto": "A internet chamou [Doping no campeonato de dominó] de tendência; minha família chamou de [Sete anos de azar divididos sem juros]."
+  },
+  {
+    "id": "V3-021",
+    "tabus": false,
+    "pergunta": "quinta-q22",
+    "respostas": ["escola-a17"],
+    "texto": "O vizinho chamou a polícia para denunciar [O toque de celular no solo de flauta]."
+  },
+  {
+    "id": "V3-022",
+    "tabus": false,
+    "pergunta": "brasil-q27",
+    "respostas": ["quinta-a45"],
+    "texto": "O cartório recusou o pedido por falta de [Bege de sunga]."
+  },
+  {
+    "id": "V3-023",
+    "tabus": false,
+    "pergunta": "escola-q5",
+    "respostas": ["quinta-a38"],
+    "texto": "O discurso de formatura começou com [Piscar os dois olhos ao mesmo tempo]."
+  },
+  {
+    "id": "V3-024",
+    "tabus": false,
+    "pergunta": "economia-q2",
+    "respostas": ["escola-a15"],
+    "texto": "A auditoria descobriu uma verba secreta para [A reunião dos repetentes]."
+  },
+  {
+    "id": "V3-025",
+    "tabus": false,
+    "pergunta": "memes-q29",
+    "respostas": ["quinta-a54"],
+    "texto": "A internet criou uma teoria sobre [Silêncio com gás]."
+  },
+  {
+    "id": "V3-026",
+    "tabus": false,
+    "pergunta": "quinta-q26",
+    "respostas": ["brasil-a5"],
+    "texto": "A fiscalização encontrou [Uma senha vencida] na minha mala."
+  },
+  {
+    "id": "V3-027",
+    "tabus": false,
+    "pergunta": "brasil-q15",
+    "respostas": ["memes-a7"],
+    "texto": "No último vagão do trem, só havia [Uma live de dentro do bolso]."
+  },
+  {
+    "id": "V3-028",
+    "tabus": false,
+    "pergunta": "escola-q6",
+    "respostas": ["memes-a35"],
+    "texto": "A mascote da escola foi substituída por [Uma samambaia verificada]."
+  },
+  {
+    "id": "V3-029",
+    "tabus": false,
+    "pergunta": "economia-q4",
+    "respostas": ["memes-a19"],
+    "texto": "O debate eleitoral foi decidido por [Um tutorial de carisma sem público]."
+  },
+  {
+    "id": "V3-030",
+    "tabus": false,
+    "pergunta": "memes-q14",
+    "respostas": ["economia-a60"],
+    "texto": "A atualização corrigiu bugs e acrescentou [Dois papagaios no debate]."
+  },
+  {
+    "id": "V3-031",
+    "tabus": false,
+    "pergunta": "quinta-q20",
+    "respostas": ["escola-a63", "economia-a18"],
+    "texto": "Troquei [Pombos no projetor] por [Moeda de carrinho]. Não aceito devolução."
+  },
+  {
+    "id": "V3-032",
+    "tabus": false,
+    "pergunta": "brasil-q20",
+    "respostas": ["quinta-a2", "economia-a28"],
+    "texto": "A expedição procurava [Aplausos no momento errado]. Voltou trazendo [O Ministério de Deixar pra Depois]."
+  },
+  {
+    "id": "V3-033",
+    "tabus": false,
+    "pergunta": "escola-q30",
+    "respostas": ["brasil-a51", "quinta-a40"],
+    "texto": "A hipótese era [Passar por baixo da escada por economia]; o resultado do experimento foi [Vácuo de pote]."
+  },
+  {
+    "id": "V3-034",
+    "tabus": false,
+    "pergunta": "economia-q19",
+    "respostas": ["quinta-a64", "brasil-a17"],
+    "texto": "Compre [Gel de sovaco] e leve [Uma declaração de impressora sem tinta] inteiramente de graça."
+  },
+  {
+    "id": "V3-035",
+    "tabus": false,
+    "pergunta": "memes-q20",
+    "respostas": ["quinta-a55", "economia-a57"],
+    "texto": "Paguei por [Diarreia no banheiro com senha]. A entrega foi [O bônus pago em elogios]."
+  },
+  {
+    "id": "V3-036",
+    "tabus": false,
+    "pergunta": "quinta-q24",
+    "respostas": ["economia-a29"],
+    "texto": "O jantar romântico acabou em [O adicional de aturar o chefe]."
+  },
+  {
+    "id": "V3-037",
+    "tabus": false,
+    "pergunta": "brasil-q26",
+    "respostas": ["memes-a35"],
+    "texto": "O condomínio tem três regras sobre [Uma samambaia verificada]."
+  },
+  {
+    "id": "V3-038",
+    "tabus": false,
+    "pergunta": "escola-q4",
+    "respostas": ["brasil-a1"],
+    "texto": "O professor aceitou tudo, menos [A certidão do cartório]."
+  },
+  {
+    "id": "V3-039",
+    "tabus": false,
+    "pergunta": "economia-q28",
+    "respostas": ["quinta-a28"],
+    "texto": "O treinamento ensinou a aguentar [Água mastigável]."
+  },
+  {
+    "id": "V3-040",
+    "tabus": false,
+    "pergunta": "memes-q29",
+    "respostas": ["brasil-a20"],
+    "texto": "A internet criou uma teoria sobre [Um boleto pré-histórico]."
+  },
+  {
+    "id": "V3-041",
+    "tabus": false,
+    "pergunta": "quinta-q10",
+    "respostas": ["brasil-a57"],
+    "texto": "O encanador cobrou extra por [O formulário pra gastar menos papel]."
+  },
+  {
+    "id": "V3-042",
+    "tabus": false,
+    "pergunta": "brasil-q7",
+    "respostas": ["escola-a14"],
+    "texto": "O novo patrimônio cultural da cidade é [O nome do arquivo “agora_vai_final_9”]."
+  },
+  {
+    "id": "V3-043",
+    "tabus": false,
+    "pergunta": "escola-q24",
+    "respostas": ["quinta-a45"],
+    "texto": "A turma organizou uma vaquinha pra comprar [Bege de sunga]."
+  },
+  {
+    "id": "V3-044",
+    "tabus": false,
+    "pergunta": "economia-q24",
+    "respostas": ["brasil-a34"],
+    "texto": "A reunião podia ter sido substituída por [A sexta-feira 13 caindo numa segunda]."
+  },
+  {
+    "id": "V3-045",
+    "tabus": false,
+    "pergunta": "memes-q28",
+    "respostas": ["brasil-a63"],
+    "texto": "O último desejo antes de sair do grupo foi [A samambaia no assento preferencial]."
+  },
+  {
+    "id": "V3-046",
+    "tabus": false,
+    "pergunta": "quinta-q19",
+    "respostas": ["economia-a21", "escola-a55"],
+    "texto": "No aplicativo, prometia [Petróleo de pastel]. Pessoalmente, entregou [Feijão brotando no estojo]."
+  },
+  {
+    "id": "V3-047",
+    "tabus": false,
+    "pergunta": "brasil-q30",
+    "respostas": ["escola-a27", "quinta-a24"],
+    "texto": "Pra autenticar [A multa da biblioteca], preciso de testemunha e [Purê de expectativas]."
+  },
+  {
+    "id": "V3-048",
+    "tabus": false,
+    "pergunta": "escola-q18",
+    "respostas": ["quinta-a61", "memes-a22"],
+    "texto": "Prometeram [Alface no dente da frente] na formatura e entregaram [Feriado de bolso]."
+  },
+  {
+    "id": "V3-049",
+    "tabus": false,
+    "pergunta": "economia-q19",
+    "respostas": ["quinta-a24", "escola-a52"],
+    "texto": "Compre [Purê de expectativas] e leve [O tio da cantina na bibliografia] inteiramente de graça."
+  },
+  {
+    "id": "V3-050",
+    "tabus": false,
+    "pergunta": "memes-q19",
+    "respostas": ["quinta-a32", "economia-a11"],
+    "texto": "Postei [Agachar pra soltar um pum] achando que era [O assessor do assessor]."
+  },
+  {
+    "id": "V3-051",
+    "tabus": false,
+    "pergunta": "quinta-q28",
+    "respostas": ["brasil-a45"],
+    "texto": "Meu cachorro trouxe do quintal [A segunda via do nada]."
+  },
+  {
+    "id": "V3-052",
+    "tabus": false,
+    "pergunta": "brasil-q29",
+    "respostas": ["economia-a31"],
+    "texto": "A discussão na padaria começou por [Uma indireta diplomática]."
+  },
+  {
+    "id": "V3-053",
+    "tabus": false,
+    "pergunta": "escola-q5",
+    "respostas": ["memes-a61"],
+    "texto": "O discurso de formatura começou com [O modem no modo foda-se]."
+  },
+  {
+    "id": "V3-054",
+    "tabus": false,
+    "pergunta": "economia-q21",
+    "respostas": ["memes-a15"],
+    "texto": "A empresa me demitiu por [Curtir a foto de 2012]."
+  },
+  {
+    "id": "V3-055",
+    "tabus": false,
+    "pergunta": "memes-q13",
+    "respostas": ["quinta-a59"],
+    "texto": "O bordão nasceu de [Meio almoço]."
+  },
+  {
+    "id": "V3-056",
+    "tabus": false,
+    "pergunta": "quinta-q11",
+    "respostas": ["brasil-a1"],
+    "texto": "A cápsula do tempo continha apenas [A certidão do cartório]."
+  },
+  {
+    "id": "V3-057",
+    "tabus": false,
+    "pergunta": "brasil-q7",
+    "respostas": ["escola-a61"],
+    "texto": "O novo patrimônio cultural da cidade é [Uma vírgula no lugar errado]."
+  },
+  {
+    "id": "V3-058",
+    "tabus": false,
+    "pergunta": "escola-q2",
+    "respostas": ["memes-a55"],
+    "texto": "O diretor abriu minha mochila e encontrou [Amor com marca-d'água]."
+  },
+  {
+    "id": "V3-059",
+    "tabus": false,
+    "pergunta": "economia-q21",
+    "respostas": ["quinta-a34"],
+    "texto": "A empresa me demitiu por [Dançar sozinho no elevador]."
+  },
+  {
+    "id": "V3-060",
+    "tabus": false,
+    "pergunta": "memes-q23",
+    "respostas": ["quinta-a9"],
+    "texto": "A BOSTA3 anunciou como próxima inovação [Peidar e culpar o cachorro]."
+  },
+  {
+    "id": "V3-061",
+    "tabus": true,
+    "pergunta": "quinta-q20",
+    "respostas": ["economia-a18", "escola-a55"],
+    "texto": "Troquei [Moeda de carrinho] por [Feijão brotando no estojo]. Não aceito devolução."
+  },
+  {
+    "id": "V3-062",
+    "tabus": true,
+    "pergunta": "brasil-q18",
+    "respostas": ["memes-a9", "economia-a40"],
+    "texto": "Quebrei um espelho. Recebi sete anos de [Mais cinco minutinhos] e um mês de [O impeachment de um boneco de posto]."
+  },
+  {
+    "id": "V3-063",
+    "tabus": true,
+    "pergunta": "escola-q17",
+    "respostas": ["quinta-a1", "brasil-a26"],
+    "texto": "Estudei [Arrotos em código Morse]. A prova inteira era sobre [Sal grosso vencido]."
+  },
+  {
+    "id": "V3-064",
+    "tabus": true,
+    "pergunta": "economia-q18",
+    "respostas": ["escola-a48", "quinta-a15"],
+    "texto": "A prestação de contas classificou [Eleger o apagador] como [Chamar a sogra de amor]."
+  },
+  {
+    "id": "V3-065",
+    "tabus": true,
+    "pergunta": "memes-q17",
+    "respostas": ["quinta-a24", "economia-a16"],
+    "texto": "O tutorial prometia [Purê de expectativas]. No final, invocou [Um partido dividido em três pessoas]."
+  },
+  {
+    "id": "V3-066",
+    "tabus": true,
+    "pergunta": "acido-q20",
+    "respostas": ["brasil-a22", "escola-a12"],
+    "texto": "O tirano queria ser lembrado por [Ler a mão errada]. Virou sinônimo de [Borracha mastigada]."
+  },
+  {
+    "id": "V3-067",
+    "tabus": true,
+    "pergunta": "quinta-q14",
+    "respostas": ["economia-a10"],
+    "texto": "A placa de banheiro interditado mostra [Uma promessa vencida]."
+  },
+  {
+    "id": "V3-068",
+    "tabus": true,
+    "pergunta": "brasil-q2",
+    "respostas": ["quinta-a11"],
+    "texto": "A simpatia só dá certo se você levar [A dignidade pelo ralo]."
+  },
+  {
+    "id": "V3-069",
+    "tabus": true,
+    "pergunta": "escola-q25",
+    "respostas": ["memes-a56"],
+    "texto": "Voltei do intercâmbio com [Saudade em conexão discada]."
+  },
+  {
+    "id": "V3-070",
+    "tabus": true,
+    "pergunta": "economia-q6",
+    "respostas": ["quinta-a24"],
+    "texto": "Meu primeiro salário foi gasto em [Purê de expectativas]."
+  },
+  {
+    "id": "V3-071",
+    "tabus": true,
+    "pergunta": "memes-q27",
+    "respostas": ["economia-a37"],
+    "texto": "O vídeo foi removido por mostrar [O ditador do condomínio]."
+  },
+  {
+    "id": "V3-072",
+    "tabus": true,
+    "pergunta": "acido-q15",
+    "respostas": ["economia-a20"],
+    "texto": "O exame detectou níveis alarmantes de [Quarenta tesouras de inauguração]."
+  },
+  {
+    "id": "V3-073",
+    "tabus": true,
+    "pergunta": "quinta-q6",
+    "respostas": ["memes-a22"],
+    "texto": "A única regra do banheiro é evitar [Feriado de bolso]."
+  },
+  {
+    "id": "V3-074",
+    "tabus": true,
+    "pergunta": "brasil-q27",
+    "respostas": ["economia-a47"],
+    "texto": "O cartório recusou o pedido por falta de [O partido que terceirizou a oposição]."
+  },
+  {
+    "id": "V3-075",
+    "tabus": true,
+    "pergunta": "escola-q21",
+    "respostas": ["quinta-a51"],
+    "texto": "Minha última advertência foi por [Um cocô de mentira]."
+  },
+  {
+    "id": "V3-076",
+    "tabus": true,
+    "pergunta": "economia-q13",
+    "respostas": ["escola-a12"],
+    "texto": "O ministro fictício caiu depois de anunciar [Borracha mastigada]."
+  },
+  {
+    "id": "V3-077",
+    "tabus": true,
+    "pergunta": "memes-q27",
+    "respostas": ["escola-a45"],
+    "texto": "O vídeo foi removido por mostrar [A pilha vazia da calculadora]."
+  },
+  {
+    "id": "V3-078",
+    "tabus": true,
+    "pergunta": "acido-q27",
+    "respostas": ["escola-a23"],
+    "texto": "O exame de rotina virou notícia por [O “beijo” no final do e-mail para a coordenação]."
+  },
+  {
+    "id": "V3-079",
+    "tabus": true,
+    "pergunta": "quinta-q18",
+    "respostas": ["brasil-a29", "memes-a64"],
+    "texto": "O cheiro indicava [Um alvará rabiscado], mas a perícia confirmou [O unboxing do pacote errado]."
+  },
+  {
+    "id": "V3-080",
+    "tabus": true,
+    "pergunta": "brasil-q20",
+    "respostas": ["quinta-a66", "economia-a50"],
+    "texto": "A expedição procurava [Banheiro químico com manobrista]. Voltou trazendo [O comprovante da fila errada]."
+  },
+  {
+    "id": "V3-081",
+    "tabus": true,
+    "pergunta": "escola-q30",
+    "respostas": ["quinta-a28", "memes-a38"],
+    "texto": "A hipótese era [Água mastigável]; o resultado do experimento foi [Empada de argumento]."
+  },
+  {
+    "id": "V3-082",
+    "tabus": true,
+    "pergunta": "economia-q19",
+    "respostas": ["quinta-a58", "brasil-a48"],
+    "texto": "Compre [A descarga enguiçada] e leve [Um imperador de chinelo e meia] inteiramente de graça."
+  },
+  {
+    "id": "V3-083",
+    "tabus": true,
+    "pergunta": "memes-q19",
+    "respostas": ["brasil-a5", "economia-a63"],
+    "texto": "Postei [Uma senha vencida] achando que era [O chefe dizendo “somos uma família”]."
+  },
+  {
+    "id": "V3-084",
+    "tabus": true,
+    "pergunta": "acido-q19",
+    "respostas": ["quinta-a22", "economia-a18"],
+    "texto": "A bula lista [Responder “você também” ao fiscal] como efeito colateral de [Moeda de carrinho]."
+  },
+  {
+    "id": "V3-085",
+    "tabus": true,
+    "pergunta": "quinta-q16",
+    "respostas": ["economia-a10"],
+    "texto": "No show de talentos, apresentei [Uma promessa vencida]."
+  },
+  {
+    "id": "V3-086",
+    "tabus": true,
+    "pergunta": "brasil-q6",
+    "respostas": ["economia-a4"],
+    "texto": "A vidente cancelou a consulta depois de prever [O candidato de peruca molhada]."
+  },
+  {
+    "id": "V3-087",
+    "tabus": true,
+    "pergunta": "escola-q29",
+    "respostas": ["quinta-a27"],
+    "texto": "Na reunião dos pais, ninguém explicou [Um detector de mentira comprado no camelô]."
+  },
+  {
+    "id": "V3-088",
+    "tabus": true,
+    "pergunta": "economia-q6",
+    "respostas": ["acido-a43"],
+    "texto": "Meu primeiro salário foi gasto em [Reiniciar o possuído]."
+  },
+  {
+    "id": "V3-089",
+    "tabus": true,
+    "pergunta": "memes-q15",
+    "respostas": ["escola-a57"],
+    "texto": "O corretor transformou uma declaração de amor em [Os livros do ano passado]."
+  },
+  {
+    "id": "V3-090",
+    "tabus": true,
+    "pergunta": "acido-q10",
+    "respostas": ["economia-a54"],
+    "texto": "A Morte justificou as férias assim: [Dormir no curso de produtividade]."
+  },
+  {
+    "id": "V3-091",
+    "tabus": true,
+    "pergunta": "quinta-q4",
+    "respostas": ["economia-a39"],
+    "texto": "A ciência ainda não consegue explicar [Desculpa em prestação]."
+  },
+  {
+    "id": "V3-092",
+    "tabus": true,
+    "pergunta": "brasil-q15",
+    "respostas": ["memes-a29"],
+    "texto": "No último vagão do trem, só havia [Meu nome no áudio de oito minutos]."
+  },
+  {
+    "id": "V3-093",
+    "tabus": true,
+    "pergunta": "escola-q3",
+    "respostas": ["economia-a21"],
+    "texto": "A feira de ciências foi evacuada por [Petróleo de pastel]."
+  },
+  {
+    "id": "V3-094",
+    "tabus": true,
+    "pergunta": "economia-q28",
+    "respostas": ["brasil-a36"],
+    "texto": "O treinamento ensinou a aguentar [A chinelada inaugural]."
+  },
+  {
+    "id": "V3-095",
+    "tabus": true,
+    "pergunta": "memes-q22",
+    "respostas": ["quinta-a40"],
+    "texto": "O grupo ficou em silêncio depois da foto de [Vácuo de pote]."
+  },
+  {
+    "id": "V3-096",
+    "tabus": true,
+    "pergunta": "acido-q14",
+    "respostas": ["economia-a40"],
+    "texto": "A mensagem do além só dizia [O impeachment de um boneco de posto]."
+  },
+  {
+    "id": "V3-097",
+    "tabus": true,
+    "pergunta": "quinta-q20",
+    "respostas": ["economia-a31", "escola-a67"],
+    "texto": "Troquei [Uma indireta diplomática] por [O certificado da recuperação]. Não aceito devolução."
+  },
+  {
+    "id": "V3-098",
+    "tabus": true,
+    "pergunta": "brasil-q19",
+    "respostas": ["quinta-a67", "economia-a40"],
+    "texto": "A cidade trocou [Uma capivara de chinelo] por [O impeachment de um boneco de posto] e chamou de revitalização."
+  },
+  {
+    "id": "V3-099",
+    "tabus": true,
+    "pergunta": "escola-q17",
+    "respostas": ["acido-a20", "economia-a10"],
+    "texto": "Estudei [Um fascista derrotado por uma porta escrita “puxe”]. A prova inteira era sobre [Uma promessa vencida]."
+  },
+  {
+    "id": "V3-100",
+    "tabus": true,
+    "pergunta": "economia-q18",
+    "respostas": ["escola-a48", "brasil-a63"],
+    "texto": "A prestação de contas classificou [Eleger o apagador] como [A samambaia no assento preferencial]."
+  },
+  {
+    "id": "V3-101",
+    "tabus": true,
+    "pergunta": "memes-q30",
+    "respostas": ["acido-a2", "quinta-a43"],
+    "texto": "A internet chamou [Um fantasma na espera telefônica] de tendência; minha família chamou de [Três patos de capacete]."
+  },
+  {
+    "id": "V3-102",
+    "tabus": true,
+    "pergunta": "acido-q20",
+    "respostas": ["quinta-a18", "memes-a9"],
+    "texto": "O tirano queria ser lembrado por [Um pedido de desculpas em Comic Sans]. Virou sinônimo de [Mais cinco minutinhos]."
+  },
+  {
+    "id": "V3-103",
+    "tabus": true,
+    "pergunta": "quinta-q3",
+    "respostas": ["economia-a49"],
+    "texto": "Fui expulso do churrasco por causa de [Seguro contra ganso]."
+  },
+  {
+    "id": "V3-104",
+    "tabus": true,
+    "pergunta": "brasil-q7",
+    "respostas": ["memes-a58"],
+    "texto": "O novo patrimônio cultural da cidade é [A porra do pombo]."
+  },
+  {
+    "id": "V3-105",
+    "tabus": true,
+    "pergunta": "escola-q8",
+    "respostas": ["acido-a49"],
+    "texto": "A visita dos pais coincidiu com [A foice de brinquedo]."
+  },
+  {
+    "id": "V3-106",
+    "tabus": true,
+    "pergunta": "economia-q23",
+    "respostas": ["quinta-a3"],
+    "texto": "O RH pediu uma explicação sobre [Um joelho cabeludo]."
+  },
+  {
+    "id": "V3-107",
+    "tabus": true,
+    "pergunta": "memes-q24",
+    "respostas": ["quinta-a15"],
+    "texto": "A IA confundiu meu currículo com [Chamar a sogra de amor]."
+  },
+  {
+    "id": "V3-108",
+    "tabus": true,
+    "pergunta": "acido-q25",
+    "respostas": ["memes-a60"],
+    "texto": "O museu das ditaduras expôs [O histórico de busca no telão] na entrada."
+  },
+  {
+    "id": "V3-109",
+    "tabus": true,
+    "pergunta": "quinta-q14",
+    "respostas": ["memes-a22"],
+    "texto": "A placa de banheiro interditado mostra [Feriado de bolso]."
+  },
+  {
+    "id": "V3-110",
+    "tabus": true,
+    "pergunta": "brasil-q4",
+    "respostas": ["economia-a23"],
+    "texto": "A carta dos navegadores descrevia [O cargo de apertar “aceito”]."
+  },
+  {
+    "id": "V3-111",
+    "tabus": true,
+    "pergunta": "escola-q27",
+    "respostas": ["acido-a23"],
+    "texto": "Meu método infalível de estudo envolve [Uma colonoscopia narrada]."
+  },
+  {
+    "id": "V3-112",
+    "tabus": true,
+    "pergunta": "economia-q7",
+    "respostas": ["memes-a38"],
+    "texto": "A comissão parlamentar convocou [Empada de argumento]."
+  },
+  {
+    "id": "V3-113",
+    "tabus": true,
+    "pergunta": "memes-q24",
+    "respostas": ["acido-a33"],
+    "texto": "A IA confundiu meu currículo com [Um santo de gesso sem cabeça]."
+  },
+  {
+    "id": "V3-114",
+    "tabus": true,
+    "pergunta": "acido-q25",
+    "respostas": ["quinta-a19"],
+    "texto": "O museu das ditaduras expôs [A bunda de fora no reflexo da chaleira] na entrada."
+  },
+  {
+    "id": "V3-115",
+    "tabus": true,
+    "pergunta": "quinta-q19",
+    "respostas": ["brasil-a36", "acido-a27"],
+    "texto": "No aplicativo, prometia [A chinelada inaugural]. Pessoalmente, entregou [Um exame de fezes oral]."
+  },
+  {
+    "id": "V3-116",
+    "tabus": true,
+    "pergunta": "brasil-q19",
+    "respostas": ["memes-a42", "economia-a2"],
+    "texto": "A cidade trocou [Um tutorial pra fechar tutorial] por [Uma ponte sobre uma poça] e chamou de revitalização."
+  },
+  {
+    "id": "V3-117",
+    "tabus": true,
+    "pergunta": "escola-q19",
+    "respostas": ["quinta-a58", "memes-a18"],
+    "texto": "Na escola do futuro, [A descarga enguiçada] substituiu [Um PDF molhado]."
+  },
+  {
+    "id": "V3-118",
+    "tabus": true,
+    "pergunta": "economia-q17",
+    "respostas": ["quinta-a54", "acido-a64"],
+    "texto": "O candidato prometeu [Silêncio com gás]. Seu plano de governo continha [Uma assombração de chinelo]."
+  },
+  {
+    "id": "V3-119",
+    "tabus": true,
+    "pergunta": "memes-q17",
+    "respostas": ["economia-a61", "brasil-a29"],
+    "texto": "O tutorial prometia [Um parecer escrito no elevador]. No final, invocou [Um alvará rabiscado]."
+  },
+  {
+    "id": "V3-120",
+    "tabus": true,
+    "pergunta": "acido-q19",
+    "respostas": ["escola-a29", "economia-a67"],
+    "texto": "A bula lista [Engolir a cola da prova] como efeito colateral de [Aluguel de sogra]."
+  }
+]

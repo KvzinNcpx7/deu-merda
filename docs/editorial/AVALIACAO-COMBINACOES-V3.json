@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "V3-001",
+    "tabus": false,
+    "pergunta": "quinta-q30",
+    "respostas": ["escola-a63", "memes-a24"],
+    "texto": "O churrasco começou com [Pombos no projetor] e virou ocorrência por [Um gato de saco cheio].",
+    "parecer": "MEDIA",
+    "nota": "Cena visual simples; o gato já tem atitude própria e a segunda lacuna explica pouco a escalada. Leitura curta."
+  },
+  {
+    "id": "V3-002",
+    "tabus": false,
+    "pergunta": "brasil-q18",
+    "respostas": ["escola-a5", "memes-a47"],
+    "texto": "Quebrei um espelho. Recebi sete anos de [O slide “inserir conclusão impactante aqui”] e um mês de [A curtida da pessoa criticada].",
+    "parecer": "FRACA",
+    "nota": "Duas situações sem relação com tempo de azar. Artigos após “de” exigem contração oral; não há virada clara."
+  },
+  {
+    "id": "V3-003",
+    "tabus": false,
+    "pergunta": "escola-q17",
+    "respostas": ["brasil-a33", "quinta-a12"],
+    "texto": "Estudei [A taxa de conveniência do inconveniente]. A prova inteira era sobre [Tijolo cru].",
+    "parecer": "FORTE",
+    "nota": "A preparação acadêmica pomposa termina em “tijolo cru”. Contraste de registro e resposta seca, com boa pausa entre frases."
+  },
+  {
+    "id": "V3-004",
+    "tabus": false,
+    "pergunta": "economia-q20",
+    "respostas": ["brasil-a5", "escola-a10"],
+    "texto": "O slogan era “menos [Uma senha vencida], mais [Quarenta páginas para concluir “depende”]”.",
+    "parecer": "MEDIA",
+    "nota": "Burocracia contra enrolação acadêmica; coerente, mas as duas respostas têm o mesmo peso e a ironia é previsível."
+  },
+  {
+    "id": "V3-005",
+    "tabus": false,
+    "pergunta": "memes-q17",
+    "respostas": ["quinta-a47", "economia-a36"],
+    "texto": "O tutorial prometia [O pum preso na reunião]. No final, invocou [Pagar quatro e levar três].",
+    "parecer": "FRACA",
+    "nota": "Promessa corporal e verbo de compra não constroem uma cena legível. “Invocou” faz o trabalho da piada sem associação útil."
+  },
+  {
+    "id": "V3-006",
+    "tabus": false,
+    "pergunta": "quinta-q27",
+    "respostas": ["memes-a56"],
+    "texto": "O concurso foi suspenso por excesso de [Saudade em conexão discada].",
+    "parecer": "FRACA",
+    "nota": "A saudade é abstrata demais para um excesso concreto. Cabe sintaticamente, mas pede explicação."
+  },
+  {
+    "id": "V3-007",
+    "tabus": false,
+    "pergunta": "brasil-q13",
+    "respostas": ["quinta-a16"],
+    "texto": "No programa de domingo, o prêmio era [Quarta-feira, porra].",
+    "parecer": "FORTE",
+    "nota": "Programa de auditório oferecendo uma quarta-feira como prêmio. Insulto curto e alvo banal; a entonação pode completar o contraste."
+  },
+  {
+    "id": "V3-008",
+    "tabus": false,
+    "pergunta": "escola-q10",
+    "respostas": ["brasil-a7"],
+    "texto": "A resposta que zerou a prova inteira foi [O cachorro caramelo na faixa presidencial].",
+    "parecer": "MEDIA",
+    "nota": "A imagem do cachorro presidencial é clara, mas não há ligação com o erro de prova; pode funcionar pelo absurdo visual."
+  },
+  {
+    "id": "V3-009",
+    "tabus": false,
+    "pergunta": "economia-q2",
+    "respostas": ["brasil-a34"],
+    "texto": "A auditoria descobriu uma verba secreta para [A sexta-feira 13 caindo numa segunda].",
+    "parecer": "FRACA",
+    "nota": "Data não é objeto de verba; exige completar mentalmente uma compra. Contração depois de “para” não resolve a lógica."
+  },
+  {
+    "id": "V3-010",
+    "tabus": false,
+    "pergunta": "memes-q9",
+    "respostas": ["brasil-a36"],
+    "texto": "A prova do reality envolve [A chinelada inaugural].",
+    "parecer": "MEDIA",
+    "nota": "Reality e chinelada trazem um choque corporal direto. A resposta “inaugural” ainda exige contexto, sem piada autônoma longa."
+  },
+  {
+    "id": "V3-011",
+    "tabus": false,
+    "pergunta": "quinta-q28",
+    "respostas": ["escola-a21"],
+    "texto": "Meu cachorro trouxe do quintal [Um vulcão de bicarbonato interditado].",
+    "parecer": "MEDIA",
+    "nota": "O cachorro trazendo uma maquete é visual; “interditado” abre história, mas a surpresa depende de imaginar o tamanho."
+  },
+  {
+    "id": "V3-012",
+    "tabus": false,
+    "pergunta": "brasil-q29",
+    "respostas": ["quinta-a34"],
+    "texto": "A discussão na padaria começou por [Dançar sozinho no elevador].",
+    "parecer": "FRACA",
+    "nota": "A dança no elevador não explica uma discussão na padaria. Sintaxe aceita a ação, porém a cena não se sustenta sozinha."
+  },
+  {
+    "id": "V3-013",
+    "tabus": false,
+    "pergunta": "escola-q28",
+    "respostas": ["economia-a31"],
+    "texto": "O trabalho ganhou um prêmio por [Uma indireta diplomática].",
+    "parecer": "MEDIA",
+    "nota": "Trabalho escolar premiado por indireta tem ironia reconhecível, mas pouco impacto. Sem explicação extra de regras."
+  },
+  {
+    "id": "V3-014",
+    "tabus": false,
+    "pergunta": "economia-q8",
+    "respostas": ["brasil-a64"],
+    "texto": "O dinheiro do reino acabou na compra de [Uma visita de três dias].",
+    "parecer": "FRACA",
+    "nota": "Comprar uma visita demanda interpretação demais. Leitura curta, mas a compra não conversa com a situação familiar."
+  },
+  {
+    "id": "V3-015",
+    "tabus": false,
+    "pergunta": "memes-q7",
+    "respostas": ["brasil-a12"],
+    "texto": "O vídeo viral começa exatamente quando aparece [Uma pirâmide torta].",
+    "parecer": "FRACA",
+    "nota": "Uma pirâmide aparecendo não cria motivo para viralizar. Resposta literal e abertura pouco seletiva."
+  },
+  {
+    "id": "V3-016",
+    "tabus": false,
+    "pergunta": "quinta-q19",
+    "respostas": ["economia-a67", "memes-a58"],
+    "texto": "No aplicativo, prometia [Aluguel de sogra]. Pessoalmente, entregou [A porra do pombo].",
+    "parecer": "FORTE",
+    "nota": "Promessa comercial de serviço bizarro reduzida a um pombo. Dois golpes curtos; palavrão funciona como decepção, não como único recurso."
+  },
+  {
+    "id": "V3-017",
+    "tabus": false,
+    "pergunta": "brasil-q20",
+    "respostas": ["escola-a30", "memes-a60"],
+    "texto": "A expedição procurava [Uma medalha por fugir do interclasse]. Voltou trazendo [O histórico de busca no telão].",
+    "parecer": "FRACA",
+    "nota": "Medalha e histórico projetado não compartilham uma expectativa. A segunda lacuna é longa para o retorno fraco."
+  },
+  {
+    "id": "V3-018",
+    "tabus": false,
+    "pergunta": "escola-q19",
+    "respostas": ["memes-a30", "economia-a39"],
+    "texto": "Na escola do futuro, [Ocupado em versão acústica] substituiu [Desculpa em prestação].",
+    "parecer": "FRACA",
+    "nota": "Dois fragmentos abstratos competem por sentido. Há leitura possível, mas nenhum deles vira objeto escolar reconhecível."
+  },
+  {
+    "id": "V3-019",
+    "tabus": false,
+    "pergunta": "economia-q20",
+    "respostas": ["quinta-a64", "escola-a25"],
+    "texto": "O slogan era “menos [Gel de sovaco], mais [O diploma impresso em modo rascunho]”.",
+    "parecer": "MEDIA",
+    "nota": "A oposição entre cosmético idiota e diploma barato tem contraste de status, mas não conduz uma história. Curtas o bastante para testar."
+  },
+  {
+    "id": "V3-020",
+    "tabus": false,
+    "pergunta": "memes-q30",
+    "respostas": ["quinta-a31", "brasil-a18"],
+    "texto": "A internet chamou [Doping no campeonato de dominó] de tendência; minha família chamou de [Sete anos de azar divididos sem juros].",
+    "parecer": "FRACA",
+    "nota": "Duas piadas de gêneros diferentes na mesma explicação; a família não parece estar nomeando o primeiro evento. Longa em voz alta."
+  },
+  {
+    "id": "V3-021",
+    "tabus": false,
+    "pergunta": "quinta-q22",
+    "respostas": ["escola-a17"],
+    "texto": "O vizinho chamou a polícia para denunciar [O toque de celular no solo de flauta].",
+    "parecer": "FORTE",
+    "nota": "Uma infração musical mínima tratada como crime de vizinhança. Situação fácil de visualizar, sem precisar explicar o texto."
+  },
+  {
+    "id": "V3-022",
+    "tabus": false,
+    "pergunta": "brasil-q27",
+    "respostas": ["quinta-a45"],
+    "texto": "O cartório recusou o pedido por falta de [Bege de sunga].",
+    "parecer": "FRACA",
+    "nota": "“Bege de sunga” é fragmento propositalmente idiota; aqui só gera nonsense e não um documento faltante. Contração oral em “de”."
+  },
+  {
+    "id": "V3-023",
+    "tabus": false,
+    "pergunta": "escola-q5",
+    "respostas": ["quinta-a38"],
+    "texto": "O discurso de formatura começou com [Piscar os dois olhos ao mesmo tempo].",
+    "parecer": "MEDIA",
+    "nota": "Uma tentativa de piscar como abertura de discurso sugere nervosismo. A ação é legível, mas a surpresa é baixa."
+  },
+  {
+    "id": "V3-024",
+    "tabus": false,
+    "pergunta": "economia-q2",
+    "respostas": ["escola-a15"],
+    "texto": "A auditoria descobriu uma verba secreta para [A reunião dos repetentes].",
+    "parecer": "MEDIA",
+    "nota": "Verba para reunião de repetentes funciona como desvio fictício escolar. O humor depende da situação, não de uma punchline na resposta."
+  },
+  {
+    "id": "V3-025",
+    "tabus": false,
+    "pergunta": "memes-q29",
+    "respostas": ["quinta-a54"],
+    "texto": "A internet criou uma teoria sobre [Silêncio com gás].",
+    "parecer": "MEDIA",
+    "nota": "A teoria da internet acolhe o nonsense de “silêncio com gás”. Boa leitura curta, porém a imagem é abstrata."
+  },
+  {
+    "id": "V3-026",
+    "tabus": false,
+    "pergunta": "quinta-q26",
+    "respostas": ["brasil-a5"],
+    "texto": "A fiscalização encontrou [Uma senha vencida] na minha mala.",
+    "parecer": "FRACA",
+    "nota": "Uma senha na mala é possível, mas quase banal. A pergunta não acrescenta um risco ou motivo suficiente."
+  },
+  {
+    "id": "V3-027",
+    "tabus": false,
+    "pergunta": "brasil-q15",
+    "respostas": ["memes-a7"],
+    "texto": "No último vagão do trem, só havia [Uma live de dentro do bolso].",
+    "parecer": "FRACA",
+    "nota": "Uma live não ocupa um vagão. A nova construção evita exigir plural, mas a incompatibilidade semântica continua visível."
+  },
+  {
+    "id": "V3-028",
+    "tabus": false,
+    "pergunta": "escola-q6",
+    "respostas": ["memes-a35"],
+    "texto": "A mascote da escola foi substituída por [Uma samambaia verificada].",
+    "parecer": "MEDIA",
+    "nota": "Mascote institucional trocada por planta de rede social tem contraste simples. Pode ser pouco claro para quem não conhece verificação digital."
+  },
+  {
+    "id": "V3-029",
+    "tabus": false,
+    "pergunta": "economia-q4",
+    "respostas": ["memes-a19"],
+    "texto": "O debate eleitoral foi decidido por [Um tutorial de carisma sem público].",
+    "parecer": "MEDIA",
+    "nota": "Tutorial sem público decidindo eleição é sátira de carisma. “Por um” lê naturalmente; não depende de figura política real."
+  },
+  {
+    "id": "V3-030",
+    "tabus": false,
+    "pergunta": "memes-q14",
+    "respostas": ["economia-a60"],
+    "texto": "A atualização corrigiu bugs e acrescentou [Dois papagaios no debate].",
+    "parecer": "MEDIA",
+    "nota": "Dois papagaios como recurso novo da atualização é absurdo concreto. A presença de “debate” aproxima tecnologia de política sem explicar demais."
+  },
+  {
+    "id": "V3-031",
+    "tabus": false,
+    "pergunta": "quinta-q20",
+    "respostas": ["escola-a63", "economia-a18"],
+    "texto": "Troquei [Pombos no projetor] por [Moeda de carrinho]. Não aceito devolução.",
+    "parecer": "FRACA",
+    "nota": "Troca de uma cena projetada por uma moeda não estabelece valor reconhecível. Pausa clara, retorno baixo."
+  },
+  {
+    "id": "V3-032",
+    "tabus": false,
+    "pergunta": "brasil-q20",
+    "respostas": ["quinta-a2", "economia-a28"],
+    "texto": "A expedição procurava [Aplausos no momento errado]. Voltou trazendo [O Ministério de Deixar pra Depois].",
+    "parecer": "MEDIA",
+    "nota": "Expedição que acha um ministério adiador cria um alvo institucional claro. A primeira resposta quase não contribui."
+  },
+  {
+    "id": "V3-033",
+    "tabus": false,
+    "pergunta": "escola-q30",
+    "respostas": ["brasil-a51", "quinta-a40"],
+    "texto": "A hipótese era [Passar por baixo da escada por economia]; o resultado do experimento foi [Vácuo de pote].",
+    "parecer": "MEDIA",
+    "nota": "Superstição econômica tratada como hipótese, produto impossível como resultado. Duas lacunas fluidas, mas o final continua abstrato."
+  },
+  {
+    "id": "V3-034",
+    "tabus": false,
+    "pergunta": "economia-q19",
+    "respostas": ["quinta-a64", "brasil-a17"],
+    "texto": "Compre [Gel de sovaco] e leve [Uma declaração de impressora sem tinta] inteiramente de graça.",
+    "parecer": "MEDIA",
+    "nota": "Oferta de cosmético e certidão desnecessária satiriza venda casada. A segunda resposta é administrativa e amortece o golpe."
+  },
+  {
+    "id": "V3-035",
+    "tabus": false,
+    "pergunta": "memes-q20",
+    "respostas": ["quinta-a55", "economia-a57"],
+    "texto": "Paguei por [Diarreia no banheiro com senha]. A entrega foi [O bônus pago em elogios].",
+    "parecer": "FRACA",
+    "nota": "Comprar diarreia e receber bônus não cria expectativa reconhecível; o segundo encaixe foi aberto, mas a relação permanece arbitrária."
+  },
+  {
+    "id": "V3-036",
+    "tabus": false,
+    "pergunta": "quinta-q24",
+    "respostas": ["economia-a29"],
+    "texto": "O jantar romântico acabou em [O adicional de aturar o chefe].",
+    "parecer": "FRACA",
+    "nota": "Jantar acabando num adicional trabalhista exige explicar uma metáfora. “Em” pede contração oral com o artigo da resposta."
+  },
+  {
+    "id": "V3-037",
+    "tabus": false,
+    "pergunta": "brasil-q26",
+    "respostas": ["memes-a35"],
+    "texto": "O condomínio tem três regras sobre [Uma samambaia verificada].",
+    "parecer": "MEDIA",
+    "nota": "Condomínio regulando planta verificada satiriza excesso de regra. Fragmento curto, com dependência de jargão digital."
+  },
+  {
+    "id": "V3-038",
+    "tabus": false,
+    "pergunta": "escola-q4",
+    "respostas": ["brasil-a1"],
+    "texto": "O professor aceitou tudo, menos [A certidão do cartório].",
+    "parecer": "FRACA",
+    "nota": "Certidão não é justificativa de sala de aula, mas a diferença ainda não produz uma virada. Falta uma relação humana ou consequência."
+  },
+  {
+    "id": "V3-039",
+    "tabus": false,
+    "pergunta": "economia-q28",
+    "respostas": ["quinta-a28"],
+    "texto": "O treinamento ensinou a aguentar [Água mastigável].",
+    "parecer": "FRACA",
+    "nota": "Treinamento sobre água impossível é nonsense sem situação reconhecível. Não fica mais engraçado apenas por ser curto."
+  },
+  {
+    "id": "V3-040",
+    "tabus": false,
+    "pergunta": "memes-q29",
+    "respostas": ["brasil-a20"],
+    "texto": "A internet criou uma teoria sobre [Um boleto pré-histórico].",
+    "parecer": "MEDIA",
+    "nota": "Boleto pré-histórico encontra um bom contexto para conspiração digital. A resposta faz parte da piada, mas não depende só de exposição longa."
+  },
+  {
+    "id": "V3-041",
+    "tabus": false,
+    "pergunta": "quinta-q10",
+    "respostas": ["brasil-a57"],
+    "texto": "O encanador cobrou extra por [O formulário pra gastar menos papel].",
+    "parecer": "MEDIA",
+    "nota": "Encanador cobrando papelada traz burocracia ao serviço cotidiano. Contração oral em “por o”; associação clara, impacto discreto."
+  },
+  {
+    "id": "V3-042",
+    "tabus": false,
+    "pergunta": "brasil-q7",
+    "respostas": ["escola-a14"],
+    "texto": "O novo patrimônio cultural da cidade é [O nome do arquivo “agora_vai_final_9”].",
+    "parecer": "MEDIA",
+    "nota": "O arquivo de versões finais como patrimônio reconhece um hábito brasileiro de trabalho/escola. As aspas e o nome comprido desaceleram a leitura."
+  },
+  {
+    "id": "V3-043",
+    "tabus": false,
+    "pergunta": "escola-q24",
+    "respostas": ["quinta-a45"],
+    "texto": "A turma organizou uma vaquinha pra comprar [Bege de sunga].",
+    "parecer": "FRACA",
+    "nota": "Comprar uma cor de sunga não se visualiza com facilidade. O fragmento pode funcionar noutros contextos, mas aqui só ocupa a lacuna."
+  },
+  {
+    "id": "V3-044",
+    "tabus": false,
+    "pergunta": "economia-q24",
+    "respostas": ["brasil-a34"],
+    "texto": "A reunião podia ter sido substituída por [A sexta-feira 13 caindo numa segunda].",
+    "parecer": "FRACA",
+    "nota": "Sexta-feira azarada como substituta de reunião não muda a expectativa o bastante. Longa para o efeito, sem associação nova."
+  },
+  {
+    "id": "V3-045",
+    "tabus": false,
+    "pergunta": "memes-q28",
+    "respostas": ["brasil-a63"],
+    "texto": "O último desejo antes de sair do grupo foi [A samambaia no assento preferencial].",
+    "parecer": "FRACA",
+    "nota": "Um último desejo por uma planta no ônibus é aleatório; não há motivo identificável para alguém pedir essa cena."
+  },
+  {
+    "id": "V3-046",
+    "tabus": false,
+    "pergunta": "quinta-q19",
+    "respostas": ["economia-a21", "escola-a55"],
+    "texto": "No aplicativo, prometia [Petróleo de pastel]. Pessoalmente, entregou [Feijão brotando no estojo].",
+    "parecer": "MEDIA",
+    "nota": "Recurso exagerado de cozinha reduzido a uma experiência escolar concreta. Imagem boa, mas duas cenas sem vínculo direto."
+  },
+  {
+    "id": "V3-047",
+    "tabus": false,
+    "pergunta": "brasil-q30",
+    "respostas": ["escola-a27", "quinta-a24"],
+    "texto": "Pra autenticar [A multa da biblioteca], preciso de testemunha e [Purê de expectativas].",
+    "parecer": "FRACA",
+    "nota": "Autenticação, multa e purê metafórico não se reforçam. O problema é de sentido, além das contrações em “autenticar a”."
+  },
+  {
+    "id": "V3-048",
+    "tabus": false,
+    "pergunta": "escola-q18",
+    "respostas": ["quinta-a61", "memes-a22"],
+    "texto": "Prometeram [Alface no dente da frente] na formatura e entregaram [Feriado de bolso].",
+    "parecer": "FRACA",
+    "nota": "Promessa de alface nos dentes é pouco plausível; o final abstrato dilui ainda mais. Duas lacunas não garantem escalada."
+  },
+  {
+    "id": "V3-049",
+    "tabus": false,
+    "pergunta": "economia-q19",
+    "respostas": ["quinta-a24", "escola-a52"],
+    "texto": "Compre [Purê de expectativas] e leve [O tio da cantina na bibliografia] inteiramente de graça.",
+    "parecer": "FRACA",
+    "nota": "Expectativas metafóricas e referência de TCC ficam distantes do produto anunciado. Falta um objeto que o público imagine comprar."
+  },
+  {
+    "id": "V3-050",
+    "tabus": false,
+    "pergunta": "memes-q19",
+    "respostas": ["quinta-a32", "economia-a11"],
+    "texto": "Postei [Agachar pra soltar um pum] achando que era [O assessor do assessor].",
+    "parecer": "FRACA",
+    "nota": "Ação corporal confundida com um cargo é uma troca sem eixo. A sintaxe do “achando que era” não resolve diferença entre ação e pessoa."
+  },
+  {
+    "id": "V3-051",
+    "tabus": false,
+    "pergunta": "quinta-q28",
+    "respostas": ["brasil-a45"],
+    "texto": "Meu cachorro trouxe do quintal [A segunda via do nada].",
+    "parecer": "FRACA",
+    "nota": "O cachorro buscando uma segunda via é personificação burocrática, justamente um padrão que deve ficar raro. Aqui não chega à surpresa útil."
+  },
+  {
+    "id": "V3-052",
+    "tabus": false,
+    "pergunta": "brasil-q29",
+    "respostas": ["economia-a31"],
+    "texto": "A discussão na padaria começou por [Uma indireta diplomática].",
+    "parecer": "MEDIA",
+    "nota": "Discussão de padaria tratada como crise diplomática tem paralelismo compreensível. Pode ser sutil em vez de explosiva."
+  },
+  {
+    "id": "V3-053",
+    "tabus": false,
+    "pergunta": "escola-q5",
+    "respostas": ["memes-a61"],
+    "texto": "O discurso de formatura começou com [O modem no modo foda-se].",
+    "parecer": "MEDIA",
+    "nota": "Modem como manifesto de formatura é reconhecível pelo desespero tecnológico. A piada ainda depende de personificação, mantida como contraste ocasional."
+  },
+  {
+    "id": "V3-054",
+    "tabus": false,
+    "pergunta": "economia-q21",
+    "respostas": ["memes-a15"],
+    "texto": "A empresa me demitiu por [Curtir a foto de 2012].",
+    "parecer": "FORTE",
+    "nota": "Uma curtida antiga vira motivo de demissão. Gafe reconhecível, consequência exagerada, sem descrever toda a história na resposta."
+  },
+  {
+    "id": "V3-055",
+    "tabus": false,
+    "pergunta": "memes-q13",
+    "respostas": ["quinta-a59"],
+    "texto": "O bordão nasceu de [Meio almoço].",
+    "parecer": "FRACA",
+    "nota": "“Meio almoço” não sugere o nascimento de uma fala popular. Idiotice curta não é, sozinha, mecanismo de humor."
+  },
+  {
+    "id": "V3-056",
+    "tabus": false,
+    "pergunta": "quinta-q11",
+    "respostas": ["brasil-a1"],
+    "texto": "A cápsula do tempo continha apenas [A certidão do cartório].",
+    "parecer": "FRACA",
+    "nota": "Cartório dentro de cápsula do tempo fica próximo demais do cenário documental. Falta deslocamento de escala ou tabu."
+  },
+  {
+    "id": "V3-057",
+    "tabus": false,
+    "pergunta": "brasil-q7",
+    "respostas": ["escola-a61"],
+    "texto": "O novo patrimônio cultural da cidade é [Uma vírgula no lugar errado].",
+    "parecer": "MEDIA",
+    "nota": "Erro mínimo elevado a patrimônio público é uma inversão clara de importância. Boa leitura e baixo custo de explicação."
+  },
+  {
+    "id": "V3-058",
+    "tabus": false,
+    "pergunta": "escola-q2",
+    "respostas": ["memes-a55"],
+    "texto": "O diretor abriu minha mochila e encontrou [Amor com marca-d'água].",
+    "parecer": "FRACA",
+    "nota": "Objeto abstrato no fundo da mochila exige tradução metafórica. A imagem não aparece prontamente na leitura."
+  },
+  {
+    "id": "V3-059",
+    "tabus": false,
+    "pergunta": "economia-q21",
+    "respostas": ["quinta-a34"],
+    "texto": "A empresa me demitiu por [Dançar sozinho no elevador].",
+    "parecer": "FORTE",
+    "nota": "Dança inocente tratada como falta gravíssima no emprego. Humor nasce da punição desproporcional; enunciado e ação se encaixam."
+  },
+  {
+    "id": "V3-060",
+    "tabus": false,
+    "pergunta": "memes-q23",
+    "respostas": ["quinta-a9"],
+    "texto": "A BOSTA3 anunciou como próxima inovação [Peidar e culpar o cachorro].",
+    "parecer": "FORTE",
+    "nota": "Uma função tecnológica anunciada é um hábito escatológico banal. Contraste entre inovação e comportamento conhecido, leitura imediata."
+  },
+  {
+    "id": "V3-061",
+    "tabus": true,
+    "pergunta": "quinta-q20",
+    "respostas": ["economia-a18", "escola-a55"],
+    "texto": "Troquei [Moeda de carrinho] por [Feijão brotando no estojo]. Não aceito devolução.",
+    "parecer": "MEDIA",
+    "nota": "Troca de moeda sem valor por feijão no estojo é visual e barata. O feijão é familiar, mas a primeira lacuna contribui pouco."
+  },
+  {
+    "id": "V3-062",
+    "tabus": true,
+    "pergunta": "brasil-q18",
+    "respostas": ["memes-a9", "economia-a40"],
+    "texto": "Quebrei um espelho. Recebi sete anos de [Mais cinco minutinhos] e um mês de [O impeachment de um boneco de posto].",
+    "parecer": "FRACA",
+    "nota": "Soneca e impeachment não funcionam como durações de azar. Há duas ideias sem consequência comum; pede pausas e explicação."
+  },
+  {
+    "id": "V3-063",
+    "tabus": true,
+    "pergunta": "escola-q17",
+    "respostas": ["quinta-a1", "brasil-a26"],
+    "texto": "Estudei [Arrotos em código Morse]. A prova inteira era sobre [Sal grosso vencido].",
+    "parecer": "MEDIA",
+    "nota": "Estudo de sinais corporais versus superstição mistura registros com clareza. A surpresa é moderada, mas a ação não precisa de contexto externo."
+  },
+  {
+    "id": "V3-064",
+    "tabus": true,
+    "pergunta": "economia-q18",
+    "respostas": ["escola-a48", "quinta-a15"],
+    "texto": "A prestação de contas classificou [Eleger o apagador] como [Chamar a sogra de amor].",
+    "parecer": "FRACA",
+    "nota": "Ação eleitoral comparada a gafe íntima não fecha categoria contábil. O paralelismo sintático existe sem relação engraçada suficiente."
+  },
+  {
+    "id": "V3-065",
+    "tabus": true,
+    "pergunta": "memes-q17",
+    "respostas": ["quinta-a24", "economia-a16"],
+    "texto": "O tutorial prometia [Purê de expectativas]. No final, invocou [Um partido dividido em três pessoas].",
+    "parecer": "FRACA",
+    "nota": "Esperança amassada e partido fracionado são duas piadas prontas. O verbo sobrenatural mascara uma conexão fraca."
+  },
+  {
+    "id": "V3-066",
+    "tabus": true,
+    "pergunta": "acido-q20",
+    "respostas": ["brasil-a22", "escola-a12"],
+    "texto": "O tirano queria ser lembrado por [Ler a mão errada]. Virou sinônimo de [Borracha mastigada].",
+    "parecer": "MEDIA",
+    "nota": "Derrota de tirano reduzida a borracha mastigada é desmoralização reconhecível. A primeira lacuna é dispensável e ainda pede edição oral."
+  },
+  {
+    "id": "V3-067",
+    "tabus": true,
+    "pergunta": "quinta-q14",
+    "respostas": ["economia-a10"],
+    "texto": "A placa de banheiro interditado mostra [Uma promessa vencida].",
+    "parecer": "MEDIA",
+    "nota": "Promessa fracassada numa placa de banheiro é associação simples de fracasso. É uma imagem leve, sem choque por si só."
+  },
+  {
+    "id": "V3-068",
+    "tabus": true,
+    "pergunta": "brasil-q2",
+    "respostas": ["quinta-a11"],
+    "texto": "A simpatia só dá certo se você levar [A dignidade pelo ralo].",
+    "parecer": "FRACA",
+    "nota": "Levar dignidade pelo ralo confunde ação implícita com objeto de simpatia. O resultado depende de metáfora adicional."
+  },
+  {
+    "id": "V3-069",
+    "tabus": true,
+    "pergunta": "escola-q25",
+    "respostas": ["memes-a56"],
+    "texto": "Voltei do intercâmbio com [Saudade em conexão discada].",
+    "parecer": "MEDIA",
+    "nota": "Saudade digital cabe num retorno de intercâmbio e traz reconhecimento emocional. É mais ironia leve que surpresa de quinta série."
+  },
+  {
+    "id": "V3-070",
+    "tabus": true,
+    "pergunta": "economia-q6",
+    "respostas": ["quinta-a24"],
+    "texto": "Meu primeiro salário foi gasto em [Purê de expectativas].",
+    "parecer": "MEDIA",
+    "nota": "Salário gasto em purê de expectativas resume decepção material. A metáfora é legível, mas não deve dominar o baralho."
+  },
+  {
+    "id": "V3-071",
+    "tabus": true,
+    "pergunta": "memes-q27",
+    "respostas": ["economia-a37"],
+    "texto": "O vídeo foi removido por mostrar [O ditador do condomínio].",
+    "parecer": "MEDIA",
+    "nota": "Censura de síndico autoritário aproxima rede social e autoridade de prédio. O ponto satírico é claro, mas a consequência é plausível demais."
+  },
+  {
+    "id": "V3-072",
+    "tabus": true,
+    "pergunta": "acido-q15",
+    "respostas": ["economia-a20"],
+    "texto": "O exame detectou níveis alarmantes de [Quarenta tesouras de inauguração].",
+    "parecer": "FORTE",
+    "nota": "Um exame apontando tesouras de inauguração combina medicina e vaidade política. Imagem impossível, concreta e com alvo institucional."
+  },
+  {
+    "id": "V3-073",
+    "tabus": true,
+    "pergunta": "quinta-q6",
+    "respostas": ["memes-a22"],
+    "texto": "A única regra do banheiro é evitar [Feriado de bolso].",
+    "parecer": "FRACA",
+    "nota": "Feriado portátil não oferece risco de banheiro. A proibição vira só nonsense, sem consequência física ou social."
+  },
+  {
+    "id": "V3-074",
+    "tabus": true,
+    "pergunta": "brasil-q27",
+    "respostas": ["economia-a47"],
+    "texto": "O cartório recusou o pedido por falta de [O partido que terceirizou a oposição].",
+    "parecer": "FRACA",
+    "nota": "Partido como requisito de cartório é categoria deslocada sem ganho claro. Contração oral ajuda som, mas não cria graça."
+  },
+  {
+    "id": "V3-075",
+    "tabus": true,
+    "pergunta": "escola-q21",
+    "respostas": ["quinta-a51"],
+    "texto": "Minha última advertência foi por [Um cocô de mentira].",
+    "parecer": "MEDIA",
+    "nota": "Cocô cenográfico explica uma advertência escolar sem depender de pessoa real. Familiar e direto, embora previsível."
+  },
+  {
+    "id": "V3-076",
+    "tabus": true,
+    "pergunta": "economia-q13",
+    "respostas": ["escola-a12"],
+    "texto": "O ministro fictício caiu depois de anunciar [Borracha mastigada].",
+    "parecer": "FRACA",
+    "nota": "Borracha usada derrubando ministro é acaso sem contexto. A secura é boa, a preparação política não acrescenta ligação reconhecível."
+  },
+  {
+    "id": "V3-077",
+    "tabus": true,
+    "pergunta": "memes-q27",
+    "respostas": ["escola-a45"],
+    "texto": "O vídeo foi removido por mostrar [A pilha vazia da calculadora].",
+    "parecer": "FRACA",
+    "nota": "Pilha vazia não justifica remoção de vídeo. O erro sintático não é o problema; falta motivo para a proibição."
+  },
+  {
+    "id": "V3-078",
+    "tabus": true,
+    "pergunta": "acido-q27",
+    "respostas": ["escola-a23"],
+    "texto": "O exame de rotina virou notícia por [O “beijo” no final do e-mail para a coordenação].",
+    "parecer": "FRACA",
+    "nota": "Gafe de e-mail como causa de notícia médica exige inventar a história. Temas variados, mas ausência de eixo comum."
+  },
+  {
+    "id": "V3-079",
+    "tabus": true,
+    "pergunta": "quinta-q18",
+    "respostas": ["brasil-a29", "memes-a64"],
+    "texto": "O cheiro indicava [Um alvará rabiscado], mas a perícia confirmou [O unboxing do pacote errado].",
+    "parecer": "FRACA",
+    "nota": "Cheiro não aponta naturalmente para papel de alvará ou pacote errado. Duas lacunas de categorias neutras retiram a pista sensorial."
+  },
+  {
+    "id": "V3-080",
+    "tabus": true,
+    "pergunta": "brasil-q20",
+    "respostas": ["quinta-a66", "economia-a50"],
+    "texto": "A expedição procurava [Banheiro químico com manobrista]. Voltou trazendo [O comprovante da fila errada].",
+    "parecer": "MEDIA",
+    "nota": "Expedição encontrando burocracia em vez de saneamento promete sátira institucional. A segunda resposta é fraca sem a ironia de fracasso."
+  },
+  {
+    "id": "V3-081",
+    "tabus": true,
+    "pergunta": "escola-q30",
+    "respostas": ["quinta-a28", "memes-a38"],
+    "texto": "A hipótese era [Água mastigável]; o resultado do experimento foi [Empada de argumento].",
+    "parecer": "FRACA",
+    "nota": "Dois fragmentos sem referente concreto compartilham a mesma fantasia culinária. Mantida como diagnóstico de excesso de nonsense na dupla."
+  },
+  {
+    "id": "V3-082",
+    "tabus": true,
+    "pergunta": "economia-q19",
+    "respostas": ["quinta-a58", "brasil-a48"],
+    "texto": "Compre [A descarga enguiçada] e leve [Um imperador de chinelo e meia] inteiramente de graça.",
+    "parecer": "MEDIA",
+    "nota": "Oferta de descarga defeituosa com autoridade ridícula tem contraste de status. A associação é possível, mas não uma aposta principal."
+  },
+  {
+    "id": "V3-083",
+    "tabus": true,
+    "pergunta": "memes-q19",
+    "respostas": ["brasil-a5", "economia-a63"],
+    "texto": "Postei [Uma senha vencida] achando que era [O chefe dizendo “somos uma família”].",
+    "parecer": "FRACA",
+    "nota": "Senha confundida com chefe demandaria uma imagem ou um contexto omitido. A mistura não rende somente por cruzar pacotes."
+  },
+  {
+    "id": "V3-084",
+    "tabus": true,
+    "pergunta": "acido-q19",
+    "respostas": ["quinta-a22", "economia-a18"],
+    "texto": "A bula lista [Responder “você também” ao fiscal] como efeito colateral de [Moeda de carrinho].",
+    "parecer": "MEDIA",
+    "nota": "Gafe verbal como efeito colateral é legível; a moeda de carrinho como remédio não convence. Primeira lacuna boa, segunda dispersa."
+  },
+  {
+    "id": "V3-085",
+    "tabus": true,
+    "pergunta": "quinta-q16",
+    "respostas": ["economia-a10"],
+    "texto": "No show de talentos, apresentei [Uma promessa vencida].",
+    "parecer": "FRACA",
+    "nota": "Apresentar uma promessa como talento é possível, porém o adjetivo faz o efeito sozinho. A pergunta foi aberta, sem transformar este sorteio em forte."
+  },
+  {
+    "id": "V3-086",
+    "tabus": true,
+    "pergunta": "brasil-q6",
+    "respostas": ["economia-a4"],
+    "texto": "A vidente cancelou a consulta depois de prever [O candidato de peruca molhada].",
+    "parecer": "MEDIA",
+    "nota": "Uma vidente assustada com um candidato molhado tem imagem imediata. O visual ridiculariza figura fictícia, sem depender de político real."
+  },
+  {
+    "id": "V3-087",
+    "tabus": true,
+    "pergunta": "escola-q29",
+    "respostas": ["quinta-a27"],
+    "texto": "Na reunião dos pais, ninguém explicou [Um detector de mentira comprado no camelô].",
+    "parecer": "MEDIA",
+    "nota": "Detector barato numa reunião de pais gera tensão conhecida. Resposta concreta e livre de uma história explicada de antemão."
+  },
+  {
+    "id": "V3-088",
+    "tabus": true,
+    "pergunta": "economia-q6",
+    "respostas": ["acido-a43"],
+    "texto": "Meu primeiro salário foi gasto em [Reiniciar o possuído].",
+    "parecer": "MEDIA",
+    "nota": "Gastar salário num procedimento de exorcismo trata evento absurdo como serviço. Há cena, mas o custo da metáfora é moderado."
+  },
+  {
+    "id": "V3-089",
+    "tabus": true,
+    "pergunta": "memes-q15",
+    "respostas": ["escola-a57"],
+    "texto": "O corretor transformou uma declaração de amor em [Os livros do ano passado].",
+    "parecer": "FRACA",
+    "nota": "Livros escolares virando declaração amorosa não sugerem o erro do corretor. Falta ambiguidade verbal para fechar a piada."
+  },
+  {
+    "id": "V3-090",
+    "tabus": true,
+    "pergunta": "acido-q10",
+    "respostas": ["economia-a54"],
+    "texto": "A Morte justificou as férias assim: [Dormir no curso de produtividade].",
+    "parecer": "MEDIA",
+    "nota": "A Morte usando sono em treinamento como justificativa junta emprego e morbididade. O novo formato de fala aceita ação sem exigir uma pessoa."
+  },
+  {
+    "id": "V3-091",
+    "tabus": true,
+    "pergunta": "quinta-q4",
+    "respostas": ["economia-a39"],
+    "texto": "A ciência ainda não consegue explicar [Desculpa em prestação].",
+    "parecer": "MEDIA",
+    "nota": "A ciência estudando desculpa parcelada parodia pesquisa aplicada. É uma metáfora clara, mas pertence à cota leve e abstrata."
+  },
+  {
+    "id": "V3-092",
+    "tabus": true,
+    "pergunta": "brasil-q15",
+    "respostas": ["memes-a29"],
+    "texto": "No último vagão do trem, só havia [Meu nome no áudio de oito minutos].",
+    "parecer": "FRACA",
+    "nota": "Nome num áudio não preenche vagão. A alteração do enunciado tira a obrigação de plural, mas não cria um objeto físico."
+  },
+  {
+    "id": "V3-093",
+    "tabus": true,
+    "pergunta": "escola-q3",
+    "respostas": ["economia-a21"],
+    "texto": "A feira de ciências foi evacuada por [Petróleo de pastel].",
+    "parecer": "MEDIA",
+    "nota": "Pastel como combustível de laboratório é absurdo concreto brasileiro. Cabe rápido na leitura; não exige explicação tecnológica."
+  },
+  {
+    "id": "V3-094",
+    "tabus": true,
+    "pergunta": "economia-q28",
+    "respostas": ["brasil-a36"],
+    "texto": "O treinamento ensinou a aguentar [A chinelada inaugural].",
+    "parecer": "FORTE",
+    "nota": "Treinamento de resiliência virando preparo pra chinelada. Associação corporal imediata com linguagem de firma e memória popular."
+  },
+  {
+    "id": "V3-095",
+    "tabus": true,
+    "pergunta": "memes-q22",
+    "respostas": ["quinta-a40"],
+    "texto": "O grupo ficou em silêncio depois da foto de [Vácuo de pote].",
+    "parecer": "MEDIA",
+    "nota": "Foto de nada num pote deixando a família muda pode render pelo anticlimax. O objeto é visual, mas a graça é sutil e não garantida."
+  },
+  {
+    "id": "V3-096",
+    "tabus": true,
+    "pergunta": "acido-q14",
+    "respostas": ["economia-a40"],
+    "texto": "A mensagem do além só dizia [O impeachment de um boneco de posto].",
+    "parecer": "FRACA",
+    "nota": "Mensagem do além sobre impedimento de boneco não tem força comunicativa. O assunto burocrático não cria contraste específico com morte."
+  },
+  {
+    "id": "V3-097",
+    "tabus": true,
+    "pergunta": "quinta-q20",
+    "respostas": ["economia-a31", "escola-a67"],
+    "texto": "Troquei [Uma indireta diplomática] por [O certificado da recuperação]. Não aceito devolução.",
+    "parecer": "FRACA",
+    "nota": "Duas coisas sem valor não estabelecem perda ou vantagem na troca. Pouca escalada apesar da frase curta."
+  },
+  {
+    "id": "V3-098",
+    "tabus": true,
+    "pergunta": "brasil-q19",
+    "respostas": ["quinta-a67", "economia-a40"],
+    "texto": "A cidade trocou [Uma capivara de chinelo] por [O impeachment de um boneco de posto] e chamou de revitalização.",
+    "parecer": "MEDIA",
+    "nota": "Prefeitura chamando troca de bicho por golpe de posto de revitalização tem alvo institucional. A dupla é longa e exige bom ritmo do leitor."
+  },
+  {
+    "id": "V3-099",
+    "tabus": true,
+    "pergunta": "escola-q17",
+    "respostas": ["acido-a20", "economia-a10"],
+    "texto": "Estudei [Um fascista derrotado por uma porta escrita “puxe”]. A prova inteira era sobre [Uma promessa vencida].",
+    "parecer": "FORTE",
+    "nota": "O fascista rebaixado a derrota idiota contrasta com promessa política vazia. Ridicularização do autoritarismo; leitura mais longa, com pausa necessária."
+  },
+  {
+    "id": "V3-100",
+    "tabus": true,
+    "pergunta": "economia-q18",
+    "respostas": ["escola-a48", "brasil-a63"],
+    "texto": "A prestação de contas classificou [Eleger o apagador] como [A samambaia no assento preferencial].",
+    "parecer": "FRACA",
+    "nota": "A ação da primeira lacuna não se deixa classificar como planta em ônibus. Mesma falha de categoria observada no caso 064, registrada como repetição."
+  },
+  {
+    "id": "V3-101",
+    "tabus": true,
+    "pergunta": "memes-q30",
+    "respostas": ["acido-a2", "quinta-a43"],
+    "texto": "A internet chamou [Um fantasma na espera telefônica] de tendência; minha família chamou de [Três patos de capacete].",
+    "parecer": "MEDIA",
+    "nota": "Rede social e família discordando sobre um fantasma tem absurdo visual. A segunda resposta troca um personagem por vários sem sentido unificador."
+  },
+  {
+    "id": "V3-102",
+    "tabus": true,
+    "pergunta": "acido-q20",
+    "respostas": ["quinta-a18", "memes-a9"],
+    "texto": "O tirano queria ser lembrado por [Um pedido de desculpas em Comic Sans]. Virou sinônimo de [Mais cinco minutinhos].",
+    "parecer": "MEDIA",
+    "nota": "Pedido de desculpas como legado de tirano traz desmoralização; soneca reduz a ambição. Contraste leve, com primeira lacuna extensa."
+  },
+  {
+    "id": "V3-103",
+    "tabus": true,
+    "pergunta": "quinta-q3",
+    "respostas": ["economia-a49"],
+    "texto": "Fui expulso do churrasco por causa de [Seguro contra ganso].",
+    "parecer": "FRACA",
+    "nota": "Seguro de ganso não explica expulsão de churrasco sem história adicional. A resposta idiota pode funcionar melhor numa pergunta de compra."
+  },
+  {
+    "id": "V3-104",
+    "tabus": true,
+    "pergunta": "brasil-q7",
+    "respostas": ["memes-a58"],
+    "texto": "O novo patrimônio cultural da cidade é [A porra do pombo].",
+    "parecer": "FORTE",
+    "nota": "Patrimônio cultural reduzido a um pombo com irritação coloquial. A piada é a desproporção institucional; o palavrão reforça a voz de quem lê."
+  },
+  {
+    "id": "V3-105",
+    "tabus": true,
+    "pergunta": "escola-q8",
+    "respostas": ["acido-a49"],
+    "texto": "A visita dos pais coincidiu com [A foice de brinquedo].",
+    "parecer": "FRACA",
+    "nota": "Foice na visita dos pais sugere um objeto solto, sem ação ou consequência. Cena curta, mas o encontro temporal pede explicação."
+  },
+  {
+    "id": "V3-106",
+    "tabus": true,
+    "pergunta": "economia-q23",
+    "respostas": ["quinta-a3"],
+    "texto": "O RH pediu uma explicação sobre [Um joelho cabeludo].",
+    "parecer": "FORTE",
+    "nota": "RH cobrando explicação de um joelho cabeludo cria constrangimento banal desproporcional. Frase visual e leitura seca."
+  },
+  {
+    "id": "V3-107",
+    "tabus": true,
+    "pergunta": "memes-q24",
+    "respostas": ["quinta-a15"],
+    "texto": "A IA confundiu meu currículo com [Chamar a sogra de amor].",
+    "parecer": "FRACA",
+    "nota": "Uma ação de gafe familiar no lugar de currículo depende de interpretação extra. A IA não tem ambiguidade verbal para justificar a confusão."
+  },
+  {
+    "id": "V3-108",
+    "tabus": true,
+    "pergunta": "acido-q25",
+    "respostas": ["memes-a60"],
+    "texto": "O museu das ditaduras expôs [O histórico de busca no telão] na entrada.",
+    "parecer": "FORTE",
+    "nota": "Histórico privado exposto como peça de museu autoritário junta controle e vergonha. Funciona pela relação, sem precisar nomear um tirano real."
+  },
+  {
+    "id": "V3-109",
+    "tabus": true,
+    "pergunta": "quinta-q14",
+    "respostas": ["memes-a22"],
+    "texto": "A placa de banheiro interditado mostra [Feriado de bolso].",
+    "parecer": "FRACA",
+    "nota": "Uma foto de feriado portátil é abstração visual sobre abstração. Mesma família de problema do caso 073, sem classificar como forte por ser curta."
+  },
+  {
+    "id": "V3-110",
+    "tabus": true,
+    "pergunta": "brasil-q4",
+    "respostas": ["economia-a23"],
+    "texto": "A carta dos navegadores descrevia [O cargo de apertar “aceito”].",
+    "parecer": "MEDIA",
+    "nota": "Exploração histórica chegando ao botão “aceito” tem contraste temporal legível. É sutil e pode exigir conhecimento do hábito digital."
+  },
+  {
+    "id": "V3-111",
+    "tabus": true,
+    "pergunta": "escola-q27",
+    "respostas": ["acido-a23"],
+    "texto": "Meu método infalível de estudo envolve [Uma colonoscopia narrada].",
+    "parecer": "MEDIA",
+    "nota": "Estudo por exame invasivo rompe expectativa de preparação escolar. Humor médico opcional; a resposta é curta, sem orientação médica real."
+  },
+  {
+    "id": "V3-112",
+    "tabus": true,
+    "pergunta": "economia-q7",
+    "respostas": ["memes-a38"],
+    "texto": "A comissão parlamentar convocou [Empada de argumento].",
+    "parecer": "FRACA",
+    "nota": "Uma empada não é interlocutora reconhecível para comissão. Nonsense puro, sem alvo satírico suficientemente definido."
+  },
+  {
+    "id": "V3-113",
+    "tabus": true,
+    "pergunta": "memes-q24",
+    "respostas": ["acido-a33"],
+    "texto": "A IA confundiu meu currículo com [Um santo de gesso sem cabeça].",
+    "parecer": "MEDIA",
+    "nota": "Currículo reduzido a objeto religioso quebrado sugere autodepreciação. A imagem é direta, embora o vínculo seja figurativo."
+  },
+  {
+    "id": "V3-114",
+    "tabus": true,
+    "pergunta": "acido-q25",
+    "respostas": ["quinta-a19"],
+    "texto": "O museu das ditaduras expôs [A bunda de fora no reflexo da chaleira] na entrada.",
+    "parecer": "FORTE",
+    "nota": "Cerimônia autoritária interrompida por imagem corporal embaraçosa. A cena diminui pompa histórica sem inferiorizar grupo protegido."
+  },
+  {
+    "id": "V3-115",
+    "tabus": true,
+    "pergunta": "quinta-q19",
+    "respostas": ["brasil-a36", "acido-a27"],
+    "texto": "No aplicativo, prometia [A chinelada inaugural]. Pessoalmente, entregou [Um exame de fezes oral].",
+    "parecer": "MEDIA",
+    "nota": "Promessa exagerada e exame constrangedor mudam bruscamente o registro. A segunda lacuna é curta, mas o contraste depende de ler a primeira como um fracasso da oferta, não como promessa desejável."
+  },
+  {
+    "id": "V3-116",
+    "tabus": true,
+    "pergunta": "brasil-q19",
+    "respostas": ["memes-a42", "economia-a2"],
+    "texto": "A cidade trocou [Um tutorial pra fechar tutorial] por [Uma ponte sobre uma poça] e chamou de revitalização.",
+    "parecer": "FRACA",
+    "nota": "Tutorial e ponte não têm medida comum para a troca; a frase termina numa explicação de urbanismo imaginário."
+  },
+  {
+    "id": "V3-117",
+    "tabus": true,
+    "pergunta": "escola-q19",
+    "respostas": ["quinta-a58", "memes-a18"],
+    "texto": "Na escola do futuro, [A descarga enguiçada] substituiu [Um PDF molhado].",
+    "parecer": "MEDIA",
+    "nota": "Objetos defeituosos substituindo um ao outro na escola mostram precariedade absurda. A resposta tecnológica serve de imagem, sem termos longos."
+  },
+  {
+    "id": "V3-118",
+    "tabus": true,
+    "pergunta": "economia-q17",
+    "respostas": ["quinta-a54", "acido-a64"],
+    "texto": "O candidato prometeu [Silêncio com gás]. Seu plano de governo continha [Uma assombração de chinelo].",
+    "parecer": "FRACA",
+    "nota": "Slogan impossível seguido de aparição sobrenatural não constrói promessa política identificável. Duas ideias leves diluem o alvo."
+  },
+  {
+    "id": "V3-119",
+    "tabus": true,
+    "pergunta": "memes-q17",
+    "respostas": ["economia-a61", "brasil-a29"],
+    "texto": "O tutorial prometia [Um parecer escrito no elevador]. No final, invocou [Um alvará rabiscado].",
+    "parecer": "FRACA",
+    "nota": "Duas burocracias sobrepostas em tutorial repetem registro e ritmo. A dupla documenta que cortar palavras não basta para eliminar monotonia."
+  },
+  {
+    "id": "V3-120",
+    "tabus": true,
+    "pergunta": "acido-q19",
+    "respostas": ["escola-a29", "economia-a67"],
+    "texto": "A bula lista [Engolir a cola da prova] como efeito colateral de [Aluguel de sogra].",
+    "parecer": "MEDIA",
+    "nota": "Comer cola é um efeito colateral corporal claro; sogra alugada vira produto bizarro. Gancho potencial, porém a segunda lacuna pode dominar a primeira."
+  }
+]

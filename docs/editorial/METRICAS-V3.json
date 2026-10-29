@@ -1,0 +1,32 @@
+{
+  "antes": {
+    "media_palavras": 7.615,
+    "mediana": 8.0,
+    "ate_3_palavras": 5,
+    "ate_7_palavras": 191,
+    "com_que": 45,
+    "conceito_de": 2,
+    "capivara": 3,
+    "cnpj_ou_advogado": 0
+  },
+  "depois": {
+    "media_palavras": 5.027,
+    "mediana": 5.0,
+    "ate_3_palavras": 54,
+    "ate_7_palavras": 382,
+    "com_que": 11,
+    "conceito_de": 0,
+    "capivara": 1,
+    "cnpj_ou_advogado": 0
+  },
+  "decisoes": {
+    "AJUSTAR": 280,
+    "SUBSTITUIR": 160,
+    "MANTER": 140
+  },
+  "amostra": {
+    "MEDIA": 51,
+    "FRACA": 55,
+    "FORTE": 14
+  }
+}

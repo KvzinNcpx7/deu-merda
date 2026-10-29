@@ -103,3 +103,9 @@ O workflow de verificação executa testes e build sem backend real. O workflow 
 | Não consigo iniciar com um pacote               | São necessárias pelo menos 10 respostas por jogador; ative mais pacotes             |
 
 A recuperação automática depende dos dados do Auth no mesmo navegador. Limpar armazenamento, usar aba anônima diferente ou trocar de dispositivo gera uma identidade nova. Não há login por apelido que permita assumir o assento de outra pessoa.
+
+## V3 editorial — somente após aprovação
+
+A branch `feat/curadoria-humor-v3` acrescenta `202610290008_curadoria_v3.sql`. O projeto já instalado até 007 precisa apenas dessa nova migração para receber a curadoria. Ela altera somente o catálogo global por ID; não troca textos de mãos, perguntas ou filas já guardadas no JSON das salas.
+
+Depois da aprovação da V3, aplique 008 antes do build do frontend V3 e confirme as contagens 400/150/30. Não reaplique 001–007. Teste uma nova sala para receber os textos revistos; salas antigas mantêm os textos ativos. Esta tarefa não executou a migração no Supabase remoto nem publicou o site.
