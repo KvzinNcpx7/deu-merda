@@ -91,6 +91,11 @@ describe("PostgreSQL real embarcado: migrações, RPC e permissões", () => {
       readFileSync("supabase/migrations/202610290004_editorial.sql", "utf8"),
     );
     expect((await readState()).rows[0].state).toEqual(before);
+    // Historical 004 rewrites global rows; restore the latest editorial revision
+    // before the rest of this shared integration suite reads the catalogue.
+    await db.exec(
+      readFileSync("supabase/migrations/202610290008_curadoria_v3.sql", "utf8"),
+    );
   });
   it("sincroniza exatamente o catálogo e os metadados do cliente", async () => {
     await db.exec("reset role");
@@ -519,7 +524,7 @@ describe("PostgreSQL real embarcado: migrações, RPC e permissões", () => {
     ).rejects.toThrow();
     expect((await call(0, r.code, { type: "sync" })).round).toBe(next.round);
   });
-  it("preserva salas e grants nas migrações incrementais V2", async () => {
+  it("preserva salas e grants nas migrações incrementais", async () => {
     const r = await start();
     await db.exec("reset role");
     const before = (
@@ -532,6 +537,7 @@ describe("PostgreSQL real embarcado: migrações, RPC e permissões", () => {
       "202610290005_reveal.sql",
       "202610290006_catalog_v2.sql",
       "202610290007_democracy_presence.sql",
+      "202610290008_curadoria_v3.sql",
     ])
       await db.exec(readFileSync(`supabase/migrations/${name}`, "utf8"));
     expect(
@@ -601,4 +607,92 @@ describe("PostgreSQL real embarcado: migrações, RPC e permissões", () => {
     const again = await call(1, r.code, { type: "ping" });
     expect(again.players.reduce((n, p) => n + p.score, 0)).toBe(1);
   });
+  it("migra uma partida V2 real para o catálogo V3 sem tocar no estado ativo", async () => {
+    const legacy = new PGlite();
+    try {
+      await legacy.exec(
+        "create role anon; create role authenticated; create schema auth; create function auth.uid() returns uuid language sql stable as $$ select nullif(current_setting('request.jwt.claim.sub',true),'')::uuid $$; grant usage on schema auth to authenticated; create publication supabase_realtime;",
+      );
+      for (const migration of readdirSync("supabase/migrations")
+        .filter((f) => f.endsWith(".sql") && !f.includes("0008_"))
+        .sort())
+        await legacy.exec(
+          readFileSync(`supabase/migrations/${migration}`, "utf8"),
+        );
+      const legacyCall = async (i: number, code: string, action: Action) => {
+        await legacy.exec("reset role");
+        await legacy.query(
+          "select set_config('request.jwt.claim.sub',$1,false)",
+          [ids[i]],
+        );
+        await legacy.exec("set role authenticated");
+        const result = await legacy.query<{ v: View }>(
+          "select public.game($1,$2::jsonb) v",
+          [code, JSON.stringify(action)],
+        );
+        return result.rows[0].v;
+      };
+      let v = await legacyCall(0, "", {
+        type: "create",
+        name: "Pessoa A",
+        emoji: "💀",
+      });
+      for (const i of [1, 2])
+        await legacyCall(i, v.code, {
+          type: "join",
+          name: `Pessoa ${i}`,
+          emoji: "🤡",
+        });
+      await legacyCall(0, v.code, {
+        type: "custom",
+        text: "Um pato da minha sala.",
+        pick: 0,
+      });
+      v = await legacyCall(0, v.code, { type: "start" });
+      const b = await legacyCall(1, v.code, { type: "sync" });
+      await legacyCall(1, v.code, {
+        type: "submit",
+        cards: b.players[1].hand.slice(0, b.prompt!.pick).map((c) => c.id),
+      });
+      await legacy.exec("reset role");
+      const before = (
+        await legacy.query<{ state: unknown }>(
+          "select state from private.rooms where code=$1",
+          [v.code],
+        )
+      ).rows[0].state;
+      await legacy.exec(
+        readFileSync(
+          "supabase/migrations/202610290008_curadoria_v3.sql",
+          "utf8",
+        ),
+      );
+      const after = (
+        await legacy.query<{ state: unknown }>(
+          "select state from private.rooms where code=$1",
+          [v.code],
+        )
+      ).rows[0].state;
+      expect(after).toEqual(before);
+      expect(
+        (await legacy.query("select * from private.cards order by id")).rows,
+      ).toEqual([...catalog].sort((a, b) => a.id.localeCompare(b.id)));
+      const reconnected = await legacyCall(1, v.code, { type: "join" });
+      expect(reconnected.players[1].hand).toEqual(b.players[1].hand);
+      expect(reconnected.prompt).toEqual(b.prompt);
+      await legacy.exec("reset role");
+      const participant = await legacyCall(2, v.code, { type: "sync" });
+      await legacyCall(2, v.code, {
+        type: "submit",
+        cards: participant.players[2].hand
+          .slice(0, participant.prompt!.pick)
+          .map((c) => c.id),
+      });
+      const reveal = await legacyCall(0, v.code, { type: "reveal" });
+      expect(reveal.submissions).toHaveLength(2);
+      expect(reveal.submissions.every((s) => !s.player)).toBe(true);
+    } finally {
+      await legacy.close();
+    }
+  }, 30000);
 });

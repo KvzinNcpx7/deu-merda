@@ -112,7 +112,7 @@ describe("curadoria e combinações do baralho", () => {
   it("gera combinações reproduzíveis sem lacunas ou respostas repetidas na mesma frase", () => {
     const sample = readFileSync("docs/COMBINACOES.md", "utf8");
     const lines = sample.split("\n").filter((l) => l.startsWith("- "));
-    expect(lines).toHaveLength(48);
+    expect(lines).toHaveLength(120);
     expect(sample).not.toContain("________");
     const responseThemes = new Set<string>();
     const questionPacks = new Set<string>();
@@ -123,6 +123,12 @@ describe("curadoria e combinações do baralho", () => {
       const answerIds = ids[2].split(", ");
       expect(answerIds).toHaveLength(question.pick);
       expect(new Set(answerIds).size).toBe(question.pick);
+      const answerPacks = answerIds.map(
+        (id) => catalog.find((c) => c.id === id)!.pack,
+      );
+      expect(new Set([question.pack, ...answerPacks]).size).toBe(
+        question.pick + 1,
+      );
       let slot = 0;
       const rendered = question.text.replace(/________/g, () => {
         const answerId = answerIds[slot++];
