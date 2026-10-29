@@ -93,6 +93,7 @@ function newRound(r: Room) {
   r.submissions = [];
   r.votes = {};
   r.winner = null;
+  r.revealIndex = 0;
   if (!r.questions.length)
     r.questions = shuffle(available(r).filter((c) => c.pick > 0));
   r.prompt = r.questions.pop() ?? fail("Adicione perguntas ao baralho.");
@@ -123,6 +124,8 @@ export function transition(input: Room, actor: string, action: Action): Room {
   const phase = (s: string) => {
     if (r.phase !== s) fail("Essa ação não está disponível agora.");
   };
+  if (action.expectedRound !== undefined && action.expectedRound !== r.round)
+    fail("A rodada mudou. Atualize a sala antes de tentar novamente.");
   p.seen = Date.now();
   switch (action.type) {
     case "ping":
@@ -168,7 +171,8 @@ export function transition(input: Room, actor: string, action: Action): Room {
         text.length < 3 ||
         text.length > 180 ||
         ![0, 1, 2].includes(pick) ||
-        (text.match(/________/g) || []).length !== pick
+        (text.match(/________/g) || []).length !== pick ||
+        text.replaceAll("________", "").includes("_")
       )
         fail(
           "Use 3–180 caracteres e exatamente uma sequência ________ por lacuna.",
@@ -245,6 +249,18 @@ export function transition(input: Room, actor: string, action: Action): Room {
       if (r.submissions.length !== r.players.length - 1)
         fail("Ainda faltam respostas.");
       r.phase = "revealing";
+      r.revealIndex = 0;
+      break;
+    case "browse":
+      phase("revealing");
+      if (actor !== r.judge) fail("Somente o juiz conduz a revelação.");
+      if (
+        !Number.isInteger(action.index) ||
+        Number(action.index) < 0 ||
+        Number(action.index) >= r.submissions.length
+      )
+        fail("Resposta inválida.");
+      r.revealIndex = Number(action.index);
       break;
     case "choose": {
       phase("revealing");

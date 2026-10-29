@@ -75,6 +75,7 @@ export function CardTile({
   return (
     <button
       disabled={!onClick}
+      aria-pressed={onClick ? !!selected : undefined}
       onClick={onClick}
       className={"answer-card " + (selected ? "selected" : "")}
     >

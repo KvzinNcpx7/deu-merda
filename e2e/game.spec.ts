@@ -30,7 +30,7 @@ test("navegação, layouts e configuração online explícita", async ({
   ).toBeDisabled();
   await page.getByRole("button", { name: "Fechar", exact: true }).click();
   await page.getByRole("button", { name: /Explorar cartas/ }).click();
-  await expect(page.getByRole("heading", { name: /360 cartas/ })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /580 cartas/ })).toBeVisible();
   await page.getByRole("button", { name: /Como jogar/ }).click();
   await expect(
     page.getByRole("heading", { name: /Amizades fortes/ }),
@@ -168,6 +168,48 @@ test("anfitrião escolhe tabus e filtra temas antes da partida", async ({
   expect(cards.every((c) => c.pack !== "acido" && c.theme !== "medicina")).toBe(
     true,
   );
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true);
+});
+
+test("revelação preserva cursor entre assentos e mostra a frase completa", async ({
+  page,
+}) => {
+  await page.goto("./");
+  await page.getByRole("button", { name: /Só dando uma olhada/ }).click();
+  await page.getByRole("button", { name: /Desativar o bom senso/ }).click();
+  await page.getByRole("button", { name: "Confirmar", exact: true }).click();
+  let room = await saved(page);
+  for (const player of room.players.filter((p) => p.id !== room.judge)) {
+    await page
+      .getByRole("combobox", { name: "Trocar jogador local" })
+      .selectOption(player.id);
+    for (let i = 0; i < room.prompt!.pick; i++)
+      await page.locator(".hand .answer-card").nth(i).click();
+    await page.getByRole("button", { name: /Enviar \d/ }).click();
+    await page.getByRole("button", { name: "Confirmar", exact: true }).click();
+  }
+  await page
+    .getByRole("combobox", { name: "Trocar jogador local" })
+    .selectOption(room.judge);
+  await page.getByRole("button", { name: "Abrir as atrocidades" }).click();
+  await page.getByRole("button", { name: "Próxima resposta" }).click();
+  expect((await saved(page)).revealIndex).toBe(1);
+  await expect(page.locator(".combination")).not.toContainText("________");
+  const phrase = await page.locator(".combination").textContent();
+  await page
+    .getByRole("combobox", { name: "Trocar jogador local" })
+    .selectOption("local-2");
+  await expect(
+    page.getByText("RESPOSTA 2 DE 2", { exact: true }),
+  ).toBeVisible();
+  await expect(
+    page.getByRole("button", { name: "Resposta anterior" }),
+  ).toBeDisabled();
+  await expect(page.locator(".combination")).toHaveText(phrase!);
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= innerWidth,

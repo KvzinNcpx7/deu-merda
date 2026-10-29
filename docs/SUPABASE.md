@@ -22,8 +22,13 @@ Abra **SQL Editor → New query** no projeto novo. Execute os arquivos inteiros,
 2. `supabase/migrations/202610280002_cards.sql`
 3. `supabase/migrations/202610280003_humor.sql`
 4. `supabase/migrations/202610290004_editorial.sql`
+5. `supabase/migrations/202610290005_reveal.sql`
+6. `supabase/migrations/202610290006_catalog_v2.sql`
+7. `supabase/migrations/202610290007_democracy_presence.sql`
 
-A primeira migração cria o schema `private`, as salas, os limites, as funções transacionais e a tabela pública de sinais. A segunda insere o catálogo inicial de 300 cartas. A terceira atualiza esse catálogo para 360 cartas autorais, adiciona metadados, o pacote ácido opcional e os filtros de tema, preservando salas e permissões. A quarta refina o conteúdo por ID, sem alterar o estado das salas. Em uma instalação existente, aplique apenas as migrações pendentes: após 001 e 002, aplique 003 e 004; após 003, aplique somente 004. A primeira não é um script de reinstalação: não a execute novamente sobre uma instalação existente. Alterações posteriores devem ser novas migrações, preservando os dados.
+A 001 cria schema, salas, limites, RPC e sinais; 002 e 003 instalam o catálogo inicial e os filtros; 004 faz a revisão editorial anterior. A 005 acrescenta cursor compartilhado, validação de lacunas próprias e proteção de rodada; 006 acrescenta 220 cartas com IDs novos; 007 conclui democracia quando todos os presentes votaram, com no mínimo dois votos presentes. Pontos são concedidos dentro da transação e do bloqueio da sala. Votos já recebidos de quem caiu continuam valendo; o assento é reservado. Se o juiz cair, continua valendo o reinício de rodada existente.
+
+Numa instalação anterior, aplique somente as migrações ainda não aplicadas, sempre em ordem. Uma instalação até 004 recebe 005–007. Não reexecute 001 nem reescreva arquivos já aplicados. As migrações V2 não alteram diretamente o JSON de partidas existentes: uma sala antiga usa cursor zero até navegar, e perguntas já sorteadas/mãos guardam seus textos.
 
 Para uma implantação inicial, pode usar uma transação em cada arquivo (`begin;` antes e `commit;` depois), no SQL Editor, para não deixar uma aplicação parcial se um comando falhar. Se usar Supabase CLI em um projeto novo, aplique os mesmos arquivos com o fluxo de migrações do CLI, verificando explicitamente o project ref antes de vincular. Não vincule um projeto já usado pela BOSTA3.
 
@@ -31,7 +36,7 @@ Verifique o catálogo sem expor dados de sala:
 
 ```sql
 select pick, count(*) from private.cards group by pick order by pick;
--- 0: 240 respostas; 1: 96 perguntas; 2: 24 perguntas
+-- 0: 400 respostas; 1: 150 perguntas; 2: 30 perguntas
 ```
 
 ## 4. Realtime e API

@@ -1,7 +1,7 @@
 {
   "name": "deu-merda",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -14,7 +14,8 @@
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "cards:sample": "node scripts/sample-combinations.mjs",
-    "cards:migration": "node scripts/generate-catalog-update.mjs"
+    "cards:migration": "node scripts/generate-catalog-update.mjs",
+    "cards:validate": "node scripts/validate-catalog.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.0",
