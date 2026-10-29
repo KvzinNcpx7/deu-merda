@@ -8,7 +8,7 @@ Execute depois de configurar um projeto Supabase novo. Não considere testes do 
 4. Nas ferramentas de rede de cada perfil, examine o retorno da RPC. Só a mão da identidade atual deve ter dez cartas; outras mãos devem estar vazias. Tabelas privadas devem negar SELECT. Nunca use service_role nesse teste.
 5. O juiz não pode enviar. B/C escolham e confirmem respostas; antes da revelação, nenhum retorno deve conter o texto enviado pelo outro jogador. Tentar repetir envio deve falhar sem duplicação.
 6. Em uma pergunta dupla, selecione duas cartas distintas na ordem desejada. Confirme que a revelação preserva essa ordem e que uma só carta/ID repetido é rejeitado no servidor.
-7. Revele e navegue pelas respostas. A autoria deve estar vazia até a decisão. Escolha uma, confira um único ponto e o autor revelado. Tentar escolher novamente não pode dar outro ponto.
+7. Revele e navegue pelas respostas usando o juiz. Confira que os três perfis mostram a mesma resposta, inclusive após atualizar; outros participantes não podem mover o cursor. Confira a frase completa, inclusive com duas lacunas. A autoria deve estar vazia até a decisão. Escolha uma, confira um único ponto e o autor revelado. Tentar escolher novamente não pode dar outro ponto.
 8. Avance: mãos voltam a dez, juiz muda e placar permanece. Continue até alguém atingir cinco. Confira a tela final e bloqueio de ações da rodada anterior.
 9. Em outra sala, teste Democracia Duvidosa: ninguém vota em si mesmo ou duas vezes. O placar só muda após todos votarem. Um empate segue a ordem aleatória já fixada dos envios.
 10. Envie reações em um celular. Os outros devem recebê-las. Duas reações da mesma pessoa em menos de dois segundos devem ser rejeitadas.
@@ -18,3 +18,10 @@ Execute depois de configurar um projeto Supabase novo. Não considere testes do 
 14. Em uma sala com mais pessoas, envie respostas/votos quase simultaneamente. Confirme uma submissão por identidade e um ponto por rodada. Repita entrada até o limite de 12 e confirme rejeição da 13ª.
 
 Registre os resultados reais, falhas e correções no PR. Não marque estes itens como aprovados sem executá-los no projeto hospedado.
+
+## Casos V2 adicionais no projeto hospedado
+
+- Em democracia com quatro perfis, registre três votos e desconecte o quarto por mais de 90 segundos; depois de um heartbeat, deve existir um único ponto. Votos já enviados de ausentes permanecem válidos. Menos de dois votos presentes não concluem antecipadamente.
+- Guarde uma requisição `submit` com `expectedRound`, avance e tente repeti-la: deve retornar erro de rodada, sem alterar mão ou placar.
+- Dispare requisições realmente simultâneas usando conexões independentes (PostgREST), verificando envio/voto único, avanço único e um ponto por rodada. PGlite não substitui esse teste de concorrência real.
+- Teste a URL de prévia com `/deu-merda/?sala=CODIGO`, recarregue e abra o convite em cada dispositivo. Só depois desses resultados aprovar a V2 e iniciar o workflow manual Pages.

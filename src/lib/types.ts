@@ -45,6 +45,7 @@ export interface Room {
   submissions: Submission[];
   votes: Record<string, string>;
   winner: string | null;
+  revealIndex?: number;
   deck: Card[];
   questions: Card[];
   custom: Card[];

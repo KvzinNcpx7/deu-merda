@@ -177,13 +177,47 @@ describe("motor de partida", () => {
       go(r, "c", { type: "reaction", text: "texto livre" }),
     ).toThrow();
   });
-  it("catálogo curado tem 96 simples, 24 duplas e 240 respostas sem repetição", () => {
-    expect(catalog.filter((c) => c.pick === 1)).toHaveLength(96);
-    expect(catalog.filter((c) => c.pick === 2)).toHaveLength(24);
-    expect(catalog.filter((c) => !c.pick)).toHaveLength(240);
-    expect(new Set(catalog.map((c) => c.id)).size).toBe(360);
-    expect(new Set(catalog.map((c) => c.text)).size).toBe(360);
+  it("catálogo curado tem 150 simples, 30 duplas e 400 respostas sem repetição", () => {
+    expect(catalog.filter((c) => c.pick === 1)).toHaveLength(150);
+    expect(catalog.filter((c) => c.pick === 2)).toHaveLength(30);
+    expect(catalog.filter((c) => !c.pick)).toHaveLength(400);
+    expect(new Set(catalog.map((c) => c.id)).size).toBe(580);
+    expect(new Set(catalog.map((c) => c.text)).size).toBe(580);
     for (const c of catalog)
       expect((c.text.match(/________/g) ?? []).length).toBe(c.pick);
+  });
+});
+
+describe("regressões V2", () => {
+  it("guarda a revelação na sala, preserva anonimato e restaura o cursor", () => {
+    let r = answer(start());
+    expect(() => go(r, "b", { type: "browse", index: 1 })).toThrow("juiz");
+    for (const index of [-1, 2, 0.5, null, "1"])
+      expect(() => go(r, "a", { type: "browse", index })).toThrow();
+    r = go(r, "a", { type: "browse", index: 1, expectedRound: r.round });
+    expect(view(r, "b").revealIndex).toBe(1);
+    expect(view(r, "c").submissions.every((s) => !s.player)).toBe(true);
+    expect(restore(JSON.stringify(r)).revealIndex).toBe(1);
+    r = go(r, "a", { type: "choose", id: r.submissions[1].id });
+    r = go(r, "a", { type: "next" });
+    expect(r.revealIndex).toBe(0);
+  });
+  it("recusa envio atrasado sem gastar a mão nem alterar o placar", () => {
+    const r = start();
+    expect(() =>
+      go(r, "b", {
+        type: "submit",
+        expectedRound: r.round - 1,
+        cards: r.players[1].hand.slice(0, r.prompt!.pick).map((c) => c.id),
+      }),
+    ).toThrow("rodada mudou");
+    expect(r.players[1].hand).toHaveLength(10);
+    expect(r.submissions).toHaveLength(0);
+  });
+  it("não aceita lacunas parciais ou sequências longas em cartas próprias", () => {
+    for (const text of ["Teste _________", "Teste ___", "Teste ________ _"])
+      expect(() =>
+        go(lobby(), "a", { type: "custom", text, pick: 1 }),
+      ).toThrow();
   });
 });

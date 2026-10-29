@@ -1,33 +1,29 @@
-# Estado desta entrega — 29/10/2026
+# Estado verificado — 29/10/2026
 
-Branch: `feat/deu-merda-mvp`. Alterações locais para revisão; sem merge, push ou publicação realizados pelo agente.
+O MVP foi integrado pelo [PR #1](https://github.com/KvzinNcpx7/deu-merda/pull/1). Main confirmada em `a835f4f26ac41f90383e3c403c7c596dbf7913d5`, com todos os arquivos do MVP. A branch original `feat/deu-merda-mvp` permanece em `9207b66`. Desenvolvimento V2 em `feat/deu-merda-v2`, criada a partir dessa main; merge V2 depende de revisão do proprietário.
 
-## Verificações executadas
+## Entrega V2
 
-| Comando                  | Resultado observado                                                                                                                       |
-| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| `npm test`               | 34 testes aprovados (motor local e migrações/RPC/RLS em PostgreSQL PGlite)                                                                |
-| `npm run build`          | TypeScript e build Vite aprovados, base `/deu-merda/`                                                                                     |
-| `npm run test:e2e`       | 8 testes aprovados em Chromium: navegação, partida local completa, cartas próprias e seleção de tabus/temas, em desktop e viewport mobile |
-| `npx prettier --check .` | Arquivos verificados aprovados                                                                                                            |
-| `git diff --check`       | Sem erros de espaços no diff                                                                                                              |
+580 cartas (400 respostas, 150 perguntas simples, 30 duplas), seis pacotes e Tabus opcional. Os 360 IDs/textos/metadados anteriores foram preservados. Revelação com cursor da sala conduzido pelo juiz, frase completa, ações da interface com número de rodada, confirmação fechada ao mudar resposta, correção de refresh obsoleto, lacunas próprias exatas e conclusão da democracia após ausência. Interface original, modo local explícito, sons, reações e modos clássico/democracia preservados.
 
-O teste de partida local percorreu distribuição, envio, revelação, decisão, reposição, rotação do juiz, pontuação, vitória e recuperação do save. O teste de banco executou as migrações e ações como usuários distintos do papel `authenticated`, validando também leituras negadas e o limite de 12 participantes.
+Novas migrações incrementais 005–007; 001–004 intactas. Gerador de catálogo recusa sobrescrever migrações existentes. CI inclui validação de catálogo e formatação.
 
-A viewport mobile foi emulada no Chromium. Não representa teste físico em um iPhone. Os testes de banco não incluem Supabase Auth hospedado, PostgREST hospedado ou Realtime WebSocket.
+## Resultados repetidos
 
-## Disponível agora
+| Verificação            | MVP antes do merge       | V2                                  |
+| ---------------------- | ------------------------ | ----------------------------------- |
+| npm ci                 | Concluído                | Concluído                           |
+| npm test               | 34 aprovados             | 42 aprovados                        |
+| npm run build          | Aprovado                 | Aprovado                            |
+| npm run test:e2e       | 8 aprovados              | 10 aprovados                        |
+| npm run format:check   | Aprovado                 | Aprovado                            |
+| npm run cards:validate | Não existia              | 580, contagens 400/150/30, aprovado |
+| npm audit              | Não executado na etapa A | Zero vulnerabilidades conhecidas    |
 
-Demonstração no mesmo dispositivo, catálogo revisado de 360 cartas em seis pacotes, modo clássico e democracia, interface responsiva, cartas próprias com edição/ativação, reações, sons, ranking e resultado final. A implementação online tem RPC transacional, visões privadas, RLS, Auth anônimo, assinatura Realtime, fallback e reconexão.
+Os E2E usam Chromium do sistema por variável documentada; o download Playwright foi bloqueado pela rede. Mobile é viewport emulada. O banco dos testes é PGlite; não houve Supabase hospedado, WebSocket real ou partida entre dispositivos. As validações não constituem certificação exaustiva de segurança ou concorrência.
 
-## Ação externa necessária
+## Próxima ação externa
 
-Criar um projeto Supabase novo exclusivo, aplicar as migrações, habilitar Auth anônimo e Realtime, preencher as variáveis públicas e executar o roteiro em `VALIDACAO.md`. Não foram criadas credenciais nem reutilizado o backend da BOSTA3. Não foi validada uma partida entre dispositivos diferentes.
+Criar Supabase **novo e exclusivo**, aplicar as sete migrações na ordem (só pendentes em instalações existentes), habilitar Auth anônimo e Realtime apenas em `room_signals`, preencher URL/chave públicas. Nenhuma credencial foi criada ou inventada; o backend BOSTA3 não foi utilizado. Seguir [SUPABASE.md](SUPABASE.md) e testar com três perfis/dispositivos pelo roteiro [VALIDACAO.md](VALIDACAO.md).
 
-## Fora desta entrega
-
-Caos, Relâmpago, Torneio, catálogo ampliado de 580 cartas, histórico permanente, descarte separado, limpeza agendada de salas, CAPTCHA integrado e recuperação de identidade entre dispositivos. Consulte o README e `ARQUITETURA.md` para os limites atuais.
-
-## Reformulação do baralho
-
-Catálogo atualizado para 360 cartas autorais em seis pacotes, com Humor Ácido e Tabus desativado por padrão e filtros por tema no lobby. A migração 003 preserva as salas e estende a seleção no servidor. A 004 refina 51 cartas por ID sem modificar partidas em andamento; essa preservação foi verificada em banco. Veja [CURADORIA.md](CURADORIA.md) e [COMBINACOES.md](COMBINACOES.md). Nenhuma migração foi aplicada remotamente e não houve publicação nesta revisão.
+Caos, Relâmpago e Torneio seguem pendentes, assim como carga concorrente real, CAPTCHA para abertura ampla e retenção automática. Não houve publicação no Pages nem merge automático da V2. Diagnóstico, correções, contagens e limites completos em [AUDITORIA.md](AUDITORIA.md).

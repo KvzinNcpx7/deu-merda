@@ -1,6 +1,6 @@
 # Curadoria do humor — catálogo v2
 
-360 cartas autorais: seis pacotes com 16 perguntas simples, quatro duplas e 40 respostas cada. As alterações mantêm os IDs dos cinco pacotes anteriores; mãos já salvas conservam seus textos, placares e cartas próprias. A nova seleção vale ao iniciar uma partida no lobby.
+580 cartas autorais: seis pacotes com 25 perguntas simples e cinco duplas cada; quatro têm 67 respostas e Memes/Ácido têm 66. As alterações mantêm os IDs dos cinco pacotes anteriores; mãos já salvas conservam seus textos, placares e cartas próprias. A nova seleção vale ao iniciar uma partida no lobby.
 
 ## Referências consultadas
 
@@ -29,7 +29,7 @@ Cada carta tem `theme`, `tone` e `grammar`. `nominal` indica resposta nominal; `
 
 `npm run cards:sample` regenera [48 combinações](COMBINACOES.md) com semente fixa, incluindo simples, duplas e cruzamentos de pacotes, com e sem tabus. Os testes verificam integridade das lacunas, IDs, tamanho de leitura, distribuição de temas, diversidade de começos e similaridade lexical. Esses testes detectam regressões de conteúdo e montagem; não demonstram graça ou correção gramatical universal. A leitura humana das amostras continua necessária.
 
-O script legado `scripts/generate-catalog-migration.mjs` gerou a migração 003 a partir do catálogo, dos temas e das funções da migração 001. Ele foi mantido como histórico; não deve ser executado para esta revisão. `npm run cards:migration` agora gera somente a migração editorial 004. Depois de aplicada em um ambiente, futuras alterações precisam de outra migração; não se deve reescrever histórico já aplicado.
+O script legado `scripts/generate-catalog-migration.mjs` gerou a migração 003 a partir do catálogo, dos temas e das funções da migração 001. Ele foi mantido como histórico; não deve ser executado para esta revisão. Na revisão histórica anterior, `npm run cards:migration` gerava a migração editorial 004; na V2 exige um caminho novo. Depois de aplicada em um ambiente, futuras alterações precisam de outra migração; não se deve reescrever histórico já aplicado.
 
 ## Supabase
 
@@ -43,4 +43,12 @@ A revisão mantém as 360 cartas e todos os IDs, diversificando respostas com fr
 
 A amostragem agora usa a escala completa do gerador pseudoaleatório para selecionar índices, evitando depender apenas dos bits inferiores. Os testes conferem também o texto montado contra as cartas atuais e a unicidade de textos e IDs. A amostra continua sendo uma ferramenta de revisão editorial, sem promessa de graça ou concordância universal.
 
-A migração **004** contém somente as revisões do catálogo; a 003 foi preservada. Gere novamente a 004 com `node scripts/generate-catalog-update.mjs` apenas enquanto ela ainda não tiver sido aplicada. O script compara o catálogo com a fotografia da migração 003. Depois de aplicada, revisões seguintes exigem uma nova migração. Mãos, perguntas já sorteadas, placares e cartas próprias ficam no JSON das salas, que não é alterado pela migração. Um teste de banco verifica essa preservação integral durante uma partida.
+A migração **004** contém somente as revisões do catálogo; a 003 foi preservada. A 004 é histórica e não deve mais ser gerada novamente. O script compara o catálogo com a fotografia da migração 003. Depois de aplicada, revisões seguintes exigem uma nova migração. Mãos, perguntas já sorteadas, placares e cartas próprias ficam no JSON das salas, que não é alterado pela migração. Um teste de banco verifica essa preservação integral durante uma partida.
+
+## Expansão V2 desta execução
+
+Foram acrescentadas 160 respostas, 54 perguntas simples e seis duplas. Total: 400/150/30. IDs anteriores e textos das 360 cartas anteriores foram preservados. A migração 006 insere o novo catálogo sem modificar salas. Os novos textos combinam escatologia, burocracia, escola, vergonha, superstição, sátira política fictícia, medicina e morte fictícia. Referências a tiranos os ridicularizam; Tabus segue opcional. As novas referências à BOSTA3 são apenas cartas, sem conexão com seu backend.
+
+A amostra de 48 combinações foi regenerada. A validação mede contagens, unicidade, metadados, lacunas e distribuição; não mede graça nem garante concordância universal. As perguntas continuam aceitando respostas nominais. Recomenda-se sessão editorial com jogadores antes de publicar. Nesta execução não foi acessado nem assistido o vídeo de referência; a pesquisa anterior acima permanece registrada como histórica.
+
+O gerador `cards:migration` agora exige um caminho novo e recusa sobrescrever arquivos. Exemplo para uma revisão futura: `npm run cards:migration -- supabase/migrations/202610300008_editorial.sql`. Ele compara com a fotografia 003 e pode incluir revisões já presentes na 004/006; revise o SQL antes de aplicar. Nunca gere novamente uma migração já aplicada.

@@ -3238,5 +3238,1985 @@
     "theme": "historia",
     "tone": "acido",
     "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a41",
+    "text": "O silêncio respeitoso depois de uma descarga que não resolveu.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a42",
+    "text": "A etiqueta de preço pendurada no discurso motivacional.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a43",
+    "text": "Três patos se passando por um encanador.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a44",
+    "text": "A cueca aposentada com honras militares.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a45",
+    "text": "Cinquenta tons de bege molhado.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "nonsense",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a46",
+    "text": "O aceno destinado à pessoa atrás de mim.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a47",
+    "text": "O pum preso na reunião de alinhamento.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a48",
+    "text": "Uma batata contratada para melhorar o clima.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a49",
+    "text": "O sabor de uma decisão judicial.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "nonsense",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a50",
+    "text": "A saliva voadora durante uma declaração de amor.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a51",
+    "text": "O cocô cenográfico que a perícia levou a sério.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a52",
+    "text": "A inauguração de um buraco portátil.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a53",
+    "text": "O aplauso solitário no momento errado.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a54",
+    "text": "Dois litros de silêncio com gás.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "nonsense",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a55",
+    "text": "A diarreia interrompida pelo reconhecimento facial.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a56",
+    "text": "Um bode na comissão de boas-vindas.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a57",
+    "text": "O abraço demorado num manequim.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a58",
+    "text": "A descarga tocando o hino em dó menor.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a59",
+    "text": "O conceito de almoço vendido por unidade.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "nonsense",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a60",
+    "text": "Uma cadeira de praia no tribunal internacional.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a61",
+    "text": "O dente de alface promovido a protagonista.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a62",
+    "text": "A certidão de nascimento de um peido lendário.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a63",
+    "text": "A fiscalização surpresa do sindicato dos duendes.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a64",
+    "text": "Gel de cabelo para pensamentos arrepiados.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "nonsense",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a65",
+    "text": "A mensagem de voz gravada com a boca cheia de farofa.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a66",
+    "text": "O banheiro químico de luxo com manobrista.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-a67",
+    "text": "Uma capivara exigindo reconhecimento de firma.",
+    "pack": "quinta",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "quinta-q21",
+    "text": "O regulamento do churrasco proíbe expressamente ________.",
+    "pack": "quinta",
+    "pick": 1,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "quinta-q22",
+    "text": "O vizinho chamou a polícia para denunciar ________.",
+    "pack": "quinta",
+    "pick": 1,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "quinta-q23",
+    "text": "O brinde da festa foi substituído às pressas por ________.",
+    "pack": "quinta",
+    "pick": 1,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "quinta-q24",
+    "text": "Meu último neurônio pediu demissão depois de processar ________.",
+    "pack": "quinta",
+    "pick": 1,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "quinta-q25",
+    "text": "A excursão terminou no momento em que alguém apresentou ________.",
+    "pack": "quinta",
+    "pick": 1,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "quinta-q26",
+    "text": "Na mala despachada, a fiscalização encontrou ________.",
+    "pack": "quinta",
+    "pick": 1,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "quinta-q27",
+    "text": "O concurso de talentos foi suspenso por excesso de ________.",
+    "pack": "quinta",
+    "pick": 1,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "quinta-q28",
+    "text": "Meu cachorro trouxe do quintal ________.",
+    "pack": "quinta",
+    "pick": 1,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "quinta-q29",
+    "text": "A placa dizia: cuidado com ________.",
+    "pack": "quinta",
+    "pick": 1,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "quinta-q30",
+    "text": "O churrasco começou com ________ e terminou com um boletim de ocorrência sobre ________.",
+    "pack": "quinta",
+    "pick": 2,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "brasil-a41",
+    "text": "A senha do guichê que só abre em anos bissextos.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a42",
+    "text": "O pé de coelho cobrando direitos de imagem.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "supersticao",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a43",
+    "text": "A caravela com rodinhas de bicicleta.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a44",
+    "text": "O carro do ovo fazendo pedido de silêncio.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a45",
+    "text": "A segunda via do documento que nunca existiu.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a46",
+    "text": "A sacola de sacolas apresentada como patrimônio.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a47",
+    "text": "A ferradura instalada de cabeça para baixo por um estagiário.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "supersticao",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a48",
+    "text": "Um imperador deposto por assembleia de condomínio.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a49",
+    "text": "O reconhecimento de firma do próprio carimbo.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a50",
+    "text": "A máquina de caldo de cana operando como banco central.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a51",
+    "text": "A escada dobrável vendendo proteção contra azar.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "supersticao",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a52",
+    "text": "O pote de sorvete cheio de feijão e expectativas destruídas.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a53",
+    "text": "A taxa de conveniência para sofrer pessoalmente.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a54",
+    "text": "O motoboy entregando uma tempestade de chinelo.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a55",
+    "text": "A independência proclamada num grupo silenciado.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a56",
+    "text": "Um despacho devolvido por endereço insuficiente.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "supersticao",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a57",
+    "text": "O formulário impresso para solicitar menos papel.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a58",
+    "text": "O vendedor de pamonha narrando uma perseguição policial.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a59",
+    "text": "O bom dia obrigatório na fila do açougue.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a60",
+    "text": "A previsão astrológica emitida pela borra do café requentado.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "supersticao",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a61",
+    "text": "Um tratado internacional assinado com caneta de bingo.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a62",
+    "text": "A fiscalização exigindo alvará do arco-íris.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a63",
+    "text": "Um ônibus clandestino só para plantas de apartamento.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a64",
+    "text": "A visita que levou a própria marmita e ficou três dias.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a65",
+    "text": "O trevo de quatro folhas perdendo uma no pedágio.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "supersticao",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a66",
+    "text": "A ouvidoria encaminhando a reclamação para o eco.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-a67",
+    "text": "O saco de pão francês usado como megafone oficial.",
+    "pack": "brasil",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "brasil-q21",
+    "text": "O novo feriado nacional celebra ________.",
+    "pack": "brasil",
+    "pick": 1,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "brasil-q22",
+    "text": "No museu da cidade, o objeto mais disputado é ________.",
+    "pack": "brasil",
+    "pick": 1,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "brasil-q23",
+    "text": "A fila só andou depois que apareceu ________.",
+    "pack": "brasil",
+    "pick": 1,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "brasil-q24",
+    "text": "Minha avó jura que espanta mau-olhado usando ________.",
+    "pack": "brasil",
+    "pick": 1,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "brasil-q25",
+    "text": "A cápsula do tempo da praça continha ________.",
+    "pack": "brasil",
+    "pick": 1,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "brasil-q26",
+    "text": "O manual do condomínio dedica três páginas a ________.",
+    "pack": "brasil",
+    "pick": 1,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "brasil-q27",
+    "text": "O cartório recusou o pedido por falta de ________.",
+    "pack": "brasil",
+    "pick": 1,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "brasil-q28",
+    "text": "A atração principal da quermesse era ________.",
+    "pack": "brasil",
+    "pick": 1,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "brasil-q29",
+    "text": "O guia turístico omitiu qualquer menção a ________.",
+    "pack": "brasil",
+    "pick": 1,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "brasil-q30",
+    "text": "Para autenticar ________, o cartório exige duas testemunhas e ________.",
+    "pack": "brasil",
+    "pick": 2,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "escola-a41",
+    "text": "A maquete de vulcão expelindo mingau frio.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a42",
+    "text": "A resposta certa escrita na prova errada.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a43",
+    "text": "O grupo de trabalho formado por mim e minhas dúvidas.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a44",
+    "text": "O esqueleto do laboratório pedindo transferência.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a45",
+    "text": "A calculadora exibindo apenas decepção.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a46",
+    "text": "O microfone aberto durante o ensaio da desculpa.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a47",
+    "text": "Uma redação sobre sustentabilidade impressa em lona.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a48",
+    "text": "A eleição do apagador para representante de turma.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a49",
+    "text": "O nome errado bordado na faixa de homenagem.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a50",
+    "text": "A cola tão pequena que exige telescópio.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a51",
+    "text": "A raiz quadrada de um recreio cancelado.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "nonsense",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a52",
+    "text": "O slide de referências citando o tio da cantina.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a53",
+    "text": "A apresentação encerrada com um gemido da cadeira.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a54",
+    "text": "O troféu do interclasse feito de purê.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a55",
+    "text": "O experimento de germinação que pediu pensão.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a56",
+    "text": "O professor fictício elogiando um arquivo corrompido.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a57",
+    "text": "Uma mochila cheia de livros que não são deste ano.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a58",
+    "text": "A cantina aceitando figurinhas como garantia imobiliária.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a59",
+    "text": "O cronograma de estudos começando em 32 de fevereiro.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a60",
+    "text": "O discurso ensaiado na frente da sala vazia.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a61",
+    "text": "A vírgula carregando o trabalho inteiro nas costas.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "nonsense",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a62",
+    "text": "A borracha com mais patrimônio que o grêmio.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a63",
+    "text": "O projetor exibindo uma discussão entre dois pombos.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a64",
+    "text": "A camiseta de campeão entregue ao último colocado.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a65",
+    "text": "O resumo de quarenta páginas que resume uma frase.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a66",
+    "text": "A chamada respondida pelo ventilador.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-a67",
+    "text": "O certificado de participação na própria recuperação.",
+    "pack": "escola",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "escola-q21",
+    "text": "A feira de ciências foi evacuada depois da demonstração de ________.",
+    "pack": "escola",
+    "pick": 1,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "escola-q22",
+    "text": "A pergunta bônus da prova valia ________.",
+    "pack": "escola",
+    "pick": 1,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "escola-q23",
+    "text": "O grêmio prometeu resolver tudo distribuindo ________.",
+    "pack": "escola",
+    "pick": 1,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "escola-q24",
+    "text": "A turma inteira recebeu uma advertência por causa de ________.",
+    "pack": "escola",
+    "pick": 1,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "escola-q25",
+    "text": "O intercâmbio cultural trouxe de lembrança ________.",
+    "pack": "escola",
+    "pick": 1,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "escola-q26",
+    "text": "A direção encontrou no armário de troféus ________.",
+    "pack": "escola",
+    "pick": 1,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "escola-q27",
+    "text": "Meu método infalível de estudo envolve ________.",
+    "pack": "escola",
+    "pick": 1,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "escola-q28",
+    "text": "O trabalho em grupo ganhou um prêmio especial por ________.",
+    "pack": "escola",
+    "pick": 1,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "escola-q29",
+    "text": "Na reunião pedagógica, ninguém soube explicar ________.",
+    "pack": "escola",
+    "pick": 1,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "escola-q30",
+    "text": "A hipótese era ________; o resultado do experimento foi ________.",
+    "pack": "escola",
+    "pick": 2,
+    "theme": "estudante",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "economia-a41",
+    "text": "O ministro fictício inaugurando a própria desculpa.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a42",
+    "text": "A nota de repúdio emitida em papel perfumado.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a43",
+    "text": "O coaching de liderança para cones de trânsito.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a44",
+    "text": "Uma CPI para investigar o sumiço da colher do café.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a45",
+    "text": "O contrato de experiência com validade de oito minutos.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a46",
+    "text": "A inflação do preço da saudade.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "nonsense",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a47",
+    "text": "O partido imaginário que terceirizou a oposição.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a48",
+    "text": "A reunião de emergência para escolher a fonte da ata.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a49",
+    "text": "O seguro contra ataques de gansos corporativos.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a50",
+    "text": "O comprovante de comparecimento à fila errada.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a51",
+    "text": "A verba secreta para lubrificar promessas eleitorais.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a52",
+    "text": "O rendimento negativo de uma ideia brilhante.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "nonsense",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a53",
+    "text": "A dinâmica de integração que terminou em inventário.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a54",
+    "text": "Uma consultoria de produtividade para estátuas.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a55",
+    "text": "A licitação vencida por um carrinho de pipoca vazio.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a56",
+    "text": "O candidato fictício beijando uma impressora 3D.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a57",
+    "text": "O bônus de fim de ano pago em elogios pendentes.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a58",
+    "text": "A reunião de acionistas de um castelo de areia.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a59",
+    "text": "A reserva estratégica de nada engarrafado.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "nonsense",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a60",
+    "text": "O debate transmitido por dois papagaios imparciais.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a61",
+    "text": "O parecer técnico baseado no barulho do elevador.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a62",
+    "text": "Um unicórnio demitido por não bater as metas.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a63",
+    "text": "O chefe imaginário agradecendo à equipe que ele esqueceu de contratar.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a64",
+    "text": "A coligação eleitoral das cadeiras dobráveis.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a65",
+    "text": "O departamento de urgências com prazo de nove meses.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "burocracia",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a66",
+    "text": "O PIB de uma festa que ninguém confirmou.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "nonsense",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-a67",
+    "text": "A startup que aluga sogras holográficas.",
+    "pack": "economia",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "economia-q21",
+    "text": "O plano de governo fictício reserva um capítulo inteiro para ________.",
+    "pack": "economia",
+    "pick": 1,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "economia-q22",
+    "text": "A auditoria encontrou no cofre da empresa ________.",
+    "pack": "economia",
+    "pick": 1,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "economia-q23",
+    "text": "O investidor desistiu ao descobrir que a garantia era ________.",
+    "pack": "economia",
+    "pick": 1,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "economia-q24",
+    "text": "A reunião podia ter sido substituída por ________.",
+    "pack": "economia",
+    "pick": 1,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "economia-q25",
+    "text": "O sindicato convocou uma paralisação contra ________.",
+    "pack": "economia",
+    "pick": 1,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "economia-q26",
+    "text": "O balanço anual classificou como ativo estratégico ________.",
+    "pack": "economia",
+    "pick": 1,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "economia-q27",
+    "text": "A campanha publicitária gastou todo o orçamento promovendo ________.",
+    "pack": "economia",
+    "pick": 1,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "economia-q28",
+    "text": "O treinamento corporativo ensinava a lidar com ________.",
+    "pack": "economia",
+    "pick": 1,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "economia-q29",
+    "text": "A comissão fictícia aprovou por unanimidade ________.",
+    "pack": "economia",
+    "pick": 1,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "economia-q30",
+    "text": "O relatório chamou ________ de investimento e ________ de efeito colateral.",
+    "pack": "economia",
+    "pick": 2,
+    "theme": "politica",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "memes-a41",
+    "text": "O admin pedindo desculpas em nome do grupo errado.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a42",
+    "text": "Um tutorial de como fechar tutoriais.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a43",
+    "text": "A live assistida só pelo próprio roteador.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a44",
+    "text": "O áudio acelerado até virar sinal de golfinho.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a45",
+    "text": "A versão premium de uma dúvida gratuita.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "nonsense",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a46",
+    "text": "O selo de verificado colado com fita crepe.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a47",
+    "text": "O comentário sarcástico curtido pela pessoa criticada.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a48",
+    "text": "A BOSTA3 anunciando viagem espacial de balde.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a49",
+    "text": "O grupo da família discutindo a ética do miojo.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a50",
+    "text": "Um arquivo chamado definitivo-agora-vai-27.zip.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "nonsense",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a51",
+    "text": "A selfie que saiu no reflexo da colher.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a52",
+    "text": "O carrinho abandonado mandando mensagem carente.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a53",
+    "text": "A senha forte feita só de nomes de sobremesa.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a54",
+    "text": "O bot moderador banindo o próprio criador por respirar.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a55",
+    "text": "A declaração de amor com marca d'água do aplicativo.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a56",
+    "text": "O download de um sentimento em conexão discada.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "nonsense",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a57",
+    "text": "A thread de quarenta posts para dizer talvez.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a58",
+    "text": "Um pombo aplicando golpe por reconhecimento facial.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a59",
+    "text": "A figurinha de bom dia enviada ao suporte técnico.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a60",
+    "text": "O histórico de busca lido pelo narrador do elevador.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a61",
+    "text": "O modem exigindo terapia de casal.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a62",
+    "text": "A notificação de que o vazio está digitando.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "nonsense",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a63",
+    "text": "A BOSTA3 vendendo assinatura de descarga em nuvem.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a64",
+    "text": "O unboxing de uma caixa que veio sem caixa.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a65",
+    "text": "O influenciador virtual sendo cancelado por uma torradeira.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-a66",
+    "text": "O algoritmo recomendando o próprio velório digital.",
+    "pack": "memes",
+    "pick": 0,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal"
+  },
+  {
+    "id": "memes-q21",
+    "text": "O algoritmo decidiu que meu maior interesse é ________.",
+    "pack": "memes",
+    "pick": 1,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "memes-q22",
+    "text": "O grupo ficou em silêncio depois da foto de ________.",
+    "pack": "memes",
+    "pick": 1,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "memes-q23",
+    "text": "A BOSTA3 anunciou como próxima inovação ________.",
+    "pack": "memes",
+    "pick": 1,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "memes-q24",
+    "text": "A inteligência artificial confundiu meu currículo com ________.",
+    "pack": "memes",
+    "pick": 1,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "memes-q25",
+    "text": "O anúncio prometia resolver minha vida com ________.",
+    "pack": "memes",
+    "pick": 1,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "memes-q26",
+    "text": "O motivo oficial para banir minha conta foi ________.",
+    "pack": "memes",
+    "pick": 1,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "memes-q27",
+    "text": "O vídeo caiu por mostrar detalhadamente ________.",
+    "pack": "memes",
+    "pick": 1,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "memes-q28",
+    "text": "A nova atualização adicionou apenas ________.",
+    "pack": "memes",
+    "pick": 1,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "memes-q29",
+    "text": "A comunidade criou uma teoria inteira para explicar ________.",
+    "pack": "memes",
+    "pick": 1,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "memes-q30",
+    "text": "A internet chamou ________ de tendência; minha família chamou de ________.",
+    "pack": "memes",
+    "pick": 2,
+    "theme": "memes",
+    "tone": "irreverente",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-a41",
+    "text": "A hemorroida disputando o banco da janela.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a42",
+    "text": "O velório com intervalo para os patrocinadores.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a43",
+    "text": "O exorcista tentando desligar e ligar a possessão.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a44",
+    "text": "O ditador derrotado num debate com a própria escova de dentes.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a45",
+    "text": "Um exame de próstata narrado como final de campeonato.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a46",
+    "text": "A herança dividida antes de conferir o pulso.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a47",
+    "text": "O fantasma reclamando da acústica do castelo.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a48",
+    "text": "A maca com avaliação de uma estrela no aplicativo.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a49",
+    "text": "O ceifador parado na alfândega com uma foice de plástico.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a50",
+    "text": "A sessão espírita interrompida por telemarketing do além.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a51",
+    "text": "O supremacista perdendo o concurso de superioridade para uma lesma.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a52",
+    "text": "O prontuário descrevendo o paciente como levemente crocante.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a53",
+    "text": "A cremação com programa de pontos.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a54",
+    "text": "O demônio solicitando adicional de insalubridade.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a55",
+    "text": "A pomada de hemorroida com aplicador de selfie.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a56",
+    "text": "O defunto fictício levantando para corrigir a playlist.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a57",
+    "text": "Um exorcismo terceirizado para o suporte da impressora.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a58",
+    "text": "A estátua do tirano reaproveitada como suporte de varal.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a59",
+    "text": "A colonoscopia transmitida acidentalmente no telão do congresso.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a60",
+    "text": "O testamento deixando todas as dívidas ao ego do falecido.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a61",
+    "text": "O inferno funcionando em horário de repartição.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a62",
+    "text": "O anestesista fictício contando carneirinhos em voz alta.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a63",
+    "text": "A lápide com espaço reservado para avaliação do atendimento.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a64",
+    "text": "A assombração dispensada por falta de experiência comprovada.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a65",
+    "text": "Uma medalha de tirania derretida para virar abridor de latas.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a66",
+    "text": "O raio-X revelando um recibo de pastel no lugar da coragem.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-q21",
+    "text": "O fantasma só aceitou deixar a casa em troca de ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q22",
+    "text": "A causa fictícia do falecimento foi registrada como ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q23",
+    "text": "O exorcismo precisou ser adiado por falta de ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q24",
+    "text": "A equipe médica fictícia pediu licença para consultar ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q25",
+    "text": "O museu das piores ditaduras reservou a entrada para ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q26",
+    "text": "Na fila do além, a prioridade é de quem apresenta ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q27",
+    "text": "O laboratório proibiu comentários sobre ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q28",
+    "text": "A nova ala do inferno é dedicada exclusivamente a ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q29",
+    "text": "O vilão histórico foi reduzido a uma nota de rodapé sobre ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q30",
+    "text": "O médium previu ________, mas o espírito só queria reclamar de ________.",
+    "pack": "acido",
+    "pick": 2,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
   }
 ]

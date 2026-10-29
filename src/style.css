@@ -2206,3 +2206,12 @@ footer > span:last-child {
   min-width: 0;
   overflow-wrap: anywhere;
 }
+
+.combination {
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 42rem;
+  overflow-wrap: anywhere;
+  line-height: 1.6;
+  font-weight: 700;
+}

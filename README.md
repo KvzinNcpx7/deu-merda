@@ -4,7 +4,7 @@
 
 Party game original em português brasileiro: complete perguntas com as piores cartas da sua mão. React + TypeScript + Vite no navegador, PostgreSQL/Supabase como autoridade da partida online.
 
-O desenvolvimento está na branch `feat/deu-merda-mvp`. Não há publicação automática, merge ou credenciais incluídas.
+O MVP foi integrado à `main` pelo PR #1. A V2 está em `feat/deu-merda-v2` para revisão; sem publicação automática ou credenciais incluídas. Veja [docs/STATUS.md](docs/STATUS.md).
 
 ## Abrir no GitHub Codespaces
 
@@ -32,14 +32,14 @@ Para amigos em dispositivos diferentes, configure o Supabase antes. Compartilhar
 - Cartas próprias da sala: criar, editar, excluir e ativar/desativar antes da partida.
 - Reações sincronizadas e predefinidas, com intervalo de dois segundos por pessoa.
 - Interface responsiva, mão horizontal no celular, placar, confirmações, erros, sons sintetizados com botão de silenciar e animações que respeitam `prefers-reduced-motion`.
-- **360 cartas autorais**: 96 perguntas comuns, 24 duplas, 240 respostas; seis pacotes de 60 cartas. Humor Ácido e Tabus é opcional e começa desativado; o anfitrião também pode excluir temas no lobby.
+- **580 cartas autorais**: 150 perguntas simples, 30 duplas, 400 respostas; os seis pacotes anteriores foram preservados. Humor Ácido e Tabus é opcional e começa desativado; o anfitrião também pode excluir temas no lobby.
 - Migrações, RLS, RPC transacional, testes de regras e banco, testes de navegador e workflow manual para Pages.
 
 Personagens escolares são fictícios. Economia do Caos é sátira de um multiverso imaginário. Não há chat livre. As cartas são renderizadas como texto, nunca como HTML.
 
 ## Habilitar o multiplayer
 
-Siga [docs/SUPABASE.md](docs/SUPABASE.md) para criar um projeto **novo, exclusivo deste jogo**, ativar Auth anônimo, executar as quatro migrações e configurar Realtime.
+Siga [docs/SUPABASE.md](docs/SUPABASE.md) para criar um projeto **novo, exclusivo deste jogo**, ativar Auth anônimo, executar as sete migrações e configurar Realtime.
 
 ```bash
 cp .env.example .env
@@ -59,6 +59,7 @@ Cada pessoa usa seu próprio navegador ou dispositivo. Abas normais do mesmo nav
 ## Validação
 
 ```bash
+npm run cards:validate # integridade e contagens do catálogo
 npm test            # Vitest: motor local + PostgreSQL embarcado com migrações reais
 npm run test:db     # somente integração de banco
 npm run build      # TypeScript + build para /deu-merda/
@@ -130,3 +131,11 @@ A URL prevista é `https://kvzinncpx7.github.io/deu-merda/`. Nenhuma publicaçã
 O MVP guarda a partida corrente como documento JSONB privado, protegido por transação, e não mantém um histórico normalizado de cada rodada. Não existe promessa de reutilizar identidades anônimas depois de apagar os dados do navegador.
 
 A reformulação do humor, referências consultadas, filtros e limites dos testes estão em [CURADORIA.md](docs/CURADORIA.md). Veja também as [combinações de amostra](docs/COMBINACOES.md).
+
+## Novidades da V2
+
+Revelação conduzida pelo juiz com cursor persistido no servidor para todos, frase completa na revelação e no resultado, proteção de ações da interface contra mudança de rodada e conclusão da democracia após ausência de eleitores (90 segundos; ao menos dois votos de pessoas presentes). As quatro migrações originais foram preservadas; aplique 005, 006 e 007 na ordem.
+
+A integração hospedada permanece **não validada**: não há projeto Supabase configurado nesta execução. As instruções e pendências estão em [docs/AUDITORIA.md](docs/AUDITORIA.md). Caos, Relâmpago e Torneio ficam para depois da validação real.
+
+Para Chromium já instalado no Linux, pode usar `PLAYWRIGHT_CHROMIUM_EXECUTABLE=/usr/bin/chromium npm run test:e2e`. Sem essa variável, o Playwright usa seu navegador gerenciado normalmente.

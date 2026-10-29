@@ -464,7 +464,7 @@ describe("PostgreSQL real embarcado: migrações, RPC e permissões", () => {
   });
   it("falha de distribuição desfaz a partida inteira", async () => {
     const r = await lobby();
-    for (let i = 3; i < 6; i++)
+    for (let i = 3; i < 8; i++)
       await call(i, r.code, { type: "join", name: "Pessoa " + i, emoji: "💀" });
     await call(0, r.code, {
       type: "config",
@@ -478,5 +478,127 @@ describe("PostgreSQL real embarcado: migrações, RPC e permissões", () => {
     const unchanged = await call(0, r.code, { type: "sync" });
     expect(unchanged.phase).toBe("lobby");
     expect(unchanged.players[0].hand).toHaveLength(0);
+  });
+  it("sincroniza o cursor para três identidades e bloqueia ações inválidas", async () => {
+    const r = await answer(await start());
+    await expect(call(1, r.code, { type: "browse", index: 1 })).rejects.toThrow(
+      "juiz",
+    );
+    await expect(call(3, r.code, { type: "browse", index: 1 })).rejects.toThrow(
+      "participa",
+    );
+    for (const index of [-1, 2, 0.5, null, "1"])
+      await expect(
+        call(0, r.code, { type: "browse", index }),
+      ).rejects.toThrow();
+    const moved = await call(0, r.code, {
+      type: "browse",
+      index: 1,
+      expectedRound: r.round,
+    });
+    expect(moved.revealIndex).toBe(1);
+    for (const i of [1, 2]) {
+      const v = await call(i, r.code, { type: "sync" });
+      expect(v.revealIndex).toBe(1);
+      expect(v.submissions.every((s) => s.player === "")).toBe(true);
+      expect(
+        v.players.filter((p) => p.id !== ids[i]).every((p) => !p.hand.length),
+      ).toBe(true);
+    }
+    await call(0, r.code, { type: "choose", id: moved.submissions[1].id });
+    const next = await call(0, r.code, {
+      type: "next",
+      expectedRound: r.round,
+    });
+    expect(next.revealIndex).toBe(0);
+    await expect(
+      call(1, r.code, { type: "submit", expectedRound: r.round, cards: [] }),
+    ).rejects.toThrow("rodada mudou");
+    await expect(
+      call(0, r.code, { type: "browse", index: 0 }),
+    ).rejects.toThrow();
+    expect((await call(0, r.code, { type: "sync" })).round).toBe(next.round);
+  });
+  it("preserva salas e grants nas migrações incrementais V2", async () => {
+    const r = await start();
+    await db.exec("reset role");
+    const before = (
+      await db.query<{ state: unknown }>(
+        "select state from private.rooms where code=$1",
+        [r.code],
+      )
+    ).rows[0].state;
+    for (const name of [
+      "202610290005_reveal.sql",
+      "202610290006_catalog_v2.sql",
+      "202610290007_democracy_presence.sql",
+    ])
+      await db.exec(readFileSync(`supabase/migrations/${name}`, "utf8"));
+    expect(
+      (
+        await db.query<{ state: unknown }>(
+          "select state from private.rooms where code=$1",
+          [r.code],
+        )
+      ).rows[0].state,
+    ).toEqual(before);
+    await as(1);
+    await expect(
+      db.query("select private.new_round('{}'::jsonb)"),
+    ).rejects.toThrow("permission denied");
+    await expect(
+      db.query("select private.apply_game($1, '{}'::jsonb)", [r.code]),
+    ).rejects.toThrow("permission denied");
+  });
+  it("valida lacunas exatas em perguntas próprias no servidor", async () => {
+    const r = await lobby();
+    for (const text of ["Teste _________", "Teste ___", "Teste ________ _"])
+      await expect(
+        call(0, r.code, { type: "custom", text, pick: 1 }),
+      ).rejects.toThrow("lacuna");
+  });
+
+  it("destrava democracia após ausência sem conceder ponto duplicado", async () => {
+    let r = await lobby();
+    await call(3, r.code, { type: "join", name: "Pessoa D", emoji: "💀" });
+    await call(0, r.code, {
+      type: "config",
+      packs: r.packs,
+      target: 5,
+      mode: "democracy",
+    });
+    r = await call(0, r.code, { type: "start" });
+    for (const i of [1, 2, 3]) {
+      const v = await call(i, r.code, { type: "sync" });
+      await call(i, r.code, {
+        type: "submit",
+        cards: v.players[i].hand.slice(0, r.prompt!.pick).map((c) => c.id),
+      });
+    }
+    r = await call(0, r.code, { type: "reveal" });
+    await db.exec("reset role");
+    const state = (
+      await db.query<{ state: View }>(
+        "select state from private.rooms where code=$1",
+        [r.code],
+      )
+    ).rows[0].state;
+    for (const i of [0, 1, 2]) {
+      r = await call(i, r.code, {
+        type: "vote",
+        id: state.submissions.find((s) => s.player !== ids[i])!.id,
+      });
+    }
+    expect(r.phase).toBe("revealing");
+    await db.exec("reset role");
+    await db.query(
+      "update private.rooms set state=jsonb_set(state,'{players,3,seen}','0') where code=$1",
+      [r.code],
+    );
+    r = await call(0, r.code, { type: "ping" });
+    expect(r.phase).toBe("result");
+    expect(r.players.reduce((n, p) => n + p.score, 0)).toBe(1);
+    const again = await call(1, r.code, { type: "ping" });
+    expect(again.players.reduce((n, p) => n + p.score, 0)).toBe(1);
   });
 });

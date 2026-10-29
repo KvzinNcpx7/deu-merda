@@ -8,10 +8,14 @@ describe("curadoria e combinações do baralho", () => {
   it("equilibra pacotes e temas, valida metadados e limita fórmulas repetidas", () => {
     for (const pack of packs) {
       const cards = catalog.filter((c) => c.pack === pack.id);
-      expect(cards).toHaveLength(60);
-      expect(cards.filter((c) => c.pick === 1)).toHaveLength(16);
-      expect(cards.filter((c) => c.pick === 2)).toHaveLength(4);
-      expect(cards.filter((c) => c.pick === 0)).toHaveLength(40);
+      expect(cards).toHaveLength(
+        ["memes", "acido"].includes(pack.id) ? 96 : 97,
+      );
+      expect(cards.filter((c) => c.pick === 1)).toHaveLength(25);
+      expect(cards.filter((c) => c.pick === 2)).toHaveLength(5);
+      expect(cards.filter((c) => c.pick === 0)).toHaveLength(
+        ["memes", "acido"].includes(pack.id) ? 66 : 67,
+      );
     }
     for (const c of catalog) {
       expect(Object.hasOwn(themes, c.theme!)).toBe(true);

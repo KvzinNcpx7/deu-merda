@@ -65,3 +65,11 @@ As alterações de presença detectadas em ping são vistas pelo fallback dos ou
 - Salas antigas não têm limpeza automática. Remover o último participante apaga a sala. Um operador pode planejar uma rotina de retenção futura.
 - Não há histórico permanente, prazo para resposta, torneio ou recuperação entre dispositivos.
 - Não há alegação de teste de WebSocket hospedado ou teste físico entre celulares. O teste de banco usa o PostgreSQL embarcado PGlite, e o de interface usa Chromium.
+
+## Contrato V2
+
+`revealIndex` é opcional para compatibilidade com salas e saves v1. Ausência equivale a zero; nova rodada zera o cursor. A ação `browse` é aceita somente do juiz durante revelação e valida índice inteiro e limites. Emite o mesmo sinal de revisão sem textos privados; cada cliente busca sua visão filtrada por RPC. Mesmo que o WebSocket falhe, o fallback recupera o cursor.
+
+A interface envia `expectedRound` nas ações. O servidor compara o número dentro do bloqueio da sala e rejeita uma requisição atrasada. O campo é opcional para manter compatibilidade com clientes anteriores; essa proteção não substitui validações de fase, posse e identidade nem é uma chave de idempotência. Envio/voto/escolha repetidos continuam bloqueados pelas regras existentes. Ao mudar o cursor, a interface fecha uma confirmação aberta para não escolher outra resposta por engano. Falhas de refresh obsoleto são ignoradas após outra ação.
+
+`private.finish_democracy` conclui a votação quando todos os presentes votaram e existem ao menos dois votos de pessoas presentes. É chamada sob o bloqueio existente, inclusive em ping/sync; ao mudar para resultado deixa de conceder pontos. Votos válidos de ausentes continuam contados. Presença usa o relógio do servidor e 90 segundos, sem cron. Conclusões em ping chegam aos demais pelo fallback de até cinco segundos. A expulsão/saída durante revelação continua reiniciando a rodada conforme a regra anterior.

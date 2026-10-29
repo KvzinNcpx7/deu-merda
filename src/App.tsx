@@ -1,3 +1,4 @@
+import { completePhrase } from "./lib/phrases";
 import { useCallback, useEffect, useRef, useState } from "react";
 import {
   ArrowRight,
@@ -79,7 +80,7 @@ export default function App() {
     () => localStorage.getItem("deu-merda:muted") !== "false",
   );
   const [selected, setSelected] = useState<string[]>([]);
-  const [reveal, setReveal] = useState(0);
+  const reveal = game?.revealIndex ?? 0;
   const [ranking, setRanking] = useState(false);
   const [customText, setCustomText] = useState("");
   const [customPick, setCustomPick] = useState(0);
@@ -157,7 +158,6 @@ export default function App() {
   }, [notice]);
   useEffect(() => {
     setSelected([]);
-    setReveal(0);
     setConfirm(null);
   }, [game?.round, uid, game?.phase]);
   useEffect(() => {
@@ -222,7 +222,7 @@ export default function App() {
           setReconnecting(false);
         }
       } catch (e) {
-        if (active) {
+        if (active && token === epoch.current && !lock.current) {
           setError((e as Error).message);
           setReconnecting(true);
           if (
@@ -261,7 +261,11 @@ export default function App() {
       void supabase?.removeChannel(channel);
     };
   }, [game?.code, !!local]);
+  useEffect(() => {
+    setConfirm(null);
+  }, [reveal]);
   async function act(action: Action) {
+    if (game) action = { ...action, expectedRound: game.round };
     if (lock.current) return;
     lock.current = true;
     epoch.current++;
@@ -718,7 +722,7 @@ export default function App() {
                 Infinitas cagadas.
               </h1>
               <p className="lede">
-                96 perguntas comuns, 24 duplas e 240 respostas originais.
+                150 perguntas comuns, 30 duplas e 400 respostas originais.
                 Misture os pacotes para criar combinações cada vez piores.
               </p>
               <PackGrid expanded />
@@ -1216,6 +1220,10 @@ export default function App() {
                 <br />
                 QUE NÃO DEVERIA EXISTIR.
               </p>
+              <p className="panel combination">
+                {game.prompt &&
+                  completePhrase(game.prompt.text, winning?.cards ?? [])}
+              </p>
               <div className="final-ranking">
                 {[...game.players]
                   .sort((a, b) => b.score - a.score)
@@ -1391,10 +1399,9 @@ export default function App() {
                     <button
                       className="icon-btn"
                       aria-label="Resposta anterior"
-                      disabled={reveal === 0}
+                      disabled={busy || !judge || reveal === 0}
                       onClick={() => {
-                        setReveal(reveal - 1);
-                        sound();
+                        void act({ type: "browse", index: reveal - 1 });
                       }}
                     >
                       <ChevronLeft />
@@ -1405,10 +1412,11 @@ export default function App() {
                     <button
                       className="icon-btn"
                       aria-label="Próxima resposta"
-                      disabled={reveal >= game.submissions.length - 1}
+                      disabled={
+                        busy || !judge || reveal >= game.submissions.length - 1
+                      }
                       onClick={() => {
-                        setReveal(reveal + 1);
-                        sound();
+                        void act({ type: "browse", index: reveal + 1 });
                       }}
                     >
                       <ChevronRight />
@@ -1429,13 +1437,25 @@ export default function App() {
                       </div>
                     ))}
                   </div>
+                  <p className="panel combination" aria-live="polite">
+                    {game.prompt &&
+                      completePhrase(
+                        game.prompt.text,
+                        game.submissions[reveal]?.cards ?? [],
+                      )}
+                  </p>
+                  <p className="muted">
+                    O juiz conduz a revelação para toda a sala.
+                  </p>
                   <div className="reveal-dots">
                     {game.submissions.map((s, i) => (
                       <button
                         aria-label={`Ver resposta ${i + 1}`}
                         className={reveal === i ? "current" : ""}
                         key={s.id}
-                        onClick={() => setReveal(i)}
+                        disabled={busy || !judge}
+                        aria-current={reveal === i ? "step" : undefined}
+                        onClick={() => void act({ type: "browse", index: i })}
                       >
                         {i + 1}
                       </button>
@@ -1484,6 +1504,10 @@ export default function App() {
                     <span className="accent"> +1</span>
                   </h1>
                   <p>PARABÉNS PELA FALTA DE NOÇÃO.</p>
+                  <p className="panel combination">
+                    {game.prompt &&
+                      completePhrase(game.prompt.text, winning?.cards ?? [])}
+                  </p>
                   <div className="revealed-cards">
                     {winning?.cards.map((c) => (
                       <CardTile card={c} key={c.id} />

@@ -4,6 +4,9 @@ export default defineConfig({
   timeout: 60000,
   fullyParallel: false,
   use: {
+    launchOptions: {
+      executablePath: process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE,
+    },
     baseURL: "http://127.0.0.1:5173/deu-merda/",
     trace: "retain-on-failure",
   },
