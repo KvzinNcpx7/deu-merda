@@ -8,22 +8,19 @@ describe("curadoria e combinações do baralho", () => {
   it("equilibra pacotes e temas, valida metadados e limita fórmulas repetidas", () => {
     for (const pack of packs) {
       const cards = catalog.filter((c) => c.pack === pack.id);
-      expect(cards).toHaveLength(
-        ["memes", "acido"].includes(pack.id)
-          ? 96
-          : pack.id === "escola"
-            ? 124
-            : 97,
-      );
-      expect(cards.filter((c) => c.pick === 1)).toHaveLength(25);
-      expect(cards.filter((c) => c.pick === 2)).toHaveLength(5);
-      expect(cards.filter((c) => c.pick === 0)).toHaveLength(
-        ["memes", "acido"].includes(pack.id)
-          ? 66
-          : pack.id === "escola"
-            ? 94
-            : 67,
-      );
+      const expected = {
+        quinta: [67, 25, 5],
+        brasil: [67, 25, 5],
+        escola: [94, 25, 5],
+        economia: [67, 25, 5],
+        memes: [66, 25, 5],
+        acido: [146, 55, 15],
+      }[pack.id]!;
+      expect(cards).toHaveLength(expected.reduce((sum, n) => sum + n, 0));
+      for (const pick of [0, 1, 2])
+        expect(cards.filter((c) => c.pick === pick)).toHaveLength(
+          expected[pick],
+        );
     }
     for (const c of catalog) {
       expect(Object.hasOwn(themes, c.theme!)).toBe(true);

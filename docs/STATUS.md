@@ -1,3 +1,13 @@
+# Estado atual — Humor Ácido V4
+
+Base `main` `425446a`, branch `feat/humor-acido-v4`. 120 adições e 20 revisões somente no ácido; 727 cartas totais, 216 ácidas. Resenha Escolar preservado integralmente. 66 testes, 12 E2E, build e validações aprovados. Migração nova 012, sem aplicação remota, merge ou publicação.
+
+[Relatório completo, contagens, evidências e instalação](HUMOR-ACIDO-V4.md). [Todas as cartas](DEU-MERDA-CARTAS.md).
+
+---
+
+## Histórico anterior
+
 # Estado verificado — revisão por demonstrações — 29/10/2026
 
 Base: main `f977376`, com V3 integrada pelo PR #3. Desenvolvimento em `feat/revisao-demonstracoes-fdp`. Não houve alteração direta na main, merge, publicação ou aplicação de SQL remoto nesta tarefa.

@@ -31,3 +31,9 @@ Registre os resultados reais, falhas e correções no PR. Não marque estes iten
 Antes da decisão, confirme que `submissions[].player` fica vazio e `submitted` é apenas uma lista canônica de participantes que enviaram. Sua ordem não pode depender da ordem das combinações anônimas. Verifique isso também ao enviar quase simultaneamente e ao reconectar; os textos das outras mãos continuam ausentes. Depois da decisão, autoria aparece e a soma de pontos só aumenta uma vez.
 
 No juiz, avance e volte duas respostas; confira o mesmo cursor nos três perfis. Leia a frase completa, incluindo duas lacunas em ordem e contrações como “do”, “na” e “às”. O formato visual permanece o mesmo. Faça uma sessão curta de leitura e anote confusão, repetição e risadas espontâneas sem mostrar aos jogadores nossos rótulos editoriais; não há validação humana de humor registrada nesta entrega.
+
+## Atualização Humor Ácido V4
+
+727 cartas, com 120 adições e 20 revisões exclusivamente no ácido. O pacote continua opcional, desativado por padrão; o catálogo escolar permanece intacto. Nova migração incremental `202610300012_humor_acido_v4.sql`, posterior à 011, sem modificar migrações antigas ou salas.
+
+[Relatório V4: instalação no projeto existente, resultados reais dos testes, catálogo e 20 combinações](HUMOR-ACIDO-V4.md). Não há aplicação remota ou publicação automática.

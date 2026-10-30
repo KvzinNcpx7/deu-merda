@@ -32,7 +32,7 @@ for (const card of cards) {
   counts[card.pick]++;
   distribution[card.theme] = (distribution[card.theme] ?? 0) + 1;
 }
-if (JSON.stringify(counts) !== JSON.stringify([427, 150, 30]))
+if (JSON.stringify(counts) !== JSON.stringify([507, 180, 40]))
   errors.push(`Contagens incorretas: ${counts}`);
 if (errors.length) {
   console.error(errors.join("\n"));

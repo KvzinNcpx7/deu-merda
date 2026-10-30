@@ -115,3 +115,9 @@ Depois da aprovação da V3, aplique 008 antes do build do frontend V3 e confirm
 Após aprovação dessa revisão, aplicar somente os arquivos pendentes, em ordem. Se o banco ainda está em 007, aplicar 008 antes de 009/010. Se já recebeu a V3, aplicar `202610290009_anonymous_status.sql` e `202610290010_catalog_demonstracoes.sql`.
 
 A 009 corrige a associação indireta de autores que a ordem de `submitted` permitia; a lista de status passa a ser canônica por participante, independentemente das combinações. A 010 atualiza só o catálogo global. Nenhuma reescreve JSON de salas. Depois, publicar o frontend aprovado e repetir o roteiro com três identidades. Nenhum desses arquivos foi executado remotamente nesta tarefa.
+
+## Atualização Humor Ácido V4
+
+727 cartas, com 120 adições e 20 revisões exclusivamente no ácido. O pacote continua opcional, desativado por padrão; o catálogo escolar permanece intacto. Nova migração incremental `202610300012_humor_acido_v4.sql`, posterior à 011, sem modificar migrações antigas ou salas.
+
+[Relatório V4: instalação no projeto existente, resultados reais dos testes, catálogo e 20 combinações](HUMOR-ACIDO-V4.md). Não há aplicação remota ou publicação automática.

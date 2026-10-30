@@ -78,6 +78,7 @@ beforeEach(async () => {
     "202610290008_curadoria_v3.sql",
     "202610290010_catalog_demonstracoes.sql",
     "202610290011_resenha_escolar.sql",
+    "202610300012_humor_acido_v4.sql",
   ])
     await db.exec(readFileSync(`supabase/migrations/${file}`, "utf8"));
 });
@@ -106,6 +107,12 @@ describe("PostgreSQL real embarcado: migrações, RPC e permissões", () => {
     await db.exec(
       readFileSync(
         "supabase/migrations/202610290010_catalog_demonstracoes.sql",
+        "utf8",
+      ),
+    );
+    await db.exec(
+      readFileSync(
+        "supabase/migrations/202610300012_humor_acido_v4.sql",
         "utf8",
       ),
     );
@@ -153,6 +160,153 @@ describe("PostgreSQL real embarcado: migrações, RPC e permissões", () => {
     const synced = await call(1, r.code, { type: "sync" });
     expect(synced.players[1].hand).toEqual(before.players[1].hand);
     expect(synced.players[0].hand).toEqual([]);
+  });
+  it("atualiza 011 para V4 preservando uma sala ácida com mãos antigas e ponto já concedido", async () => {
+    await db.exec("reset role");
+    try {
+      const baseline = JSON.parse(
+        readFileSync("docs/editorial/CATALOGO-PRE-V4.json", "utf8"),
+      ) as typeof catalog;
+      await db.query(
+        "delete from private.cards where not (id = any($1::text[]))",
+        [baseline.map((c) => c.id)],
+      );
+      await db.query(
+        "insert into private.cards select * from jsonb_populate_recordset(null::private.cards,$1::jsonb) on conflict (id) do update set text=excluded.text",
+        [JSON.stringify(baseline)],
+      );
+      let r = await lobby();
+      await call(0, r.code, {
+        type: "config",
+        packs: ["acido"],
+        target: 5,
+        mode: "classic",
+      });
+      r = await call(0, r.code, { type: "start" });
+      await db.exec("reset role");
+      await db.query(
+        "update private.rooms set state=jsonb_set(state,'{prompt}',(select to_jsonb(c) from private.cards c where id='acido-q24')) where code=$1",
+        [r.code],
+      );
+      r = await call(0, r.code, { type: "sync" });
+      r = await answer(r);
+      r = await call(0, r.code, { type: "choose", id: r.submissions[0].id });
+      expect(r.players.reduce((n, p) => n + p.score, 0)).toBe(1);
+      await db.exec("reset role");
+      const read = async () =>
+        (
+          await db.query<{ state: View }>(
+            "select state from private.rooms where code=$1",
+            [r.code],
+          )
+        ).rows[0].state;
+      const before = await read();
+      expect(before.prompt!.text).toBe(
+        baseline.find((c) => c.id === "acido-q24")!.text,
+      );
+      for (let i = 0; i < 2; i++)
+        await db.exec(
+          readFileSync(
+            "supabase/migrations/202610300012_humor_acido_v4.sql",
+            "utf8",
+          ),
+        );
+      expect(await read()).toEqual(before);
+      expect(
+        (await db.query("select * from private.cards order by id")).rows,
+      ).toEqual([...catalog].sort((a, b) => a.id.localeCompare(b.id)));
+      const synced = await call(1, r.code, { type: "sync" });
+      expect(synced.prompt).toEqual(before.prompt);
+      expect(synced.players[1].hand).toEqual(before.players[1].hand);
+      expect(synced.players[0].hand).toEqual([]);
+      const next = await call(0, r.code, { type: "next" });
+      expect(next.judge).not.toBe(r.judge);
+      expect(next.players.reduce((n, p) => n + p.score, 0)).toBe(1);
+    } finally {
+      await db.exec("reset role");
+      await db.exec(
+        readFileSync(
+          "supabase/migrations/202610300012_humor_acido_v4.sql",
+          "utf8",
+        ),
+      );
+    }
+  });
+  it("usa novas respostas ácidas pela RPC, filtra temas e revela uma dupla nova sem expor autoria", async () => {
+    await db.exec("reset role; begin");
+    try {
+      // Restrict only this transactional fixture to new answers so availability is
+      // verified without hoping a random hand happens to contain an addition.
+      const baseline = JSON.parse(
+        readFileSync("docs/editorial/CATALOGO-PRE-V4.json", "utf8"),
+      ) as typeof catalog;
+      await db.query(
+        "delete from private.cards where pack='acido' and pick=0 and id=any($1::text[])",
+        [baseline.map((c) => c.id)],
+      );
+      const r = await lobby();
+      expect(r.packs).not.toContain("acido");
+      await call(0, r.code, {
+        type: "config",
+        packs: ["acido"],
+        excludedThemes: ["medicina", "religiao"],
+        target: 5,
+        mode: "classic",
+      });
+      await call(0, r.code, { type: "start" });
+      await db.exec("reset role");
+      await db.query(
+        "update private.rooms set state=jsonb_set(state,'{prompt}',(select to_jsonb(c) from private.cards c where id='acido-q64')) where code=$1",
+        [r.code],
+      );
+      const b = await call(1, r.code, { type: "sync" });
+      expect(b.players[1].hand).toHaveLength(10);
+      expect(
+        b.players[1].hand.every(
+          (c) =>
+            c.pack === "acido" &&
+            !["medicina", "religiao"].includes(c.theme!) &&
+            !baseline.some((old) => old.id === c.id),
+        ),
+      ).toBe(true);
+      expect(b.players[0].hand).toEqual([]);
+      const selected = [b.players[1].hand[1].id, b.players[1].hand[0].id];
+      await expect(
+        call(1, r.code, { type: "submit", cards: [selected[0], selected[0]] }),
+      ).rejects.toThrow("sem repetir");
+      await expect(
+        call(1, r.code, { type: "submit", cards: [selected[0]] }),
+      ).rejects.toThrow();
+      await call(1, r.code, { type: "submit", cards: selected });
+      const c = await call(2, r.code, { type: "sync" });
+      await call(2, r.code, {
+        type: "submit",
+        cards: c.players[2].hand.slice(0, 2).map((a) => a.id),
+      });
+      const revealed = await call(0, r.code, { type: "reveal" });
+      const submission = revealed.submissions.find(
+        (s) => s.cards[0].id === selected[0],
+      )!;
+      expect(submission.cards.map((c) => c.id)).toEqual(selected);
+      for (const i of [0, 1, 2])
+        expect(
+          (await call(i, r.code, { type: "sync" })).submissions.every(
+            (s) => s.player === "",
+          ),
+        ).toBe(true);
+      await call(0, r.code, { type: "browse", index: 1 });
+      expect((await call(2, r.code, { type: "sync" })).revealIndex).toBe(1);
+      const result = await call(0, r.code, {
+        type: "choose",
+        id: submission.id,
+      });
+      expect(
+        result.submissions.find((s) => s.id === submission.id)!.player,
+      ).toBe(ids[1]);
+      expect(result.players[1].score).toBe(1);
+    } finally {
+      await db.exec("reset role; rollback");
+    }
   });
   it("sincroniza exatamente o catálogo e os metadados do cliente", async () => {
     await db.exec("reset role");
@@ -746,6 +900,22 @@ describe("PostgreSQL real embarcado: migrações, RPC e permissões", () => {
         "202610290011_resenha_escolar.sql",
       ])
         await legacy.exec(readFileSync(`supabase/migrations/${file}`, "utf8"));
+      expect(
+        (await legacy.query("select * from private.cards order by id")).rows,
+      ).toEqual(
+        (
+          JSON.parse(
+            readFileSync("docs/editorial/CATALOGO-PRE-V4.json", "utf8"),
+          ) as typeof catalog
+        ).sort((a, b) => a.id.localeCompare(b.id)),
+      );
+      for (let replay = 0; replay < 2; replay++)
+        await legacy.exec(
+          readFileSync(
+            "supabase/migrations/202610300012_humor_acido_v4.sql",
+            "utf8",
+          ),
+        );
       expect(
         (
           await legacy.query<{ state: unknown }>(

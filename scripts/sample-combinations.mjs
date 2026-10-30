@@ -41,7 +41,7 @@ for (const acid of [false, true]) {
       /________/g,
       () => `[${selected[n++].text.replace(/[.!?]$/, "")}]`,
     );
-    const id = `DEMO-${String(samples.length + 1).padStart(3, "0")}`;
+    const id = `V4-GERAL-${String(samples.length + 1).padStart(3, "0")}`;
     samples.push({
       id,
       tabus: acid,
@@ -57,12 +57,72 @@ for (const acid of [false, true]) {
 }
 writeFileSync(
   "docs/COMBINACOES.md",
-  `# Amostra de combinações\n\n120 combinações reproduzíveis (seed 0xdecaf): 60 sem Tabus e 60 com todos os pacotes. Pergunta e respostas vêm sempre de pacotes diferentes; em duplas, as duas respostas também são de pacotes distintos. A amostra alterna perguntas simples/duplas e fragmentos curtos/cenas. Colchetes conservam o texto original: não fazem parte do jogo nem corrigem concordância automaticamente. Regere com \`npm run cards:sample\`.\n\nA avaliação editorial dos 120 casos está em [editorial/AVALIACAO-DEMONSTRACOES.md](editorial/AVALIACAO-DEMONSTRACOES.md). Sorteio não mede graça nem substitui testes com pessoas.\n\n${sections.join("\n\n")}\n`,
+  `# Amostra de combinações\n\n120 combinações reproduzíveis (seed 0xdecaf): 60 sem Tabus e 60 com todos os pacotes. Pergunta e respostas vêm sempre de pacotes diferentes; em duplas, as duas respostas também são de pacotes distintos. A amostra alterna perguntas simples/duplas e fragmentos curtos/cenas. Colchetes conservam o texto original: não fazem parte do jogo nem corrigem concordância automaticamente. Regere com \`npm run cards:sample\`.\n\nA avaliação dos 120 cruzamentos da amostra dedicada com ácido (separada desta amostra geral) está em [editorial/AVALIACAO-ACIDO-V4.md](editorial/AVALIACAO-ACIDO-V4.md). Sorteio não mede graça nem substitui testes com pessoas.\n\n${sections.join("\n\n")}\n`,
 );
 writeFileSync(
-  "docs/editorial/AMOSTRA-DEMONSTRACOES.json",
+  "docs/editorial/AMOSTRA-V4-GERAL.json",
   await format(JSON.stringify(samples), { parser: "json" }),
 );
 console.log(
   `${samples.length} combinações únicas, com cruzamentos de pacotes, geradas.`,
+);
+
+// Separate, stratified acid-focused sample: every case crosses packs and
+// contains acido. The first half uses acid questions; the second acid answers.
+state = 0xac1d04;
+const acidSamples = [],
+  acidKeys = new Set();
+const otherPacks = [
+  ...new Set(cards.filter((c) => c.pack !== "acido").map((c) => c.pack)),
+];
+for (let i = 0; i < 120; i++) {
+  const acidQuestion = i < 60;
+  const otherPack = otherPacks[i % otherPacks.length];
+  const pick = Math.floor(i / otherPacks.length) % 3 === 0 ? 2 : 1;
+  let q, answers, key;
+  do {
+    q = choose(
+      cards.filter(
+        (c) =>
+          c.pack === (acidQuestion ? "acido" : otherPack) && c.pick === pick,
+      ),
+    );
+    const usedPacks = new Set([q.pack]);
+    answers = Array.from({ length: pick }, (_, slot) => {
+      const candidates = cards.filter(
+        (c) =>
+          !c.pick &&
+          !usedPacks.has(c.pack) &&
+          (slot === 0
+            ? c.pack === (acidQuestion ? otherPack : "acido")
+            : c.pack !== "acido"),
+      );
+      const a = choose(candidates);
+      usedPacks.add(a.pack);
+      return a;
+    });
+    key = [q.id, ...answers.map((a) => a.id)].join(";");
+  } while (acidKeys.has(key));
+  acidKeys.add(key);
+  let slot = 0;
+  acidSamples.push({
+    id: `ACIDO-V4-${String(i + 1).padStart(3, "0")}`,
+    pergunta: q.id,
+    respostas: answers.map((a) => a.id),
+    texto: q.text.replace(
+      /________/g,
+      () => `[${answers[slot++].text.replace(/[.!?]$/, "")}]`,
+    ),
+  });
+}
+writeFileSync(
+  "docs/editorial/AMOSTRA-ACIDO-V4.json",
+  await format(JSON.stringify(acidSamples), { parser: "json" }),
+);
+writeFileSync(
+  "docs/editorial/AMOSTRA-ACIDO-V4.md",
+  `# 120 cruzamentos com Humor Ácido e Tabus — V4\n\nSeed 0xac1d04; 60 perguntas ácidas com respostas de outros pacotes e 60 perguntas dos outros pacotes com ao menos uma resposta ácida. São 40 duplas, com cartas de três pacotes distintos, e 80 simples. Todas as respostas estão em ordem. Colchetes preservam os textos sem ajustes de apresentação.\n\n${acidSamples.map((s) => `- **${s.id}** ${s.texto} (${s.pergunta}; ${s.respostas.join(", ")})`).join("\n")}\n`,
+);
+console.log(
+  `${acidSamples.length} cruzamentos adicionais com ácido gerados (seed 0xac1d04).`,
 );
