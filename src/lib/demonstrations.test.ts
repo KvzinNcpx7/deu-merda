@@ -9,6 +9,8 @@ const audit = load("docs/editorial/REVISAO-DEMONSTRACOES.json").cartas as {
   antes: Card;
   depois: Card;
 }[];
+const historicalCatalog = audit.map((row) => row.depois);
+const preV4 = load("docs/editorial/CATALOGO-PRE-V4.json") as Card[];
 describe("revisão baseada nas demonstrações", () => {
   it("encadeia a revisão com a V3 e conserva todos os IDs, pacotes e tipos", () => {
     const v3 = load("docs/editorial/REVISAO-V3.json").cartas as {
@@ -19,7 +21,7 @@ describe("revisão baseada nas demonstrações", () => {
     expect(new Set(audit.map((r) => r.id)).size).toBe(580);
     for (const row of audit) {
       expect(row.antes).toEqual(v3.find((r) => r.id === row.id)!.depois);
-      expect(row.depois).toEqual(catalog.find((c) => c.id === row.id));
+      expect(row.depois).toEqual(preV4.find((c) => c.id === row.id));
       expect(row.depois.pick).toBe(row.antes.pick);
       expect(row.depois.pack).toBe(row.antes.pack);
       expect(row.decisao).toBe(
@@ -41,9 +43,9 @@ describe("revisão baseada nas demonstrações", () => {
       expect(["PROMISSORA", "MEDIA", "FRACA"]).toContain(parecer);
       expect(categorias.length).toBeGreaterThan(0);
       expect(nota.length).toBeGreaterThan(30);
-      const q = catalog.find((c) => c.id === original.pergunta)!;
+      const q = historicalCatalog.find((c) => c.id === original.pergunta)!;
       const answers = original.respostas.map((id: string) =>
-        catalog.find((c) => c.id === id)!,
+        historicalCatalog.find((c) => c.id === id)!,
       );
       expect(answers).toHaveLength(q.pick);
       expect(answers.every((a: Card) => !a.pick)).toBe(true);

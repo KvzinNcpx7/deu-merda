@@ -177,12 +177,12 @@ describe("motor de partida", () => {
       go(r, "c", { type: "reaction", text: "texto livre" }),
     ).toThrow();
   });
-  it("catálogo curado tem 150 simples, 30 duplas e 427 respostas sem repetição", () => {
-    expect(catalog.filter((c) => c.pick === 1)).toHaveLength(150);
-    expect(catalog.filter((c) => c.pick === 2)).toHaveLength(30);
-    expect(catalog.filter((c) => !c.pick)).toHaveLength(427);
-    expect(new Set(catalog.map((c) => c.id)).size).toBe(607);
-    expect(new Set(catalog.map((c) => c.text)).size).toBe(607);
+  it("catálogo curado tem 180 simples, 40 duplas e 507 respostas sem repetição", () => {
+    expect(catalog.filter((c) => c.pick === 1)).toHaveLength(180);
+    expect(catalog.filter((c) => c.pick === 2)).toHaveLength(40);
+    expect(catalog.filter((c) => !c.pick)).toHaveLength(507);
+    expect(new Set(catalog.map((c) => c.id)).size).toBe(727);
+    expect(new Set(catalog.map((c) => c.text)).size).toBe(727);
     for (const c of catalog)
       expect((c.text.match(/________/g) ?? []).length).toBe(c.pick);
   });

@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "ACIDO-V4-001",
+    "pergunta": "acido-q66",
+    "respostas": ["quinta-a19", "escola-a78"],
+    "texto": "A bula prometia [A bunda de fora no reflexo da chaleira]. O efeito colateral foi [Lula].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O remédio que provoca um político tem contraste, mas falta uma imagem que ligue os dois resultados."
+  },
+  {
+    "id": "ACIDO-V4-002",
+    "pergunta": "acido-q20",
+    "respostas": ["brasil-a35", "quinta-a22"],
+    "texto": "O ditador exigiu [A farofa da praia]. A multidão respondeu com [Responder “você também” ao fiscal].",
+    "parecer": "FRACA",
+    "categorias": ["GRAMATICA", "SEMANTICA"],
+    "nota": "Responder ao fiscal vira uma reação à farofa; a ação encaixa, mas o confronto não ganha sentido claro."
+  },
+  {
+    "id": "ACIDO-V4-003",
+    "pergunta": "acido-q30",
+    "respostas": ["escola-a86", "economia-a67"],
+    "texto": "O médium previu [A Xirley presidindo a CPI do recreio]; o espírito reclamou de [Aluguel de sogra].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE", "LONGA"],
+    "nota": "A CPI escolar no além é reconhecível; a segunda resposta desvia o foco e alonga a leitura."
+  },
+  {
+    "id": "ACIDO-V4-004",
+    "pergunta": "acido-q67",
+    "respostas": ["economia-a47", "escola-a57"],
+    "texto": "Minha última vontade era [O partido que terceirizou a oposição]. No testamento colocaram [Os livros do ano passado].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE", "PIADA_PRE_ESCRITA"],
+    "nota": "A piada do partido terceirizado já está pronta; os livros criam uma frustração adicional modesta."
+  },
+  {
+    "id": "ACIDO-V4-005",
+    "pergunta": "acido-q19",
+    "respostas": ["memes-a65", "brasil-a16"],
+    "texto": "O médico proibiu [O selo de otário do mês]. Minha família trouxe [A primeira multa da história].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "Selo e multa não se conectam à proibição médica nem à família; o absurdo fica arbitrário."
+  },
+  {
+    "id": "ACIDO-V4-006",
+    "pergunta": "acido-q35",
+    "respostas": ["quinta-a2"],
+    "texto": "O fiscal abriu a porta do banheiro e deu de cara com [Aplausos no momento errado].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Aplausos dentro do banheiro sugerem plateia inesperada, embora a resposta não seja uma cena concreta."
+  },
+  {
+    "id": "ACIDO-V4-007",
+    "pergunta": "acido-q3",
+    "respostas": ["brasil-a57"],
+    "texto": "O médico pediu uma segunda opinião sobre [Formulário molhado].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "O formulário molhado não cria por si um segundo diagnóstico; a preparação médica fica desperdiçada."
+  },
+  {
+    "id": "ACIDO-V4-008",
+    "pergunta": "acido-q16",
+    "respostas": ["escola-a10"],
+    "texto": "O bunker nazista virou depósito de [Quarenta páginas para concluir “depende”].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE", "LONGA"],
+    "nota": "O trabalho escolar guardado no bunker diminui a pompa militar, mas a resposta exige uma leitura longa."
+  },
+  {
+    "id": "ACIDO-V4-009",
+    "pergunta": "acido-q58",
+    "respostas": ["economia-a33"],
+    "texto": "O defunto levantou só para reclamar de [O coach desempregado].",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O morto voltando só para reclamar de coach produz um motivo banal para um acontecimento impossível."
+  },
+  {
+    "id": "ACIDO-V4-010",
+    "pergunta": "acido-q13",
+    "respostas": ["memes-a46"],
+    "texto": "O padre ouviu minha confissão e recomendou [O selo de verificado colado com fita crepe].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "A falsa verificação como conselho religioso é visual; depende da familiaridade com redes sociais."
+  },
+  {
+    "id": "ACIDO-V4-011",
+    "pergunta": "acido-q29",
+    "respostas": ["quinta-a51"],
+    "texto": "O tirano foi vaiado ao anunciar [Um cocô de mentira].",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "A solenidade autoritária acaba num cocô de brinquedo; resposta curta e alvo satírico evidente."
+  },
+  {
+    "id": "ACIDO-V4-012",
+    "pergunta": "acido-q7",
+    "respostas": ["brasil-a61"],
+    "texto": "O congresso médico proibiu a palestra sobre [Uma coroa comprada no armarinho].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "A coroa de armarinho não cria relação suficientemente clara com o congresso para sustentar a proibição."
+  },
+  {
+    "id": "ACIDO-V4-013",
+    "pergunta": "acido-q9",
+    "respostas": ["escola-a48"],
+    "texto": "O milagre precisou ser refeito por causa de [Eleger o apagador].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "A eleição de um apagador vira falha sobrenatural; o contraste escolar funciona mais que a causalidade."
+  },
+  {
+    "id": "ACIDO-V4-014",
+    "pergunta": "acido-q46",
+    "respostas": ["economia-a28"],
+    "texto": "A perícia identificou [O Ministério de Deixar pra Depois] na cueca.",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Um ministério inteiro dentro da cueca transforma a perícia em escândalo de escala impossível."
+  },
+  {
+    "id": "ACIDO-V4-015",
+    "pergunta": "acido-q50",
+    "respostas": ["memes-a32"],
+    "texto": "Meu brinde de casamento acabou com a frase: “[O áudio “eu quero café” no carro de som]”.",
+    "parecer": "FRACA",
+    "categorias": ["PIADA_PRE_ESCRITA", "LONGA"],
+    "nota": "Uma frase encerra com um áudio já descrito pela carta; as camadas de fala tornam a leitura pesada."
+  },
+  {
+    "id": "ACIDO-V4-016",
+    "pergunta": "acido-q20",
+    "respostas": ["quinta-a49", "escola-a67"],
+    "texto": "O ditador exigiu [O bafo de café velho]. A multidão respondeu com [O certificado da recuperação].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O tirano pedindo bafo é grotesco; o certificado parece uma resposta aleatória, sem progressão clara."
+  },
+  {
+    "id": "ACIDO-V4-017",
+    "pergunta": "acido-q61",
+    "respostas": ["brasil-a13", "escola-a43"],
+    "texto": "O primeiro exame revelou [A fila pra reclamar da fila]. O segundo confirmou [Trabalho em dupla comigo mesmo].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "Fila burocrática e trabalho escolar não se confirmam como exames; as duas imagens ficam desconectadas."
+  },
+  {
+    "id": "ACIDO-V4-018",
+    "pergunta": "acido-q61",
+    "respostas": ["escola-a23", "economia-a55"],
+    "texto": "O primeiro exame revelou [O “beijo” no final do e-mail para a coordenação]. O segundo confirmou [Um carrinho de pipoca na licitação].",
+    "parecer": "FRACA",
+    "categorias": ["LONGA", "PIADA_PRE_ESCRITA"],
+    "nota": "A gafe do e-mail já fecha uma piada própria; o carrinho na licitação acrescenta outra sem ligação."
+  },
+  {
+    "id": "ACIDO-V4-019",
+    "pergunta": "acido-q19",
+    "respostas": ["economia-a38", "escola-a40"],
+    "texto": "O médico proibiu [O protocolo de extravio do protocolo]. Minha família trouxe [Um semestre de prova].",
+    "parecer": "FRACA",
+    "categorias": ["PIADA_PRE_ESCRITA", "SEMANTICA"],
+    "nota": "O protocolo perdido depende de sua própria piada e o semestre de prova não constrói uma reação."
+  },
+  {
+    "id": "ACIDO-V4-020",
+    "pergunta": "acido-q62",
+    "respostas": ["memes-a2", "economia-a67"],
+    "texto": "O velório começou com [Ovo de marmita] e terminou com [Aluguel de sogra].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O velório passando de comida banal a aluguel de sogra tem escalada, mas o final precisa de contexto."
+  },
+  {
+    "id": "ACIDO-V4-021",
+    "pergunta": "acido-q29",
+    "respostas": ["quinta-a61"],
+    "texto": "O tirano foi vaiado ao anunciar [Alface no dente da frente].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Um tirano anunciando alface no dente ganha um constrangimento visual pequeno e legível."
+  },
+  {
+    "id": "ACIDO-V4-022",
+    "pergunta": "acido-q7",
+    "respostas": ["brasil-a64"],
+    "texto": "O congresso médico proibiu a palestra sobre [Uma visita de três dias].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "Uma visita longa pode ser chata, mas a palestra proibida sobre ela não traz uma virada específica."
+  },
+  {
+    "id": "ACIDO-V4-023",
+    "pergunta": "acido-q10",
+    "respostas": ["escola-a60"],
+    "texto": "A Morte pediu demissão por causa de [Um discurso pra sala vazia].",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Até a Morte desiste de um discurso para ninguém; a resposta cotidiana diminui uma figura grandiosa."
+  },
+  {
+    "id": "ACIDO-V4-024",
+    "pergunta": "acido-q39",
+    "respostas": ["economia-a27"],
+    "texto": "O demônio desistiu da possessão ao ouvir falar de [Banheiro de aluguel].",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O demônio recuar diante de banheiro alugado sugere condição pior que possessão sem explicar a piada."
+  },
+  {
+    "id": "ACIDO-V4-025",
+    "pergunta": "acido-q14",
+    "respostas": ["memes-a29"],
+    "texto": "Minha sessão espírita foi resumida no recado: “[Meu nome no áudio de oito minutos]”.",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "A mensagem do além em áudio longo aproxima o sobrenatural do grupo de família; falta um fecho mais forte."
+  },
+  {
+    "id": "ACIDO-V4-026",
+    "pergunta": "acido-q4",
+    "respostas": ["quinta-a66"],
+    "texto": "O ditador apagou da biografia o capítulo “[Banheiro químico com manobrista]”.",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O capítulo do banheiro com manobrista ridiculariza a biografia solene por um luxo escatológico banal."
+  },
+  {
+    "id": "ACIDO-V4-027",
+    "pergunta": "acido-q9",
+    "respostas": ["brasil-a18"],
+    "texto": "O milagre precisou ser refeito por causa de [Sete anos de azar divididos sem juros].",
+    "parecer": "MEDIA",
+    "categorias": ["PIADA_PRE_ESCRITA", "CONTRASTE"],
+    "nota": "O parcelamento do azar já é uma piada; a falha do milagre reforça a ideia sem grande novidade."
+  },
+  {
+    "id": "ACIDO-V4-028",
+    "pergunta": "acido-q10",
+    "respostas": ["escola-a75"],
+    "texto": "A Morte pediu demissão por causa de [Iara].",
+    "parecer": "MEDIA",
+    "categorias": ["ENCAIXE"],
+    "nota": "O nome sozinho encaixa muito bem, mas a graça depende da referência interna conhecida pelos jogadores."
+  },
+  {
+    "id": "ACIDO-V4-029",
+    "pergunta": "acido-q42",
+    "respostas": ["economia-a32"],
+    "texto": "O médico se recusou a assinar o atestado de [Propina declarada como gorjeta].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Um atestado de propina cria uma cobertura médica para corrupção fictícia; a resposta já traz a sátira."
+  },
+  {
+    "id": "ACIDO-V4-030",
+    "pergunta": "acido-q59",
+    "respostas": ["memes-a56"],
+    "texto": "O exorcista encontrou um bilhete dizendo: “[Selfie borrada]”.",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "Selfie borrada como conteúdo de bilhete não cria instrução nem ameaça; o encontro fica sem payoff."
+  },
+  {
+    "id": "ACIDO-V4-031",
+    "pergunta": "acido-q68",
+    "respostas": ["quinta-a22", "brasil-a55"],
+    "texto": "Prometeram um milagre com [Responder “você também” ao fiscal]. Recebi [O grito de independência no ônibus].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "Responder ao fiscal e receber um grito de ônibus são ações distantes demais para o milagre sustentar."
+  },
+  {
+    "id": "ACIDO-V4-032",
+    "pergunta": "acido-q18",
+    "respostas": ["brasil-a25", "escola-a31"],
+    "texto": "Na promoção da funerária, quem leva [Um fiscal de bermuda] ganha [Colar a resposta errada].",
+    "parecer": "MEDIA",
+    "categorias": ["GRAMATICA", "CONTRASTE"],
+    "nota": "Ganhar o ato de colar é menos natural que ganhar um objeto; a promoção tem contraste, mas leitura tropeça."
+  },
+  {
+    "id": "ACIDO-V4-033",
+    "pergunta": "acido-q62",
+    "respostas": ["escola-a79", "memes-a38"],
+    "texto": "O velório começou com [Vorcaro] e terminou com [Empada de ontem].",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O velório troca uma figura pública por empada velha; a queda de solenidade é curta e visual."
+  },
+  {
+    "id": "ACIDO-V4-034",
+    "pergunta": "acido-q70",
+    "respostas": ["economia-a22", "memes-a64"],
+    "texto": "O roteiro dizia “[Uma pesquisa com os próprios cartazes]”. O improviso foi “[O unboxing do pacote errado]”.",
+    "parecer": "FRACA",
+    "categorias": ["LONGA", "PIADA_PRE_ESCRITA"],
+    "nota": "Pesquisa com cartazes e unboxing são duas piadas prontas competindo, sem uma ação central reconhecível."
+  },
+  {
+    "id": "ACIDO-V4-035",
+    "pergunta": "acido-q68",
+    "respostas": ["memes-a41", "quinta-a27"],
+    "texto": "Prometeram um milagre com [Pedir desculpa no grupo errado]. Recebi [Um detector de mentira comprado no camelô].",
+    "parecer": "MEDIA",
+    "categorias": ["GRAMATICA", "CONTRASTE"],
+    "nota": "Pedir desculpa como instrumento de milagre soa torto; o detector barato oferece um retorno visual útil."
+  },
+  {
+    "id": "ACIDO-V4-036",
+    "pergunta": "acido-q13",
+    "respostas": ["quinta-a52"],
+    "texto": "O padre ouviu minha confissão e recomendou [Um buraco no chão do palco].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "Um buraco no palco pode ser conselho macabro, mas falta um vínculo claro com a confissão."
+  },
+  {
+    "id": "ACIDO-V4-037",
+    "pergunta": "acido-q22",
+    "respostas": ["brasil-a57"],
+    "texto": "A causa da morte fictícia foi [Formulário molhado].",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "A causa fictícia de morte absurdamente banal faz a burocracia parecer fatal; fragmento curto e direto."
+  },
+  {
+    "id": "ACIDO-V4-038",
+    "pergunta": "acido-q11",
+    "respostas": ["escola-a36"],
+    "texto": "O plano de saúde classificou [A autoestima na recuperação] como procedimento estético.",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "A autoestima na recuperação ganha tratamento estético, unindo vergonha escolar e linguagem de convênio."
+  },
+  {
+    "id": "ACIDO-V4-039",
+    "pergunta": "acido-q55",
+    "respostas": ["economia-a44"],
+    "texto": "O documentário sobre o tirano acabou com [Uma CPI da colher do café].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O documentário político termina numa CPI de colher; a redução de escala funciona, mas a carta já explica a sátira."
+  },
+  {
+    "id": "ACIDO-V4-040",
+    "pergunta": "acido-q59",
+    "respostas": ["memes-a50"],
+    "texto": "O exorcista encontrou um bilhete dizendo: “[Um arquivo chamado definitivo-agora-vai-27.zip]”.",
+    "parecer": "MEDIA",
+    "categorias": ["LONGA", "CONTRASTE"],
+    "nota": "O arquivo interminável vira mensagem sobrenatural; a extensão do nome também atrasa o ritmo da leitura."
+  },
+  {
+    "id": "ACIDO-V4-041",
+    "pergunta": "acido-q47",
+    "respostas": ["quinta-a17"],
+    "texto": "O prêmio principal do congresso de medicina era [Um desentupidor de estimação].",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Um desentupidor como prêmio médico atravessa medicina e banheiro com imagem imediata e curta."
+  },
+  {
+    "id": "ACIDO-V4-042",
+    "pergunta": "acido-q27",
+    "respostas": ["brasil-a15"],
+    "texto": "O hospital foi interditado depois de [Um guarda-chuva furado].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "O guarda-chuva furado não justifica de forma imaginável a interdição; o absurdo carece de uma ponte."
+  },
+  {
+    "id": "ACIDO-V4-043",
+    "pergunta": "acido-q58",
+    "respostas": ["escola-a40"],
+    "texto": "O defunto levantou só para reclamar de [Um semestre de prova].",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Voltar da morte para reclamar de prova amplia uma irritação cotidiana sem exigir referência interna."
+  },
+  {
+    "id": "ACIDO-V4-044",
+    "pergunta": "acido-q12",
+    "respostas": ["economia-a17"],
+    "texto": "O julgamento do ditador parou por causa de [O reembolso da viagem pelo Street View].",
+    "parecer": "FRACA",
+    "categorias": ["LONGA", "PIADA_PRE_ESCRITA"],
+    "nota": "O reembolso do Street View já contém toda a piada e não muda de sentido no julgamento."
+  },
+  {
+    "id": "ACIDO-V4-045",
+    "pergunta": "acido-q21",
+    "respostas": ["memes-a58"],
+    "texto": "O fantasma pediu [A porra do pombo] pra deixar a casa.",
+    "parecer": "PROMISSORA",
+    "categorias": ["ENCAIXE", "CONTRASTE"],
+    "nota": "O pedido do fantasma vira um pombo e um palavrão bem situado; a exigência absurda cabe numa leitura curta."
+  },
+  {
+    "id": "ACIDO-V4-046",
+    "pergunta": "acido-q67",
+    "respostas": ["quinta-a50", "brasil-a56"],
+    "texto": "Minha última vontade era [Cuspir sem querer no primeiro encontro]. No testamento colocaram [Um despacho no endereço errado].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O desejo constrangedor e o despacho errado combinam com uma vontade mal atendida; a ligação não é imediata."
+  },
+  {
+    "id": "ACIDO-V4-047",
+    "pergunta": "acido-q66",
+    "respostas": ["brasil-a35", "economia-a20"],
+    "texto": "A bula prometia [A farofa da praia]. O efeito colateral foi [Quarenta tesouras de inauguração].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "Farofa e tesouras de inauguração não formam efeito colateral reconhecível; a dupla acumula aleatoriedade."
+  },
+  {
+    "id": "ACIDO-V4-048",
+    "pergunta": "acido-q64",
+    "respostas": ["escola-a93", "quinta-a16"],
+    "texto": "O ditador proibiu [Cristiane descobrindo a cagada do século], mas foi derrotado por [Banheiro de ônibus].",
+    "parecer": "MEDIA",
+    "categorias": ["GRAMATICA", "CONTRASTE"],
+    "nota": "O ditador proibir uma pessoa descobrindo algo pede esforço sintático; a derrota pelo banheiro é uma boa imagem."
+  },
+  {
+    "id": "ACIDO-V4-049",
+    "pergunta": "acido-q68",
+    "respostas": ["economia-a22", "quinta-a34"],
+    "texto": "Prometeram um milagre com [Uma pesquisa com os próprios cartazes]. Recebi [Dançar sozinho no elevador].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE", "PIADA_PRE_ESCRITA"],
+    "nota": "Pesquisa fictícia e dança no elevador criam decepção, mas a primeira resposta já tem estrutura de piada."
+  },
+  {
+    "id": "ACIDO-V4-050",
+    "pergunta": "acido-q18",
+    "respostas": ["memes-a3", "economia-a46"],
+    "texto": "Na promoção da funerária, quem leva [Um pedido de namoro na receita de bolo] ganha [Parcelas atrasadas].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O presente romântico rende dívida na funerária; o contraste é claro, embora o objeto inicial seja elaborado."
+  },
+  {
+    "id": "ACIDO-V4-051",
+    "pergunta": "acido-q35",
+    "respostas": ["quinta-a47"],
+    "texto": "O fiscal abriu a porta do banheiro e deu de cara com [O pum preso na reunião].",
+    "parecer": "MEDIA",
+    "categorias": ["ENCAIXE"],
+    "nota": "A cena é natural e pode render voz de leitura, mas banheiro com pum é previsível e pouco contrastante."
+  },
+  {
+    "id": "ACIDO-V4-052",
+    "pergunta": "acido-q10",
+    "respostas": ["brasil-a25"],
+    "texto": "A Morte pediu demissão por causa de [Um fiscal de bermuda].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O fiscal banal assusta até a Morte; é legível, mas falta um detalhe que faça esse fiscal ser especial."
+  },
+  {
+    "id": "ACIDO-V4-053",
+    "pergunta": "acido-q24",
+    "respostas": ["escola-a56"],
+    "texto": "O prontuário só tinha uma frase: “[O elogio ao trabalho de outra turma]”.",
+    "parecer": "FRACA",
+    "categorias": ["PIADA_PRE_ESCRITA", "SEMANTICA"],
+    "nota": "O elogio à turma errada é uma gafe escolar pronta que quase não ganha sentido ao virar prontuário."
+  },
+  {
+    "id": "ACIDO-V4-054",
+    "pergunta": "acido-q24",
+    "respostas": ["economia-a32"],
+    "texto": "O prontuário só tinha uma frase: “[Propina declarada como gorjeta]”.",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O prontuário registrando propina como gorjeta aproxima consulta e corrupção fictícia numa frase legível."
+  },
+  {
+    "id": "ACIDO-V4-055",
+    "pergunta": "acido-q59",
+    "respostas": ["memes-a1"],
+    "texto": "O exorcista encontrou um bilhete dizendo: “[O fiscal do “é pavê”]”.",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O exorcista recebe um fiscal de piada de tio; funciona mais para quem reconhece a expressão de churrasco."
+  },
+  {
+    "id": "ACIDO-V4-056",
+    "pergunta": "acido-q33",
+    "respostas": ["quinta-a3"],
+    "texto": "A última mensagem do finado dizia: “[Um joelho cabeludo]”.",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "O joelho cabeludo como última mensagem é só um objeto deslocado; não cria virada suficiente."
+  },
+  {
+    "id": "ACIDO-V4-057",
+    "pergunta": "acido-q37",
+    "respostas": ["brasil-a4"],
+    "texto": "O hospital teve que explicar a foto de [O “na volta a gente compra”].",
+    "parecer": "FRACA",
+    "categorias": ["PIADA_PRE_ESCRITA", "SEMANTICA"],
+    "nota": "Fotografar uma expressão de família é difícil de visualizar; a frase citada pede contexto externo."
+  },
+  {
+    "id": "ACIDO-V4-058",
+    "pergunta": "acido-q1",
+    "respostas": ["escola-a69"],
+    "texto": "O Vaticano pediu explicações sobre [Érika].",
+    "parecer": "MEDIA",
+    "categorias": ["ENCAIXE"],
+    "nota": "O nome isolado permite mistério e referência interna, mas não garante graça fora do grupo escolar."
+  },
+  {
+    "id": "ACIDO-V4-059",
+    "pergunta": "acido-q7",
+    "respostas": ["economia-a56"],
+    "texto": "O congresso médico proibiu a palestra sobre [O candidato beijando um peixe].",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O candidato beijando peixe como tema proibido de medicina cria uma caricatura visual sem alegar fato real."
+  },
+  {
+    "id": "ACIDO-V4-060",
+    "pergunta": "acido-q11",
+    "respostas": ["memes-a28"],
+    "texto": "O plano de saúde classificou [Chuva dentro da gaveta] como procedimento estético.",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "Chuva dentro da gaveta é surreal, mas o convênio não transforma isso em uma situação médica legível."
+  },
+  {
+    "id": "ACIDO-V4-061",
+    "pergunta": "quinta-q17",
+    "respostas": ["acido-a37", "escola-a42"],
+    "texto": "O segredo da longevidade: [O coral cantando a música do gás]. O efeito colateral: [A alternativa E numa prova de quatro opções].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "O coral e a alternativa escolar não viram longevidade e efeito colateral reconhecíveis; a dupla se perde."
+  },
+  {
+    "id": "ACIDO-V4-062",
+    "pergunta": "brasil-q30",
+    "respostas": ["acido-a12", "quinta-a60"],
+    "texto": "Pra autenticar [Um tirano derrubado pela própria estátua na inauguração], preciso de testemunha e [Cadeira molhada].",
+    "parecer": "FRACA",
+    "categorias": ["LONGA", "GRAMATICA"],
+    "nota": "Autenticar um tirano sendo derrubado é uma ação difícil de tratar como documento; a cadeira não resolve."
+  },
+  {
+    "id": "ACIDO-V4-063",
+    "pergunta": "escola-q30",
+    "respostas": ["acido-a44", "memes-a23"],
+    "texto": "A hipótese era [Um ditador chorando no banho]; o resultado do experimento foi [O “kkkk” seco de quem quer encerrar o assunto].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "Ditador no banho e resposta seca têm imagens próprias, mas o experimento não cria relação entre elas."
+  },
+  {
+    "id": "ACIDO-V4-064",
+    "pergunta": "economia-q17",
+    "respostas": ["acido-a91", "escola-a14"],
+    "texto": "O candidato prometeu [O cemitério em dia de feira]. Seu plano de governo continha [O nome do arquivo “agora_vai_final_9”].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Promessa de cemitério em dia de feira é uma cena forte; o nome de arquivo enfraquece a segunda metade."
+  },
+  {
+    "id": "ACIDO-V4-065",
+    "pergunta": "memes-q18",
+    "respostas": ["acido-a75", "escola-a52"],
+    "texto": "O áudio do grupo dizia [A colonoscopia premiada no bingo]. O corretor escreveu [O tio da cantina na bibliografia].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Um prêmio médico no bingo tem imagem imediata; o corretor para bibliografia é uma virada menos plausível."
+  },
+  {
+    "id": "ACIDO-V4-066",
+    "pergunta": "quinta-q12",
+    "respostas": ["acido-a95"],
+    "texto": "O áudio de oito minutos era sobre [Coveiro de férias coletivas].",
+    "parecer": "MEDIA",
+    "categorias": ["ENCAIXE"],
+    "nota": "Falar longamente de férias do coveiro é natural; o assunto mórbido funciona sem uma surpresa muito forte."
+  },
+  {
+    "id": "ACIDO-V4-067",
+    "pergunta": "brasil-q6",
+    "respostas": ["acido-a61"],
+    "texto": "A vidente cancelou a consulta depois de prever [Inferno sem descarga].",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Até a vidente recua diante de inferno sem descarga; a previsão cria um motivo escatológico claro."
+  },
+  {
+    "id": "ACIDO-V4-068",
+    "pergunta": "escola-q24",
+    "respostas": ["acido-a100"],
+    "texto": "A turma organizou uma vaquinha pra comprar [Mussolini barrado no próprio fã-clube].",
+    "parecer": "FRACA",
+    "categorias": ["GRAMATICA"],
+    "nota": "Comprar Mussolini sendo barrado exige tratar uma ação inteira como mercadoria; a pergunta pede objeto."
+  },
+  {
+    "id": "ACIDO-V4-069",
+    "pergunta": "economia-q6",
+    "respostas": ["acido-a74"],
+    "texto": "Quando recebi meu primeiro salário, só pensei em [Constipação em cruzeiro all-inclusive].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Pensar em constipação de cruzeiro ao receber salário sugere viagem estragada; depende dessa inferência."
+  },
+  {
+    "id": "ACIDO-V4-070",
+    "pergunta": "memes-q11",
+    "respostas": ["acido-a21"],
+    "texto": "O telão do estádio mostrou [Os achados e perdidos do Juízo Final].",
+    "parecer": "FRACA",
+    "categorias": ["PIADA_PRE_ESCRITA", "SEMANTICA"],
+    "nota": "Achados e perdidos do além já é conceito pronto; o telão só o transporta, sem desenvolver contraste."
+  },
+  {
+    "id": "ACIDO-V4-071",
+    "pergunta": "quinta-q2",
+    "respostas": ["acido-a74"],
+    "texto": "Meu currículo tem dois anos dedicados a [Constipação em cruzeiro all-inclusive].",
+    "parecer": "MEDIA",
+    "categorias": ["ENCAIXE"],
+    "nota": "Dedicar anos à constipação em cruzeiro cabe no currículo absurdo, embora o período longo dilua a cena."
+  },
+  {
+    "id": "ACIDO-V4-072",
+    "pergunta": "brasil-q24",
+    "respostas": ["acido-a69"],
+    "texto": "Minha avó espanta mau-olhado com [Fimose em lua de mel].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "Fimose em lua de mel não vira instrumento para espantar azar de forma clara; a leitura pede uma ponte."
+  },
+  {
+    "id": "ACIDO-V4-073",
+    "pergunta": "escola-q14",
+    "respostas": ["acido-a106"],
+    "texto": "O telão da palestra exibiu [Um fascista banido do grupo de condomínio].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O autoritário banido do condomínio é sátira compreensível; o telão apenas divulga a piada já pronta."
+  },
+  {
+    "id": "ACIDO-V4-074",
+    "pergunta": "economia-q1",
+    "respostas": ["acido-a11"],
+    "texto": "O prefeito de Lugar Nenhum quer combater [Pontos cirúrgicos de crochê].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Político combatendo pontos de crochê mistura promessa pública e medicina de um modo visual, mas leve."
+  },
+  {
+    "id": "ACIDO-V4-075",
+    "pergunta": "memes-q21",
+    "respostas": ["acido-a128"],
+    "texto": "A foto do encontro mostrava [Cueca no freezer].",
+    "parecer": "PROMISSORA",
+    "categorias": ["ENCAIXE", "CONTRASTE"],
+    "nota": "A foto romântica troca o casal por cueca no freezer; objeto curto e cena que o leitor imagina facilmente."
+  },
+  {
+    "id": "ACIDO-V4-076",
+    "pergunta": "quinta-q18",
+    "respostas": ["acido-a105", "escola-a91"],
+    "texto": "O cheiro indicava [Mussolini no banco de reservas do totó], mas a perícia confirmou [Vorcaro financiando a cantina com dinheiro de Banco Imobiliário].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA", "LONGA"],
+    "nota": "O cheiro de Mussolini no totó não aponta para financiamento de cantina; duas referências sem ligação."
+  },
+  {
+    "id": "ACIDO-V4-077",
+    "pergunta": "brasil-q17",
+    "respostas": ["acido-a20", "escola-a84"],
+    "texto": "Para conseguir [Um fascista derrotado por uma porta escrita “puxe”], preciso apresentar [A Priscila confiscando o último pão de queijo] em três vias.",
+    "parecer": "FRACA",
+    "categorias": ["LONGA", "GRAMATICA"],
+    "nota": "Conseguir um fascista derrotado e apresentar Priscila em três vias transforma duas ações em documentos."
+  },
+  {
+    "id": "ACIDO-V4-078",
+    "pergunta": "escola-q20",
+    "respostas": ["acido-a9", "memes-a6"],
+    "texto": "O título do meu TCC era: [A água benta sabor churrasco]. A banca respondeu: [Bluetooth de pedra].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O tema de água benta com churrasco combina com TCC; a resposta Bluetooth de pedra é mais aleatória."
+  },
+  {
+    "id": "ACIDO-V4-079",
+    "pergunta": "economia-q18",
+    "respostas": ["acido-a138", "memes-a17"],
+    "texto": "Na prestação de contas, declararam [A churrasqueira dentro do elevador]. Esqueceram de explicar [O “vem ver uma coisa” da cozinha].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "A churrasqueira no elevador é uma despesa suspeita visual; a segunda resposta dispersa a prestação de contas."
+  },
+  {
+    "id": "ACIDO-V4-080",
+    "pergunta": "memes-q20",
+    "respostas": ["acido-a117", "brasil-a3"],
+    "texto": "Paguei por [Uma possessão em modo avião]. A entrega foi [O carro de som pedindo silêncio].",
+    "parecer": "FRACA",
+    "categorias": ["GRAMATICA", "SEMANTICA"],
+    "nota": "Pagar por possessão é aceitável na sátira, mas receber um carro pedindo silêncio não constrói uma troca clara."
+  },
+  {
+    "id": "ACIDO-V4-081",
+    "pergunta": "quinta-q23",
+    "respostas": ["acido-a6"],
+    "texto": "A festa distribuiu [Caixão com travesseiro] de lembrancinha.",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Caixão de lembrancinha transforma uma festa numa previsão mórbida com pouquíssimas palavras."
+  },
+  {
+    "id": "ACIDO-V4-082",
+    "pergunta": "brasil-q23",
+    "respostas": ["acido-a113"],
+    "texto": "A fila parou quando alguém mostrou [O inferno em horário de verão].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "Mostrar um horário do inferno exige uma imagem que a resposta não oferece; a fila fica sem motivo concreto."
+  },
+  {
+    "id": "ACIDO-V4-083",
+    "pergunta": "escola-q26",
+    "respostas": ["acido-a6"],
+    "texto": "A direção achou [Caixão com travesseiro] no armário de troféus.",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O caixão no armário escolar troca prestígio por ameaça macabra fictícia sem atacar ninguém real."
+  },
+  {
+    "id": "ACIDO-V4-084",
+    "pergunta": "economia-q3",
+    "respostas": ["acido-a54"],
+    "texto": "A startup recebeu milhões para desenvolver [O capeta fazendo hora extra].",
+    "parecer": "MEDIA",
+    "categorias": ["GRAMATICA", "CONTRASTE"],
+    "nota": "Desenvolver o capeta trabalhando é sintaticamente duro; o investimento em hora extra tem algum contraste."
+  },
+  {
+    "id": "ACIDO-V4-085",
+    "pergunta": "memes-q28",
+    "respostas": ["acido-a30"],
+    "texto": "Minha última mensagem no grupo da família foi sobre [O epitáfio “não era só uma fase”].",
+    "parecer": "MEDIA",
+    "categorias": ["ENCAIXE"],
+    "nota": "A mensagem sobre epitáfio tem coerência, mas a piada principal já está na frase escrita na lápide."
+  },
+  {
+    "id": "ACIDO-V4-086",
+    "pergunta": "quinta-q16",
+    "respostas": ["acido-a114"],
+    "texto": "Minha família nunca mais falou comigo depois de [O apocalipse adiado por chuva].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O apocalipse por chuva é uma desculpa pronta; a família rompendo contato acrescenta uma reação desproporcional."
+  },
+  {
+    "id": "ACIDO-V4-087",
+    "pergunta": "brasil-q11",
+    "respostas": ["acido-a87"],
+    "texto": "A cidade fez uma estátua em homenagem a [Um caixão de mostruário].",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Uma estátua para caixão de mostruário é uma homenagem municipal absurda com objeto bem definido."
+  },
+  {
+    "id": "ACIDO-V4-088",
+    "pergunta": "escola-q6",
+    "respostas": ["acido-a45"],
+    "texto": "A mascote da escola foi substituída por [O dedo gelado do proctologista].",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Trocar mascote por dedo de proctologista cria um símbolo escolar grotesco e imediatamente visual."
+  },
+  {
+    "id": "ACIDO-V4-089",
+    "pergunta": "economia-q25",
+    "respostas": ["acido-a126"],
+    "texto": "O sindicato convocou uma paralisação contra [Papel higiênico com glitter].",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O sindicato enfrentando papel higiênico com glitter cria uma reivindicação concreta e ridiculamente específica."
+  },
+  {
+    "id": "ACIDO-V4-090",
+    "pergunta": "memes-q1",
+    "respostas": ["acido-a122"],
+    "texto": "Minha família começou a discutir depois do vídeo de [O capeta pedindo uma benzedeira].",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O capeta pedindo benzedeira inverte os papéis e ainda parece conteúdo plausível para briga no grupo."
+  },
+  {
+    "id": "ACIDO-V4-091",
+    "pergunta": "quinta-q30",
+    "respostas": ["acido-a109", "economia-a3"],
+    "texto": "O churrasco começou com [Água benta com gás] e virou ocorrência por [Duzentos reais e um silêncio comprado].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Água benta com gás dá um início forte ao churrasco; dinheiro e silêncio sugerem corrupção sem fechar a cena."
+  },
+  {
+    "id": "ACIDO-V4-092",
+    "pergunta": "brasil-q18",
+    "respostas": ["acido-a114", "quinta-a52"],
+    "texto": "Quebrei o espelho por causa de [O apocalipse adiado por chuva]. A benzedeira recomendou [Um buraco no chão do palco].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "Chuva no apocalipse não conecta com a quebra de espelho nem com o buraco recomendado pela benzedeira."
+  },
+  {
+    "id": "ACIDO-V4-093",
+    "pergunta": "escola-q19",
+    "respostas": ["acido-a142", "quinta-a66"],
+    "texto": "Na escola do futuro, a prova cobra [Um candidato fictício prometendo intestino regulado] e o recreio oferece [Banheiro químico com manobrista].",
+    "parecer": "FRACA",
+    "categorias": ["GRAMATICA", "LONGA"],
+    "nota": "Cobrar um candidato fazendo promessa não é cobrar uma matéria; a segunda cena não corrige a estrutura."
+  },
+  {
+    "id": "ACIDO-V4-094",
+    "pergunta": "economia-q19",
+    "respostas": ["acido-a117", "brasil-a62"],
+    "texto": "Compre [Uma possessão em modo avião] e leve [A vistoria do puxadinho] inteiramente de graça.",
+    "parecer": "FRACA",
+    "categorias": ["GRAMATICA", "SEMANTICA"],
+    "nota": "Comprar possessão e levar vistoria acumula dois serviços sem vínculo; o anúncio fica abstrato."
+  },
+  {
+    "id": "ACIDO-V4-095",
+    "pergunta": "memes-q19",
+    "respostas": ["acido-a118", "economia-a29"],
+    "texto": "Postei um vídeo de [O pastor abençoando o boleto errado]. Minha mãe achou que era [O adicional de aturar o chefe].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "A bênção ao boleto combina com o adicional do chefe por tema financeiro; a confusão ainda pede esforço."
+  },
+  {
+    "id": "ACIDO-V4-096",
+    "pergunta": "quinta-q22",
+    "respostas": ["acido-a132"],
+    "texto": "O vizinho chamou a polícia para denunciar [O cocô boiando na hidromassagem].",
+    "parecer": "PROMISSORA",
+    "categorias": ["ENCAIXE"],
+    "nota": "A denúncia do cocô na banheira é visual e reconhecível; o exagero vem da polícia atender o incidente."
+  },
+  {
+    "id": "ACIDO-V4-097",
+    "pergunta": "brasil-q8",
+    "respostas": ["acido-a114"],
+    "texto": "Os arqueólogos pararam a escavação ao encontrar [O apocalipse adiado por chuva].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "Encontrar um adiamento do apocalipse numa escavação é semanticamente opaco; pede documento que não está na carta."
+  },
+  {
+    "id": "ACIDO-V4-098",
+    "pergunta": "escola-q15",
+    "respostas": ["acido-a73"],
+    "texto": "O conselho escolar abriu uma investigação sobre [O potinho de fezes na marmita].",
+    "parecer": "PROMISSORA",
+    "categorias": ["ENCAIXE", "CONTRASTE"],
+    "nota": "O potinho na marmita justifica a investigação escolar e mistura comida com exame de modo direto."
+  },
+  {
+    "id": "ACIDO-V4-099",
+    "pergunta": "economia-q8",
+    "respostas": ["acido-a110"],
+    "texto": "No cofre do reino, sobrou apenas [O diabo engasgando com hóstia].",
+    "parecer": "FRACA",
+    "categorias": ["GRAMATICA"],
+    "nota": "Sobrar o diabo engasgando no cofre trata uma cena como um objeto; a piada religiosa não se integra bem."
+  },
+  {
+    "id": "ACIDO-V4-100",
+    "pergunta": "memes-q4",
+    "respostas": ["acido-a81"],
+    "texto": "Meu perfil psicológico deu [A receita médica escrita “boa sorte”].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Um perfil que devolve receita de boa sorte tem um recado legível, mas sobrepõe dois tipos de laudo."
+  },
+  {
+    "id": "ACIDO-V4-101",
+    "pergunta": "quinta-q2",
+    "respostas": ["acido-a35"],
+    "texto": "Meu currículo tem dois anos dedicados a [Hemorroida na bicicleta ergométrica].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Dois anos de hemorroida na bicicleta fazem um currículo constrangedor, ainda que a duração seja forçada."
+  },
+  {
+    "id": "ACIDO-V4-102",
+    "pergunta": "brasil-q22",
+    "respostas": ["acido-a91"],
+    "texto": "Trouxe da praia uma foto de [O cemitério em dia de feira].",
+    "parecer": "MEDIA",
+    "categorias": ["ENCAIXE"],
+    "nota": "Foto do cemitério em dia de feira é fácil de imaginar; a praia acrescenta deslocamento, sem grande virada."
+  },
+  {
+    "id": "ACIDO-V4-103",
+    "pergunta": "escola-q3",
+    "respostas": ["acido-a9"],
+    "texto": "A feira de ciências foi evacuada por [A água benta sabor churrasco].",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "A feira evacuada por água benta de churrasco transforma ciência em milagre culinário suspeito."
+  },
+  {
+    "id": "ACIDO-V4-104",
+    "pergunta": "economia-q29",
+    "respostas": ["acido-a1"],
+    "texto": "A comissão fictícia aprovou [O anjo da guarda de saco cheio].",
+    "parecer": "MEDIA",
+    "categorias": ["ENCAIXE"],
+    "nota": "Comissão aprovando anjo cansado parece contratação de funcionário; funciona, mas a cena não é muito específica."
+  },
+  {
+    "id": "ACIDO-V4-105",
+    "pergunta": "memes-q10",
+    "respostas": ["acido-a93"],
+    "texto": "Minha busca anônima era sobre [O fantasma sem lençol limpo].",
+    "parecer": "MEDIA",
+    "categorias": ["ENCAIXE"],
+    "nota": "A pesquisa sobre higiene do fantasma é clara; o enunciado só apresenta o assunto e gera pouco contraste."
+  },
+  {
+    "id": "ACIDO-V4-106",
+    "pergunta": "quinta-q30",
+    "respostas": ["acido-a16", "memes-a33"],
+    "texto": "O churrasco começou com [Faraó preso na própria faixa] e virou ocorrência por [O cachorro de óculos].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "Faraó e cachorro não explicam uma ocorrência no churrasco; a dupla tem imagens, mas não uma progressão."
+  },
+  {
+    "id": "ACIDO-V4-107",
+    "pergunta": "brasil-q19",
+    "respostas": ["acido-a47", "quinta-a11"],
+    "texto": "A cidade trocou [O fantasma do inquilino caloteiro] por [A dignidade pelo ralo] e chamou de revitalização.",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Trocar um fantasma por dignidade perdida tem leitura satírica urbana, embora as duas coisas sejam abstratas."
+  },
+  {
+    "id": "ACIDO-V4-108",
+    "pergunta": "escola-q20",
+    "respostas": ["acido-a62", "quinta-a39"],
+    "texto": "O título do meu TCC era: [Contar carneirinhos com o anestesista]. A banca respondeu: [Vento usado].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "Título de TCC sobre anestesia é plausível, mas vento usado como resposta da banca não produz reação reconhecível."
+  },
+  {
+    "id": "ACIDO-V4-109",
+    "pergunta": "economia-q19",
+    "respostas": ["acido-a91", "escola-a26"],
+    "texto": "Compre [O cemitério em dia de feira] e leve [A cola que explica a questão errada] inteiramente de graça.",
+    "parecer": "FRACA",
+    "categorias": ["GRAMATICA", "SEMANTICA"],
+    "nota": "Comprar um cemitério em dia de feira e ganhar cola escolar não cria troca significativa além da aleatoriedade."
+  },
+  {
+    "id": "ACIDO-V4-110",
+    "pergunta": "memes-q17",
+    "respostas": ["acido-a73", "escola-a61"],
+    "texto": "O tutorial ensinava [O potinho de fezes na marmita]. Eu consegui apenas [Uma vírgula no lugar errado].",
+    "parecer": "FRACA",
+    "categorias": ["GRAMATICA"],
+    "nota": "Ensinar um potinho é menos natural que ensinar uma ação; a vírgula não mantém o assunto do tutorial."
+  },
+  {
+    "id": "ACIDO-V4-111",
+    "pergunta": "quinta-q16",
+    "respostas": ["acido-a102"],
+    "texto": "Minha família nunca mais falou comigo depois de [O ditador derrotado no Uno].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "A derrota do ditador no Uno não motiva claramente o rompimento familiar; a resposta continua uma piada isolada."
+  },
+  {
+    "id": "ACIDO-V4-112",
+    "pergunta": "brasil-q4",
+    "respostas": ["acido-a5"],
+    "texto": "No mapa do tesouro, o X marcava [O demônio fugindo do barulho da obra].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "O demônio na obra pode ser o tesouro inesperado, mas o mapa não transforma muito a situação da resposta."
+  },
+  {
+    "id": "ACIDO-V4-113",
+    "pergunta": "escola-q14",
+    "respostas": ["acido-a133"],
+    "texto": "O telão da palestra exibiu [Um desentupidor de lembrancinha].",
+    "parecer": "MEDIA",
+    "categorias": ["ENCAIXE"],
+    "nota": "Um desentupidor no telão pode constranger o palestrante; a lembrancinha não cria conflito suficiente sozinha."
+  },
+  {
+    "id": "ACIDO-V4-114",
+    "pergunta": "economia-q13",
+    "respostas": ["acido-a38"],
+    "texto": "O ministro fictício caiu depois de anunciar [O QR code errado na lápide].",
+    "parecer": "FRACA",
+    "categorias": ["SEMANTICA"],
+    "nota": "Anunciar QR code errado em lápide não explica queda de ministro sem inventar uma história externa."
+  },
+  {
+    "id": "ACIDO-V4-115",
+    "pergunta": "memes-q15",
+    "respostas": ["acido-a46"],
+    "texto": "O corretor transformou uma declaração de amor em [Dívida de defunto].",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "A declaração romântica virar dívida herdada cria uma troca de tom imediata e uma frase curta."
+  },
+  {
+    "id": "ACIDO-V4-116",
+    "pergunta": "quinta-q25",
+    "respostas": ["acido-a146"],
+    "texto": "A excursão acabou quando a guia encontrou [A porra de um galo no centro cirúrgico].",
+    "parecer": "MEDIA",
+    "categorias": ["SEMANTICA"],
+    "nota": "O galo é uma imagem forte, mas uma guia achar um centro cirúrgico precisa de contexto extra para a excursão."
+  },
+  {
+    "id": "ACIDO-V4-117",
+    "pergunta": "brasil-q1",
+    "respostas": ["acido-a69"],
+    "texto": "Para provar que estou vivo, o cartório exigiu [Fimose em lua de mel].",
+    "parecer": "FRACA",
+    "categorias": ["GRAMATICA", "SEMANTICA"],
+    "nota": "Exigir fimose em lua de mel como prova de vida força uma condição médica a virar documento."
+  },
+  {
+    "id": "ACIDO-V4-118",
+    "pergunta": "escola-q6",
+    "respostas": ["acido-a90"],
+    "texto": "A mascote da escola foi substituída por [Herdar o papagaio fofoqueiro].",
+    "parecer": "FRACA",
+    "categorias": ["GRAMATICA"],
+    "nota": "Substituir mascote pelo ato de herdar um papagaio não é substituição nominal; é um limite claro do encaixe."
+  },
+  {
+    "id": "ACIDO-V4-119",
+    "pergunta": "economia-q11",
+    "respostas": ["acido-a40"],
+    "texto": "O contrato previa multa por [A tropa nazista desfilando de pantufa].",
+    "parecer": "MEDIA",
+    "categorias": ["CONTRASTE"],
+    "nota": "Multar tropa de pantufa dá banalidade jurídica à sátira militar, mas a circunstância contratual fica vaga."
+  },
+  {
+    "id": "ACIDO-V4-120",
+    "pergunta": "memes-q7",
+    "respostas": ["acido-a107"],
+    "texto": "A transmissão ao vivo revelou [O tirano pedindo colo ao opositor].",
+    "parecer": "PROMISSORA",
+    "categorias": ["CONTRASTE"],
+    "nota": "A transmissão expondo um tirano pedindo colo desmonta a imagem de autoridade com vulnerabilidade infantil."
+  }
+]

@@ -1,0 +1,442 @@
+[
+  {
+    "id": "acido-a7",
+    "antes": {
+      "id": "acido-a7",
+      "text": "Uma radiografia de banco de imagens.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "medicina",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "depois": {
+      "id": "acido-a7",
+      "text": "O ortopedista engessando a cadeira.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "medicina",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "motivo": "Imagem genérica de exame; a troca absurda de paciente por objeto cria um alvo legível."
+  },
+  {
+    "id": "acido-a8",
+    "antes": {
+      "id": "acido-a8",
+      "text": "O bigodinho nazista limpando ralo.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "historia",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "depois": {
+      "id": "acido-a8",
+      "text": "O bigodinho de Hitler na cera quente.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "historia",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "motivo": "Referência nazista vaga; a figura do ditador vira alvo explícito de constrangimento caricatural."
+  },
+  {
+    "id": "acido-a11",
+    "antes": {
+      "id": "acido-a11",
+      "text": "Cirurgia adiada.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "medicina",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "depois": {
+      "id": "acido-a11",
+      "text": "Pontos cirúrgicos de crochê.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "medicina",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "motivo": "Adiamento era genérico; objeto concreto e curto abre mais contrastes."
+  },
+  {
+    "id": "acido-a15",
+    "antes": {
+      "id": "acido-a15",
+      "text": "Um jaleco de desentupidora.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "medicina",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "depois": {
+      "id": "acido-a15",
+      "text": "O jaleco de trás pra frente.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "medicina",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "motivo": "A associação a desentupidora era uma piada pronta; gesto simples funciona sem contexto."
+  },
+  {
+    "id": "acido-a16",
+    "antes": {
+      "id": "acido-a16",
+      "text": "Faraó de ressaca.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "historia",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "depois": {
+      "id": "acido-a16",
+      "text": "Faraó preso na própria faixa.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "historia",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "motivo": "Ressaca era intercambiável; troca por fracasso visual sem reivindicação histórica."
+  },
+  {
+    "id": "acido-a24",
+    "antes": {
+      "id": "acido-a24",
+      "text": "A cueca do faraó.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "historia",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "depois": {
+      "id": "acido-a24",
+      "text": "A dentadura do faraó.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "historia",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "motivo": "Cueca de figura histórica repete fórmula de outros pacotes; objeto diferente mantém concisão."
+  },
+  {
+    "id": "acido-a27",
+    "antes": {
+      "id": "acido-a27",
+      "text": "Um exame de fezes oral.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "medicina",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "depois": {
+      "id": "acido-a27",
+      "text": "O exame de fezes no isopor da cerveja.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "medicina",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "motivo": "“Exame oral” sugeria leitura ambígua; novo constrangimento vem da troca de recipientes."
+  },
+  {
+    "id": "acido-a29",
+    "antes": {
+      "id": "acido-a29",
+      "text": "Uma alma com defeito.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "religiao",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "depois": {
+      "id": "acido-a29",
+      "text": "O demônio com medo de agulha.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "religiao",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "motivo": "Defeito genérico sem imagem; vulnerabilidade concreta inverte o personagem."
+  },
+  {
+    "id": "acido-a33",
+    "antes": {
+      "id": "acido-a33",
+      "text": "Um santo de gesso sem cabeça.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "religiao",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "depois": {
+      "id": "acido-a33",
+      "text": "Uma auréola de desentupidor.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "religiao",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "motivo": "Objeto religioso genérico; material inesperado mistura sagrado fictício e banal."
+  },
+  {
+    "id": "acido-a34",
+    "antes": {
+      "id": "acido-a34",
+      "text": "A fila da reencarnação.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "religiao",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "depois": {
+      "id": "acido-a34",
+      "text": "Reencarnar como pernilongo.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "religiao",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "motivo": "Fila burocrática recorrente; ação curta com resultado ingrato."
+  },
+  {
+    "id": "acido-a35",
+    "antes": {
+      "id": "acido-a35",
+      "text": "Hemorroida monumental.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "medicina",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "depois": {
+      "id": "acido-a35",
+      "text": "Hemorroida na bicicleta ergométrica.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "medicina",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "motivo": "Adjetivo de tamanho não criava situação; atividade cotidiana produz o constrangimento."
+  },
+  {
+    "id": "acido-a36",
+    "antes": {
+      "id": "acido-a36",
+      "text": "Um fóssil de testemunha.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "historia",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "depois": {
+      "id": "acido-a36",
+      "text": "A múmia desembrulhada no raio-X.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "historia",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "motivo": "Fóssil de testemunha era semanticamente opaco; nova cena conserva absurdo histórico."
+  },
+  {
+    "id": "acido-a40",
+    "antes": {
+      "id": "acido-a40",
+      "text": "Uma tropa nazista perdida no próprio quintal.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "historia",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "depois": {
+      "id": "acido-a40",
+      "text": "A tropa nazista desfilando de pantufa.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "historia",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "motivo": "Perder-se no quintal era genérico; pompa militar reduzida ao ridículo doméstico."
+  },
+  {
+    "id": "acido-a49",
+    "antes": {
+      "id": "acido-a49",
+      "text": "A foice de brinquedo.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "morte",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "depois": {
+      "id": "acido-a49",
+      "text": "A foice encostada por tendinite.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "morte",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "motivo": "Brinquedo isolado era previsível; a ferramenta da Morte ganha um impedimento banal."
+  },
+  {
+    "id": "acido-a59",
+    "antes": {
+      "id": "acido-a59",
+      "text": "Uma colonoscopia no telão.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "medicina",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "depois": {
+      "id": "acido-a59",
+      "text": "O preparatório da colonoscopia na excursão.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "medicina",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "motivo": "Segundo exame no telão repetia ideia do catálogo; foco na ocasião social inadequada."
+  },
+  {
+    "id": "acido-a66",
+    "antes": {
+      "id": "acido-a66",
+      "text": "Raio-X no telão.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "medicina",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "depois": {
+      "id": "acido-a66",
+      "text": "Uma ficha médica plastificada de suor.",
+      "pack": "acido",
+      "pick": 0,
+      "theme": "medicina",
+      "tone": "acido",
+      "grammar": "nominal"
+    },
+    "motivo": "Raio-X no telão repetia outra carta; objeto curto sugere constrangimento sem explicar tudo."
+  },
+  {
+    "id": "acido-q4",
+    "antes": {
+      "id": "acido-q4",
+      "text": "O tirano tremia de medo de ________.",
+      "pack": "acido",
+      "pick": 1,
+      "theme": "historia",
+      "tone": "acido",
+      "grammar": "nominal-slots"
+    },
+    "depois": {
+      "id": "acido-q4",
+      "text": "O ditador apagou da biografia o capítulo “________”.",
+      "pack": "acido",
+      "pick": 1,
+      "theme": "historia",
+      "tone": "acido",
+      "grammar": "nominal-slots"
+    },
+    "motivo": "Medo de algo restringia ações verbais; título entre aspas aceita também ações."
+  },
+  {
+    "id": "acido-q14",
+    "antes": {
+      "id": "acido-q14",
+      "text": "A mensagem do além era um pedido de ________.",
+      "pack": "acido",
+      "pick": 1,
+      "theme": "morte",
+      "tone": "acido",
+      "grammar": "nominal-slots"
+    },
+    "depois": {
+      "id": "acido-q14",
+      "text": "Minha sessão espírita foi resumida no recado: “________”.",
+      "pack": "acido",
+      "pick": 1,
+      "theme": "morte",
+      "tone": "acido",
+      "grammar": "nominal-slots"
+    },
+    "motivo": "Pedido de algo exigia objeto; recado permite fragmentos mais variados."
+  },
+  {
+    "id": "acido-q24",
+    "antes": {
+      "id": "acido-q24",
+      "text": "O cirurgião abriu e encontrou ________.",
+      "pack": "acido",
+      "pick": 1,
+      "theme": "medicina",
+      "tone": "acido",
+      "grammar": "nominal-slots"
+    },
+    "depois": {
+      "id": "acido-q24",
+      "text": "O prontuário só tinha uma frase: “________”.",
+      "pack": "acido",
+      "pick": 1,
+      "theme": "medicina",
+      "tone": "acido",
+      "grammar": "nominal-slots"
+    },
+    "motivo": "Encontrar dentro de paciente impedia boa parte das ações; citação abre encaixes."
+  },
+  {
+    "id": "acido-q28",
+    "antes": {
+      "id": "acido-q28",
+      "text": "A nova ala do inferno é só pra ________.",
+      "pack": "acido",
+      "pick": 1,
+      "theme": "religiao",
+      "tone": "acido",
+      "grammar": "nominal-slots"
+    },
+    "depois": {
+      "id": "acido-q28",
+      "text": "Na entrada do inferno, a regra é: “________”.",
+      "pack": "acido",
+      "pick": 1,
+      "theme": "religiao",
+      "tone": "acido",
+      "grammar": "nominal-slots"
+    },
+    "motivo": "Ala para algo prendia o tipo de resposta; regra citada aceita ações e absurdos nominais."
+  }
+]

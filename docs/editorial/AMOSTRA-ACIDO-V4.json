@@ -1,0 +1,722 @@
+[
+  {
+    "id": "ACIDO-V4-001",
+    "pergunta": "acido-q66",
+    "respostas": ["quinta-a19", "escola-a78"],
+    "texto": "A bula prometia [A bunda de fora no reflexo da chaleira]. O efeito colateral foi [Lula]."
+  },
+  {
+    "id": "ACIDO-V4-002",
+    "pergunta": "acido-q20",
+    "respostas": ["brasil-a35", "quinta-a22"],
+    "texto": "O ditador exigiu [A farofa da praia]. A multidão respondeu com [Responder “você também” ao fiscal]."
+  },
+  {
+    "id": "ACIDO-V4-003",
+    "pergunta": "acido-q30",
+    "respostas": ["escola-a86", "economia-a67"],
+    "texto": "O médium previu [A Xirley presidindo a CPI do recreio]; o espírito reclamou de [Aluguel de sogra]."
+  },
+  {
+    "id": "ACIDO-V4-004",
+    "pergunta": "acido-q67",
+    "respostas": ["economia-a47", "escola-a57"],
+    "texto": "Minha última vontade era [O partido que terceirizou a oposição]. No testamento colocaram [Os livros do ano passado]."
+  },
+  {
+    "id": "ACIDO-V4-005",
+    "pergunta": "acido-q19",
+    "respostas": ["memes-a65", "brasil-a16"],
+    "texto": "O médico proibiu [O selo de otário do mês]. Minha família trouxe [A primeira multa da história]."
+  },
+  {
+    "id": "ACIDO-V4-006",
+    "pergunta": "acido-q35",
+    "respostas": ["quinta-a2"],
+    "texto": "O fiscal abriu a porta do banheiro e deu de cara com [Aplausos no momento errado]."
+  },
+  {
+    "id": "ACIDO-V4-007",
+    "pergunta": "acido-q3",
+    "respostas": ["brasil-a57"],
+    "texto": "O médico pediu uma segunda opinião sobre [Formulário molhado]."
+  },
+  {
+    "id": "ACIDO-V4-008",
+    "pergunta": "acido-q16",
+    "respostas": ["escola-a10"],
+    "texto": "O bunker nazista virou depósito de [Quarenta páginas para concluir “depende”]."
+  },
+  {
+    "id": "ACIDO-V4-009",
+    "pergunta": "acido-q58",
+    "respostas": ["economia-a33"],
+    "texto": "O defunto levantou só para reclamar de [O coach desempregado]."
+  },
+  {
+    "id": "ACIDO-V4-010",
+    "pergunta": "acido-q13",
+    "respostas": ["memes-a46"],
+    "texto": "O padre ouviu minha confissão e recomendou [O selo de verificado colado com fita crepe]."
+  },
+  {
+    "id": "ACIDO-V4-011",
+    "pergunta": "acido-q29",
+    "respostas": ["quinta-a51"],
+    "texto": "O tirano foi vaiado ao anunciar [Um cocô de mentira]."
+  },
+  {
+    "id": "ACIDO-V4-012",
+    "pergunta": "acido-q7",
+    "respostas": ["brasil-a61"],
+    "texto": "O congresso médico proibiu a palestra sobre [Uma coroa comprada no armarinho]."
+  },
+  {
+    "id": "ACIDO-V4-013",
+    "pergunta": "acido-q9",
+    "respostas": ["escola-a48"],
+    "texto": "O milagre precisou ser refeito por causa de [Eleger o apagador]."
+  },
+  {
+    "id": "ACIDO-V4-014",
+    "pergunta": "acido-q46",
+    "respostas": ["economia-a28"],
+    "texto": "A perícia identificou [O Ministério de Deixar pra Depois] na cueca."
+  },
+  {
+    "id": "ACIDO-V4-015",
+    "pergunta": "acido-q50",
+    "respostas": ["memes-a32"],
+    "texto": "Meu brinde de casamento acabou com a frase: “[O áudio “eu quero café” no carro de som]”."
+  },
+  {
+    "id": "ACIDO-V4-016",
+    "pergunta": "acido-q20",
+    "respostas": ["quinta-a49", "escola-a67"],
+    "texto": "O ditador exigiu [O bafo de café velho]. A multidão respondeu com [O certificado da recuperação]."
+  },
+  {
+    "id": "ACIDO-V4-017",
+    "pergunta": "acido-q61",
+    "respostas": ["brasil-a13", "escola-a43"],
+    "texto": "O primeiro exame revelou [A fila pra reclamar da fila]. O segundo confirmou [Trabalho em dupla comigo mesmo]."
+  },
+  {
+    "id": "ACIDO-V4-018",
+    "pergunta": "acido-q61",
+    "respostas": ["escola-a23", "economia-a55"],
+    "texto": "O primeiro exame revelou [O “beijo” no final do e-mail para a coordenação]. O segundo confirmou [Um carrinho de pipoca na licitação]."
+  },
+  {
+    "id": "ACIDO-V4-019",
+    "pergunta": "acido-q19",
+    "respostas": ["economia-a38", "escola-a40"],
+    "texto": "O médico proibiu [O protocolo de extravio do protocolo]. Minha família trouxe [Um semestre de prova]."
+  },
+  {
+    "id": "ACIDO-V4-020",
+    "pergunta": "acido-q62",
+    "respostas": ["memes-a2", "economia-a67"],
+    "texto": "O velório começou com [Ovo de marmita] e terminou com [Aluguel de sogra]."
+  },
+  {
+    "id": "ACIDO-V4-021",
+    "pergunta": "acido-q29",
+    "respostas": ["quinta-a61"],
+    "texto": "O tirano foi vaiado ao anunciar [Alface no dente da frente]."
+  },
+  {
+    "id": "ACIDO-V4-022",
+    "pergunta": "acido-q7",
+    "respostas": ["brasil-a64"],
+    "texto": "O congresso médico proibiu a palestra sobre [Uma visita de três dias]."
+  },
+  {
+    "id": "ACIDO-V4-023",
+    "pergunta": "acido-q10",
+    "respostas": ["escola-a60"],
+    "texto": "A Morte pediu demissão por causa de [Um discurso pra sala vazia]."
+  },
+  {
+    "id": "ACIDO-V4-024",
+    "pergunta": "acido-q39",
+    "respostas": ["economia-a27"],
+    "texto": "O demônio desistiu da possessão ao ouvir falar de [Banheiro de aluguel]."
+  },
+  {
+    "id": "ACIDO-V4-025",
+    "pergunta": "acido-q14",
+    "respostas": ["memes-a29"],
+    "texto": "Minha sessão espírita foi resumida no recado: “[Meu nome no áudio de oito minutos]”."
+  },
+  {
+    "id": "ACIDO-V4-026",
+    "pergunta": "acido-q4",
+    "respostas": ["quinta-a66"],
+    "texto": "O ditador apagou da biografia o capítulo “[Banheiro químico com manobrista]”."
+  },
+  {
+    "id": "ACIDO-V4-027",
+    "pergunta": "acido-q9",
+    "respostas": ["brasil-a18"],
+    "texto": "O milagre precisou ser refeito por causa de [Sete anos de azar divididos sem juros]."
+  },
+  {
+    "id": "ACIDO-V4-028",
+    "pergunta": "acido-q10",
+    "respostas": ["escola-a75"],
+    "texto": "A Morte pediu demissão por causa de [Iara]."
+  },
+  {
+    "id": "ACIDO-V4-029",
+    "pergunta": "acido-q42",
+    "respostas": ["economia-a32"],
+    "texto": "O médico se recusou a assinar o atestado de [Propina declarada como gorjeta]."
+  },
+  {
+    "id": "ACIDO-V4-030",
+    "pergunta": "acido-q59",
+    "respostas": ["memes-a56"],
+    "texto": "O exorcista encontrou um bilhete dizendo: “[Selfie borrada]”."
+  },
+  {
+    "id": "ACIDO-V4-031",
+    "pergunta": "acido-q68",
+    "respostas": ["quinta-a22", "brasil-a55"],
+    "texto": "Prometeram um milagre com [Responder “você também” ao fiscal]. Recebi [O grito de independência no ônibus]."
+  },
+  {
+    "id": "ACIDO-V4-032",
+    "pergunta": "acido-q18",
+    "respostas": ["brasil-a25", "escola-a31"],
+    "texto": "Na promoção da funerária, quem leva [Um fiscal de bermuda] ganha [Colar a resposta errada]."
+  },
+  {
+    "id": "ACIDO-V4-033",
+    "pergunta": "acido-q62",
+    "respostas": ["escola-a79", "memes-a38"],
+    "texto": "O velório começou com [Vorcaro] e terminou com [Empada de ontem]."
+  },
+  {
+    "id": "ACIDO-V4-034",
+    "pergunta": "acido-q70",
+    "respostas": ["economia-a22", "memes-a64"],
+    "texto": "O roteiro dizia “[Uma pesquisa com os próprios cartazes]”. O improviso foi “[O unboxing do pacote errado]”."
+  },
+  {
+    "id": "ACIDO-V4-035",
+    "pergunta": "acido-q68",
+    "respostas": ["memes-a41", "quinta-a27"],
+    "texto": "Prometeram um milagre com [Pedir desculpa no grupo errado]. Recebi [Um detector de mentira comprado no camelô]."
+  },
+  {
+    "id": "ACIDO-V4-036",
+    "pergunta": "acido-q13",
+    "respostas": ["quinta-a52"],
+    "texto": "O padre ouviu minha confissão e recomendou [Um buraco no chão do palco]."
+  },
+  {
+    "id": "ACIDO-V4-037",
+    "pergunta": "acido-q22",
+    "respostas": ["brasil-a57"],
+    "texto": "A causa da morte fictícia foi [Formulário molhado]."
+  },
+  {
+    "id": "ACIDO-V4-038",
+    "pergunta": "acido-q11",
+    "respostas": ["escola-a36"],
+    "texto": "O plano de saúde classificou [A autoestima na recuperação] como procedimento estético."
+  },
+  {
+    "id": "ACIDO-V4-039",
+    "pergunta": "acido-q55",
+    "respostas": ["economia-a44"],
+    "texto": "O documentário sobre o tirano acabou com [Uma CPI da colher do café]."
+  },
+  {
+    "id": "ACIDO-V4-040",
+    "pergunta": "acido-q59",
+    "respostas": ["memes-a50"],
+    "texto": "O exorcista encontrou um bilhete dizendo: “[Um arquivo chamado definitivo-agora-vai-27.zip]”."
+  },
+  {
+    "id": "ACIDO-V4-041",
+    "pergunta": "acido-q47",
+    "respostas": ["quinta-a17"],
+    "texto": "O prêmio principal do congresso de medicina era [Um desentupidor de estimação]."
+  },
+  {
+    "id": "ACIDO-V4-042",
+    "pergunta": "acido-q27",
+    "respostas": ["brasil-a15"],
+    "texto": "O hospital foi interditado depois de [Um guarda-chuva furado]."
+  },
+  {
+    "id": "ACIDO-V4-043",
+    "pergunta": "acido-q58",
+    "respostas": ["escola-a40"],
+    "texto": "O defunto levantou só para reclamar de [Um semestre de prova]."
+  },
+  {
+    "id": "ACIDO-V4-044",
+    "pergunta": "acido-q12",
+    "respostas": ["economia-a17"],
+    "texto": "O julgamento do ditador parou por causa de [O reembolso da viagem pelo Street View]."
+  },
+  {
+    "id": "ACIDO-V4-045",
+    "pergunta": "acido-q21",
+    "respostas": ["memes-a58"],
+    "texto": "O fantasma pediu [A porra do pombo] pra deixar a casa."
+  },
+  {
+    "id": "ACIDO-V4-046",
+    "pergunta": "acido-q67",
+    "respostas": ["quinta-a50", "brasil-a56"],
+    "texto": "Minha última vontade era [Cuspir sem querer no primeiro encontro]. No testamento colocaram [Um despacho no endereço errado]."
+  },
+  {
+    "id": "ACIDO-V4-047",
+    "pergunta": "acido-q66",
+    "respostas": ["brasil-a35", "economia-a20"],
+    "texto": "A bula prometia [A farofa da praia]. O efeito colateral foi [Quarenta tesouras de inauguração]."
+  },
+  {
+    "id": "ACIDO-V4-048",
+    "pergunta": "acido-q64",
+    "respostas": ["escola-a93", "quinta-a16"],
+    "texto": "O ditador proibiu [Cristiane descobrindo a cagada do século], mas foi derrotado por [Banheiro de ônibus]."
+  },
+  {
+    "id": "ACIDO-V4-049",
+    "pergunta": "acido-q68",
+    "respostas": ["economia-a22", "quinta-a34"],
+    "texto": "Prometeram um milagre com [Uma pesquisa com os próprios cartazes]. Recebi [Dançar sozinho no elevador]."
+  },
+  {
+    "id": "ACIDO-V4-050",
+    "pergunta": "acido-q18",
+    "respostas": ["memes-a3", "economia-a46"],
+    "texto": "Na promoção da funerária, quem leva [Um pedido de namoro na receita de bolo] ganha [Parcelas atrasadas]."
+  },
+  {
+    "id": "ACIDO-V4-051",
+    "pergunta": "acido-q35",
+    "respostas": ["quinta-a47"],
+    "texto": "O fiscal abriu a porta do banheiro e deu de cara com [O pum preso na reunião]."
+  },
+  {
+    "id": "ACIDO-V4-052",
+    "pergunta": "acido-q10",
+    "respostas": ["brasil-a25"],
+    "texto": "A Morte pediu demissão por causa de [Um fiscal de bermuda]."
+  },
+  {
+    "id": "ACIDO-V4-053",
+    "pergunta": "acido-q24",
+    "respostas": ["escola-a56"],
+    "texto": "O prontuário só tinha uma frase: “[O elogio ao trabalho de outra turma]”."
+  },
+  {
+    "id": "ACIDO-V4-054",
+    "pergunta": "acido-q24",
+    "respostas": ["economia-a32"],
+    "texto": "O prontuário só tinha uma frase: “[Propina declarada como gorjeta]”."
+  },
+  {
+    "id": "ACIDO-V4-055",
+    "pergunta": "acido-q59",
+    "respostas": ["memes-a1"],
+    "texto": "O exorcista encontrou um bilhete dizendo: “[O fiscal do “é pavê”]”."
+  },
+  {
+    "id": "ACIDO-V4-056",
+    "pergunta": "acido-q33",
+    "respostas": ["quinta-a3"],
+    "texto": "A última mensagem do finado dizia: “[Um joelho cabeludo]”."
+  },
+  {
+    "id": "ACIDO-V4-057",
+    "pergunta": "acido-q37",
+    "respostas": ["brasil-a4"],
+    "texto": "O hospital teve que explicar a foto de [O “na volta a gente compra”]."
+  },
+  {
+    "id": "ACIDO-V4-058",
+    "pergunta": "acido-q1",
+    "respostas": ["escola-a69"],
+    "texto": "O Vaticano pediu explicações sobre [Érika]."
+  },
+  {
+    "id": "ACIDO-V4-059",
+    "pergunta": "acido-q7",
+    "respostas": ["economia-a56"],
+    "texto": "O congresso médico proibiu a palestra sobre [O candidato beijando um peixe]."
+  },
+  {
+    "id": "ACIDO-V4-060",
+    "pergunta": "acido-q11",
+    "respostas": ["memes-a28"],
+    "texto": "O plano de saúde classificou [Chuva dentro da gaveta] como procedimento estético."
+  },
+  {
+    "id": "ACIDO-V4-061",
+    "pergunta": "quinta-q17",
+    "respostas": ["acido-a37", "escola-a42"],
+    "texto": "O segredo da longevidade: [O coral cantando a música do gás]. O efeito colateral: [A alternativa E numa prova de quatro opções]."
+  },
+  {
+    "id": "ACIDO-V4-062",
+    "pergunta": "brasil-q30",
+    "respostas": ["acido-a12", "quinta-a60"],
+    "texto": "Pra autenticar [Um tirano derrubado pela própria estátua na inauguração], preciso de testemunha e [Cadeira molhada]."
+  },
+  {
+    "id": "ACIDO-V4-063",
+    "pergunta": "escola-q30",
+    "respostas": ["acido-a44", "memes-a23"],
+    "texto": "A hipótese era [Um ditador chorando no banho]; o resultado do experimento foi [O “kkkk” seco de quem quer encerrar o assunto]."
+  },
+  {
+    "id": "ACIDO-V4-064",
+    "pergunta": "economia-q17",
+    "respostas": ["acido-a91", "escola-a14"],
+    "texto": "O candidato prometeu [O cemitério em dia de feira]. Seu plano de governo continha [O nome do arquivo “agora_vai_final_9”]."
+  },
+  {
+    "id": "ACIDO-V4-065",
+    "pergunta": "memes-q18",
+    "respostas": ["acido-a75", "escola-a52"],
+    "texto": "O áudio do grupo dizia [A colonoscopia premiada no bingo]. O corretor escreveu [O tio da cantina na bibliografia]."
+  },
+  {
+    "id": "ACIDO-V4-066",
+    "pergunta": "quinta-q12",
+    "respostas": ["acido-a95"],
+    "texto": "O áudio de oito minutos era sobre [Coveiro de férias coletivas]."
+  },
+  {
+    "id": "ACIDO-V4-067",
+    "pergunta": "brasil-q6",
+    "respostas": ["acido-a61"],
+    "texto": "A vidente cancelou a consulta depois de prever [Inferno sem descarga]."
+  },
+  {
+    "id": "ACIDO-V4-068",
+    "pergunta": "escola-q24",
+    "respostas": ["acido-a100"],
+    "texto": "A turma organizou uma vaquinha pra comprar [Mussolini barrado no próprio fã-clube]."
+  },
+  {
+    "id": "ACIDO-V4-069",
+    "pergunta": "economia-q6",
+    "respostas": ["acido-a74"],
+    "texto": "Quando recebi meu primeiro salário, só pensei em [Constipação em cruzeiro all-inclusive]."
+  },
+  {
+    "id": "ACIDO-V4-070",
+    "pergunta": "memes-q11",
+    "respostas": ["acido-a21"],
+    "texto": "O telão do estádio mostrou [Os achados e perdidos do Juízo Final]."
+  },
+  {
+    "id": "ACIDO-V4-071",
+    "pergunta": "quinta-q2",
+    "respostas": ["acido-a74"],
+    "texto": "Meu currículo tem dois anos dedicados a [Constipação em cruzeiro all-inclusive]."
+  },
+  {
+    "id": "ACIDO-V4-072",
+    "pergunta": "brasil-q24",
+    "respostas": ["acido-a69"],
+    "texto": "Minha avó espanta mau-olhado com [Fimose em lua de mel]."
+  },
+  {
+    "id": "ACIDO-V4-073",
+    "pergunta": "escola-q14",
+    "respostas": ["acido-a106"],
+    "texto": "O telão da palestra exibiu [Um fascista banido do grupo de condomínio]."
+  },
+  {
+    "id": "ACIDO-V4-074",
+    "pergunta": "economia-q1",
+    "respostas": ["acido-a11"],
+    "texto": "O prefeito de Lugar Nenhum quer combater [Pontos cirúrgicos de crochê]."
+  },
+  {
+    "id": "ACIDO-V4-075",
+    "pergunta": "memes-q21",
+    "respostas": ["acido-a128"],
+    "texto": "A foto do encontro mostrava [Cueca no freezer]."
+  },
+  {
+    "id": "ACIDO-V4-076",
+    "pergunta": "quinta-q18",
+    "respostas": ["acido-a105", "escola-a91"],
+    "texto": "O cheiro indicava [Mussolini no banco de reservas do totó], mas a perícia confirmou [Vorcaro financiando a cantina com dinheiro de Banco Imobiliário]."
+  },
+  {
+    "id": "ACIDO-V4-077",
+    "pergunta": "brasil-q17",
+    "respostas": ["acido-a20", "escola-a84"],
+    "texto": "Para conseguir [Um fascista derrotado por uma porta escrita “puxe”], preciso apresentar [A Priscila confiscando o último pão de queijo] em três vias."
+  },
+  {
+    "id": "ACIDO-V4-078",
+    "pergunta": "escola-q20",
+    "respostas": ["acido-a9", "memes-a6"],
+    "texto": "O título do meu TCC era: [A água benta sabor churrasco]. A banca respondeu: [Bluetooth de pedra]."
+  },
+  {
+    "id": "ACIDO-V4-079",
+    "pergunta": "economia-q18",
+    "respostas": ["acido-a138", "memes-a17"],
+    "texto": "Na prestação de contas, declararam [A churrasqueira dentro do elevador]. Esqueceram de explicar [O “vem ver uma coisa” da cozinha]."
+  },
+  {
+    "id": "ACIDO-V4-080",
+    "pergunta": "memes-q20",
+    "respostas": ["acido-a117", "brasil-a3"],
+    "texto": "Paguei por [Uma possessão em modo avião]. A entrega foi [O carro de som pedindo silêncio]."
+  },
+  {
+    "id": "ACIDO-V4-081",
+    "pergunta": "quinta-q23",
+    "respostas": ["acido-a6"],
+    "texto": "A festa distribuiu [Caixão com travesseiro] de lembrancinha."
+  },
+  {
+    "id": "ACIDO-V4-082",
+    "pergunta": "brasil-q23",
+    "respostas": ["acido-a113"],
+    "texto": "A fila parou quando alguém mostrou [O inferno em horário de verão]."
+  },
+  {
+    "id": "ACIDO-V4-083",
+    "pergunta": "escola-q26",
+    "respostas": ["acido-a6"],
+    "texto": "A direção achou [Caixão com travesseiro] no armário de troféus."
+  },
+  {
+    "id": "ACIDO-V4-084",
+    "pergunta": "economia-q3",
+    "respostas": ["acido-a54"],
+    "texto": "A startup recebeu milhões para desenvolver [O capeta fazendo hora extra]."
+  },
+  {
+    "id": "ACIDO-V4-085",
+    "pergunta": "memes-q28",
+    "respostas": ["acido-a30"],
+    "texto": "Minha última mensagem no grupo da família foi sobre [O epitáfio “não era só uma fase”]."
+  },
+  {
+    "id": "ACIDO-V4-086",
+    "pergunta": "quinta-q16",
+    "respostas": ["acido-a114"],
+    "texto": "Minha família nunca mais falou comigo depois de [O apocalipse adiado por chuva]."
+  },
+  {
+    "id": "ACIDO-V4-087",
+    "pergunta": "brasil-q11",
+    "respostas": ["acido-a87"],
+    "texto": "A cidade fez uma estátua em homenagem a [Um caixão de mostruário]."
+  },
+  {
+    "id": "ACIDO-V4-088",
+    "pergunta": "escola-q6",
+    "respostas": ["acido-a45"],
+    "texto": "A mascote da escola foi substituída por [O dedo gelado do proctologista]."
+  },
+  {
+    "id": "ACIDO-V4-089",
+    "pergunta": "economia-q25",
+    "respostas": ["acido-a126"],
+    "texto": "O sindicato convocou uma paralisação contra [Papel higiênico com glitter]."
+  },
+  {
+    "id": "ACIDO-V4-090",
+    "pergunta": "memes-q1",
+    "respostas": ["acido-a122"],
+    "texto": "Minha família começou a discutir depois do vídeo de [O capeta pedindo uma benzedeira]."
+  },
+  {
+    "id": "ACIDO-V4-091",
+    "pergunta": "quinta-q30",
+    "respostas": ["acido-a109", "economia-a3"],
+    "texto": "O churrasco começou com [Água benta com gás] e virou ocorrência por [Duzentos reais e um silêncio comprado]."
+  },
+  {
+    "id": "ACIDO-V4-092",
+    "pergunta": "brasil-q18",
+    "respostas": ["acido-a114", "quinta-a52"],
+    "texto": "Quebrei o espelho por causa de [O apocalipse adiado por chuva]. A benzedeira recomendou [Um buraco no chão do palco]."
+  },
+  {
+    "id": "ACIDO-V4-093",
+    "pergunta": "escola-q19",
+    "respostas": ["acido-a142", "quinta-a66"],
+    "texto": "Na escola do futuro, a prova cobra [Um candidato fictício prometendo intestino regulado] e o recreio oferece [Banheiro químico com manobrista]."
+  },
+  {
+    "id": "ACIDO-V4-094",
+    "pergunta": "economia-q19",
+    "respostas": ["acido-a117", "brasil-a62"],
+    "texto": "Compre [Uma possessão em modo avião] e leve [A vistoria do puxadinho] inteiramente de graça."
+  },
+  {
+    "id": "ACIDO-V4-095",
+    "pergunta": "memes-q19",
+    "respostas": ["acido-a118", "economia-a29"],
+    "texto": "Postei um vídeo de [O pastor abençoando o boleto errado]. Minha mãe achou que era [O adicional de aturar o chefe]."
+  },
+  {
+    "id": "ACIDO-V4-096",
+    "pergunta": "quinta-q22",
+    "respostas": ["acido-a132"],
+    "texto": "O vizinho chamou a polícia para denunciar [O cocô boiando na hidromassagem]."
+  },
+  {
+    "id": "ACIDO-V4-097",
+    "pergunta": "brasil-q8",
+    "respostas": ["acido-a114"],
+    "texto": "Os arqueólogos pararam a escavação ao encontrar [O apocalipse adiado por chuva]."
+  },
+  {
+    "id": "ACIDO-V4-098",
+    "pergunta": "escola-q15",
+    "respostas": ["acido-a73"],
+    "texto": "O conselho escolar abriu uma investigação sobre [O potinho de fezes na marmita]."
+  },
+  {
+    "id": "ACIDO-V4-099",
+    "pergunta": "economia-q8",
+    "respostas": ["acido-a110"],
+    "texto": "No cofre do reino, sobrou apenas [O diabo engasgando com hóstia]."
+  },
+  {
+    "id": "ACIDO-V4-100",
+    "pergunta": "memes-q4",
+    "respostas": ["acido-a81"],
+    "texto": "Meu perfil psicológico deu [A receita médica escrita “boa sorte”]."
+  },
+  {
+    "id": "ACIDO-V4-101",
+    "pergunta": "quinta-q2",
+    "respostas": ["acido-a35"],
+    "texto": "Meu currículo tem dois anos dedicados a [Hemorroida na bicicleta ergométrica]."
+  },
+  {
+    "id": "ACIDO-V4-102",
+    "pergunta": "brasil-q22",
+    "respostas": ["acido-a91"],
+    "texto": "Trouxe da praia uma foto de [O cemitério em dia de feira]."
+  },
+  {
+    "id": "ACIDO-V4-103",
+    "pergunta": "escola-q3",
+    "respostas": ["acido-a9"],
+    "texto": "A feira de ciências foi evacuada por [A água benta sabor churrasco]."
+  },
+  {
+    "id": "ACIDO-V4-104",
+    "pergunta": "economia-q29",
+    "respostas": ["acido-a1"],
+    "texto": "A comissão fictícia aprovou [O anjo da guarda de saco cheio]."
+  },
+  {
+    "id": "ACIDO-V4-105",
+    "pergunta": "memes-q10",
+    "respostas": ["acido-a93"],
+    "texto": "Minha busca anônima era sobre [O fantasma sem lençol limpo]."
+  },
+  {
+    "id": "ACIDO-V4-106",
+    "pergunta": "quinta-q30",
+    "respostas": ["acido-a16", "memes-a33"],
+    "texto": "O churrasco começou com [Faraó preso na própria faixa] e virou ocorrência por [O cachorro de óculos]."
+  },
+  {
+    "id": "ACIDO-V4-107",
+    "pergunta": "brasil-q19",
+    "respostas": ["acido-a47", "quinta-a11"],
+    "texto": "A cidade trocou [O fantasma do inquilino caloteiro] por [A dignidade pelo ralo] e chamou de revitalização."
+  },
+  {
+    "id": "ACIDO-V4-108",
+    "pergunta": "escola-q20",
+    "respostas": ["acido-a62", "quinta-a39"],
+    "texto": "O título do meu TCC era: [Contar carneirinhos com o anestesista]. A banca respondeu: [Vento usado]."
+  },
+  {
+    "id": "ACIDO-V4-109",
+    "pergunta": "economia-q19",
+    "respostas": ["acido-a91", "escola-a26"],
+    "texto": "Compre [O cemitério em dia de feira] e leve [A cola que explica a questão errada] inteiramente de graça."
+  },
+  {
+    "id": "ACIDO-V4-110",
+    "pergunta": "memes-q17",
+    "respostas": ["acido-a73", "escola-a61"],
+    "texto": "O tutorial ensinava [O potinho de fezes na marmita]. Eu consegui apenas [Uma vírgula no lugar errado]."
+  },
+  {
+    "id": "ACIDO-V4-111",
+    "pergunta": "quinta-q16",
+    "respostas": ["acido-a102"],
+    "texto": "Minha família nunca mais falou comigo depois de [O ditador derrotado no Uno]."
+  },
+  {
+    "id": "ACIDO-V4-112",
+    "pergunta": "brasil-q4",
+    "respostas": ["acido-a5"],
+    "texto": "No mapa do tesouro, o X marcava [O demônio fugindo do barulho da obra]."
+  },
+  {
+    "id": "ACIDO-V4-113",
+    "pergunta": "escola-q14",
+    "respostas": ["acido-a133"],
+    "texto": "O telão da palestra exibiu [Um desentupidor de lembrancinha]."
+  },
+  {
+    "id": "ACIDO-V4-114",
+    "pergunta": "economia-q13",
+    "respostas": ["acido-a38"],
+    "texto": "O ministro fictício caiu depois de anunciar [O QR code errado na lápide]."
+  },
+  {
+    "id": "ACIDO-V4-115",
+    "pergunta": "memes-q15",
+    "respostas": ["acido-a46"],
+    "texto": "O corretor transformou uma declaração de amor em [Dívida de defunto]."
+  },
+  {
+    "id": "ACIDO-V4-116",
+    "pergunta": "quinta-q25",
+    "respostas": ["acido-a146"],
+    "texto": "A excursão acabou quando a guia encontrou [A porra de um galo no centro cirúrgico]."
+  },
+  {
+    "id": "ACIDO-V4-117",
+    "pergunta": "brasil-q1",
+    "respostas": ["acido-a69"],
+    "texto": "Para provar que estou vivo, o cartório exigiu [Fimose em lua de mel]."
+  },
+  {
+    "id": "ACIDO-V4-118",
+    "pergunta": "escola-q6",
+    "respostas": ["acido-a90"],
+    "texto": "A mascote da escola foi substituída por [Herdar o papagaio fofoqueiro]."
+  },
+  {
+    "id": "ACIDO-V4-119",
+    "pergunta": "economia-q11",
+    "respostas": ["acido-a40"],
+    "texto": "O contrato previa multa por [A tropa nazista desfilando de pantufa]."
+  },
+  {
+    "id": "ACIDO-V4-120",
+    "pergunta": "memes-q7",
+    "respostas": ["acido-a107"],
+    "texto": "A transmissão ao vivo revelou [O tirano pedindo colo ao opositor]."
+  }
+]

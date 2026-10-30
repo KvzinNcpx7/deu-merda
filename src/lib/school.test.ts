@@ -3,14 +3,14 @@ import { readFileSync } from "node:fs";
 import { catalog, createRoom, restore, transition } from "./engine";
 import type { Card } from "./types";
 
-it("preserva integralmente as 580 cartas e acrescenta somente respostas escolares", () => {
+it("preserva o catálogo anterior fora do ácido e as 27 adições escolares", () => {
   const baseline = JSON.parse(
     readFileSync("docs/editorial/REVISAO-DEMONSTRACOES.json", "utf8"),
   ).cartas as { depois: Card }[];
-  for (const { depois } of baseline)
+  for (const { depois } of baseline.filter((r) => r.depois.pack !== "acido"))
     expect(catalog.find((c) => c.id === depois.id)).toEqual(depois);
   const added = catalog.filter(
-    (c) => !baseline.some((r) => r.depois.id === c.id),
+    (c) => c.pack === "escola" && !baseline.some((r) => r.depois.id === c.id),
   );
   expect(added).toHaveLength(27);
   expect(added.every((c) => c.pack === "escola" && c.pick === 0)).toBe(true);
@@ -29,7 +29,7 @@ it("preserva integralmente as 580 cartas e acrescenta somente respostas escolare
     "Vorcaro",
   ])
     expect(added.some((c) => c.text === name)).toBe(true);
-  expect(new Set(catalog.map((c) => c.id)).size).toBe(607);
+  expect(new Set(catalog.map((c) => c.id)).size).toBe(727);
 });
 
 it("inclui todas as novas respostas no baralho local e restaura a sessão", () => {

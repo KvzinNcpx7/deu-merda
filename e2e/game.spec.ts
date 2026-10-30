@@ -30,7 +30,7 @@ test("navegação, layouts e configuração online explícita", async ({
   ).toBeDisabled();
   await page.getByRole("button", { name: "Fechar", exact: true }).click();
   await page.getByRole("button", { name: /Explorar cartas/ }).click();
-  await expect(page.getByRole("heading", { name: /607 cartas/ })).toBeVisible();
+  await expect(page.getByRole("heading", { name: /727 cartas/ })).toBeVisible();
   await page.getByRole("button", { name: /Como jogar/ }).click();
   await expect(
     page.getByRole("heading", { name: /Amizades fortes/ }),
@@ -210,6 +210,47 @@ test("revelação preserva cursor entre assentos e mostra a frase completa", asy
     page.getByRole("button", { name: "Resposta anterior" }),
   ).toBeDisabled();
   await expect(page.locator(".combination")).toHaveText(phrase!);
+  expect(
+    await page.evaluate(
+      () => document.documentElement.scrollWidth <= innerWidth,
+    ),
+  ).toBe(true);
+});
+
+test("V4: ácido ativado distribui a expansão e respeita o filtro médico", async ({
+  page,
+}) => {
+  await page.goto("./");
+  await page.getByRole("button", { name: /Só dando uma olhada/ }).click();
+  const acid = page.getByRole("button", { name: /Humor Ácido e Tabus/ });
+  await expect(acid).toHaveAttribute("aria-pressed", "false");
+  await acid.click();
+  await page
+    .getByText("Temas incluídos · ajustar no lobby", { exact: true })
+    .click();
+  await page
+    .getByRole("button", { name: "Constrangimentos médicos", exact: true })
+    .click();
+  await page.getByRole("button", { name: /Desativar o bom senso/ }).click();
+  await page.getByRole("button", { name: "Confirmar", exact: true }).click();
+  const room = await saved(page);
+  expect(room.packs).toContain("acido");
+  expect(room.excludedThemes).toContain("medicina");
+  const all = [
+    ...room.deck,
+    ...room.questions,
+    room.prompt!,
+    ...room.players.flatMap((p) => p.hand),
+  ];
+  expect(all).toHaveLength(678);
+  expect(all.every((c) => c.theme !== "medicina")).toBe(true);
+  const additions = all.filter(
+    (c) =>
+      c.pack === "acido" && Number(c.id.match(/\d+$/)![0]) > (c.pick ? 30 : 66),
+  );
+  expect(additions).toHaveLength(96);
+  expect(additions.some((c) => c.pick === 2)).toBe(true);
+  expect(room.players.every((p) => p.hand.length === 10)).toBe(true);
   expect(
     await page.evaluate(
       () => document.documentElement.scrollWidth <= innerWidth,

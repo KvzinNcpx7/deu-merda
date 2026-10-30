@@ -149,3 +149,9 @@ A migração incremental 008 preserva os textos de partidas ativas. Depende de a
 ## Revisão a partir de duas demonstrações relatadas
 
 A branch `feat/revisao-demonstracoes-fdp` revisa 115 cartas, preservando o catálogo de 580 IDs, e registra uma nova leitura de 120 combinações. Também corrige uma associação indireta de autores pela ordem do status de envios e melhora contrações na frase montada. A interface e as regras existentes foram preservadas. Relatório em [DEMONSTRACOES.md](docs/DEMONSTRACOES.md); migrações 009/010 apenas após aprovação, sem publicação automática.
+
+## Atualização Humor Ácido V4
+
+727 cartas, com 120 adições e 20 revisões exclusivamente no ácido. O pacote continua opcional, desativado por padrão; o catálogo escolar permanece intacto. Nova migração incremental `202610300012_humor_acido_v4.sql`, posterior à 011, sem modificar migrações antigas ou salas.
+
+[Relatório V4: instalação no projeto existente, resultados reais dos testes, catálogo e 20 combinações](docs/HUMOR-ACIDO-V4.md). Não há aplicação remota ou publicação automática.

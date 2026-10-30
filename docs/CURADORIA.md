@@ -1,3 +1,11 @@
+# Curadoria atual — Humor Ácido V4
+
+120 adições e 20 revisões no pacote ácido existente. Os outros pacotes ficam intactos, incluindo todas as cartas escolares. A amostra dedicada contém 120 cruzamentos com leitura caso a caso: 27 promissores, 50 médios e 43 fracos; avaliação editorial, sem teste com público. Uma amostra geral complementar mantém 60 casos sem Tabus.
+
+[Direção, limites gramaticais, 20 apostas e evidências](HUMOR-ACIDO-V4.md). Os documentos abaixo são históricos e suas contagens correspondem às respectivas versões.
+
+---
+
 # Revisão atual — duas demonstrações relatadas
 
 Esta revisão parte da main V3 e mantém as 580 cartas. Foram revistas 115 (56 respostas e 59 perguntas), preservadas 465 e todos os IDs. A nova amostra tem 120 casos com parecer por combinação. As respostas de até três palavras passaram de 54 para 81. As observações das duas demonstrações foram fornecidas pelo proprietário; o assistente não assistiu aos vídeos.

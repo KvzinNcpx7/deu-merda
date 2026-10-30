@@ -2728,7 +2728,7 @@
   },
   {
     "id": "acido-q4",
-    "text": "O tirano tremia de medo de ________.",
+    "text": "O ditador apagou da biografia o capítulo “________”.",
     "pack": "acido",
     "pick": 1,
     "theme": "historia",
@@ -2818,7 +2818,7 @@
   },
   {
     "id": "acido-q14",
-    "text": "A mensagem do além era um pedido de ________.",
+    "text": "Minha sessão espírita foi resumida no recado: “________”.",
     "pack": "acido",
     "pick": 1,
     "theme": "morte",
@@ -2935,7 +2935,7 @@
   },
   {
     "id": "acido-a7",
-    "text": "Uma radiografia de banco de imagens.",
+    "text": "O ortopedista engessando a cadeira.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -2944,7 +2944,7 @@
   },
   {
     "id": "acido-a8",
-    "text": "O bigodinho nazista limpando ralo.",
+    "text": "O bigodinho de Hitler na cera quente.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -2971,7 +2971,7 @@
   },
   {
     "id": "acido-a11",
-    "text": "Cirurgia adiada.",
+    "text": "Pontos cirúrgicos de crochê.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -3007,7 +3007,7 @@
   },
   {
     "id": "acido-a15",
-    "text": "Um jaleco de desentupidora.",
+    "text": "O jaleco de trás pra frente.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -3016,7 +3016,7 @@
   },
   {
     "id": "acido-a16",
-    "text": "Faraó de ressaca.",
+    "text": "Faraó preso na própria faixa.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -3088,7 +3088,7 @@
   },
   {
     "id": "acido-a24",
-    "text": "A cueca do faraó.",
+    "text": "A dentadura do faraó.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -3115,7 +3115,7 @@
   },
   {
     "id": "acido-a27",
-    "text": "Um exame de fezes oral.",
+    "text": "O exame de fezes no isopor da cerveja.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -3133,7 +3133,7 @@
   },
   {
     "id": "acido-a29",
-    "text": "Uma alma com defeito.",
+    "text": "O demônio com medo de agulha.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -3169,7 +3169,7 @@
   },
   {
     "id": "acido-a33",
-    "text": "Um santo de gesso sem cabeça.",
+    "text": "Uma auréola de desentupidor.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -3178,7 +3178,7 @@
   },
   {
     "id": "acido-a34",
-    "text": "A fila da reencarnação.",
+    "text": "Reencarnar como pernilongo.",
     "pack": "acido",
     "pick": 0,
     "theme": "religiao",
@@ -3187,7 +3187,7 @@
   },
   {
     "id": "acido-a35",
-    "text": "Hemorroida monumental.",
+    "text": "Hemorroida na bicicleta ergométrica.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -3196,7 +3196,7 @@
   },
   {
     "id": "acido-a36",
-    "text": "Um fóssil de testemunha.",
+    "text": "A múmia desembrulhada no raio-X.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -3232,7 +3232,7 @@
   },
   {
     "id": "acido-a40",
-    "text": "Uma tropa nazista perdida no próprio quintal.",
+    "text": "A tropa nazista desfilando de pantufa.",
     "pack": "acido",
     "pick": 0,
     "theme": "historia",
@@ -4969,7 +4969,7 @@
   },
   {
     "id": "acido-a49",
-    "text": "A foice de brinquedo.",
+    "text": "A foice encostada por tendinite.",
     "pack": "acido",
     "pick": 0,
     "theme": "morte",
@@ -5059,7 +5059,7 @@
   },
   {
     "id": "acido-a59",
-    "text": "Uma colonoscopia no telão.",
+    "text": "O preparatório da colonoscopia na excursão.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -5122,7 +5122,7 @@
   },
   {
     "id": "acido-a66",
-    "text": "Raio-X no telão.",
+    "text": "Uma ficha médica plastificada de suor.",
     "pack": "acido",
     "pick": 0,
     "theme": "medicina",
@@ -5158,7 +5158,7 @@
   },
   {
     "id": "acido-q24",
-    "text": "O cirurgião abriu e encontrou ________.",
+    "text": "O prontuário só tinha uma frase: “________”.",
     "pack": "acido",
     "pick": 1,
     "theme": "medicina",
@@ -5194,7 +5194,7 @@
   },
   {
     "id": "acido-q28",
-    "text": "A nova ala do inferno é só pra ________.",
+    "text": "Na entrada do inferno, a regra é: “________”.",
     "pack": "acido",
     "pick": 1,
     "theme": "religiao",
@@ -5461,5 +5461,1085 @@
     "theme": "escatologia",
     "tone": "irreverente",
     "grammar": "nominal"
+  },
+  {
+    "id": "acido-a67",
+    "text": "Operar a fimose depois dos 40.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a68",
+    "text": "Levar a mãe à consulta de fimose aos 35.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a69",
+    "text": "Fimose em lua de mel.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a70",
+    "text": "Anestesia de posto Ipiranga.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a71",
+    "text": "O proctologista aquecendo as mãos no escapamento.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a72",
+    "text": "Exame de próstata com trilha de suspense.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a73",
+    "text": "O potinho de fezes na marmita.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a74",
+    "text": "Constipação em cruzeiro all-inclusive.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a75",
+    "text": "A colonoscopia premiada no bingo.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a76",
+    "text": "O médico dizendo “CARALHO, NUNCA VI ISSO”.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a77",
+    "text": "Dar gorjeta ao anestesista.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a78",
+    "text": "Uma hemorroida em horário de pico.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a79",
+    "text": "O ultrassom mostrando um tamagotchi.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a80",
+    "text": "Cirurgia de vesícula com torcida organizada.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a81",
+    "text": "A receita médica escrita “boa sorte”.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a82",
+    "text": "Chegar de jejum ao rodízio.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a83",
+    "text": "Velório open bar.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a84",
+    "text": "O defunto pedindo pra baixar o sertanejo.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a85",
+    "text": "Cinzas no pote de whey.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a86",
+    "text": "O testamento no verso do cupom fiscal.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a87",
+    "text": "Um caixão de mostruário.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a88",
+    "text": "A Morte presa na porta giratória.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a89",
+    "text": "Cremação em banho-maria.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a90",
+    "text": "Herdar o papagaio fofoqueiro.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a91",
+    "text": "O cemitério em dia de feira.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a92",
+    "text": "Uma coroa de flores de posto.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a93",
+    "text": "O fantasma sem lençol limpo.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a94",
+    "text": "A urna funerária no amigo-secreto.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a95",
+    "text": "Coveiro de férias coletivas.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a96",
+    "text": "O finado reagindo com joinha.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a97",
+    "text": "Churrasco de inventário.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a98",
+    "text": "O jazigo ocupado pelo cunhado.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a99",
+    "text": "Dormir de conchinha com Hitler.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a100",
+    "text": "Mussolini barrado no próprio fã-clube.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a101",
+    "text": "Hitler perdendo no jogo da memória.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a102",
+    "text": "O ditador derrotado no Uno.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a103",
+    "text": "O bunker decorado pela sogra.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a104",
+    "text": "O decreto anulando o próprio regime.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a105",
+    "text": "Mussolini no banco de reservas do totó.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a106",
+    "text": "Um fascista banido do grupo de condomínio.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a107",
+    "text": "O tirano pedindo colo ao opositor.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a108",
+    "text": "A parada militar de patinete.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a109",
+    "text": "Água benta com gás.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a110",
+    "text": "O diabo engasgando com hóstia.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a111",
+    "text": "Um exorcismo por chamada a cobrar.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a112",
+    "text": "O padre soltando “PUTA QUE PARIU”.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a113",
+    "text": "O inferno em horário de verão.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a114",
+    "text": "O apocalipse adiado por chuva.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a115",
+    "text": "O demônio implorando uma pausa pro lanche.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a116",
+    "text": "A senha do Wi-Fi do confessionário.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a117",
+    "text": "Uma possessão em modo avião.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a118",
+    "text": "O pastor abençoando o boleto errado.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a119",
+    "text": "Um milagre desfeito pelo estorno.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a120",
+    "text": "A trombeta do Juízo Final desafinada.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a121",
+    "text": "Um anjo de chinelo e pochete.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a122",
+    "text": "O capeta pedindo uma benzedeira.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a123",
+    "text": "Cagar durante a chamada de vídeo.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a124",
+    "text": "Peidar no reconhecimento facial.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a125",
+    "text": "A descarga no modo reverso.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a126",
+    "text": "Papel higiênico com glitter.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a127",
+    "text": "Diarreia na fila do Enem.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a128",
+    "text": "Cueca no freezer.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a129",
+    "text": "O banheiro interditado pelo cheiro.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a130",
+    "text": "O peido sincronizado com o hino.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a131",
+    "text": "Dar descarga com água de coco.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a132",
+    "text": "O cocô boiando na hidromassagem.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a133",
+    "text": "Um desentupidor de lembrancinha.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a134",
+    "text": "A bosta na inspeção da bagagem.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a135",
+    "text": "Gases no minuto de silêncio.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a136",
+    "text": "O último quadradinho de papel.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a137",
+    "text": "O áudio “manda nudes” no grupo do cartório.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a138",
+    "text": "A churrasqueira dentro do elevador.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a139",
+    "text": "Um pastel de ar consagrado.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a140",
+    "text": "Reconhecer firma de um grito.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "burocracia",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a141",
+    "text": "A reunião de pais no necrotério.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a142",
+    "text": "Um candidato fictício prometendo intestino regulado.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "politica",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a143",
+    "text": "O “é pavê” no obituário.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "memes",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a144",
+    "text": "O microfone aberto na privada.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "vergonha",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a145",
+    "text": "Sopa no cinzeiro.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "nonsense",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-a146",
+    "text": "A porra de um galo no centro cirúrgico.",
+    "pack": "acido",
+    "pick": 0,
+    "theme": "absurdo",
+    "tone": "acido",
+    "grammar": "nominal"
+  },
+  {
+    "id": "acido-q31",
+    "text": "O padre encerrou a missa com a frase: “________”.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q32",
+    "text": "O anestesista pediu que eu pensasse em ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q33",
+    "text": "A última mensagem do finado dizia: “________”.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q34",
+    "text": "O ditador perdeu o sono quando viu ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q35",
+    "text": "O fiscal abriu a porta do banheiro e deu de cara com ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q36",
+    "text": "Minha mãe ouviu um áudio meu sobre ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "vergonha",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q37",
+    "text": "O hospital teve que explicar a foto de ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q38",
+    "text": "O manual da funerária não tinha instruções para ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q39",
+    "text": "O demônio desistiu da possessão ao ouvir falar de ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q40",
+    "text": "O novo uniforme do regime foi inspirado em ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q41",
+    "text": "O aviso do banheiro dizia: “Proibido ________”.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q42",
+    "text": "O médico se recusou a assinar o atestado de ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q43",
+    "text": "O inventário da família incluía ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q44",
+    "text": "O confessionário fechou depois do relato sobre ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q45",
+    "text": "O ditador escolheu como símbolo nacional ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q46",
+    "text": "A perícia identificou ________ na cueca.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q47",
+    "text": "O prêmio principal do congresso de medicina era ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q48",
+    "text": "O fantasma se materializou segurando ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q49",
+    "text": "O anúncio do próximo milagre dizia apenas: “________”.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q50",
+    "text": "Meu brinde de casamento acabou com a frase: “________”.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "vergonha",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q51",
+    "text": "Ninguém quis usar o banheiro depois de ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q52",
+    "text": "O exame veio com uma foto de ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q53",
+    "text": "A família mudou de assunto quando o médium mencionou ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q54",
+    "text": "No inferno, o funcionário do mês ganha ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q55",
+    "text": "O documentário sobre o tirano acabou com ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q56",
+    "text": "O manual de etiqueta recomenda evitar ________ no elevador.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q57",
+    "text": "Na sala de espera, todos os pacientes comentavam ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q58",
+    "text": "O defunto levantou só para reclamar de ________.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q59",
+    "text": "O exorcista encontrou um bilhete dizendo: “________”.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q60",
+    "text": "A ata da reunião registrou o incidente como “________”.",
+    "pack": "acido",
+    "pick": 1,
+    "theme": "absurdo",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q61",
+    "text": "O primeiro exame revelou ________. O segundo confirmou ________.",
+    "pack": "acido",
+    "pick": 2,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q62",
+    "text": "O velório começou com ________ e terminou com ________.",
+    "pack": "acido",
+    "pick": 2,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q63",
+    "text": "O exorcista pediu ________. O demônio devolveu ________.",
+    "pack": "acido",
+    "pick": 2,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q64",
+    "text": "O ditador proibiu ________, mas foi derrotado por ________.",
+    "pack": "acido",
+    "pick": 2,
+    "theme": "historia",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q65",
+    "text": "No banheiro VIP tem ________. No banheiro comum, só ________.",
+    "pack": "acido",
+    "pick": 2,
+    "theme": "escatologia",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q66",
+    "text": "A bula prometia ________. O efeito colateral foi ________.",
+    "pack": "acido",
+    "pick": 2,
+    "theme": "medicina",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q67",
+    "text": "Minha última vontade era ________. No testamento colocaram ________.",
+    "pack": "acido",
+    "pick": 2,
+    "theme": "morte",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q68",
+    "text": "Prometeram um milagre com ________. Recebi ________.",
+    "pack": "acido",
+    "pick": 2,
+    "theme": "religiao",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q69",
+    "text": "A mensagem era para o grupo de ________. Foi parar no grupo de ________.",
+    "pack": "acido",
+    "pick": 2,
+    "theme": "vergonha",
+    "tone": "acido",
+    "grammar": "nominal-slots"
+  },
+  {
+    "id": "acido-q70",
+    "text": "O roteiro dizia “________”. O improviso foi “________”.",
+    "pack": "acido",
+    "pick": 2,
+    "theme": "absurdo",
+    "tone": "acido",
+    "grammar": "nominal-slots"
   }
 ]
